@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc
-@version 0.1.9
+@version 0.2.0
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://gist.github.com/panoc/fbe9184f86167d12d09d3e709bddb2dd
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -2104,6 +2104,9 @@ url-prefix("https://www.insomnia.gr/") {
         div#menu.ipsLayout_container-new.container.container__big {
             max-width: 1440px;
         }
+        div#menu.ipsLayout_container-new.container.container__big {
+            background: #121820;
+        }
         /****/
     }
 }
@@ -2515,6 +2518,7 @@ url-prefix("https://www.insomnia.gr/") {
         }
         .ipsClearfix div.banner-728x90-top.visible__sm {
             margin-left: 210px;
+            z-index: 1;
         }
         /***/
     }
@@ -5951,6 +5955,9 @@ div.breadcrumb span span.home a {
             div#menu.ipsLayout_container-new.container.container__big {
                 max-width: 1440px;
             }
+            div#menu.ipsLayout_container-new.container.container__big {
+                background: #191919;
+            }
             /****/
         }
     }
@@ -6394,7 +6401,8 @@ div.breadcrumb span span.home a {
                 color: #f0f0f0
             }
             .ipsClearfix div.banner-728x90-top.visible__sm {
-            margin-left:210px;}
+                margin-left: 210px;
+            }
             /***/
         }
     }
@@ -7726,7 +7734,7 @@ div.breadcrumb {
             position: fixed;
             opacity: 1;
             background: #121820e6;
-            z-index:99;
+            z-index: 99;
         }
         header#masthead.site-header.search__open {
             position: fixed;
@@ -7781,6 +7789,10 @@ div.breadcrumb {
         }
         div#elCmsPageWrap {
             margin-top: 50px;
+        }
+        div#ipsLayout_header.ipsClearfix div.banner-728x90-top.visible__sm {
+            z-index: 100;
+            top: 115px;
         }
     }
 }
