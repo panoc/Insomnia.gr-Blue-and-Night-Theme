@@ -32,11 +32,6 @@ url-prefix("https://www.insomnia.gr/messenger/"),
 url-prefix("http://www.insomnia.gr/messenger/"),
 url-prefix("https://www.insomnia.gr/articles/?show=categories"),
 url-prefix("https://www.insomnia.gr/attachments/") {
-    /*!
-Theme Name: Insomnia.gr Navy Theme
-Author: panoc
-Version: 1.1.1
-*/
     if not NightMode {
         div.ipsPhotoPanel.ipsPhotoPanel_small.ipsPhotoPanel_notPhone.ipsClearfix div ul.ipsTags.ipsList_inline {
             margin-top: -45px;
