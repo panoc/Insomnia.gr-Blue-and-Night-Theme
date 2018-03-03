@@ -2,11 +2,11 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc
-@version 0.2.3
+@version 0.2.4
 @author panoc (https://gist.github.com/panoc/)
-@homepageURL https://gist.github.com/panoc/fbe9184f86167d12d09d3e709bddb2dd
+@homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
-@license unlicense
+@license CC-BY-NC-SA-4.0
 @var checkbox MenuOnTop 'Menu OnTop' 0
 @var checkbox NightMode 'Night Mode' 0
 @var checkbox InsomniacShow "Show Incomniac" 0
@@ -1957,12 +1957,13 @@ url-prefix("https://www.insomnia.gr/") {
     if not NightMode {
         div#ipsLayout_header.ipsClearfix div.banner-728x90-top.visible__sm {
             position: relative;
-            top: 110px;
+            top: 113px;
             height: 90px;
             margin-top: -90px;
             margin-bottom: 0px;
             background: none;
             transform: scale(0.5, 0.5);
+            z-index: 99;
         }
         div.logo-container h1.site-logo {
             height: 40px;
@@ -2050,10 +2051,6 @@ url-prefix("https://www.insomnia.gr/") {
         li#elNavSecondary_10 a {
             transform: scale(1, 2);
             margin-top: -50px;
-        }
-        .ipsClearfix div.banner-728x90-top.visible__sm {
-            position: relative;
-            z-index: 10
         }
         li#elNavSecondary_36 a {
             transform: scale(1, 2);
@@ -2513,7 +2510,6 @@ url-prefix("https://www.insomnia.gr/") {
         }
         .ipsClearfix div.banner-728x90-top.visible__sm {
             margin-left: 210px;
-            z-index: 1;
         }
         /***/
     }
@@ -3820,6 +3816,9 @@ div.breadcrumb {
         }
         a.ipsButton.ipsButton_medium.ipsButton_important.ipsButton_fullWidth:hover {
             color: #f0f0f0;
+        }
+        div.breadcrumb {
+            margin-top: -55px;
         }
     }
 }
@@ -5805,12 +5804,13 @@ div.breadcrumb span span.home a {
         if NightMode {
             div#ipsLayout_header.ipsClearfix div.banner-728x90-top.visible__sm {
                 position: relative;
-                top: 110px;
+                top: 113px;
                 height: 90px;
                 margin-top: -90px;
                 margin-bottom: 0px;
                 background: none;
                 transform: scale(0.5, 0.5);
+                z-index: 99;
             }
             div.logo-container h1.site-logo {
                 height: 40px;
@@ -7708,6 +7708,9 @@ div.breadcrumb {
         .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem {
             border-bottom: none;
         }
+         div.breadcrumb {
+            margin-top: -55px;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr") {
@@ -7729,7 +7732,7 @@ div.breadcrumb {
             position: fixed;
             opacity: 1;
             background: #121820e6;
-            z-index: 99;
+            z-index: 98;
         }
         header#masthead.site-header.search__open {
             position: fixed;
@@ -7784,10 +7787,6 @@ div.breadcrumb {
         }
         div#elCmsPageWrap {
             margin-top: 50px;
-        }
-        div#ipsLayout_header.ipsClearfix div.banner-728x90-top.visible__sm {
-            z-index: 100;
-            top: 115px;
         }
     }
 }
