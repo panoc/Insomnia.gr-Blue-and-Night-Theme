@@ -35,5 +35,5 @@
 ## Preview Images
 
 <p align="center">
-  <img src="/images/blue1.jpg" height="640"><img src="/images/blue2.jpg" height="640"><img src="/images/dark1.jpg" height="640"><img src="/images/dark2.jpg" height="640">
+  <img src="/images/blue1.jpg" height="600"><img src="/images/blue2.jpg" height="600"><img src="/images/dark1.jpg" height="600"><img src="/images/dark2.jpg" height="600">
 </p>
