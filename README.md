@@ -28,7 +28,8 @@
 * [Stylus για Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 * [Stylus για Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 * [Stylus για Opera](https://addons.opera.com/en-gb/extensions/details/stylus/?display=en)
- Προσοχή, το script δε λειτουργεί με άλλα παρόμοια addons.
+
+Προσοχή, το script δε λειτουργεί με άλλα παρόμοια addons.
 
 Αφου εγκαταστήσετε το πρόσθετο, στη συνέχεια πρεπει να εγκαταστήσετε τα script για το theme από [**εδώ**](https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme/raw/master/Insomnia_Merged_Test_Theme.user.css).
 
