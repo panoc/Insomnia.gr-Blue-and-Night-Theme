@@ -36,7 +36,7 @@
 
 Όποτε υπάρχουν νεότερες εκδόσεις του theme θα υπάρχει ανάλογη ανάρτηση στο [thread του στο Insomnia.gr](https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/).
 Στη συέχεια μπορείτε να κάνετε ενημέρωση με 2 τρόπους.
-- Με επίσκεψη στη τρέχουσα σελίδα από [**εδώ**](https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme/raw/master/script/Insomnia.gr%20Blue%20and%20Night%20Theme.user.css). 
+- Με επίσκεψη στη τρέχουσα σελίδα κάνοντας κλικ [**εδώ**](https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme/raw/master/script/Insomnia.gr%20Blue%20and%20Night%20Theme.user.css). 
 - Μέσα απο το ίδιο το Stylus addon οπως στην παρακάτω εικόνα.
 
 <p align="center">
