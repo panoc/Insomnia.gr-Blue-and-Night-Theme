@@ -18,7 +18,7 @@
 Όλες οι επιλογές του theme μπορούν να ενεργοποιηθούν μέσα από το μενού του.
 
 <p align="center">
-  <img src="menu.gif"/>
+  <img src="/images/menu.gif"/>
 </p>
 
 ### Εγκατάσταση
