@@ -23,4 +23,4 @@
 
 Αφου εγκαταστήσετε το πρόσθετο, στη συνέχεια πρεπει να εγκαταστήσετε τα script για το theme από [εδώ](https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme/raw/master/Insomnia_Merged_Test_Theme.user.css).
 
-!(menu.gif)
+![menu](menu.gif)
