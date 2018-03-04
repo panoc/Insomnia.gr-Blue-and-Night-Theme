@@ -15,8 +15,8 @@
 * Δυνατοτητα για εμφανιση του insomniac στο .breadcrumb (γραμμη πλοηγησης.
 * Μικρότερο (λεπτότερο header, μενού) στο πάνω μέρος της σελίδας για εξοικονόμιση χώρου.
 
-Για να εγκαταστήσετε το theme θα χρειαστεiτε το πρόσθετο stylus το οποίο μπορείτε να βρείετε ανάλογα με τον browser
+Για να εγκαταστήσετε το theme θα χρειαστεiτε το πρόσθετο **stylus** το οποίο μπορείτε να βρείετε ανάλογα με τον browser. Προσοχή, το script δε λειτουργεί με άλλα παρόμοια addons.
 
 * [Stylus για Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
-* Stylus για Chrome
-* Stylus για Opera
+* [Stylus για Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+* [Stylus για Opera](https://addons.opera.com/en-gb/extensions/details/stylus/?display=en)
