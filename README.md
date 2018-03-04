@@ -21,7 +21,7 @@
   <img src="/images/menu.gif"/>
 </p>
 
-### Εγκατάσταση
+## Εγκατάσταση
 
 Για να εγκαταστήσετε το theme θα χρειαστεiτε το πρόσθετο **stylus** το οποίο μπορείτε να βρείτε ανάλογα με τον browser. 
 * [Stylus για Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
@@ -31,6 +31,13 @@
 Προσοχή, το script δε λειτουργεί με άλλα παρόμοια addons.
 
 Αφου εγκαταστήσετε το πρόσθετο, στη συνέχεια πρέπει να εγκαταστήσετε τα script για το theme από [**εδώ**](https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme/raw/master/script/Insomnia.gr%20Blue%20and%20Night%20Theme.user.css).
+
+## Ενημέρωση
+
+Όποτε υπάρχουν νεότερες εκδόσεις του theme θα υπάρχει ανάλογη ανάρτηση στο [thread του στο Insomnia.gr](https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/).
+Στη συέχεια μπορείτε να κάνετε ενημέρωση με 2 τρόπους.
+- Με επίσκεψη στη τρέχουσα σελίδα και 
+- Μέσα απο το ίδιο το Stylus addon οπως στην παρακάτω εικόνα.
 
 ## Preview Images
 
