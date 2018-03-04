@@ -2,6 +2,11 @@
 
 ## Εναλλακτικό theme για το Insomnia Site.
 
+<p align="center">
+  <img src="/images/blue1.jpg" height="600"> <img src="/images/blue2.jpg" height="600"> <img src="/images/dark1.jpg" height="600"> <img src="/images/dark2.jpg" height="600">
+</p>
+
+
 ### Τι διαφορετικό έχουν από τα official themes ;
 
 * Καλύτερη εκμετάλευση του χώρου της σελίδας ώστε στο ίδιο εμβαδό να παρουσιάζονται περισσότερα δεδομένα.
@@ -43,8 +48,3 @@
   <img src="/images/update.gif"/>
 </p>
 
-## Preview Images
-
-<p align="center">
-  <img src="/images/blue1.jpg" height="600"> <img src="/images/blue2.jpg" height="600"> <img src="/images/dark1.jpg" height="600"> <img src="/images/dark2.jpg" height="600">
-</p>
