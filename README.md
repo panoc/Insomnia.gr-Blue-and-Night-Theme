@@ -39,6 +39,10 @@
 - Με επίσκεψη στη τρέχουσα σελίδα από [**εδώ**](https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme/raw/master/script/Insomnia.gr%20Blue%20and%20Night%20Theme.user.css). 
 - Μέσα απο το ίδιο το Stylus addon οπως στην παρακάτω εικόνα.
 
+<p align="center">
+  <img src="/images/update.gif"/>
+</p>
+
 ## Preview Images
 
 <p align="center">
