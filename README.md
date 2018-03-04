@@ -17,7 +17,6 @@
 
 Όλες οι επιλογές του theme μπορούν να ενεργοποιηθούν μέσα από το μενού του.
 
-    ![menu](menu.gif)
 <p align="center">
   <img src="menu.gif"/>
   
