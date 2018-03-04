@@ -22,3 +22,5 @@
 * [Stylus για Opera](https://addons.opera.com/en-gb/extensions/details/stylus/?display=en)
 
 Αφου εγκαταστήσετε το πρόσθετο, στη συνέχεια πρεπει να εγκαταστήσετε τα script για το theme από [εδώ](https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme/raw/master/Insomnia_Merged_Test_Theme.user.css).
+
+!(https://imgur.com/Y1wLSCm)
