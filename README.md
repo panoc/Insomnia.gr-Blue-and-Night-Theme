@@ -34,3 +34,6 @@
 
 ## Preview Images
 
+<p align="center">
+  <img src="/images/blue1.jpg"/>
+</p>
