@@ -35,5 +35,5 @@
 ## Preview Images
 
 <p align="center">
-  <img src="/images/blue1.jpg"/>
+  <img src="/images/blue1.jpg" height="600">
 </p>
