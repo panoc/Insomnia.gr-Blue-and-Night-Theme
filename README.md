@@ -17,6 +17,6 @@
 
 Για να εγκαταστήσετε το theme θα χρειαστεiτε το πρόσθετο stylus το οποίο μπορείτε να βρείετε ανάλογα με τον browser
 
-* [Stylus για Firefox] (https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
+* [Stylus για Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
 * Stylus για Chrome
 * Stylus για Opera
