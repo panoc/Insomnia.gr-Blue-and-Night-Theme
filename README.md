@@ -30,5 +30,5 @@
 
 Προσοχή, το script δε λειτουργεί με άλλα παρόμοια addons.
 
-Αφου εγκαταστήσετε το πρόσθετο, στη συνέχεια πρέπει να εγκαταστήσετε τα script για το theme από [**εδώ**](https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme/raw/master/Insomnia_Merged_Test_Theme.user.css).
+Αφου εγκαταστήσετε το πρόσθετο, στη συνέχεια πρέπει να εγκαταστήσετε τα script για το theme από [**εδώ**](https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme/raw/master/Insomnia.gr%20Blue%20and%20Night%20Theme.user.css).
 
