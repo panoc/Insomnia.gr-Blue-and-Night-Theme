@@ -15,6 +15,10 @@
 * Δυνατοτητα για εμφανιση του insomniac στο .breadcrumb (γραμμη πλοηγησης.
 * Μικρότερο (λεπτότερο header, μενού) στο πάνω μέρος της σελίδας για εξοικονόμιση χώρου.
 
+Όλες οι επιλογές του theme μπορούν να ενεργοποιηθούν μέσα από το μενού του.
+![menu](menu.gif)
+
+
 Για να εγκαταστήσετε το theme θα χρειαστεiτε το πρόσθετο **stylus** το οποίο μπορείτε να βρείετε ανάλογα με τον browser. Προσοχή, το script δε λειτουργεί με άλλα παρόμοια addons.
 
 * [Stylus για Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)
@@ -23,4 +27,3 @@
 
 Αφου εγκαταστήσετε το πρόσθετο, στη συνέχεια πρεπει να εγκαταστήσετε τα script για το theme από [εδώ](https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme/raw/master/Insomnia_Merged_Test_Theme.user.css).
 
-![menu](menu.gif)
