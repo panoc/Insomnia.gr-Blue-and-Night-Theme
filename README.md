@@ -18,6 +18,7 @@
 Όλες οι επιλογές του theme μπορούν να ενεργοποιηθούν μέσα από το μενού του.
 ![menu](menu.gif)
 
+### Εγκατάσταση
 
 Για να εγκαταστήσετε το theme θα χρειαστεiτε το πρόσθετο **stylus** το οποίο μπορείτε να βρείετε ανάλογα με τον browser. Προσοχή, το script δε λειτουργεί με άλλα παρόμοια addons.
 
@@ -25,5 +26,5 @@
 * [Stylus για Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 * [Stylus για Opera](https://addons.opera.com/en-gb/extensions/details/stylus/?display=en)
 
-Αφου εγκαταστήσετε το πρόσθετο, στη συνέχεια πρεπει να εγκαταστήσετε τα script για το theme από [εδώ](https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme/raw/master/Insomnia_Merged_Test_Theme.user.css).
+Αφου εγκαταστήσετε το πρόσθετο, στη συνέχεια πρεπει να εγκαταστήσετε τα script για το theme από ###[εδώ](https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme/raw/master/Insomnia_Merged_Test_Theme.user.css).
 
