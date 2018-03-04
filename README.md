@@ -23,4 +23,4 @@
 
 Αφου εγκαταστήσετε το πρόσθετο, στη συνέχεια πρεπει να εγκαταστήσετε τα script για το theme από [εδώ](https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme/raw/master/Insomnia_Merged_Test_Theme.user.css).
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="Y1wLSCm"><a href="//imgur.com/Y1wLSCm">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+!(menu.gif)
