@@ -23,15 +23,17 @@
 Όλες οι επιλογές του theme μπορούν να ενεργοποιηθούν μέσα από το μενού του.
 <p align="center">
 **Για Firefox και Chrome**
+  </p>
 <p align="center">
   <img src="/images/menu.gif"/>
 </p>
-<align="center">
+<p align="center">
 **Για Opera**
+</p>
 <p align="center">
   <img src="/images/opera-menu.gif"/>
 </p>
-<
+
 
 ## Εγκατάσταση
 
