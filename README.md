@@ -26,11 +26,12 @@
 <p align="center">
   <img src="/images/menu.gif"/>
 </p>
+<align="center">
 **Για Opera**
 <p align="center">
   <img src="/images/opera-menu.gif"/>
 </p>
-</p>
+<
 
 ## Εγκατάσταση
 
