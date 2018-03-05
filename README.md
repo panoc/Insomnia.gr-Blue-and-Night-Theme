@@ -21,6 +21,7 @@
 * Δυνατότητα για εμφανιση του insomniac στο .breadcrumb (γραμμή πλοήγησης).
 
 Όλες οι επιλογές του theme μπορούν να ενεργοποιηθούν μέσα από το μενού του.
+<p align="center">
 **Για Firefox και Chrome**
 <p align="center">
   <img src="/images/menu.gif"/>
@@ -28,6 +29,7 @@
 **Για Opera**
 <p align="center">
   <img src="/images/opera-menu.gif"/>
+</p>
 </p>
 
 ## Εγκατάσταση
