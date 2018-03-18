@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.0.5
+@version 2.0.6
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -7776,56 +7776,58 @@ div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block {
     }
     @-moz-document url-prefix("https://www.insomnia.gr/articles/") {
         /**** Articles ****/
-        div.grid div.comments.grid__col-auto.grid__col--bleed-y a {
-            background-color: #252525;
-            color: #e6e6e6;
-        }
-        div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide {
-            max-height: 00px;
-        }
-        div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li {
-            height: 30px;
-        }
-        div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li.ipsPos_left.ipsResponsive_noFloat.ipsComposeArea_formControl.ipsType_small {
-            position: relative;
-            top: -35px
-        }
-        div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li button.ipsButton.ipsButton_primary {
-            height: 70px;
-            position: relative;
-            top: -54px;
-            background: #5d5d5d;
-        }
-        div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li button.ipsButton.ipsButton_primary:hover {
-            background: #919191;
-        }
-        html[dir="ltr"] p {
-            color: #C8C8C9;
-        }
-        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header {
-            height: 500px;
-        }
-        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header img.article-featured.webfeedsFeaturedVisual {
-            min-width: 1400px;
-        }
-        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header {
-            background: linear-gradient(#191919, #252525);
-        }
-        div#main.site-main.homepage div.container div.grid div.widget.widget-stream.grid__col-sm-6.grid__col-lg-4.grid div#elStream.tabbed-content.tabs-side.grid__col-auto.grid__col--bleed-x.grid div#elStream_content div#ipsTabs_elStream_el_streamAll_panel.ipsTabs_panel {
-            background: #f7f7f7;
-        }
-        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap {
-            margin-top: 40px;
-        }
-        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header {
-            background: none;
-            box-shadow: none;
-        }
-        .cPost_content.ipsComment_content.ipsType_medium.ipsFaded_withHover {
-            background: #323232
-        }
-        .cPost_content.ipsComment_content.ipsType_medium.ipsFaded_withHover div.comments__reply-meta.grid {
-            background: #252525
+        if NightMode {
+            div.grid div.comments.grid__col-auto.grid__col--bleed-y a {
+                background-color: #252525;
+                color: #e6e6e6;
+            }
+            div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide {
+                max-height: 00px;
+            }
+            div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li {
+                height: 30px;
+            }
+            div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li.ipsPos_left.ipsResponsive_noFloat.ipsComposeArea_formControl.ipsType_small {
+                position: relative;
+                top: -35px
+            }
+            div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li button.ipsButton.ipsButton_primary {
+                height: 70px;
+                position: relative;
+                top: -54px;
+                background: #5d5d5d;
+            }
+            div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li button.ipsButton.ipsButton_primary:hover {
+                background: #919191;
+            }
+            html[dir="ltr"] p {
+                color: #C8C8C9;
+            }
+            div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header {
+                height: 500px;
+            }
+            div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header img.article-featured.webfeedsFeaturedVisual {
+                min-width: 1400px;
+            }
+            div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header {
+                background: linear-gradient(#191919, #252525);
+            }
+            div#main.site-main.homepage div.container div.grid div.widget.widget-stream.grid__col-sm-6.grid__col-lg-4.grid div#elStream.tabbed-content.tabs-side.grid__col-auto.grid__col--bleed-x.grid div#elStream_content div#ipsTabs_elStream_el_streamAll_panel.ipsTabs_panel {
+                background: #f7f7f7;
+            }
+            div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap {
+                margin-top: 40px;
+            }
+            div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header {
+                background: none;
+                box-shadow: none;
+            }
+            .cPost_content.ipsComment_content.ipsType_medium.ipsFaded_withHover {
+                background: #323232
+            }
+            .cPost_content.ipsComment_content.ipsType_medium.ipsFaded_withHover div.comments__reply-meta.grid {
+                background: #252525
+            }
         }
     }
 }
@@ -7981,7 +7983,6 @@ div.breadcrumb {
             opacity: 1;
             background: #121820e6;
             z-index: 98;
-            
         }
         header#masthead.site-header.search__open {
             position: fixed;
