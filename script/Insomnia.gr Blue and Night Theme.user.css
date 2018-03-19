@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.0.6
+@version 2.0.7
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -7991,7 +7991,7 @@ div.breadcrumb {
         }
         .ipsComment_content.ipsType_medium.ipsFaded_withHover div.cPost_contentWrap.ipsPad div.ipsItemControls div.ipsItemControls_right.ipsClearfix div.ipsReact.ipsPos_right div.ipsReact_types {
             position: relative;
-            z-index: -1;
+            z-index: 0;
         }
         .ipsComment_content.ipsType_medium.ipsFaded_withHover div.cPost_contentWrap.ipsPad div.ipsItemControls div.ipsItemControls_right.ipsClearfix div.ipsReact.ipsPos_right {
             position: relative;
@@ -8006,7 +8006,7 @@ div.breadcrumb {
             z-index: 0;
         }
         .ipsComment_content.ipsType_medium.ipsFaded_withHover strong.ipsComment_popularFlag {
-            position: absolute;
+            position: relative;
             z-index: 0;
         }
         header#masthead.site-header div.search-form-container div.container {
