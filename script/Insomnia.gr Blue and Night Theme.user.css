@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.1.1
+@version 2.1.2
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -8229,7 +8229,7 @@ div.breadcrumb {
 @-moz-document domain("insomnia.gr") {
     if InsomniacShow {
         div.breadcrumb span span.home {
-            background-image: url('http://panocmp.php0h.com//insomnia_uploads/insomniac.png');
+            background-image: url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/insomniac.png');
             background-repeat: no-repeat;
             margin-left: 10px;
         }
@@ -8275,7 +8275,7 @@ div#menu.ipsLayout_container-new.container.container__big div.logo-container {
 
 */
         h1.site-logo {
-            background-image: url('http://panocmp.php0h.com//insomnia_uploads/logo-old-b.png');
+            background-image: url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/logo-old-b.png');
             background-repeat: no-repeat;
             background-size: contain;
             position: relative;
@@ -8299,7 +8299,7 @@ div#menu.ipsLayout_container-new.container.container__big div.logo-container {
             height: 47%;
         }*/
         h1.site-logo {
-            background-image: url('http://panocmp.php0h.com//insomnia_uploads/insomnia-logo-new.png');
+            background-image: url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/insomnia-logo-new.png');
             background-repeat: no-repeat;
             background-size: contain;
         }
