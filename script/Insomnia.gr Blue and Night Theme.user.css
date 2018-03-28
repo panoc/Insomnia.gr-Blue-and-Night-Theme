@@ -1210,7 +1210,7 @@ url-prefix("https://www.insomnia.gr/") {
         div.copyright.box__dark-grey p span {
             color: #f0f0f0
         }
-sDialog.ipsDialog_narrow div {
+        sDialog.ipsDialog_narrow div {
             background: #f0f0f0;
         }
         html body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch .ipsDialog.ipsDialog_narrow div h3.ipsDialog_title {
@@ -1493,6 +1493,15 @@ sDialog.ipsDialog_narrow div {
         a {
             color: #225985;
         }
+        ul {
+            color: #000;
+        }
+        li {
+            color: #000;
+        }
+        div.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr div.ipsType_normal.ipsType_richText.ipsContained {
+            color: #000;
+        }
         html[dir="ltr"] a:hover {
             color: #6B92C1;
         }
@@ -1630,7 +1639,7 @@ html[dir="ltr"] span.ipsType_normal span .ipsType_break:hover {
 url-prefix("https://www.insomnia.gr/") {
     /**** Menu - Img ****/
     if not NightMode {
-                div.breadcrumb span span.home a {
+        div.breadcrumb span span.home a {
             margin-right: -10px;
             visibility: hidden;
         }
@@ -1639,8 +1648,7 @@ url-prefix("https://www.insomnia.gr/") {
             background-repeat: no-repeat;
             margin-left: 10px;
         }
-        .ip
-        body {
+        .ip body {
             background: #F8F8F8;
         }
         div#ipsLayout_header.ipsClearfix {
@@ -2678,7 +2686,7 @@ url-prefix("https://www.insomnia.gr/") {
         .cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone {
             border-radius: 0px;
         }
-      /***/
+        /***/
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/forums/") {
@@ -5581,6 +5589,9 @@ span {
                 color: #C8C8C9;
             }
             p {
+                color: #C8C8C9;
+            }
+            div.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr div.ipsType_normal.ipsType_richText.ipsContained {
                 color: #C8C8C9;
             }
             a {
