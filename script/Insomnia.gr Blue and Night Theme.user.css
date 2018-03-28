@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.1.3
+@version 2.1.4
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -47,8 +47,18 @@ url-prefix("https://www.insomnia.gr/review/"),
 url-prefix("https://www.insomnia.gr/messenger/"),
 url-prefix("http://www.insomnia.gr/messenger/"),
 url-prefix("https://www.insomnia.gr/articles/?show=categories"),
-url-prefix("https://www.insomnia.gr/attachments/") {
+url-prefix("https://www.insomnia.gr/attachments/"),
+url-prefix("https://www.insomnia.gr/announcement/") {
     if not NightMode {
+        div#ipsLayout_mainArea.ipsLayout_container-block article.ipsBox.ipsPad {
+            background: #f0f0f0;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.ipsPad_half div.ipsType_pageHeader h1.ipsType_pageTitle.ipsType_largeTitle {
+            color: #f0f0f0;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.ipsPad_half div.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix div p.ipsType_reset.ipsType_large.ipsType_blendLinks {
+            color: #f0f0f0;
+        }
         div.ipsPhotoPanel.ipsPhotoPanel_small.ipsPhotoPanel_notPhone.ipsClearfix div ul.ipsTags.ipsList_inline {
             margin-top: -45px;
             padding-left: 15px;
@@ -1213,7 +1223,7 @@ url-prefix("https://www.insomnia.gr/") {
         sDialog.ipsDialog_narrow div {
             background: #f0f0f0;
         }
-        html body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch .ipsDialog.ipsDialog_narrow div h3.ipsDialog_title {
+    	body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch .ipsDialog.ipsDialog_narrow div h3.ipsDialog_title {
             color: #000;
         }
         ul#elFollowerList.ipsDataList.ipsList_reset li.ipsDataItem.ipsClearfix div.ipsDataItem_icon.ipsPos_top {
@@ -2072,7 +2082,7 @@ url-prefix("https://www.insomnia.gr/") {
             background: none;
             transform: scale(0.5, 0.5);
         }
-        html body.jar div#google_center_div div#google_image_div {
+        body.jar div#google_center_div div#google_image_div {
             height: 200px;
             transform: scale(3, 2);
         }
@@ -2619,7 +2629,8 @@ url-prefix("https://www.insomnia.gr/") {
         /***/
     }
 }
-@-moz-document url-prefix("https://www.insomnia.gr/forums/") {
+@-moz-document url-prefix("https://www.insomnia.gr/forums/"),
+url-prefix("https://www.insomnia.gr/announcement/") {
     /**** Forums Fix ****/
     if not NightMode {
         div.ipsPos_right.ipsResponsive_noFloat.ipsResponsive_hidePhone.ipsResponsive_productsblock {
@@ -4107,6 +4118,12 @@ div.breadcrumb {
         li.ipsToolList_primaryAction {
             margin-right: 8px;
         }
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable .ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear {
+            margin-top: 30px;
+        }
+        div.ipsDataItem_main ul.ipsTags.ipsList_inline {
+            visibility: hidden;
+        }
     }
 }
 @-moz-document url-prefix("http://www.insomnia.gr/forums/"),
@@ -4128,8 +4145,12 @@ url-prefix("https://www.insomnia.gr/review/"),
 url-prefix("https://www.insomnia.gr/messenger/"),
 url-prefix("http://www.insomnia.gr/messenger/"),
 url-prefix("https://www.insomnia.gr/articles/?show=categories"),
-url-prefix("https://www.insomnia.gr/attachments/") {
+url-prefix("https://www.insomnia.gr/attachments/"),
+url-prefix("https://www.insomnia.gr/announcement/") {
     if NightMode {
+        div#ipsLayout_mainArea.ipsLayout_container-block article.ipsBox.ipsPad {
+            background: #3C3C3C;
+        }
         div.ipsPhotoPanel.ipsPhotoPanel_small.ipsPhotoPanel_notPhone.ipsClearfix div ul.ipsTags.ipsList_inline {
             margin-top: -45px;
             padding-left: 15px;
@@ -5288,7 +5309,7 @@ url-prefix("https://www.insomnia.gr/attachments/") {
             .ipsDialog.ipsDialog_narrow div {
                 background: #252525;
             }
-            html body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch div#ips_uid_9596_5_dialog.ipsDialog.ipsDialog_narrow div h3.ipsDialog_title {
+            body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch .ipsDialog.ipsDialog_narrow div h3.ipsDialog_title {
                 color: #C8C8C9;
             }
             ul#elFollowerList.ipsDataList.ipsList_reset li.ipsDataItem.ipsClearfix div.ipsDataItem_icon.ipsPos_top {
@@ -6549,7 +6570,7 @@ div.breadcrumb span span.home a {
                 padding-top: 150px;
                 background: none;
             }
-            html body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch div#page.site main#ipsLayout_body.ipsLayout_container-new.container-padding div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsPageHeader.ipsClearfix h1.ipsType_pageTitle {
+            div#page.site main#ipsLayout_body.ipsLayout_container-new.container-padding div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsPageHeader.ipsClearfix h1.ipsType_pageTitle {
                 margin-left: 1px;
             }
             div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsSideMenu_item.ipsSideMenu_itemActive {
@@ -8246,6 +8267,12 @@ div.breadcrumb {
         li.ipsToolList_primaryAction {
             margin-right: 8px;
         }
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable .ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear {
+            margin-top: 30px;
+        }
+        div.ipsDataItem_main ul.ipsTags.ipsList_inline {
+            visibility: hidden;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr") {
@@ -8352,7 +8379,7 @@ div.breadcrumb {
 }
 @-moz-document url-prefix("https://www.insomnia.gr/reviews/") {
     if not MenuOnTop {
-        html body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch div#page.site main#ipsLayout_body.ipsLayout_container-new div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_nocontainer-block {
+       div#page.site main#ipsLayout_body.ipsLayout_container-new div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_nocontainer-block {
             margin-top: 10px;
         }
     }
