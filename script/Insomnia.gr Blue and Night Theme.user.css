@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.1.4
+@version 2.1.5
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -1223,7 +1223,7 @@ url-prefix("https://www.insomnia.gr/") {
         sDialog.ipsDialog_narrow div {
             background: #f0f0f0;
         }
-    	body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch .ipsDialog.ipsDialog_narrow div h3.ipsDialog_title {
+        body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch .ipsDialog.ipsDialog_narrow div h3.ipsDialog_title {
             color: #000;
         }
         ul#elFollowerList.ipsDataList.ipsList_reset li.ipsDataItem.ipsClearfix div.ipsDataItem_icon.ipsPos_top {
@@ -5302,1665 +5302,1653 @@ url-prefix("https://www.insomnia.gr/announcement/") {
             color: #F0B54F;
         }
     }
-    @-moz-document url("https://www.insomnia.gr/"),
-    url-prefix("https://www.insomnia.gr/") {
-        /*** All site ***/
-        if NightMode {
-            .ipsDialog.ipsDialog_narrow div {
-                background: #252525;
-            }
-            body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch .ipsDialog.ipsDialog_narrow div h3.ipsDialog_title {
-                color: #C8C8C9;
-            }
-            ul#elFollowerList.ipsDataList.ipsList_reset li.ipsDataItem.ipsClearfix div.ipsDataItem_icon.ipsPos_top {
-                background: linear-gradient(#323232, #272727);
-                border-top: 1px solid #555;
-            }
-            ul#elFollowerList.ipsDataList.ipsList_reset li.ipsDataItem.ipsClearfix div.ipsDataItem_main {
-                background: linear-gradient(#323232, #272727);
-                border-top: 1px solid #555;
-            }
-            ul#elFollowerList.ipsDataList.ipsList_reset li.ipsDataItem.ipsClearfix {
-                border: none;
-            }
-            html[dir="ltr"] button.ipsButton.ipsButton_fullWidth.ipsButton_primary {
-                background: #5D5D5D;
-                border: 1px solid #5D5D5D;
-                color: #f8f8f8;
-            }
-            html[dir="ltr"] button.ipsButton.ipsButton_fullWidth.ipsButton_primary:hover {
-                background: #919191;
-                border: 1px solid #919191;
-                color: #f8f8f8;
-            }
-            html[dir="ltr"] button.ipsButton.ipsButton_fullWidth.ipsButton_light {
-                background: #5D5D5D;
-                border: 1px solid #5D5D5D;
-                color: #f8f8f8;
-            }
-            html[dir="ltr"] button.ipsButton.ipsButton_fullWidth.ipsButton_light:hover {
-                background: #919191;
-                border: 1px solid #919191;
-            }
-            .search-form-container #elSearch input[type="search"] {
-                background: #323232!important;
-                color: #ededed!important;
-                font-weight: 400!important;
-            }
-            .search-form-container #elSearch #elSearchFilter {
-                background: #323232;
-                color: #ededed;
-                font-weight: 400;
-            }
-            .search-form-container #elSearch #elSearchFilter .fa {
-                background: #323232;
-                box-sizing: border-box;
-                color: #ededed;
-                border-right: 1px solid #999;
-            }
-            .ipsMenu:after,
-            .ipsMenu:before {
-                border-color: transparent transparent #555!important;
-            }
-            .site-header .menu-toolbox-container .main-navigation ul li::after {
-                background: #F0B54F
-            }
-            .site-header .menu-toolbox-container .main-navigation ul li.ipsNavBar_active::after,
-            .site-header .menu-toolbox-container .main-navigation ul li.current::after,
-            .site-header .menu-toolbox-container .main-navigation ul li:hover::after {
-                background: #F0B54F
-            }
-            html[dir="ltr"] .ipsPagination_last a {
-                background: #919191;
-                color: #C8C8C9;
-            }
-            html[dir="ltr"] li.ipsPagination_page a {
-                background: #919191;
-                color: #C8C8C9;
-            }
-            html[dir="ltr"] .ipsPagination_first a {
-                background: #919191;
-                color: #C8C8C9;
-            }
-            html[dir="ltr"] .ipsPagination_prev a {
-                background: #919191;
-                color: #C8C8C9;
-            }
-            html[dir="ltr"] .ipsPagination_next a {
-                background: #919191;
-                color: #C8C8C9;
-            }
-            html[dir="ltr"] .ipsPagination_active a {
-                background: #F0B54F;
-                color: #C8C8C9;
-            }
-            html[dir="ltr"] .ipsPagination li.ipsPagination_page a {
-                background: #919191;
-                color: #252525;
-            }
-            html[dir="ltr"] .ipsPagination_last a {
-                background: #919191;
-                color: #C8C8C9;
-            }
-            html[dir="ltr"] .ipsPagination li.ipsPagination_next a {
-                background: #919191;
-                color: #252525;
-            }
-            html[dir="ltr"] .ipsPagination li.ipsPagination_last a {
-                background: #919191;
-                color: #252525;
-            }
-            html[dir="ltr"] .ipsPagination li.ipsPagination_prev a {
-                background: #919191;
-                color: #252525;
-            }
-            html[dir="ltr"] .ipsPagination li.ipsPagination_first a {
-                background: #919191;
-                color: #252525;
-            }
-            html[dir="ltr"] li.ipsPagination_page a:hover {
-                transition: none;
-                background: #919191;
-                color: #F0B54F;
-            }
-            html[dir="ltr"] li.ipsPagination_first a:hover {
-                transition: none;
-                background: #919191;
-                color: #F0B54F;
-            }
-            html[dir="ltr"] li.ipsPagination_prev a:hover {
-                transition: none;
-                background: #919191;
-                color: #F0B54F;
-            }
-            html[dir="ltr"] li.ipsPagination_next a:hover {
-                transition: none;
-                background: #919191;
-                color: #F0B54F;
-            }
-            html[dir="ltr"] li.ipsPagination_active a:hover {
-                transition: none;
-                background: #919191;
-                color: #F0B54F;
-            }
-            html[dir="ltr"] li.ipsPagination_last a:hover {
-                transition: none;
-                background: #919191;
-                color: #F0B54F;
-            }
-            html[dir="ltr"] .ipsPagination li.ipsPagination_page.ipsPagination_active a {
-                background: #F0B54F;
-                color: #000;
-            }
-            html[dir="ltr"] div.ipsButtonBar .ipsPagination .ipsPagination_prev a {
-                background: #919191;
-                color: #252525;
-            }
-            html[dir="ltr"] div.ipsButtonBar .ipsPagination .ipsPagination_page a {
-                background: #919191;
-                color: #252525;
-            }
-            html[dir="ltr"] div.ipsButtonBar .ipsPagination .ipsPagination_last a {
-                background: #919191;
-                color: #252525;
-            }
-            html[dir="ltr"] div.ipsButtonBar .ipsPagination li.ipsPagination_next a {
-                background: #919191;
-                color: #252525;
-            }
-            html[dir="ltr"] div.ipsButtonBar .ipsPagination .ipsPagination_first a {
-                background: #919191;
-                color: #252525;
-            }
-            html[dir="ltr"] div.ipsButtonBar .ipsPagination .ipsPagination_active a {
-                background: #F0B54F;
-                color: #000;
-            }
-            html[dir="ltr"] .ipsPagination li.ipsPagination_page a:hover {
-                transition: none;
-                background: #919191;
-                color: #F0B54F;
-            }
-            html[dir="ltr"] .ipsButtonBar div .ipsPagination li.ipsPagination_next a:hover {
-                transition: none;
-                background: #919191;
-                color: #F0B54F;
-            }
-            html[dir="ltr"] .ipsButtonBar div .ipsPagination li.ipsPagination_last a:hover {
-                transition: none;
-                background: #919191;
-                color: #F0B54F;
-            }
-            html[dir="ltr"] .ipsButtonBar div .ipsPagination li.ipsPagination_prev a:hover {
-                transition: none;
-                background: #919191;
-                color: #F0B54F;
-            }
-            html[dir="ltr"] .ipsButtonBar div .ipsPagination li.ipsPagination_first a:hover {
-                transition: none;
-                background: #919191;
-                color: #F0B54F;
-            }
-            a#elFullNotifications span.ipsNotificationCount {
-                background: #F0B54F;
-                color: #000;
-            }
-            html[dir="ltr"] button.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_narrow.cMultiQuote.ipsHide {
-                background: #919191;
-            }
-            html[dir="ltr"] button.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_narrow.cMultiQuote.ipsHide:hover {
-                background: #F0B54F;
-            }
-            html[dir="ltr"] li.ipsJS_show button.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_narrow.cMultiQuote {
-                background: #919191;
-                margin-left: 15px;
-            }
-            html[dir="ltr"] li.ipsJS_show button.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_narrow.cMultiQuote:hover {
-                background: #F0B54F;
-                margin-left: 15px;
-            }
-            li.ipsJS_show a:hover {
-                color: #F0B54F;
-            }
-            html[dir="ltr"] li.ipsPagination_pageJump a:hover {
-                transition: none;
-                color: #C8C8C9;
-            }
-            html[dir="ltr"] .ipsMenu.ipsMenu_narrow.ipsPad.ipsHide.ipsMenu_topCenter {
-                border: 2px solid #555;
-            }
-            html[dir="ltr"] .ipsButton_primary {
-                background: #5d5d5d;
-                border: none
-            }
-            html[dir="ltr"] .ipsButton_primary:hover {
-                background: #9a9a9a;
-                border: none
-            }
-            html[dir="ltr"] .ipsButton_fullWidth {
-                background: #5d5d5d;
-                border: none
-            }
-            html[dir="ltr"] .ipsButton_fullWidth:hover {
-                background: #9a9a9a;
-                border: none
-            }
-            html[dir="ltr"] .ipsButton.ipsButton_important.ipsButton_medium {
-                background: #5d5d5d;
-                border: none
-            }
-            html[dir="ltr"] .ipsButton.ipsButton_important.ipsButton_medium:hover {
-                background: #9a9a9a;
-                border: none
-            }
-            html[dir="ltr"] a.ipsType_blendLinks:hover {
-                color: #F0B54F
-            }
-            html[dir="ltr"] li.ipsType_blendLinks .ipsType_break:hover {
-                color: #F0B54F
-            }
-            html[dir="ltr"] div#page.site h3 a:hover {
-                color: #F0B54F
-            }
-            html[dir="ltr"] span.ipsType_normal span.ipsType_light {
-                color: #9a9a9a
-            }
-            html[dir="ltr"] span.ipsType_normal span.ipsType_light a:hover {
-                color: #F0B54F
-            }
-            html[dir="ltr"] a.ipsFaded.ipsFaded_more span.ipsResponsive_hidePhone.ipsResponsive_inline:hover {
-                color: #F0B54F
-            }
-            html[dir="ltr"] ul.ipsButtonRow.ipsPos_right.ipsClearfix li a {
-                background: #9a9a9a;
-            }
-            html[dir="ltr"] .ipsMenu_bottomCenter {
-                margin-top: 15px;
-            }
-            html[dir="ltr"] ul.ipsButtonRow.ipsPos_right.ipsClearfix li .ipsButtonRow_active {
-                color: #F0B54F;
-            }
-            html[dir="ltr"] li.ipsReact_reactCount {
-                background: #323232
-            }
-            html[dir="ltr"] ul.ipsReact_reactions a span {
-                background: #323232;
-                color: #F0B54F;
-            }
-            html[dir="ltr"] .ipsComment_highlighted ul.ipsReact_reactions li.ipsReact_reactCount a span {
-                background: #3C3C3C;
-            }
-            html[dir="ltr"] div.ipsReact.ipsPos_right div.ipsReact_types {
-                border-left-color: #2e2e2e;
-            }
-            html[dir="ltr"] .ipsComment_highlighted div.ipsReact.ipsPos_right div.ipsReact_types {
-                border-left-color: #383838;
-            }
-            div.ipsItemControls ul.ipsComment_controls.ipsClearfix.ipsItemControls_left li a:hover {
-                color: #F0B551;
-            }
-            /*
+}
+@-moz-document url("https://www.insomnia.gr/"),
+url-prefix("https://www.insomnia.gr/") {
+    /*** All site ***/
+    if NightMode {
+        .ipsDialog.ipsDialog_narrow div {
+            background: #252525;
+        }
+        body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch .ipsDialog.ipsDialog_narrow div h3.ipsDialog_title {
+            color: #C8C8C9;
+        }
+        ul#elFollowerList.ipsDataList.ipsList_reset li.ipsDataItem.ipsClearfix div.ipsDataItem_icon.ipsPos_top {
+            background: linear-gradient(#323232, #272727);
+            border-top: 1px solid #555;
+        }
+        ul#elFollowerList.ipsDataList.ipsList_reset li.ipsDataItem.ipsClearfix div.ipsDataItem_main {
+            background: linear-gradient(#323232, #272727);
+            border-top: 1px solid #555;
+        }
+        ul#elFollowerList.ipsDataList.ipsList_reset li.ipsDataItem.ipsClearfix {
+            border: none;
+        }
+        html[dir="ltr"] button.ipsButton.ipsButton_fullWidth.ipsButton_primary {
+            background: #5D5D5D;
+            border: 1px solid #5D5D5D;
+            color: #f8f8f8;
+        }
+        html[dir="ltr"] button.ipsButton.ipsButton_fullWidth.ipsButton_primary:hover {
+            background: #919191;
+            border: 1px solid #919191;
+            color: #f8f8f8;
+        }
+        html[dir="ltr"] button.ipsButton.ipsButton_fullWidth.ipsButton_light {
+            background: #5D5D5D;
+            border: 1px solid #5D5D5D;
+            color: #f8f8f8;
+        }
+        html[dir="ltr"] button.ipsButton.ipsButton_fullWidth.ipsButton_light:hover {
+            background: #919191;
+            border: 1px solid #919191;
+        }
+        .search-form-container #elSearch input[type="search"] {
+            background: #323232!important;
+            color: #ededed!important;
+            font-weight: 400!important;
+        }
+        .search-form-container #elSearch #elSearchFilter {
+            background: #323232;
+            color: #ededed;
+            font-weight: 400;
+        }
+        .search-form-container #elSearch #elSearchFilter .fa {
+            background: #323232;
+            box-sizing: border-box;
+            color: #ededed;
+            border-right: 1px solid #999;
+        }
+        .ipsMenu:after,
+        .ipsMenu:before {
+            border-color: transparent transparent #555!important;
+        }
+        .site-header .menu-toolbox-container .main-navigation ul li::after {
+            background: #F0B54F
+        }
+        .site-header .menu-toolbox-container .main-navigation ul li.ipsNavBar_active::after,
+        .site-header .menu-toolbox-container .main-navigation ul li.current::after,
+        .site-header .menu-toolbox-container .main-navigation ul li:hover::after {
+            background: #F0B54F
+        }
+        html[dir="ltr"] .ipsPagination_last a {
+            background: #919191;
+            color: #C8C8C9;
+        }
+        html[dir="ltr"] li.ipsPagination_page a {
+            background: #919191;
+            color: #C8C8C9;
+        }
+        html[dir="ltr"] .ipsPagination_first a {
+            background: #919191;
+            color: #C8C8C9;
+        }
+        html[dir="ltr"] .ipsPagination_prev a {
+            background: #919191;
+            color: #C8C8C9;
+        }
+        html[dir="ltr"] .ipsPagination_next a {
+            background: #919191;
+            color: #C8C8C9;
+        }
+        html[dir="ltr"] .ipsPagination_active a {
+            background: #F0B54F;
+            color: #C8C8C9;
+        }
+        html[dir="ltr"] .ipsPagination li.ipsPagination_page a {
+            background: #919191;
+            color: #252525;
+        }
+        html[dir="ltr"] .ipsPagination_last a {
+            background: #919191;
+            color: #C8C8C9;
+        }
+        html[dir="ltr"] .ipsPagination li.ipsPagination_next a {
+            background: #919191;
+            color: #252525;
+        }
+        html[dir="ltr"] .ipsPagination li.ipsPagination_last a {
+            background: #919191;
+            color: #252525;
+        }
+        html[dir="ltr"] .ipsPagination li.ipsPagination_prev a {
+            background: #919191;
+            color: #252525;
+        }
+        html[dir="ltr"] .ipsPagination li.ipsPagination_first a {
+            background: #919191;
+            color: #252525;
+        }
+        html[dir="ltr"] li.ipsPagination_page a:hover {
+            transition: none;
+            background: #919191;
+            color: #F0B54F;
+        }
+        html[dir="ltr"] li.ipsPagination_first a:hover {
+            transition: none;
+            background: #919191;
+            color: #F0B54F;
+        }
+        html[dir="ltr"] li.ipsPagination_prev a:hover {
+            transition: none;
+            background: #919191;
+            color: #F0B54F;
+        }
+        html[dir="ltr"] li.ipsPagination_next a:hover {
+            transition: none;
+            background: #919191;
+            color: #F0B54F;
+        }
+        html[dir="ltr"] li.ipsPagination_active a:hover {
+            transition: none;
+            background: #919191;
+            color: #F0B54F;
+        }
+        html[dir="ltr"] li.ipsPagination_last a:hover {
+            transition: none;
+            background: #919191;
+            color: #F0B54F;
+        }
+        html[dir="ltr"] .ipsPagination li.ipsPagination_page.ipsPagination_active a {
+            background: #F0B54F;
+            color: #000;
+        }
+        html[dir="ltr"] div.ipsButtonBar .ipsPagination .ipsPagination_prev a {
+            background: #919191;
+            color: #252525;
+        }
+        html[dir="ltr"] div.ipsButtonBar .ipsPagination .ipsPagination_page a {
+            background: #919191;
+            color: #252525;
+        }
+        html[dir="ltr"] div.ipsButtonBar .ipsPagination .ipsPagination_last a {
+            background: #919191;
+            color: #252525;
+        }
+        html[dir="ltr"] div.ipsButtonBar .ipsPagination li.ipsPagination_next a {
+            background: #919191;
+            color: #252525;
+        }
+        html[dir="ltr"] div.ipsButtonBar .ipsPagination .ipsPagination_first a {
+            background: #919191;
+            color: #252525;
+        }
+        html[dir="ltr"] div.ipsButtonBar .ipsPagination .ipsPagination_active a {
+            background: #F0B54F;
+            color: #000;
+        }
+        html[dir="ltr"] .ipsPagination li.ipsPagination_page a:hover {
+            transition: none;
+            background: #919191;
+            color: #F0B54F;
+        }
+        html[dir="ltr"] .ipsButtonBar div .ipsPagination li.ipsPagination_next a:hover {
+            transition: none;
+            background: #919191;
+            color: #F0B54F;
+        }
+        html[dir="ltr"] .ipsButtonBar div .ipsPagination li.ipsPagination_last a:hover {
+            transition: none;
+            background: #919191;
+            color: #F0B54F;
+        }
+        html[dir="ltr"] .ipsButtonBar div .ipsPagination li.ipsPagination_prev a:hover {
+            transition: none;
+            background: #919191;
+            color: #F0B54F;
+        }
+        html[dir="ltr"] .ipsButtonBar div .ipsPagination li.ipsPagination_first a:hover {
+            transition: none;
+            background: #919191;
+            color: #F0B54F;
+        }
+        a#elFullNotifications span.ipsNotificationCount {
+            background: #F0B54F;
+            color: #000;
+        }
+        html[dir="ltr"] button.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_narrow.cMultiQuote.ipsHide {
+            background: #919191;
+        }
+        html[dir="ltr"] button.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_narrow.cMultiQuote.ipsHide:hover {
+            background: #F0B54F;
+        }
+        html[dir="ltr"] li.ipsJS_show button.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_narrow.cMultiQuote {
+            background: #919191;
+            margin-left: 15px;
+        }
+        html[dir="ltr"] li.ipsJS_show button.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_narrow.cMultiQuote:hover {
+            background: #F0B54F;
+            margin-left: 15px;
+        }
+        li.ipsJS_show a:hover {
+            color: #F0B54F;
+        }
+        html[dir="ltr"] li.ipsPagination_pageJump a:hover {
+            transition: none;
+            color: #C8C8C9;
+        }
+        html[dir="ltr"] .ipsMenu.ipsMenu_narrow.ipsPad.ipsHide.ipsMenu_topCenter {
+            border: 2px solid #555;
+        }
+        html[dir="ltr"] .ipsButton_primary {
+            background: #5d5d5d;
+            border: none
+        }
+        html[dir="ltr"] .ipsButton_primary:hover {
+            background: #9a9a9a;
+            border: none
+        }
+        html[dir="ltr"] .ipsButton_fullWidth {
+            background: #5d5d5d;
+            border: none
+        }
+        html[dir="ltr"] .ipsButton_fullWidth:hover {
+            background: #9a9a9a;
+            border: none
+        }
+        html[dir="ltr"] .ipsButton.ipsButton_important.ipsButton_medium {
+            background: #5d5d5d;
+            border: none
+        }
+        html[dir="ltr"] .ipsButton.ipsButton_important.ipsButton_medium:hover {
+            background: #9a9a9a;
+            border: none
+        }
+        html[dir="ltr"] a.ipsType_blendLinks:hover {
+            color: #F0B54F
+        }
+        html[dir="ltr"] li.ipsType_blendLinks .ipsType_break:hover {
+            color: #F0B54F
+        }
+        html[dir="ltr"] div#page.site h3 a:hover {
+            color: #F0B54F
+        }
+        html[dir="ltr"] span.ipsType_normal span.ipsType_light {
+            color: #9a9a9a
+        }
+        html[dir="ltr"] span.ipsType_normal span.ipsType_light a:hover {
+            color: #F0B54F
+        }
+        html[dir="ltr"] a.ipsFaded.ipsFaded_more span.ipsResponsive_hidePhone.ipsResponsive_inline:hover {
+            color: #F0B54F
+        }
+        html[dir="ltr"] ul.ipsButtonRow.ipsPos_right.ipsClearfix li a {
+            background: #9a9a9a;
+        }
+        html[dir="ltr"] .ipsMenu_bottomCenter {
+            margin-top: 15px;
+        }
+        html[dir="ltr"] ul.ipsButtonRow.ipsPos_right.ipsClearfix li .ipsButtonRow_active {
+            color: #F0B54F;
+        }
+        html[dir="ltr"] li.ipsReact_reactCount {
+            background: #323232
+        }
+        html[dir="ltr"] ul.ipsReact_reactions a span {
+            background: #323232;
+            color: #F0B54F;
+        }
+        html[dir="ltr"] .ipsComment_highlighted ul.ipsReact_reactions li.ipsReact_reactCount a span {
+            background: #3C3C3C;
+        }
+        html[dir="ltr"] div.ipsReact.ipsPos_right div.ipsReact_types {
+            border-left-color: #2e2e2e;
+        }
+        html[dir="ltr"] .ipsComment_highlighted div.ipsReact.ipsPos_right div.ipsReact_types {
+            border-left-color: #383838;
+        }
+        div.ipsItemControls ul.ipsComment_controls.ipsClearfix.ipsItemControls_left li a:hover {
+            color: #F0B551;
+        }
+        /*
 span {
     color: #f0f0f0;
 }*/
-            ul li {
-                color: #C8C8C9;
-            }
-            ol li {
-                color: #C8C8C9;
-            }
-            p {
-                color: #C8C8C9;
-            }
-            div.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr div.ipsType_normal.ipsType_richText.ipsContained {
-                color: #C8C8C9;
-            }
-            a {
-                color: #F0B551;
-            }
-            a:hover {
-                color: #fdda9e;
-            }
-            html[dir="ltr"] span a:hover {
-                color: #F0B551;
-            }
-            html[dir="ltr"] span.ipsType_normal span .ipsType_break:hover {
-                color: #F0B551;
-            }
-            html[dir="ltr"] .ipsComposeArea_dummy {
-                background: #323232;
-                color: #C8C8C9;
-            }
-            html[dir="ltr"] div#cke_1_contents.cke_contents.cke_reset div.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr {
-                background: #323232;
-                border-top: 1px solid #a0a0a0;
-            }
-            html[dir="ltr"] .ipsComposeArea_dropZone.ipsComposeArea_dropZoneSmall.ipsClearfix {
-                background: #252525;
-            }
-            html[dir="ltr"] .cke_top.cke_reset_all {
-                background: #a0a0a0;
-            }
-            html[dir="ltr"] .ipsToggle.ipsToggle_on {
-                background: #9a9a99;
-                border-color: #9a9a99;
-                box-shadow: none;
-            }
-            html[dir="ltr"] .ipsToggle.ipsToggle_off {
-                background: #555;
-                border-color: #555;
-                box-shadow: none;
-            }
-            .ipsButton.ipsButton_light.ipsButton_verySmall {
-                background: #5D5D5D;
-                border: 1px solid #5D5D5D;
-                color: #d0d0d0
-            }
-            .ipsButton.ipsButton_light.ipsButton_verySmall:hover {
-                background: #919191;
-                border: 1px solid #919191;
-            }
-            .ipsAttach.ipsImageAttach.ipsPad_half.ipsAreaBackground_light.ipsGrid_span3.ipsAttach_done {
-                background: #252525;
-                color: #e6e6e6
-            }
-            .ipsComposeArea_dropZone.ipsComposeArea_dropZoneSmall.ipsClearfix div div.ipsComposeArea_attachmentsInner div.ipsAreaBackground_reset {
-                background: #252525
-            }
-            .ipsComposeArea_attachmentsInner.ipsHide div.ipsAreaBackground_reset.ipsHide {
-                background: #252525
-            }
-            .ipsComposeArea_attachments.ipsClearfix.ipsAreaBackground_light {
-                background: #252525;
-                border-top: 1px solid #555;
-            }
-            html[dir="ltr"] .ipsType_blendLinks li a.ipsType_blendLinks:hover {
-                color: #fdda9e;
-            }
-            html[dir="ltr"] a.ipsType_blendLinks:hover {
-                color: #fdda9e;
-            }
-            html[dir="ltr"] li.ipsType_blendLinks a.ipsType_break:hover {
-                color: #fdda9e;
-            }
-            html[dir="ltr"] li a:hover {
-                color: #fdda9e
-            }
-            html[dir="ltr"] span.ipsType_break.ipsContained a:hover {
-                color: #fdda9e
-            }
-            html[dir="ltr"] .ipsDataList.ipsDataList_zebra.ipsClear.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread ul.ipsDataItem_lastPoster.ipsDataItem_withPhoto.ipsType_blendLinks li a.ipsType_break:hover {
-                color: #fdda9e
-            }
-            html[dir="ltr"] .ipsDataList.ipsDataList_zebra.ipsClear.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto ul.ipsDataItem_lastPoster.ipsDataItem_withPhoto.ipsType_blendLinks li a.ipsType_break:hover {
-                color: #fdda9e;
-            }
-            div.ipsDataItem_meta.ipsType_reset.ipsType_light.ipsType_blendLinks span span a.ipsType_break:hover {
-                color: #fdda9e;
-            }
-            p.ipsStreamItem_status.ipsType_reset.ipsType_blendLinks a:hover {
-                color: #fdda9e;
-            }
-            html[dir="ltr"] p.ipsType_reset.ipsType_blendLinks span.ipsType_normal span a.ipsType_break:hover {
-                color: #F0B54F;
-            }
-            html[dir="ltr"] ::-moz-selection {
-                background: #F0B54F;
-                /* Gecko Browsers */
-                color: #000;
-            }
-            html[dir="ltr"] ::selection {
-                background: #F0B54F;
-                /* WebKit/Blink Browsers */
-                color: #000;
-            }
-            /****/
-            html[dir="ltr"] div#ipsLayout_mainArea.ipsLayout_container-block {
-                border: none;
-            }
-            html[dir="ltr"] div#ipsLayout_mainArea.ipsLayout_container-block section ol.ipsList_reset.cForumList li.cForumRow.ipsBox.ipsSpacer_bottom {
-                border: none;
-            }
-            html[dir="ltr"] div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div div div ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
-                max-width: 1400px;
-                margin-left: -20px;
-                border: none;
-            }
-            html[dir="ltr"] div#ipsLayout_mainArea.ipsLayout_container-block section ol.ipsList_reset.cForumList {
-                max-width: 1398px;
-                margin-left: 1px;
-            }
+        ul li {
+            color: #C8C8C9;
+        }
+        ol li {
+            color: #C8C8C9;
+        }
+        p {
+            color: #C8C8C9;
+        }
+        div.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr div.ipsType_normal.ipsType_richText.ipsContained {
+            color: #C8C8C9;
+        }
+        a {
+            color: #F0B551;
+        }
+        a:hover {
+            color: #fdda9e;
+        }
+        html[dir="ltr"] span a:hover {
+            color: #F0B551;
+        }
+        html[dir="ltr"] span.ipsType_normal span .ipsType_break:hover {
+            color: #F0B551;
+        }
+        html[dir="ltr"] .ipsComposeArea_dummy {
+            background: #323232;
+            color: #C8C8C9;
+        }
+        html[dir="ltr"] div#cke_1_contents.cke_contents.cke_reset div.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr {
+            background: #323232;
+            border-top: 1px solid #a0a0a0;
+        }
+        html[dir="ltr"] .ipsComposeArea_dropZone.ipsComposeArea_dropZoneSmall.ipsClearfix {
+            background: #252525;
+        }
+        html[dir="ltr"] .cke_top.cke_reset_all {
+            background: #a0a0a0;
+        }
+        html[dir="ltr"] .ipsToggle.ipsToggle_on {
+            background: #9a9a99;
+            border-color: #9a9a99;
+            box-shadow: none;
+        }
+        html[dir="ltr"] .ipsToggle.ipsToggle_off {
+            background: #555;
+            border-color: #555;
+            box-shadow: none;
+        }
+        .ipsButton.ipsButton_light.ipsButton_verySmall {
+            background: #5D5D5D;
+            border: 1px solid #5D5D5D;
+            color: #d0d0d0
+        }
+        .ipsButton.ipsButton_light.ipsButton_verySmall:hover {
+            background: #919191;
+            border: 1px solid #919191;
+        }
+        .ipsAttach.ipsImageAttach.ipsPad_half.ipsAreaBackground_light.ipsGrid_span3.ipsAttach_done {
+            background: #252525;
+            color: #e6e6e6
+        }
+        .ipsComposeArea_dropZone.ipsComposeArea_dropZoneSmall.ipsClearfix div div.ipsComposeArea_attachmentsInner div.ipsAreaBackground_reset {
+            background: #252525
+        }
+        .ipsComposeArea_attachmentsInner.ipsHide div.ipsAreaBackground_reset.ipsHide {
+            background: #252525
+        }
+        .ipsComposeArea_attachments.ipsClearfix.ipsAreaBackground_light {
+            background: #252525;
+            border-top: 1px solid #555;
+        }
+        html[dir="ltr"] .ipsType_blendLinks li a.ipsType_blendLinks:hover {
+            color: #fdda9e;
+        }
+        html[dir="ltr"] a.ipsType_blendLinks:hover {
+            color: #fdda9e;
+        }
+        html[dir="ltr"] li.ipsType_blendLinks a.ipsType_break:hover {
+            color: #fdda9e;
+        }
+        html[dir="ltr"] li a:hover {
+            color: #fdda9e
+        }
+        html[dir="ltr"] span.ipsType_break.ipsContained a:hover {
+            color: #fdda9e
+        }
+        html[dir="ltr"] .ipsDataList.ipsDataList_zebra.ipsClear.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread ul.ipsDataItem_lastPoster.ipsDataItem_withPhoto.ipsType_blendLinks li a.ipsType_break:hover {
+            color: #fdda9e
+        }
+        html[dir="ltr"] .ipsDataList.ipsDataList_zebra.ipsClear.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto ul.ipsDataItem_lastPoster.ipsDataItem_withPhoto.ipsType_blendLinks li a.ipsType_break:hover {
+            color: #fdda9e;
+        }
+        div.ipsDataItem_meta.ipsType_reset.ipsType_light.ipsType_blendLinks span span a.ipsType_break:hover {
+            color: #fdda9e;
+        }
+        p.ipsStreamItem_status.ipsType_reset.ipsType_blendLinks a:hover {
+            color: #fdda9e;
+        }
+        html[dir="ltr"] p.ipsType_reset.ipsType_blendLinks span.ipsType_normal span a.ipsType_break:hover {
+            color: #F0B54F;
+        }
+        html[dir="ltr"] ::-moz-selection {
+            background: #F0B54F;
+            /* Gecko Browsers */
+            color: #000;
+        }
+        html[dir="ltr"] ::selection {
+            background: #F0B54F;
+            /* WebKit/Blink Browsers */
+            color: #000;
+        }
+        /****/
+        html[dir="ltr"] div#ipsLayout_mainArea.ipsLayout_container-block {
+            border: none;
+        }
+        html[dir="ltr"] div#ipsLayout_mainArea.ipsLayout_container-block section ol.ipsList_reset.cForumList li.cForumRow.ipsBox.ipsSpacer_bottom {
+            border: none;
+        }
+        html[dir="ltr"] div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div div div ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
+            max-width: 1400px;
+            margin-left: -20px;
+            border: none;
+        }
+        html[dir="ltr"] div#ipsLayout_mainArea.ipsLayout_container-block section ol.ipsList_reset.cForumList {
+            max-width: 1398px;
+            margin-left: 1px;
         }
     }
-    @-moz-document url("https://www.insomnia.gr/"),
-    url-prefix("https://www.insomnia.gr/") {
-        /**** Menu - Img ****/
-        if NightMode {
-            div.breadcrumb span span.home a {
-                margin-right: -10px;
-                visibility: hidden;
-            }
-            div.breadcrumb span span.home {
-                background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzNSAzNSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzUgMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCg0KCS5zdDB7ZmlsbDojRjBCNTRGO30NCg0KCS5zdDF7ZmlsbDojMzIzMjMyO30NCg0KPC9zdHlsZT4NCg0KPGNpcmNsZSBpZD0iWE1MSURfNl8iIGNsYXNzPSJzdDAiIGN4PSIxNy40IiBjeT0iMTcuNyIgcj0iMTYuOCIvPg0KDQo8ZyBpZD0iWE1MSURfMl8iPg0KDQoJPHBhdGggaWQ9IlhNTElEXzNfIiBjbGFzcz0ic3QxIiBkPSJNMTcuNCwxMS4xbDUuNiw1LjR2OC4zaC0yLjhWMjFjMC0wLjYtMC41LTEuMS0xLjItMS4xaC0zLjRjLTAuNiwwLTEuMiwwLjUtMS4yLDEuMXYzLjhoLTIuOCAgICB2LTguM0wxNy40LDExLjEgTTE3LjksOS4yYy0wLjMtMC4zLTAuNy0wLjMtMSwwbC02LjQsNi4zYy0wLjIsMC4yLTAuMywwLjUtMC4zLDAuOHY5YzAsMC42LDAuNSwxLjEsMS4yLDEuMWgzLjggICAgYzAuNiwwLDEuMi0wLjUsMS4yLTEuMXYtMy44aDIuMnYzLjhjMCwwLjYsMC41LDEuMSwxLjIsMS4xaDMuOGMwLjYsMCwxLjItMC41LDEuMi0xLjF2LTljMC0wLjMtMC4xLTAuNi0wLjMtMC44TDE3LjksOS4yeiIvPg0KDQo8L2c+DQoNCjwvc3ZnPg==');
-                background-repeat: no-repeat;
-                margin-left: 10px;
-            }
-            body {
-                background: #323232;
-            }
-            div#ipsLayout_header.ipsClearfix {
-                box-shadow: none;
-                border: none;
-            }
-            .ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_topCenter {
-                background: #282828;
-                border-COLOR: #555;
-                border: 2px solid #555;
-                font-size: 14px;
-            }
-            .ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_topCenter li.ipsMenu_item a:hover {
-                background: #9A9A99;
-                color: #252525;
-            }
-            ul#elNavTheme_menu.ipsMenu.ipsMenu_selectable.ipsHide.ipsMenu_topCenter {
-                background: #5D5D5D;
-                border-COLOR: #555;
-                border: 2px solid #555;
-            }
-            ul#elNavLang_menu.ipsMenu.ipsMenu_selectable.ipsHide.ipsMenu_topCenter {
-                background: #5D5D5D;
-                border-COLOR: #555;
-                border: 2px solid #555;
-            }
-            section#elError.ipsType_center div.ipsBox.ipsPad {
-                margin: initial;
-            }
-            section#elError.ipsType_center div.ipsBox.ipsPad div#elErrorMessage.ipsPos_center {
-                color: #f8f8f8
-            }
-            section#elError.ipsType_center div.ipsBox.ipsPad p.ipsType_reset.ipsType_light.ipsType_large {
-                color: #f8f8f8
-            }
-            div.breadcrumb ul.ipsList_inline.ipsPos_right {
-                margin-top: 13px;
-                margin-right: 10px;
-            }
-            div.breadcrumb ul.ipsList_inline.ipsPos_right a {
-                color: #f8f8f8;
-                font-size: 14px;
-                /*background: #5D5D5D;
+}
+@-moz-document url("https://www.insomnia.gr/"),
+url-prefix("https://www.insomnia.gr/") {
+    /**** Menu - Img ****/
+    if NightMode {
+        div.breadcrumb span span.home a {
+            margin-right: -10px;
+            visibility: hidden;
+        }
+        div.breadcrumb span span.home {
+            background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzNSAzNSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzUgMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCg0KCS5zdDB7ZmlsbDojRjBCNTRGO30NCg0KCS5zdDF7ZmlsbDojMzIzMjMyO30NCg0KPC9zdHlsZT4NCg0KPGNpcmNsZSBpZD0iWE1MSURfNl8iIGNsYXNzPSJzdDAiIGN4PSIxNy40IiBjeT0iMTcuNyIgcj0iMTYuOCIvPg0KDQo8ZyBpZD0iWE1MSURfMl8iPg0KDQoJPHBhdGggaWQ9IlhNTElEXzNfIiBjbGFzcz0ic3QxIiBkPSJNMTcuNCwxMS4xbDUuNiw1LjR2OC4zaC0yLjhWMjFjMC0wLjYtMC41LTEuMS0xLjItMS4xaC0zLjRjLTAuNiwwLTEuMiwwLjUtMS4yLDEuMXYzLjhoLTIuOCAgICB2LTguM0wxNy40LDExLjEgTTE3LjksOS4yYy0wLjMtMC4zLTAuNy0wLjMtMSwwbC02LjQsNi4zYy0wLjIsMC4yLTAuMywwLjUtMC4zLDAuOHY5YzAsMC42LDAuNSwxLjEsMS4yLDEuMWgzLjggICAgYzAuNiwwLDEuMi0wLjUsMS4yLTEuMXYtMy44aDIuMnYzLjhjMCwwLjYsMC41LDEuMSwxLjIsMS4xaDMuOGMwLjYsMCwxLjItMC41LDEuMi0xLjF2LTljMC0wLjMtMC4xLTAuNi0wLjMtMC44TDE3LjksOS4yeiIvPg0KDQo8L2c+DQoNCjwvc3ZnPg==');
+            background-repeat: no-repeat;
+            margin-left: 10px;
+        }
+        body {
+            background: #323232;
+        }
+        div#ipsLayout_header.ipsClearfix {
+            box-shadow: none;
+            border: none;
+        }
+        .ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_topCenter {
+            background: #282828;
+            border-COLOR: #555;
+            border: 2px solid #555;
+            font-size: 14px;
+        }
+        .ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_topCenter li.ipsMenu_item a:hover {
+            background: #9A9A99;
+            color: #252525;
+        }
+        ul#elNavTheme_menu.ipsMenu.ipsMenu_selectable.ipsHide.ipsMenu_topCenter {
+            background: #5D5D5D;
+            border-COLOR: #555;
+            border: 2px solid #555;
+        }
+        ul#elNavLang_menu.ipsMenu.ipsMenu_selectable.ipsHide.ipsMenu_topCenter {
+            background: #5D5D5D;
+            border-COLOR: #555;
+            border: 2px solid #555;
+        }
+        section#elError.ipsType_center div.ipsBox.ipsPad {
+            margin: initial;
+        }
+        section#elError.ipsType_center div.ipsBox.ipsPad div#elErrorMessage.ipsPos_center {
+            color: #f8f8f8
+        }
+        section#elError.ipsType_center div.ipsBox.ipsPad p.ipsType_reset.ipsType_light.ipsType_large {
+            color: #f8f8f8
+        }
+        div.breadcrumb ul.ipsList_inline.ipsPos_right {
+            margin-top: 13px;
+            margin-right: 10px;
+        }
+        div.breadcrumb ul.ipsList_inline.ipsPos_right a {
+            color: #f8f8f8;
+            font-size: 14px;
+            /*background: #5D5D5D;
     border: 1px solid #555;*/
-                padding: 4px 5px;
-                border-radius: 3px;
-            }
-            div.breadcrumb ul.ipsList_inline.ipsPos_right a:hover {
-                color: #F0B54F
-                /*background: #919191;*/
-            }
-            div.breadcrumb {
-                position: relative;
-                top: -16px;
-            }
-            .breadcrumb a {
-                color: #f5f5f5;
-            }
-            div.ipsMenu_headerBar {
-                border-radius: 0px
-            }
-            html[dir="ltr"] .ipsMenu_bottomRight {
-                border-COLOR: #555;
-                border: 2px solid #555;
-                background: #282828;
-                font-size: 14px;
-                text-align: center;
-                color: #C8C8C9;
-            }
-            .ipsMenu_bottomCenter {
-                border-COLOR: #555;
-                border: 2px solid #555;
-                background: #282828;
-                font-size: 14px;
-                text-align: center;
-                color: #C8C8C9;
-            }
-            li.ipsMenu_title {
-                background: #252525;
-                color: #f8f8f8;
-            }
-            li.ipsMenu_item a {
-                color: #C8C8C9;
-                text-align: center;
-            }
-            li.ipsMenu_item a:hover {
-                color: #252525;
-                text-align: center;
-                background: #9A9A99;
-            }
-            ul#elUserLink_menu.ipsMenu.ipsMenu_normal.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a {
-                color: #C8C8C9;
-                text-align: center;
-            }
-            ul#elUserLink_menu.ipsMenu.ipsMenu_normal.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a:hover {
-                color: #252525;
-                text-align: center;
-                background: #9A9A99;
-            }
-            ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a {
-                color: #C8C8C9;
-                text-align: center;
-            }
-            ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a:hover {
-                color: #252525;
-                text-align: center;
-                background: #9A9A99;
-            }
-            ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomRight li.ipsMenu_item a:hover {
-                color: #252525;
-                text-align: center;
-                background: #9A9A99;
-            }
-            ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter li.ipsPad_half a.ipsButton.ipsButton_primary.ipsButton_verySmall.ipsButton_fullWidth {
-                background: #5D5D5D;
-                border: #5D5D5D;
-            }
-            ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter li.ipsPad_half a.ipsButton.ipsButton_primary.ipsButton_verySmall.ipsButton_fullWidth:hover {
-                background: #919191;
-                border: #F0B54F;
-            }
-            .ipsHide.ipsMenu_bottomRight li.ipsPad_half a.ipsButton.ipsButton_primary.ipsButton_verySmall.ipsButton_fullWidth {
-                background: #5D5D5D;
-                border: #5D5D5D;
-            }
-            .ipsMenu_bottomRight li.ipsPad_half a.ipsButton.ipsButton_primary.ipsButton_verySmall.ipsButton_fullWidth:hover {
-                background: #919191;
-                border: #F0B54F;
-            }
-            ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem div.ipsDataItem_icon {
-                background: #323232;
-            }
-            div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar {
-                background: #252525;
-            }
-            div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_footerBar.ipsType_center {
-                background: #252525;
-            }
-            div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar {
-                background: #252525;
-            }
-            div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_footerBar.ipsType_center {
-                background: #252525;
-            }
-            div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar h4.ipsType_sectionHead {
-                color: #f8f8f8;
-            }
-            div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_footerBar.ipsType_center a {
-                color: #f8f8f8;
-            }
-            div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar h4.ipsType_sectionHead {
-                color: #f8f8f8;
-            }
-            div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_footerBar.ipsType_center a {
-                color: #f8f8f8;
-            }
-            div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar a#elMessengerPopup_compose.ipsPos_right.ipsButton.ipsButton_primary.ipsButton_verySmall {
-                margin-top: -3px;
-            }
-            div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter:after {
-                visibility: hidden;
-            }
-            div.menu-toolbox-container div.toolbox {
-                margin-right: -40px;
-            }
-            div#menu.ipsLayout_container-new.container.container__big div.togglers span#search_btn.search-btn.visible__md {
-                background: none;
-                background-color: #f000;
-            }
-            div#menu.ipsLayout_container-new.container.container__big div.togglers span#search_btn.search-btn.visible__md i.fa.fa-search {
-                transform: scale(1.25);
-            }
-            li#elNavSecondary_35.ipsNavBar_active a {
-                color: #F0B54F;
-            }
-            li#elNavSecondary_36.ipsNavBar_active a {
-                color: #F0B54F;
-            }
-            li#elNavSecondary_10.ipsNavBar_active a {
-                color: #F0B54F;
-            }
-            li#elNavSecondary_10 a {
-                color: #f8f8f8;
-                background: none;
-            }
-            li#elNavSecondary_35 a {
-                color: #f8f8f8;
-                background: none;
-            }
-            li#elNavSecondary_36 a {
-                color: #f8f8f8;
-                background: none;
-            }
-            a#elNavigationMore_dropdown {
-                color: #f8f8f8;
-                background: none;
-            }
-            li#elNavigationMore ul#elNavigationMore_dropdown_menu.ipsHide.ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter li.ipsMenu_item a {
-                color: #C8C8C9;
-                font-size: 14px;
-            }
-            li#elNavigationMore ul#elNavigationMore_dropdown_menu.ipsHide.ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter li.ipsMenu_item a:hover {
-                background: #9A9A99;
-                font-size: 14px;
-                color: #252525;
-            }
-            i.fa.fa-newspaper-o {
-                color: #f8f8f8;
-                padding-top: 2px;
-            }
-            li#cUserLink.user.parent a#elUserLink i.fa.fa-caret-down {
-                color: #f8f8f8;
-            }
-            li#cUserLink.user.parent a#elUserLink i.fa.fa-caret-down:hover {
-                color: #F0B54F;
-            }
-            li#elNavSecondary_36 a:hover {
-                color: #F0B54F;
-            }
-            li#elNavSecondary_10 a:hover {
-                color: #F0B54F;
-            }
-            li#elNavSecondary_35 a:hover {
-                color: #F0B54F;
-            }
-            a#elNavigationMore_dropdown a:hover {
-                color: #F0B54F;
-            }
-            a#elFullNotifications i.fa.fa-bell-o {
-                color: #f8f8f8;
-            }
-            a#elFullInbox i.fa.fa-envelope-o {
-                color: #f8f8f8;
-            }
-            a#elUserLink span.visible__lg {
-                color: #f8f8f8;
-            }
-            div#menu.ipsLayout_container-new.container.container__big div.togglers span#search_btn.search-btn.visible__md i.fa.fa-search:hover {
-                color: #F0B54F;
-            }
-            a#elFullNotifications i.fa.fa-bell-o:hover {
-                color: #F0B54F;
-            }
-            a#elFullInbox i.fa.fa-envelope-o:hover {
-                color: #F0B54F;
-            }
-            a#elUserLink span.visible__lg:hover {
-                color: #F0B54F;
-            }
-            a#elAllStreams i.fa.fa-newspaper-o:hover {
-                color: #F0B54F;
-            }
-            .ipsMenu_selectable.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item.ipsMenu_itemChecked a:hover {
-                background: #9A9A99;
-                color: #252525;
-            }
-            .ipsMenu_selectable.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a:hover {
-                background: #9A9A99;
-                color: #252525;
-            }
-            .ipsMenu_withStem.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a:hover {
-                background: #9A9A99;
-                color: #252525;
-            }
-            ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_main a span.ipsDataItem_title:hover {
-                color: #F0B54F
-            }
-            ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem div.ipsDataItem_main a span.ipsDataItem_title:hover {
-                color: #F0B54F
-            }
-            a#elAllStreams {
-                height: 77px;
-                margin-top: 3px;
-            }
-            .ipsMenu_innerContent {
-                background: #323232;
-                color: #C8C8C9;
-            }
-            body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch div#page.site div#ipsLayout_header.ipsClearfix header#masthead.site-header div#menu.ipsLayout_container-new.container.container__big div.logo-container h1.site-logo a#elLogo {
-                padding-top: 35px;
-            }
-            div#elMessageViewer div div.ipsBox.ipsPad_half {
-                background: #18202B;
-            }
-            header#masthead.site-header {
-                background: #191919;
-            }
-            div#menu.ipsLayout_container-new.container.container__big div.menu-toolbox-container {
-                background: #191919;
-                color: #fff;
-            }
-            .ipsLayout_container-new.main-navigation {
-                background: #191919;
-            }
-            header#masthead.site-header div.search-form-container {
-                background: none;
-            }
-            div#menu.ipsLayout_container-new.container.container__big div.logo-container {
-                background: #191919;
-            }
-            div#menu.ipsLayout_container-new.container.container__big div.menu-toolbox-container .ipsLayout_container-new.main-navigation {
-                background: #191919;
-            }
-            iv#menu.ipsLayout_container-new.container.container__big div.menu-toolbox-container .ipsLayout_container-new.main-navigation div.ipsNavBar_primary.ipsNavBar_noSubBars.ipsClearfix.menu-custom-container ul.ipsResponsive_showDesktop.ipsResponsive_block.custom {
-                background: #191919;
-            }
-            div#menu.ipsLayout_container-new.container.container__big div.menu-toolbox-container div.toolbox ul#elUserNav.ipsList_inline.cSignedIn.ipsClearfix.ipsResponsive_showDesktop.menu__toolbox.menuul-custom.custom {
-                background: #191919;
-            }
-            div#menu.ipsLayout_container-new.container.container__big div.menu-toolbox-container .ipsLayout_container-new.main-navigation {
-                background: #191919;
-            }
-            div#menu.ipsLayout_container-new.container.container__big div.togglers span#search_btn.search-btn.visible__md i.fa.fa-search {
-                color: #f8f8f8;
-            }
-            span#search_btn.search-btn.visible__md {
-                background: #191919;
-            }
-            div#menu.ipsLayout_container-new.container.container__big div.togglers {
-                background: #191919;
-            }
-            div.search-form-container div.container {
-                background: none;
-            }
-            div#menu.ipsLayout_container-new.container.container__big div.logo-container h1.site-logo a#elLogo img {
-                visibility: hidden;
-            }
-            /**************************/
-            div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar {
-                text-align: left
-            }
-            div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar {
-                text-align: left
-            }
-            div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_innerContent ol#elInboxContent.ipsDataList li.ipsDataItem.ipsClearfix.cMessage {
-                border-bottom: none;
-            }
-            div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_footerBar.ipsType_center {
-                border-top-color: #555;
-            }
-            div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar {
-                border-bottom-color: #555;
-            }
-            ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem div.ipsDataItem_main a span.ipsType_light time {
-                font-size: 14px;
-                font-weight: 500;
-                color: #e6e6e6;
-            }
-            ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem div.ipsDataItem_main a span.ipsType_light time:hover {
-                font-size: 14px;
-                color: #F0B54F;
-            }
-            li.ipsDataItem.ipsClearfix.cMessage div.ipsDataItem_main span.ipsType_light.ipsType_medium.ipsType_blendLinks {
-                font-size: 14px;
-                font-weight: 500;
-                color: #e6e6e6
-            }
-            div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_innerContent ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem {
-                border-bottom: none;
-            }
-            div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_footerBar.ipsType_center {
-                border-top-color: #555;
-            }
-            div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar {
-                border-bottom-color: #555;
-            }
-            div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_innerContent ol#elInboxContent.ipsDataList li.ipsDataItem.ipsClearfix.cMessage div.ipsDataItem_main {
-                border-top: none;
-            }
-            div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_innerContent ol#elInboxContent.ipsDataList li.ipsDataItem.ipsClearfix.cMessage {
-                border-top: 1px solid #555;
-            }
-            div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_innerContent ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem div.ipsDataItem_main {
-                border-top: none;
-            }
-            div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_innerContent ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem {
-                border-top: 1px solid #555;
-            }
-            .ipsCustomInput > span {
-                border: 1px solid #bdbdbd;
-                background: #aaa;
-            }
-            .ipsCustomInput input:hover:not( :disabled) + span {
-                border-color: #F0B551;
-            }
-            .ipsCustomInput input:not( :checked):disabled + span {
-                background: #f5f5f5;
-            }
-            .ipsCustomInput input:checked:disabled + span {
-                background: #ebebeb;
-                border-color: #757575;
-            }
-            .ipsCustomInput input[type="checkbox"]:checked:disabled + span:after {
-                color: #757575;
-            }
-            .ipsCustomInput input[type="radio"]:checked:disabled + span:after {
-                background-color: #757575;
-            }
-            .ipsCustomInput input:active:not( :checked):not( :disabled) + span {
-                background: #ebebeb;
-            }
-            .ipsCustomInput input:active:checked:not( :disabled) + span {
-                background: #ebebeb;
-            }
-            .ipsCustomInput input:checked + span {
-                border-color: #F0B551;
-                background: #aaa;
-            }
-            .ipsCustomInput input[type="checkbox"]:checked + span:after {
-                color: #252525;
-            }
-            .ipsCustomInput input[type="radio"]:checked + span:after {
-                background: #aaa;
-            }
-            .ipsApp .ipsToggle:focus,
-            .ipsApp .ipsCustomInput input:focus + span {
-                border-color: #F0B551;
-                box-shadow: none;
-            }
-            /* INSOMNIAC START */
-            /*
-div.breadcrumb span span.home {
-    background-image: url('https://farm5.staticflickr.com/4663/39923591691_99b3af438f_o.png');
-    background-repeat: no-repeat;
-    margin-left: 10px;
+            padding: 4px 5px;
+            border-radius: 3px;
+        }
+        div.breadcrumb ul.ipsList_inline.ipsPos_right a:hover {
+            color: #F0B54F
+            /*background: #919191;*/
+        }
+        div.breadcrumb {
+            position: relative;
+            top: -16px;
+        }
+        .breadcrumb a {
+            color: #f5f5f5;
+        }
+        div.ipsMenu_headerBar {
+            border-radius: 0px
+        }
+        html[dir="ltr"] .ipsMenu_bottomRight {
+            border-COLOR: #555;
+            border: 2px solid #555;
+            background: #282828;
+            font-size: 14px;
+            text-align: center;
+            color: #C8C8C9;
+        }
+        .ipsMenu_bottomCenter {
+            border-COLOR: #555;
+            border: 2px solid #555;
+            background: #282828;
+            font-size: 14px;
+            text-align: center;
+            color: #C8C8C9;
+        }
+        li.ipsMenu_title {
+            background: #252525;
+            color: #f8f8f8;
+        }
+        li.ipsMenu_item a {
+            color: #C8C8C9;
+            text-align: center;
+        }
+        li.ipsMenu_item a:hover {
+            color: #252525;
+            text-align: center;
+            background: #9A9A99;
+        }
+        ul#elUserLink_menu.ipsMenu.ipsMenu_normal.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a {
+            color: #C8C8C9;
+            text-align: center;
+        }
+        ul#elUserLink_menu.ipsMenu.ipsMenu_normal.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a:hover {
+            color: #252525;
+            text-align: center;
+            background: #9A9A99;
+        }
+        ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a {
+            color: #C8C8C9;
+            text-align: center;
+        }
+        ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a:hover {
+            color: #252525;
+            text-align: center;
+            background: #9A9A99;
+        }
+        ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomRight li.ipsMenu_item a:hover {
+            color: #252525;
+            text-align: center;
+            background: #9A9A99;
+        }
+        ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter li.ipsPad_half a.ipsButton.ipsButton_primary.ipsButton_verySmall.ipsButton_fullWidth {
+            background: #5D5D5D;
+            border: #5D5D5D;
+        }
+        ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter li.ipsPad_half a.ipsButton.ipsButton_primary.ipsButton_verySmall.ipsButton_fullWidth:hover {
+            background: #919191;
+            border: #F0B54F;
+        }
+        .ipsHide.ipsMenu_bottomRight li.ipsPad_half a.ipsButton.ipsButton_primary.ipsButton_verySmall.ipsButton_fullWidth {
+            background: #5D5D5D;
+            border: #5D5D5D;
+        }
+        .ipsMenu_bottomRight li.ipsPad_half a.ipsButton.ipsButton_primary.ipsButton_verySmall.ipsButton_fullWidth:hover {
+            background: #919191;
+            border: #F0B54F;
+        }
+        ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem div.ipsDataItem_icon {
+            background: #323232;
+        }
+        div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar {
+            background: #252525;
+        }
+        div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_footerBar.ipsType_center {
+            background: #252525;
+        }
+        div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar {
+            background: #252525;
+        }
+        div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_footerBar.ipsType_center {
+            background: #252525;
+        }
+        div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar h4.ipsType_sectionHead {
+            color: #f8f8f8;
+        }
+        div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_footerBar.ipsType_center a {
+            color: #f8f8f8;
+        }
+        div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar h4.ipsType_sectionHead {
+            color: #f8f8f8;
+        }
+        div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_footerBar.ipsType_center a {
+            color: #f8f8f8;
+        }
+        div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar a#elMessengerPopup_compose.ipsPos_right.ipsButton.ipsButton_primary.ipsButton_verySmall {
+            margin-top: -3px;
+        }
+        div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter:after {
+            visibility: hidden;
+        }
+        div.menu-toolbox-container div.toolbox {
+            margin-right: -40px;
+        }
+        div#menu.ipsLayout_container-new.container.container__big div.togglers span#search_btn.search-btn.visible__md {
+            background: none;
+            background-color: #f000;
+        }
+        div#menu.ipsLayout_container-new.container.container__big div.togglers span#search_btn.search-btn.visible__md i.fa.fa-search {
+            transform: scale(1.25);
+        }
+        li#elNavSecondary_35.ipsNavBar_active a {
+            color: #F0B54F;
+        }
+        li#elNavSecondary_36.ipsNavBar_active a {
+            color: #F0B54F;
+        }
+        li#elNavSecondary_10.ipsNavBar_active a {
+            color: #F0B54F;
+        }
+        li#elNavSecondary_10 a {
+            color: #f8f8f8;
+            background: none;
+        }
+        li#elNavSecondary_35 a {
+            color: #f8f8f8;
+            background: none;
+        }
+        li#elNavSecondary_36 a {
+            color: #f8f8f8;
+            background: none;
+        }
+        a#elNavigationMore_dropdown {
+            color: #f8f8f8;
+            background: none;
+        }
+        li#elNavigationMore ul#elNavigationMore_dropdown_menu.ipsHide.ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter li.ipsMenu_item a {
+            color: #C8C8C9;
+            font-size: 14px;
+        }
+        li#elNavigationMore ul#elNavigationMore_dropdown_menu.ipsHide.ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter li.ipsMenu_item a:hover {
+            background: #9A9A99;
+            font-size: 14px;
+            color: #252525;
+        }
+        i.fa.fa-newspaper-o {
+            color: #f8f8f8;
+            padding-top: 2px;
+        }
+        li#cUserLink.user.parent a#elUserLink i.fa.fa-caret-down {
+            color: #f8f8f8;
+        }
+        li#cUserLink.user.parent a#elUserLink i.fa.fa-caret-down:hover {
+            color: #F0B54F;
+        }
+        li#elNavSecondary_36 a:hover {
+            color: #F0B54F;
+        }
+        li#elNavSecondary_10 a:hover {
+            color: #F0B54F;
+        }
+        li#elNavSecondary_35 a:hover {
+            color: #F0B54F;
+        }
+        a#elNavigationMore_dropdown a:hover {
+            color: #F0B54F;
+        }
+        a#elFullNotifications i.fa.fa-bell-o {
+            color: #f8f8f8;
+        }
+        a#elFullInbox i.fa.fa-envelope-o {
+            color: #f8f8f8;
+        }
+        a#elUserLink span.visible__lg {
+            color: #f8f8f8;
+        }
+        div#menu.ipsLayout_container-new.container.container__big div.togglers span#search_btn.search-btn.visible__md i.fa.fa-search:hover {
+            color: #F0B54F;
+        }
+        a#elFullNotifications i.fa.fa-bell-o:hover {
+            color: #F0B54F;
+        }
+        a#elFullInbox i.fa.fa-envelope-o:hover {
+            color: #F0B54F;
+        }
+        a#elUserLink span.visible__lg:hover {
+            color: #F0B54F;
+        }
+        a#elAllStreams i.fa.fa-newspaper-o:hover {
+            color: #F0B54F;
+        }
+        .ipsMenu_selectable.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item.ipsMenu_itemChecked a:hover {
+            background: #9A9A99;
+            color: #252525;
+        }
+        .ipsMenu_selectable.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a:hover {
+            background: #9A9A99;
+            color: #252525;
+        }
+        .ipsMenu_withStem.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a:hover {
+            background: #9A9A99;
+            color: #252525;
+        }
+        ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_main a span.ipsDataItem_title:hover {
+            color: #F0B54F
+        }
+        ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem div.ipsDataItem_main a span.ipsDataItem_title:hover {
+            color: #F0B54F
+        }
+        a#elAllStreams {
+            height: 77px;
+            margin-top: 3px;
+        }
+        .ipsMenu_innerContent {
+            background: #323232;
+            color: #C8C8C9;
+        }
+        body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch div#page.site div#ipsLayout_header.ipsClearfix header#masthead.site-header div#menu.ipsLayout_container-new.container.container__big div.logo-container h1.site-logo a#elLogo {
+            padding-top: 35px;
+        }
+        div#elMessageViewer div div.ipsBox.ipsPad_half {
+            background: #18202B;
+        }
+        header#masthead.site-header {
+            background: #191919;
+        }
+        div#menu.ipsLayout_container-new.container.container__big div.menu-toolbox-container {
+            background: #191919;
+            color: #fff;
+        }
+        .ipsLayout_container-new.main-navigation {
+            background: #191919;
+        }
+        header#masthead.site-header div.search-form-container {
+            background: none;
+        }
+        div#menu.ipsLayout_container-new.container.container__big div.logo-container {
+            background: #191919;
+        }
+        div#menu.ipsLayout_container-new.container.container__big div.menu-toolbox-container .ipsLayout_container-new.main-navigation {
+            background: #191919;
+        }
+        iv#menu.ipsLayout_container-new.container.container__big div.menu-toolbox-container .ipsLayout_container-new.main-navigation div.ipsNavBar_primary.ipsNavBar_noSubBars.ipsClearfix.menu-custom-container ul.ipsResponsive_showDesktop.ipsResponsive_block.custom {
+            background: #191919;
+        }
+        div#menu.ipsLayout_container-new.container.container__big div.menu-toolbox-container div.toolbox ul#elUserNav.ipsList_inline.cSignedIn.ipsClearfix.ipsResponsive_showDesktop.menu__toolbox.menuul-custom.custom {
+            background: #191919;
+        }
+        div#menu.ipsLayout_container-new.container.container__big div.menu-toolbox-container .ipsLayout_container-new.main-navigation {
+            background: #191919;
+        }
+        div#menu.ipsLayout_container-new.container.container__big div.togglers span#search_btn.search-btn.visible__md i.fa.fa-search {
+            color: #f8f8f8;
+        }
+        span#search_btn.search-btn.visible__md {
+            background: #191919;
+        }
+        div#menu.ipsLayout_container-new.container.container__big div.togglers {
+            background: #191919;
+        }
+        div.search-form-container div.container {
+            background: none;
+        }
+        div#menu.ipsLayout_container-new.container.container__big div.logo-container h1.site-logo a#elLogo img {
+            visibility: hidden;
+        }
+        /**************************/
+        div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar {
+            text-align: left
+        }
+        div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar {
+            text-align: left
+        }
+        div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_innerContent ol#elInboxContent.ipsDataList li.ipsDataItem.ipsClearfix.cMessage {
+            border-bottom: none;
+        }
+        div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_footerBar.ipsType_center {
+            border-top-color: #555;
+        }
+        div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar {
+            border-bottom-color: #555;
+        }
+        ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem div.ipsDataItem_main a span.ipsType_light time {
+            font-size: 14px;
+            font-weight: 500;
+            color: #e6e6e6;
+        }
+        ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem div.ipsDataItem_main a span.ipsType_light time:hover {
+            font-size: 14px;
+            color: #F0B54F;
+        }
+        li.ipsDataItem.ipsClearfix.cMessage div.ipsDataItem_main span.ipsType_light.ipsType_medium.ipsType_blendLinks {
+            font-size: 14px;
+            font-weight: 500;
+            color: #e6e6e6
+        }
+        div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_innerContent ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem {
+            border-bottom: none;
+        }
+        div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_footerBar.ipsType_center {
+            border-top-color: #555;
+        }
+        div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar {
+            border-bottom-color: #555;
+        }
+        div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_innerContent ol#elInboxContent.ipsDataList li.ipsDataItem.ipsClearfix.cMessage div.ipsDataItem_main {
+            border-top: none;
+        }
+        div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_innerContent ol#elInboxContent.ipsDataList li.ipsDataItem.ipsClearfix.cMessage {
+            border-top: 1px solid #555;
+        }
+        div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_innerContent ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem div.ipsDataItem_main {
+            border-top: none;
+        }
+        div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_innerContent ol#elNotifyContent.ipsDataList.ipsDataList_readStatus li.ipsDataItem {
+            border-top: 1px solid #555;
+        }
+        .ipsCustomInput > span {
+            border: 1px solid #bdbdbd;
+            background: #aaa;
+        }
+        .ipsCustomInput input:hover:not( :disabled) + span {
+            border-color: #F0B551;
+        }
+        .ipsCustomInput input:not( :checked):disabled + span {
+            background: #f5f5f5;
+        }
+        .ipsCustomInput input:checked:disabled + span {
+            background: #ebebeb;
+            border-color: #757575;
+        }
+        .ipsCustomInput input[type="checkbox"]:checked:disabled + span:after {
+            color: #757575;
+        }
+        .ipsCustomInput input[type="radio"]:checked:disabled + span:after {
+            background-color: #757575;
+        }
+        .ipsCustomInput input:active:not( :checked):not( :disabled) + span {
+            background: #ebebeb;
+        }
+        .ipsCustomInput input:active:checked:not( :disabled) + span {
+            background: #ebebeb;
+        }
+        .ipsCustomInput input:checked + span {
+            border-color: #F0B551;
+            background: #aaa;
+        }
+        .ipsCustomInput input[type="checkbox"]:checked + span:after {
+            color: #252525;
+        }
+        .ipsCustomInput input[type="radio"]:checked + span:after {
+            background: #aaa;
+        }
+        .ipsApp .ipsToggle:focus,
+        .ipsApp .ipsCustomInput input:focus + span {
+            border-color: #F0B551;
+            box-shadow: none;
+        }
+    }
 }
-div.breadcrumb span span.home a {
-    visibility: hidden;
+@-moz-document url("https://www.insomnia.gr/"),
+url-prefix("https://www.insomnia.gr/") {
+    /****** Small Menu ******/
+    if NightMode {
+        div#ipsLayout_header.ipsClearfix div.banner-728x90-top.visible__sm {
+            position: relative;
+            top: 113px;
+            height: 90px;
+            margin-top: -90px;
+            margin-bottom: 0px;
+            background: none;
+            transform: scale(0.5, 0.5);
+        }
+        div.logo-container h1.site-logo {
+            height: 40px;
+        }
+        div.logo-container h1.site-logo a#elLogo {
+            position: relative;
+            top: -25px;
+        }
+        header#masthead.site-header.search__open div.search-form-container div.container div#elSearch.ipsPos_rightnew form#search.search-form {
+            margin-top: 25px;
+        }
+        .ipsHide.ipsMenu_bottomCenter {
+            margin-top: -35px;
+        }
+        .ipsHide.ipsMenu_bottomRight {
+            margin-top: -35px;
+        }
+        ul#elUserLink_menu.ipsMenu.ipsMenu_normal.ipsHide.ipsMenu_bottomCenter {
+            margin-top: -35px;
+        }
+        div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter {
+            margin-top: -35px;
+        }
+        div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter {
+            margin-top: -35px;
+        }
+        ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter {
+            margin-top: -35px;
+        }
+        div.breadcrumb ul.ipsList_inline.ipsPos_right {
+            margin-top: -40px;
+        }
+        body {
+            margin-top: 0px;
+        }
+        header#masthead.site-header {
+            transform: scale(1, 0.5);
+            position: relative;
+            top: -25px;
+        }
+        div.breadcrumb {
+            margin-top: -45px
+        }
+        div#ipsLayout_contentWrapper div.breadcrumb ul.ipsList_inline.ipsPos_right {
+            margin-top: 10px;
+        }
+        header#masthead.site-header div#menu.ipsLayout_container-new.container.container__big div.logo-container {
+            transform: scale(1, 2);
+            margin-top: 30px;
+        }
+        a#elNavigationMore_dropdown {
+            transform: scale(1, 2);
+        }
+        li#elNavigationMore ul#elNavigationMore_dropdown_menu.ipsHide.ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter {
+            transform: scale(1, 2);
+            margin-top: 50px;
+        }
+        a#elFullInbox i.fa.fa-envelope-o {
+            transform: scale(1, 2);
+        }
+        a#elFullNotifications i.fa.fa-bell-o {
+            transform: scale(1, 2);
+        }
+        a#elAllStreams i.fa.fa-newspaper-o {
+            transform: scale(1, 2);
+        }
+        a#elUserLink span.visible__lg {
+            transform: scale(1, 2);
+        }
+        a#elUserLink i.fa.fa-caret-down {
+            transform: scale(1, 2);
+        }
+        li#cUserLink.user.parent .ipsUserPhoto.ipsUserPhoto_tiny img {
+            transform: scale(1, 2);
+        }
+        div#menu.ipsLayout_container-new.container.container__big div.togglers {
+            transform: scale(0.5, 1);
+        }
+        header#masthead.site-header div#menu.ipsLayout_container-new.container.container__big div.togglers span#search_btn.search-btn.visible__md i.fa.fa-search {
+            transform: scale(2, 2);
+        }
+        li#elNavSecondary_10 {
+            transform: scale(1, 1);
+            padding-bottom: 24px;
+        }
+        li#elNavSecondary_36 {
+            transform: scale(1, 1);
+            padding-bottom: 24px;
+        }
+        li#elNavSecondary_35 {
+            transform: scale(1, 1);
+            padding-bottom: 24px;
+        }
+        li#elNavSecondary_35 a {
+            transform: scale(1, 2);
+            position: relative;
+            height: 20px;
+            top: -12px;
+            padding-bottom: 65px;
+        }
+        li#elNavSecondary_10 a {
+            transform: scale(1, 2);
+            position: relative;
+            height: 20px;
+            top: -12px;
+            padding-bottom: 65px;
+        }
+        li#elNavSecondary_36 a {
+            transform: scale(1, 2);
+            position: relative;
+            height: 20px;
+            top: -12px;
+            padding-bottom: 65px;
+        }
+        header#masthead.site-header.search__open div.search-form-container {
+            transform: scale(1, 2);
+            background: none;
+        }
+        div#ipsLayout_mainArea.ipsLayout_nocontainer-block {
+            margin-top: -40px;
+        }
+        header#masthead.site-header.search__open div.search-form-container div.container {
+            width: 700px;
+            height: 90px;
+            background: #191919;
+            border-left: 0px solid #555;
+            border-right: 0px solid #555;
+            border-bottom: 0px solid #555;
+            border-radius: 0px 0px 20px 20px;
+        }
+        ul#elSearchFilter_menu.ipsMenu.ipsMenu_selectable.ipsMenu_narrow.ipsHide.ipsMenu_bottomCenter {
+            margin-top: 0px;
+        }
+        form#search.search-form div.search-select-container a#elSearchFilter.ipsHide {
+            color: #C8C8C9;
+            font-weight: 600;
+        }
+        header#masthead.site-header.search__open div.search-form-container {
+            height: 0px;
+        }
+        header#masthead.site-header.search__open {
+            position: relative;
+            height: 50px;
+        }
+        span.ipsNotificationCount {
+            transform: scale(1, 2)
+        }
+        li#elSignInLink {
+            transform: scale(1, 2)
+        }
+        li.sign-upli {
+            transform: scale(1, 2)
+        }
+        li.cStreams.cUserNav_icon {
+            margin-top: 10px;
+        }
+        div#menu.ipsLayout_container-new.container.container__big {
+            max-width: 1440px;
+        }
+        div#menu.ipsLayout_container-new.container.container__big {
+            background: #191919;
+        }
+        div.breadcrumb {
+            background: linear-gradient(#191919, #252525);
+            max-width: 1400px;
+            /*padding-top: 10px;*/
+            border-left: none;
+            border-right: none;
+        }
+        html[dir="ltr"] div#ipsLayout_mainArea.ipsLayout_container-block {
+            border-top: none;
+        }
+        html[dir="ltr"] div#menu.ipsLayout_container-new.container.container__big {
+            max-width: 1400px;
+            /*margin-top: 9px;*/
+            border-left: none;
+            border-right: none;
+            border-top: none;
+        }
+        html[dir="ltr"] header#masthead.site-header {
+            background: none;
+            /* margin-top: -8px;*/
+            box-shadow: none;
+        }
+        /****/
+    }
 }
-
-/* INSOMNIAC END */
+@-moz-document url-prefix("https://www.insomnia.gr/discover/") {
+    /*** discover old ***/
+    if NightMode {
+        .ipsStreamItem {
+            margin-bottom: 1px;
+            margin-top: 1px;
+            background-color: #f8f8f8;
+        }
+        .cStreamFilter {
+            background: #323232;
+            color: #C8C8C9;
+        }
+        .ipsStreamItem_contentBlock {
+            margin-top: 5px;
+            margin-bottom: -15px;
+            background: linear-gradient(#323232, #272727);
+        }
+        .ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed {
+            margin-bottom: -5px;
+        }
+        .ipsStreamItem_status.ipsType_reset.ipsType_blendLinks {
+            padding: 0px 12px;
+        }
+        ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem_time {
+            margin-bottom: 25px;
+            margin-top: 0px;
+            background: #5D5D5D;
+            color: #f5f5f5;
+        }
+        ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
+            background: #252525;
+            border-left: 0px solid #555555;
+        }
+        ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem_time {
+            height: 0px;
+            margin-top: 0px;
+            visibility: hidden;
+        }
+        ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
+            border: none;
+        }
+        ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsSideMenu_item.ipsSideMenu_itemActive {
+            background: #C4D3DF;
+            color: #C8C8C9;
+        }
+        .ipsStreamItem_container.ipsClearfix ul.ipsList_inline.ipsStreamItem_meta {
+            padding-left: 20px;
+        }
+        li.ipsStreamItem.ipsStreamItem_expanded.ipsStreamItem_actionBlock.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container .ipsStreamItem_action.ipsType_blendLinks.ipsType_light {
+            margin-top: 20px;
+            margin-bottom: 0px;
+            color: #fff;
+            font-size: 12px;
+        }
+        ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container.ipsClearfix div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
+            border: 2px solid #f0b550;
+            background: #252525;
+            color: #f0b550;
+        }
+        ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem.ipsStreamItem_expanded.ipsStreamItem_actionBlock.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container div.ipsStreamItem_action.ipsType_blendLinks.ipsType_light {
+            font-size: 14px;
+        }
+        ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container.ipsClearfix div.ipsStreamItem_snippet.ipsType_break div.ipsColumns.ipsColumns_collapsePhone div.ipsColumn.ipsColumn_fluid.ipsStream_snippetInfo {
+            background: #f5f5f5;
+        }
+        div#elStreamFilterForm.ipsSpacer_bottom.ipsSpacer_double.ipsBox ul.cStreamFilter.ipsClearfix.ipsList_reset.ipsJS_show li {
+            margin-bottom: 15px;
+        }
+        li button#elSaveStream.ipsButton.ipsButton_primary.ipsButton_verySmall {
+            background: #5D5D5D;
+            border: #5D5D5D;
+            border: 1px solid #5D5D5D;
+        }
+        li button#elSaveStream.ipsButton.ipsButton_primary.ipsButton_verySmall:hover {
+            background: #919191;
+            border: #F0B54F;
+            border: 1px solid #F0B54F;
+        }
+        li button#elSaveNewStream.ipsButton.ipsButton_primary.ipsButton_verySmall {
+            background: #5D5D5D;
+            border: #5D5D5D;
+            margin-right: 3px;
+        }
+        li button#elSaveNewStream.ipsButton.ipsButton_primary.ipsButton_verySmall:hover {
+            background: #919191;
+            border: #919191;
+            margin-right: 3px;
+        }
+        div#elStreamFilterForm.ipsAreaBackground_reset.ipsPad.ipsSpacer_bottom ul.ipsList_inline.ipsPos_right.ipsResponsive_noFloat li a#elStreamSortEdit.ipsButton.ipsButton_light.ipsButton_verySmall {
+            background: #5D5D5D;
+            border: 1px solid #5D5D5D;
+        }
+        div#elStreamFilterForm.ipsAreaBackground_reset.ipsPad.ipsSpacer_bottom ul.ipsList_inline.ipsPos_right.ipsResponsive_noFloat li a#elStreamSortEdit.ipsButton.ipsButton_light.ipsButton_verySmall:hover {
+            background: #919191;
+            border: 1px solid #919191;
+        }
+        div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter h3.ipsType_reset.ipsType_large.cStreamForm_title.ipsSpacer_top {
+            color: #252525;
+            text-align: center;
+        }
+        li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
+            margin-right: 5px;
+        }
+        ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsSideMenu_item.ipsSideMenu_itemActive {
+            background: #323232;
+            font-weight: 600;
+        }
+        .ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half.ipsSideMenu_open li a.ipsPos_right.ipsType_blendLinks.ipsType_noUnderline.cStreamForm_menu {
+            color: #C8C8C9;
+        }
+        .ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half.ipsSideMenu_open li a.ipsSideMenu_item {
+            font-weight: 600;
         }
     }
-    @-moz-document url("https://www.insomnia.gr/"),
-    url-prefix("https://www.insomnia.gr/") {
-        /****** Small Menu ******/
-        if NightMode {
-            div#ipsLayout_header.ipsClearfix div.banner-728x90-top.visible__sm {
-                position: relative;
-                top: 113px;
-                height: 90px;
-                margin-top: -90px;
-                margin-bottom: 0px;
-                background: none;
-                transform: scale(0.5, 0.5);
-            }
-            div.logo-container h1.site-logo {
-                height: 40px;
-            }
-            div.logo-container h1.site-logo a#elLogo {
-                position: relative;
-                top: -25px;
-            }
-            header#masthead.site-header.search__open div.search-form-container div.container div#elSearch.ipsPos_rightnew form#search.search-form {
-                margin-top: 25px;
-            }
-            .ipsHide.ipsMenu_bottomCenter {
-                margin-top: -35px;
-            }
-            .ipsHide.ipsMenu_bottomRight {
-                margin-top: -35px;
-            }
-            ul#elUserLink_menu.ipsMenu.ipsMenu_normal.ipsHide.ipsMenu_bottomCenter {
-                margin-top: -35px;
-            }
-            div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter {
-                margin-top: -35px;
-            }
-            div#elFullInbox_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter {
-                margin-top: -35px;
-            }
-            ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter {
-                margin-top: -35px;
-            }
-            div.breadcrumb ul.ipsList_inline.ipsPos_right {
-                margin-top: -40px;
-            }
-            body {
-                margin-top: 0px;
-            }
-            header#masthead.site-header {
-                transform: scale(1, 0.5);
-                position: relative;
-                top: -25px;
-            }
-            div.breadcrumb {
-                margin-top: -45px
-            }
-            div#ipsLayout_contentWrapper div.breadcrumb ul.ipsList_inline.ipsPos_right {
-                margin-top: 10px;
-            }
-            header#masthead.site-header div#menu.ipsLayout_container-new.container.container__big div.logo-container {
-                transform: scale(1, 2);
-                margin-top: 30px;
-            }
-            a#elNavigationMore_dropdown {
-                transform: scale(1, 2);
-            }
-            li#elNavigationMore ul#elNavigationMore_dropdown_menu.ipsHide.ipsMenu.ipsMenu_auto.ipsMenu_bottomCenter {
-                transform: scale(1, 2);
-                margin-top: 50px;
-            }
-            a#elFullInbox i.fa.fa-envelope-o {
-                transform: scale(1, 2);
-            }
-            a#elFullNotifications i.fa.fa-bell-o {
-                transform: scale(1, 2);
-            }
-            a#elAllStreams i.fa.fa-newspaper-o {
-                transform: scale(1, 2);
-            }
-            a#elUserLink span.visible__lg {
-                transform: scale(1, 2);
-            }
-            a#elUserLink i.fa.fa-caret-down {
-                transform: scale(1, 2);
-            }
-            li#cUserLink.user.parent .ipsUserPhoto.ipsUserPhoto_tiny img {
-                transform: scale(1, 2);
-            }
-            div#menu.ipsLayout_container-new.container.container__big div.togglers {
-                transform: scale(0.5, 1);
-            }
-            header#masthead.site-header div#menu.ipsLayout_container-new.container.container__big div.togglers span#search_btn.search-btn.visible__md i.fa.fa-search {
-                transform: scale(2, 2);
-            }
-            li#elNavSecondary_10 {
-                transform: scale(1, 1);
-                padding-bottom: 24px;
-            }
-            li#elNavSecondary_36 {
-                transform: scale(1, 1);
-                padding-bottom: 24px;
-            }
-            li#elNavSecondary_35 {
-                transform: scale(1, 1);
-                padding-bottom: 24px;
-            }
-            li#elNavSecondary_35 a {
-                transform: scale(1, 2);
-                position: relative;
-                height: 20px;
-                top: -12px;
-                padding-bottom: 65px;
-            }
-            li#elNavSecondary_10 a {
-                transform: scale(1, 2);
-                position: relative;
-                height: 20px;
-                top: -12px;
-                padding-bottom: 65px;
-            }
-            li#elNavSecondary_36 a {
-                transform: scale(1, 2);
-                position: relative;
-                height: 20px;
-                top: -12px;
-                padding-bottom: 65px;
-            }
-            header#masthead.site-header.search__open div.search-form-container {
-                transform: scale(1, 2);
-                background: none;
-            }
-            div#ipsLayout_mainArea.ipsLayout_nocontainer-block {
-                margin-top: -40px;
-            }
-            header#masthead.site-header.search__open div.search-form-container div.container {
-                width: 700px;
-                height: 90px;
-                background: #191919;
-                border-left: 0px solid #555;
-                border-right: 0px solid #555;
-                border-bottom: 0px solid #555;
-                border-radius: 0px 0px 20px 20px;
-            }
-            ul#elSearchFilter_menu.ipsMenu.ipsMenu_selectable.ipsMenu_narrow.ipsHide.ipsMenu_bottomCenter {
-                margin-top: 0px;
-            }
-            form#search.search-form div.search-select-container a#elSearchFilter.ipsHide {
-                color: #C8C8C9;
-                font-weight: 600;
-            }
-            header#masthead.site-header.search__open div.search-form-container {
-                height: 0px;
-            }
-            header#masthead.site-header.search__open {
-                position: relative;
-                height: 50px;
-            }
-            span.ipsNotificationCount {
-                transform: scale(1, 2)
-            }
-            li#elSignInLink {
-                transform: scale(1, 2)
-            }
-            li.sign-upli {
-                transform: scale(1, 2)
-            }
-            li.cStreams.cUserNav_icon {
-                margin-top: 10px;
-            }
-            div#menu.ipsLayout_container-new.container.container__big {
-                max-width: 1440px;
-            }
-            div#menu.ipsLayout_container-new.container.container__big {
-                background: #191919;
-            }
-            div.breadcrumb {
-                background: linear-gradient(#191919, #252525);
-                max-width: 1400px;
-                /*padding-top: 10px;*/
-                border-left: none;
-                border-right: none;
-            }
-            html[dir="ltr"] div#ipsLayout_mainArea.ipsLayout_container-block {
-                border-top: none;
-            }
-            html[dir="ltr"] div#menu.ipsLayout_container-new.container.container__big {
-                max-width: 1400px;
-                /*margin-top: 9px;*/
-                border-left: none;
-                border-right: none;
-                border-top: none;
-            }
-            html[dir="ltr"] header#masthead.site-header {
-                background: none;
-                /* margin-top: -8px;*/
-                box-shadow: none;
-            }
-            /****/
+}
+@-moz-document url-prefix("https://www.insomnia.gr/discover/") {
+    /**** Discover Fix ****/
+    if NightMode {
+        ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half li a.ipsButton.ipsButton_veryVerySmall.ipsButton_link {
+            border: none;
         }
-    }
-    @-moz-document url-prefix("https://www.insomnia.gr/discover/") {
-        /*** discover old ***/
-        if NightMode {
-            .ipsStreamItem {
-                margin-bottom: 1px;
-                margin-top: 1px;
-                background-color: #f8f8f8;
-            }
-            .cStreamFilter {
-                background: #323232;
-                color: #C8C8C9;
-            }
-            .ipsStreamItem_contentBlock {
-                margin-top: 5px;
-                margin-bottom: -15px;
-                background: linear-gradient(#323232, #272727);
-            }
-            .ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed {
-                margin-bottom: -5px;
-            }
-            .ipsStreamItem_status.ipsType_reset.ipsType_blendLinks {
-                padding: 0px 12px;
-            }
-            ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem_time {
-                margin-bottom: 25px;
-                margin-top: 0px;
-                background: #5D5D5D;
-                color: #f5f5f5;
-            }
-            ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
-                background: #252525;
-                border-left: 0px solid #555555;
-            }
-            ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem_time {
-                height: 0px;
-                margin-top: 0px;
-                visibility: hidden;
-            }
-            ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
-                border: none;
-            }
-            ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsSideMenu_item.ipsSideMenu_itemActive {
-                background: #C4D3DF;
-                color: #C8C8C9;
-            }
-            .ipsStreamItem_container.ipsClearfix ul.ipsList_inline.ipsStreamItem_meta {
-                padding-left: 20px;
-            }
-            li.ipsStreamItem.ipsStreamItem_expanded.ipsStreamItem_actionBlock.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container .ipsStreamItem_action.ipsType_blendLinks.ipsType_light {
-                margin-top: 20px;
-                margin-bottom: 0px;
-                color: #fff;
-                font-size: 12px;
-            }
-            ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container.ipsClearfix div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
-                border: 2px solid #f0b550;
-                background: #252525;
-                color: #f0b550;
-            }
-            ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem.ipsStreamItem_expanded.ipsStreamItem_actionBlock.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container div.ipsStreamItem_action.ipsType_blendLinks.ipsType_light {
-                font-size: 14px;
-            }
-            ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container.ipsClearfix div.ipsStreamItem_snippet.ipsType_break div.ipsColumns.ipsColumns_collapsePhone div.ipsColumn.ipsColumn_fluid.ipsStream_snippetInfo {
-                background: #f5f5f5;
-            }
-            div#elStreamFilterForm.ipsSpacer_bottom.ipsSpacer_double.ipsBox ul.cStreamFilter.ipsClearfix.ipsList_reset.ipsJS_show li {
-                margin-bottom: 15px;
-            }
-            li button#elSaveStream.ipsButton.ipsButton_primary.ipsButton_verySmall {
-                background: #5D5D5D;
-                border: #5D5D5D;
-                border: 1px solid #5D5D5D;
-            }
-            li button#elSaveStream.ipsButton.ipsButton_primary.ipsButton_verySmall:hover {
-                background: #919191;
-                border: #F0B54F;
-                border: 1px solid #F0B54F;
-            }
-            li button#elSaveNewStream.ipsButton.ipsButton_primary.ipsButton_verySmall {
-                background: #5D5D5D;
-                border: #5D5D5D;
-                margin-right: 3px;
-            }
-            li button#elSaveNewStream.ipsButton.ipsButton_primary.ipsButton_verySmall:hover {
-                background: #919191;
-                border: #919191;
-                margin-right: 3px;
-            }
-            div#elStreamFilterForm.ipsAreaBackground_reset.ipsPad.ipsSpacer_bottom ul.ipsList_inline.ipsPos_right.ipsResponsive_noFloat li a#elStreamSortEdit.ipsButton.ipsButton_light.ipsButton_verySmall {
-                background: #5D5D5D;
-                border: 1px solid #5D5D5D;
-            }
-            div#elStreamFilterForm.ipsAreaBackground_reset.ipsPad.ipsSpacer_bottom ul.ipsList_inline.ipsPos_right.ipsResponsive_noFloat li a#elStreamSortEdit.ipsButton.ipsButton_light.ipsButton_verySmall:hover {
-                background: #919191;
-                border: 1px solid #919191;
-            }
-            div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter h3.ipsType_reset.ipsType_large.cStreamForm_title.ipsSpacer_top {
-                color: #252525;
-                text-align: center;
-            }
-            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
-                margin-right: 5px;
-            }
-            ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsSideMenu_item.ipsSideMenu_itemActive {
-                background: #323232;
-                font-weight: 600;
-            }
-            .ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half.ipsSideMenu_open li a.ipsPos_right.ipsType_blendLinks.ipsType_noUnderline.cStreamForm_menu {
-                color: #C8C8C9;
-            }
-            .ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half.ipsSideMenu_open li a.ipsSideMenu_item {
-                font-weight: 600;
-            }
+        ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half li a.ipsButton.ipsButton_veryVerySmall.ipsButton_primary {
+            color: #252525;
         }
-    }
-    @-moz-document url-prefix("https://www.insomnia.gr/discover/") {
-        /**** Discover Fix ****/
-        if NightMode {
-            ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half li a.ipsButton.ipsButton_veryVerySmall.ipsButton_link {
-                border: none;
-            }
-            ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half li a.ipsButton.ipsButton_veryVerySmall.ipsButton_primary {
-                color: #252525;
-            }
-            div#elStreamFilterForm.ipsSpacer_bottom.ipsSpacer_double.ipsBox ul.cStreamFilter.ipsClearfix.ipsList_reset.ipsJS_show li {
-                margin-bottom: 15px;
-            }
-            ul.cStreamFilter.ipsClearfix.ipsList_reset.ipsJS_show {
-                background: #252525;
-                color: #ececec;
-                height: 0px;
-            }
-            h3.ipsType_reset.ipsTruncate.ipsTruncate_line {
-                color: #ececec
-            }
-            p.cStreamFilter_blurb.ipsType_reset.ipsTruncate.ipsTruncate_line {
-                color: #ececec;
-                font-size: 12px;
-            }
-            #elStreamShowMe {
-                color: #ececec;
-            }
-            a#elStreamSortEdit {
-                color: #ececec;
-            }
-            #elStreamTimePeriod {
-                color: #ececec;
-            }
-            a#elStreamFollowStatus {
-                color: #ececec;
-            }
-            a#elStreamContentTypes {
-                color: #ececec;
-            }
-            a#elStreamReadStatus {
-                color: #ececec;
-            }
-            a#elStreamOwnership {
-                color: #ececec;
-            }
-            a#elStreamFollowStatus.cStreamFilter_active {
-                background: #6178953b;
-                color: #ececec;
-            }
-            a#elStreamOwnership.cStreamFilter_active {
-                background: #6178953b;
-                color: #ececec;
-            }
-            #elStreamShowMe.cStreamFilter_active {
-                background: #6178953b;
-                color: #ececec;
-            }
-            a#elStreamSortEdit.cStreamFilter_active {
-                background: #6178953b;
-                color: #ececec;
-            }
-            #elStreamTimePeriod.cStreamFilter_active {
-                background: #6178953b;
-                color: #ececec;
-            }
-            a#elStreamContentTypes.cStreamFilter_active {
-                background: #6178953b;
-                color: #ececec;
-            }
-            a#elStreamReadStatus.cStreamFilter_active {
-                background: #6178953b;
-                color: #ececec;
-            }
-            section div.ipsSpacer_top div div div ol.ipsStream.ipsList_reset li.ipsType_center.ipsPad {
-                padding-top: 150px;
-                background: none;
-            }
-            div#page.site main#ipsLayout_body.ipsLayout_container-new.container-padding div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsPageHeader.ipsClearfix h1.ipsType_pageTitle {
-                margin-left: 1px;
-            }
-            div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsSideMenu_item.ipsSideMenu_itemActive {
-                background: #282828;
-                color: #C8C8C9;
-            }
-            ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsSideMenu_item.ipsSideMenu_itemActive::after {
-                background: #282828;
-                color: #C8C8C9;
-            }
-            div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsSideMenu_item.ipsSideMenu_item {
-                background: #282828;
-                color: #C8C8C9;
-            }
-            div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter h3.ipsType_reset.ipsType_large.cStreamForm_title.ipsSpacer_top {
-                color: #C8C8C9;
-            }
-            div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsPos_right.ipsType_blendLinks.ipsType_noUnderline.cStreamForm_menu {
-                color: #C8C8C9;
-                background: none;
-                margin-top: 5px;
-            }
-            div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li:hover {
-                color: #f8f8f8;
-                background: #4f4f4f;
-            }
-            .ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half.ipsSideMenu_open li p.ipsCenter button.ipsButton.ipsButton_light.ipsButton_fullWidth.ipsButton_small {
-                background: #5D5D5D;
-                color: #f8f8f8;
-            }
-            .ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li p.ipsCenter button.ipsButton.ipsButton_light.ipsButton_fullWidth.ipsButton_small {
-                background: #5D5D5D;
-                color: #f8f8f8;
-            }
-            div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter {
-                margin-top: 10px;
-            }
-            .ipsMenu.ipsMenu_selectable.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a:hover {
-                background: #9A9A99;
-                color: #252525;
-            }
-            .ipsMenu.ipsMenu_selectable.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item.ipsMenu_itemChecked a:hover {
-                background: #9A9A99;
-                color: #252525;
-            }
-            div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsSideMenu_item:hover {
-                background: #9A9A99;
-                color: #252525;
-            }
-            div ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half {
-                margin-top: initial;
-                position: relative;
-                top: 50px;
-            }
-            div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top {
-                margin-left: 20px;
-            }
-            div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsPageHeader.ipsClearfix {
-                margin-top: -20px;
-            }
-            div ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
-                margin-top: 20px;
-                margin-left: initial;
-            }
-            div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top {
-                margin-right: -22px;
-            }
-            div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div div div ol.ipsStream {
-                margin-left: -21px;
-                padding-left: 21px;
-                border-left: 1px solid #555;
-                border-right: 1px solid #555;
-                border-bottom: 1px solid #555;
-            }
-            div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div form#elFilterForm.ipsForm.ipsForm_vertical div#elStreamFilterForm.ipsSpacer_bottom.ipsSpacer_double.ipsBox {
-                margin-right: 22px;
-            }
-            div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div div div ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half {
-                margin-right: 27px;
-            }
-            div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top {
-                margin-top: 26px;
-            }
-            div#elStreamFilterForm.ipsSpacer_bottom.ipsSpacer_double.ipsBox ul.ipsList_inline.ipsSpacer_top.ipsSpacer_half.ipsHide.ipsType_right.ipsType_small.ipsPad_half.ipsAreaBackground_light li {
-                margin-top: 30px;
-                margin-bottom: -30px;
-            }
-            div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div {
-                margin-top: initial;
-            }
-            div#elStreamFilterForm {
-                margin: initial;
-                margin-left: -20px;
-            }
-            div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div {
-                margin-top: initial;
-            }
-            div ol.ipsStream.ipsList_reset li.ipsType_center.ipsPad {
-                background: #252525;
-            }
-            div a.ipsButton.ipsButton_primary.ipsButton_large.ipsPos_right.ipsResponsive_noFloat {
-                background: #5D5D5D;
-                border: #5D5D5D;
-            }
-            div a.ipsButton.ipsButton_primary.ipsButton_large.ipsPos_right.ipsResponsive_noFloat:hover {
-                background: #919191;
-                border: #F0B54F;
-            }
-            a.ipsButton.ipsButton_light.ipsButton_small {
-                background: #5D5D5D;
-                border: #5D5D5D;
-                color: #f8f8f8;
-            }
-            a.ipsButton.ipsButton_light.ipsButton_small:hover {
-                background: #919191;
-                border: #919191;
-                color: #f8f8f8;
-            }
-            div.ipsAlert ul.ipsToolList.ipsToolList_horizontal.ipsType_right.ipsAlert_buttonRow.ipsClear.ipsClearfix li button.ipsButton.ipsButton_fullWidth.ipsButton_light {
-                background: #555F69;
-                color: #f8f8f8;
-            }
-            div.ipsAlert ul.ipsToolList.ipsToolList_horizontal.ipsType_right.ipsAlert_buttonRow.ipsClear.ipsClearfix li button.ipsButton.ipsButton_fullWidth.ipsButton_light:hover {
-                background: #8493A1;
-                color: #f8f8f8;
-            }
-            div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini div.ipsStreamItem_unread h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span {
-                margin-left: 10px;
-            }
-            div h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span span.ipsItemStatus.ipsItemStatus_read.ipsItemStatus_posted {
-                margin-left: 10px;
-            }
-            .ipsMenu.ipsMenu_selectable.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter {
-                margin-top: 15px;
-            }
-            ol.ipsList_reset li.ipsType_center.ipsJS_show {
-                margin-left: -21px;
-            }
-            div h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained {
-                margin-left: 11px;
-            }
-            div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini div.ipsStreamItem_unread span ul.ipsTags.ipsTags_inline.ipsList_inline.ipsResponsive_hidePhone.ipsResponsive_inline {
-                visibility: hidden;
-                height: 0px;
-                margin-top: -20px;
-            }
-            div.ipsStreamItem_container.ipsClearfix div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini div span ul.ipsTags.ipsTags_inline.ipsList_inline.ipsResponsive_hidePhone.ipsResponsive_inline {
-                visibility: hidden;
-                height: 0px;
-                margin-top: -20px;
-            }
-            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container.ipsClearfix ul.ipsList_inline.ipsStreamItem_meta li {
-                margin-top: -20px;
-            }
-            /***/
-            /*** For Nighr Theme ***/
-            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
-                border: 1px solid #555;
-            }
-            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container.ipsClearfix div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
-                background: #F0B550;
-                color: #323232;
-            }
-            html[dir="ltr"] .ipsStream_withTimeline .ipsStreamItem::after {
-                border-color: #252525 #555 #252525 #252525;
-                border-right-color: #555;
-            }
-            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad::before {
-                z-index: 0;
-                border-color: #252525 #555 #252525 #252525;
-                border-right-color: #555;
-            }
-            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad::before {
-                z-index: 0;
-                border-color: #252525 #555 #252525 #252525;
-                border-right-color: #555;
-            }
-            div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsPageHeader.ipsClearfix {
-                margin-top: 0px;
-            }
-            .ipsType_richText.ipsContained.ipsType_medium {
-                color: #C8C8C9
-            }
-            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad {
-                border-color: #555;
-            }
-            /***/
+        div#elStreamFilterForm.ipsSpacer_bottom.ipsSpacer_double.ipsBox ul.cStreamFilter.ipsClearfix.ipsList_reset.ipsJS_show li {
+            margin-bottom: 15px;
         }
-    }
-    @-moz-document url("https://www.insomnia.gr/discover/?do=create") {
-        /**** Discover ?do=create Fix ****/
-        if NightMode {
-            div#elStreamFilterForm {
-                margin: initial;
-                margin-left: 0px;
-            }
-            /***/
+        ul.cStreamFilter.ipsClearfix.ipsList_reset.ipsJS_show {
+            background: #252525;
+            color: #ececec;
+            height: 0px;
         }
-    }
-    @-moz-document url-prefix("https://www.insomnia.gr/forums/") {
-        /**** Forums Fix ****/
-        if NightMode {
-            div.ipsPos_right.ipsResponsive_noFloat.ipsResponsive_hidePhone.ipsResponsive_productsblock {
-                margin-right: 7px;
-            }
-            div.ipsPos_right.ipsResponsive_noFloat.ipsResponsive_hidePhone.ipsResponsive_productsblock.ipsPromote-followdiv div {
-                margin-right: -18px;
-            }
-            div.ipsDataItem_icon.ipsDataItem_category span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal.ipsItemStatus_read {
-                border: 2px solid #252525;
-                background: #565555;
-            }
-            li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix div.ipsDataItem_icon.ipsDataItem_category span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers.ipsItemStatus_read {
-                border: 2px solid #252525;
-                background: #565555;
-            }
-            .ipsDataItem_generic.ipsDataItem_size2.ipsResponsive_hidePhone.ipsResponsive_block.ipsType_center {
-                background: linear-gradient(#323232, #272727);
-                border-top: 1px solid #555;
-            }
-            .ipsDataItem_generic.ipsDataItem_size5 {
-                background: linear-gradient(#323232, #272727);
-                border-top: 1px solid #555;
-            }
-            .ipsDataItem.ipsAttach.ipsAttach_done.ipsContained div.ipsDataItem_generic.ipsDataItem_size1.ipsType_center {
-                background: linear-gradient(#323232, #272727);
-                border-top: 1px solid #555;
-            }
-            .ipsDataItem.ipsAttach.ipsAttach_done.ipsContained div.ipsDataItem_generic.ipsDataItem_size8.ipsType_right {
-                background: linear-gradient(#323232, #272727);
-                border-top: 1px solid #555;
-            }
-            input#elInput_comment_edit_reason {
-                background: #252525;
-                box-shadow: none;
-                border-color: #fff0
-            }
-            ul.ipsPad.ipsToolList.ipsToolList_horizontal.ipsList_reset.ipsClearfix.ipsAreaBackground li a.ipsButton.ipsButton_medium.ipsButton_link.ipsButton_fullWidth {
-                font-weight: 500;
-                height: 40px;
-                margin-right: 12px;
-            }
-            div.cPost_contentWrap.ipsPad div.ipsResponsive_hidePhone div.ipsType_light.ipsType_richText p {
-                min-height: 16px;
-            }
-            div.ipsPhotoPanel.ipsPhotoPanel_small.ipsPhotoPanel_notPhone.ipsClearfix div h1.ipsType_pageTitle.ipsContained_container {
-                max-width: 1155px;
-            }
-            .ipsPagination {
-                margin-left: 9px;
-            }
-            div.ipsFollow.ipsButton.ipsButton_primary.ipsButton_verySmall .ipsType_blendLinks.ipsType_noUnderline {
-                color: #f0f0f0
-            }
-            .cTopic.ipsClear.ipsSpacer_top div.commentFeed-fromblock form .cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone.ipsComment_highlighted {
-                border-top: 1px solid #252525;
-                border-left: none;
-                border-right: none;
-                box-shadow: none;
-            }
-            .cTopic.ipsClear.ipsSpacer_top div.commentFeed-fromblock form .cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone.ipsComment_highlighted {
-                margin-left: 1px;
-            }
-            .cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone.ipsComment_highlighted {
-                max-width: 1380px !important;
-            }
-            .cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone {
-                border-radius: 0px;
-            }
-            /***/
+        h3.ipsType_reset.ipsTruncate.ipsTruncate_line {
+            color: #ececec
         }
-    }
-    @-moz-document url-prefix("https://www.insomnia.gr/forums/") {
-        /***banner forum***/
-        if NightMode {
-            div#ipsLayout_header.ipsClearfix div.banner-728x90-top.visible__sm {
-                position: relative;
-                top: 135px;
-                /*left: 282px;*/
-                height: 90px;
-                max-height: 0px;
-                margin-top: -45px;
-                margin-bottom: 0px;
-                background: none;
-                transform: scale(0.5, 0.5);
-                z-index: 98;
-            }
-            /***/
+        p.cStreamFilter_blurb.ipsType_reset.ipsTruncate.ipsTruncate_line {
+            color: #ececec;
+            font-size: 12px;
         }
-    }
-    @-moz-document url-prefix("https://www.insomnia.gr/forums/topic/") {
-        /***banner topic***/
-        if NightMode {
-            div#ipsLayout_header.ipsClearfix div.banner-728x90-top.visible__sm {
-                position: relative;
-                top: 235px;
-                /*left: 490px;*/
-                height: 90px;
-                max-height: 0px;
-                margin-top: -45px;
-                margin-bottom: 0px;
-                background: none;
-                transform: scale(0.5, 0.5);
-                z-index: 98;
-            }
-            /***/
+        #elStreamShowMe {
+            color: #ececec;
         }
+        a#elStreamSortEdit {
+            color: #ececec;
+        }
+        #elStreamTimePeriod {
+            color: #ececec;
+        }
+        a#elStreamFollowStatus {
+            color: #ececec;
+        }
+        a#elStreamContentTypes {
+            color: #ececec;
+        }
+        a#elStreamReadStatus {
+            color: #ececec;
+        }
+        a#elStreamOwnership {
+            color: #ececec;
+        }
+        a#elStreamFollowStatus.cStreamFilter_active {
+            background: #6178953b;
+            color: #ececec;
+        }
+        a#elStreamOwnership.cStreamFilter_active {
+            background: #6178953b;
+            color: #ececec;
+        }
+        #elStreamShowMe.cStreamFilter_active {
+            background: #6178953b;
+            color: #ececec;
+        }
+        a#elStreamSortEdit.cStreamFilter_active {
+            background: #6178953b;
+            color: #ececec;
+        }
+        #elStreamTimePeriod.cStreamFilter_active {
+            background: #6178953b;
+            color: #ececec;
+        }
+        a#elStreamContentTypes.cStreamFilter_active {
+            background: #6178953b;
+            color: #ececec;
+        }
+        a#elStreamReadStatus.cStreamFilter_active {
+            background: #6178953b;
+            color: #ececec;
+        }
+        section div.ipsSpacer_top div div div ol.ipsStream.ipsList_reset li.ipsType_center.ipsPad {
+            padding-top: 150px;
+            background: none;
+        }
+        div#page.site main#ipsLayout_body.ipsLayout_container-new.container-padding div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsPageHeader.ipsClearfix h1.ipsType_pageTitle {
+            margin-left: 1px;
+        }
+        div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsSideMenu_item.ipsSideMenu_itemActive {
+            background: #282828;
+            color: #C8C8C9;
+        }
+        ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsSideMenu_item.ipsSideMenu_itemActive::after {
+            background: #282828;
+            color: #C8C8C9;
+        }
+        div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsSideMenu_item.ipsSideMenu_item {
+            background: #282828;
+            color: #C8C8C9;
+        }
+        div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter h3.ipsType_reset.ipsType_large.cStreamForm_title.ipsSpacer_top {
+            color: #C8C8C9;
+        }
+        div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsPos_right.ipsType_blendLinks.ipsType_noUnderline.cStreamForm_menu {
+            color: #C8C8C9;
+            background: none;
+            margin-top: 5px;
+        }
+        div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li:hover {
+            color: #f8f8f8;
+            background: #4f4f4f;
+        }
+        .ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half.ipsSideMenu_open li p.ipsCenter button.ipsButton.ipsButton_light.ipsButton_fullWidth.ipsButton_small {
+            background: #5D5D5D;
+            color: #f8f8f8;
+        }
+        .ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li p.ipsCenter button.ipsButton.ipsButton_light.ipsButton_fullWidth.ipsButton_small {
+            background: #5D5D5D;
+            color: #f8f8f8;
+        }
+        div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter {
+            margin-top: 10px;
+        }
+        .ipsMenu.ipsMenu_selectable.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item a:hover {
+            background: #9A9A99;
+            color: #252525;
+        }
+        .ipsMenu.ipsMenu_selectable.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter li.ipsMenu_item.ipsMenu_itemChecked a:hover {
+            background: #9A9A99;
+            color: #252525;
+        }
+        div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter ul.ipsSideMenu_list.ipsSideMenu_withChecks.cStreamForm_list.ipsType_normal.ipsSpacer_top.ipsSpacer_half li a.ipsSideMenu_item:hover {
+            background: #9A9A99;
+            color: #252525;
+        }
+        div ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half {
+            margin-top: initial;
+            position: relative;
+            top: 50px;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top {
+            margin-left: 20px;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsPageHeader.ipsClearfix {
+            margin-top: -20px;
+        }
+        div ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
+            margin-top: 20px;
+            margin-left: initial;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top {
+            margin-right: -22px;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div div div ol.ipsStream {
+            margin-left: -21px;
+            padding-left: 21px;
+            border-left: 1px solid #555;
+            border-right: 1px solid #555;
+            border-bottom: 1px solid #555;
+        }
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div form#elFilterForm.ipsForm.ipsForm_vertical div#elStreamFilterForm.ipsSpacer_bottom.ipsSpacer_double.ipsBox {
+            margin-right: 22px;
+        }
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div div div ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half {
+            margin-right: 27px;
+        }
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top {
+            margin-top: 26px;
+        }
+        div#elStreamFilterForm.ipsSpacer_bottom.ipsSpacer_double.ipsBox ul.ipsList_inline.ipsSpacer_top.ipsSpacer_half.ipsHide.ipsType_right.ipsType_small.ipsPad_half.ipsAreaBackground_light li {
+            margin-top: 30px;
+            margin-bottom: -30px;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div {
+            margin-top: initial;
+        }
+        div#elStreamFilterForm {
+            margin: initial;
+            margin-left: -20px;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div {
+            margin-top: initial;
+        }
+        div ol.ipsStream.ipsList_reset li.ipsType_center.ipsPad {
+            background: #252525;
+        }
+        div a.ipsButton.ipsButton_primary.ipsButton_large.ipsPos_right.ipsResponsive_noFloat {
+            background: #5D5D5D;
+            border: #5D5D5D;
+        }
+        div a.ipsButton.ipsButton_primary.ipsButton_large.ipsPos_right.ipsResponsive_noFloat:hover {
+            background: #919191;
+            border: #F0B54F;
+        }
+        a.ipsButton.ipsButton_light.ipsButton_small {
+            background: #5D5D5D;
+            border: #5D5D5D;
+            color: #f8f8f8;
+        }
+        a.ipsButton.ipsButton_light.ipsButton_small:hover {
+            background: #919191;
+            border: #919191;
+            color: #f8f8f8;
+        }
+        div.ipsAlert ul.ipsToolList.ipsToolList_horizontal.ipsType_right.ipsAlert_buttonRow.ipsClear.ipsClearfix li button.ipsButton.ipsButton_fullWidth.ipsButton_light {
+            background: #555F69;
+            color: #f8f8f8;
+        }
+        div.ipsAlert ul.ipsToolList.ipsToolList_horizontal.ipsType_right.ipsAlert_buttonRow.ipsClear.ipsClearfix li button.ipsButton.ipsButton_fullWidth.ipsButton_light:hover {
+            background: #8493A1;
+            color: #f8f8f8;
+        }
+        div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini div.ipsStreamItem_unread h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span {
+            margin-left: 10px;
+        }
+        div h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span span.ipsItemStatus.ipsItemStatus_read.ipsItemStatus_posted {
+            margin-left: 10px;
+        }
+        .ipsMenu.ipsMenu_selectable.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter {
+            margin-top: 15px;
+        }
+        ol.ipsList_reset li.ipsType_center.ipsJS_show {
+            margin-left: -21px;
+        }
+        div h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained {
+            margin-left: 11px;
+        }
+        div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini div.ipsStreamItem_unread span ul.ipsTags.ipsTags_inline.ipsList_inline.ipsResponsive_hidePhone.ipsResponsive_inline {
+            visibility: hidden;
+            height: 0px;
+            margin-top: -20px;
+        }
+        div.ipsStreamItem_container.ipsClearfix div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini div span ul.ipsTags.ipsTags_inline.ipsList_inline.ipsResponsive_hidePhone.ipsResponsive_inline {
+            visibility: hidden;
+            height: 0px;
+            margin-top: -20px;
+        }
+        li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container.ipsClearfix ul.ipsList_inline.ipsStreamItem_meta li {
+            margin-top: -20px;
+        }
+        /***/
+        /*** For Nighr Theme ***/
+        li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
+            border: 1px solid #555;
+        }
+        li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container.ipsClearfix div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
+            background: #F0B550;
+            color: #323232;
+        }
+        html[dir="ltr"] .ipsStream_withTimeline .ipsStreamItem::after {
+            border-color: #252525 #555 #252525 #252525;
+            border-right-color: #555;
+        }
+        li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad::before {
+            z-index: 0;
+            border-color: #252525 #555 #252525 #252525;
+            border-right-color: #555;
+        }
+        li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad::before {
+            z-index: 0;
+            border-color: #252525 #555 #252525 #252525;
+            border-right-color: #555;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsPageHeader.ipsClearfix {
+            margin-top: 0px;
+        }
+        .ipsType_richText.ipsContained.ipsType_medium {
+            color: #C8C8C9
+        }
+        li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad {
+            border-color: #555;
+        }
+        /***/
     }
-    @-moz-document url-prefix("https://www.insomnia.gr/") {
-        /*** Hovercard ***/
-        if NightMode {
-            .cUserHovercard_data {
-                font-size: 12px;
-            }
-            body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch div.ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft .ipsPad_half.cUserHovercard div.ipsAreaBackground.ipsPad.ipsClearfix ul.ipsList_inline.ipsType_blendLinks {
-                font-size: 14px;
-            }
-            body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft div .ipsPad_half.cUserHovercard div.ipsAreaBackground.ipsPad.ipsClearfix ul.ipsList_inline.ipsType_blendLinks {
-                font-size: 14px;
-            }
-            body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch div.ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft .ipsPad_half.cUserHovercard {
-                background: #323232;
-            }
-            .ipsPad_half.cUserHovercard .ipsPageHead_special {
-                background: #e1bc7b;
-            }
-            .ipsPad_half.cUserHovercard div.ipsAreaBackground.ipsPad.ipsClearfix ul.ipsList_inline.ipsType_blendLinks {
-                font-size: 14px;
-            }
-            .ipsPad_half.cUserHovercard {
-                background: #323232;
-            }
-            .ipsPad_half.cUserHovercard div.cUserHovercard_data ul.ipsDataList.ipsDataList_reducedSpacing li.ipsDataItem span.ipsDataItem_main {
-                background: #323232;
-            }
-            .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft div form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad button.ipsButton.ipsButton_primary {
-                background: #5D5D5D;
-                border: #5D5D5D;
-            }
-            .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft div form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad button.ipsButton.ipsButton_primary:hover {
-                background: #919191;
-                border: #F0B54F;
-            }
-            .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight div form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad button.ipsButton.ipsButton_primary {
-                background: #5D5D5D;
-                border: #5D5D5D;
-            }
-            .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight div form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad button.ipsButton.ipsButton_primary:hover {
-                background: #919191;
-                border: #F0B54F;
-            }
-            .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft span.ipsHovercard_stem {
-                border-top-color: #323232;
-                background: none;
-            }
-            .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft span.ipsHovercard_stem {
-                border-bottom-color: #323232;
-            }
-            .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight span.ipsHovercard_stem {
-                border-top-color: #323232;
-            }
-            .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight span.ipsHovercard_stem {
-                border-bottom-color: #323232;
-            }
-            .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight {
-                border-color: #8E8E8E;
-                border-radius: 0px 0px 0px 0px;
-                border-style: solid;
-            }
-            .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft {
-                border-color: #8E8E8E;
-                border-radius: 0px 0px 0px 0px;
-                border-style: solid;
-            }
-            .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemright {
-                border-color: #8E8E8E;
-                border-radius: 0px 0px 0px 0px;
-                border-style: solid;
-            }
-            .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft {
-                border-color: #8E8E8E;
-                border-radius: 0px 0px 0px 0px;
-                border-style: solid;
-            }
-            .ipsPad_half.cUserHovercard {
-                border: 0px solid;
-                border-radius: 0px 0px 0px 0px;
-                border-style: solid;
-                border-right: none;
-            }
+}
+@-moz-document url("https://www.insomnia.gr/discover/?do=create") {
+    /**** Discover ?do=create Fix ****/
+    if NightMode {
+        div#elStreamFilterForm {
+            margin: initial;
+            margin-left: 0px;
+        }
+        /***/
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/forums/") {
+    /**** Forums Fix ****/
+    if NightMode {
+        div.ipsPos_right.ipsResponsive_noFloat.ipsResponsive_hidePhone.ipsResponsive_productsblock {
+            margin-right: 7px;
+        }
+        div.ipsPos_right.ipsResponsive_noFloat.ipsResponsive_hidePhone.ipsResponsive_productsblock.ipsPromote-followdiv div {
+            margin-right: -18px;
+        }
+        div.ipsDataItem_icon.ipsDataItem_category span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal.ipsItemStatus_read {
+            border: 2px solid #252525;
+            background: #565555;
+        }
+        li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix div.ipsDataItem_icon.ipsDataItem_category span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers.ipsItemStatus_read {
+            border: 2px solid #252525;
+            background: #565555;
+        }
+        .ipsDataItem_generic.ipsDataItem_size2.ipsResponsive_hidePhone.ipsResponsive_block.ipsType_center {
+            background: linear-gradient(#323232, #272727);
+            border-top: 1px solid #555;
+        }
+        .ipsDataItem_generic.ipsDataItem_size5 {
+            background: linear-gradient(#323232, #272727);
+            border-top: 1px solid #555;
+        }
+        .ipsDataItem.ipsAttach.ipsAttach_done.ipsContained div.ipsDataItem_generic.ipsDataItem_size1.ipsType_center {
+            background: linear-gradient(#323232, #272727);
+            border-top: 1px solid #555;
+        }
+        .ipsDataItem.ipsAttach.ipsAttach_done.ipsContained div.ipsDataItem_generic.ipsDataItem_size8.ipsType_right {
+            background: linear-gradient(#323232, #272727);
+            border-top: 1px solid #555;
+        }
+        input#elInput_comment_edit_reason {
+            background: #252525;
+            box-shadow: none;
+            border-color: #fff0
+        }
+        ul.ipsPad.ipsToolList.ipsToolList_horizontal.ipsList_reset.ipsClearfix.ipsAreaBackground li a.ipsButton.ipsButton_medium.ipsButton_link.ipsButton_fullWidth {
+            font-weight: 500;
+            height: 40px;
+            margin-right: 12px;
+        }
+        div.cPost_contentWrap.ipsPad div.ipsResponsive_hidePhone div.ipsType_light.ipsType_richText p {
+            min-height: 16px;
+        }
+        div.ipsPhotoPanel.ipsPhotoPanel_small.ipsPhotoPanel_notPhone.ipsClearfix div h1.ipsType_pageTitle.ipsContained_container {
+            max-width: 1155px;
+        }
+        .ipsPagination {
+            margin-left: 9px;
+        }
+        div.ipsFollow.ipsButton.ipsButton_primary.ipsButton_verySmall .ipsType_blendLinks.ipsType_noUnderline {
+            color: #f0f0f0
+        }
+        .cTopic.ipsClear.ipsSpacer_top div.commentFeed-fromblock form .cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone.ipsComment_highlighted {
+            border-top: 1px solid #252525;
+            border-left: none;
+            border-right: none;
+            box-shadow: none;
+        }
+        .cTopic.ipsClear.ipsSpacer_top div.commentFeed-fromblock form .cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone.ipsComment_highlighted {
+            margin-left: 1px;
+        }
+        .cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone.ipsComment_highlighted {
+            max-width: 1380px !important;
+        }
+        .cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone {
+            border-radius: 0px;
+        }
+        /***/
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/forums/") {
+    /***banner forum***/
+    if NightMode {
+        div#ipsLayout_header.ipsClearfix div.banner-728x90-top.visible__sm {
+            position: relative;
+            top: 135px;
+            /*left: 282px;*/
+            height: 90px;
+            max-height: 0px;
+            margin-top: -45px;
+            margin-bottom: 0px;
+            background: none;
+            transform: scale(0.5, 0.5);
+            z-index: 98;
+        }
+        /***/
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/forums/topic/") {
+    /***banner topic***/
+    if NightMode {
+        div#ipsLayout_header.ipsClearfix div.banner-728x90-top.visible__sm {
+            position: relative;
+            top: 235px;
+            /*left: 490px;*/
+            height: 90px;
+            max-height: 0px;
+            margin-top: -45px;
+            margin-bottom: 0px;
+            background: none;
+            transform: scale(0.5, 0.5);
+            z-index: 98;
+        }
+        /***/
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/") {
+    /*** Hovercard ***/
+    if NightMode {
+        .cUserHovercard_data {
+            font-size: 12px;
+        }
+        body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch div.ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft .ipsPad_half.cUserHovercard div.ipsAreaBackground.ipsPad.ipsClearfix ul.ipsList_inline.ipsType_blendLinks {
+            font-size: 14px;
+        }
+        body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft div .ipsPad_half.cUserHovercard div.ipsAreaBackground.ipsPad.ipsClearfix ul.ipsList_inline.ipsType_blendLinks {
+            font-size: 14px;
+        }
+        body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch div.ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft .ipsPad_half.cUserHovercard {
+            background: #323232;
+        }
+        .ipsPad_half.cUserHovercard .ipsPageHead_special {
+            background: #e1bc7b;
+        }
+        .ipsPad_half.cUserHovercard div.ipsAreaBackground.ipsPad.ipsClearfix ul.ipsList_inline.ipsType_blendLinks {
+            font-size: 14px;
+        }
+        .ipsPad_half.cUserHovercard {
+            background: #323232;
+        }
+        .ipsPad_half.cUserHovercard div.cUserHovercard_data ul.ipsDataList.ipsDataList_reducedSpacing li.ipsDataItem span.ipsDataItem_main {
+            background: #323232;
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft div form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad button.ipsButton.ipsButton_primary {
+            background: #5D5D5D;
+            border: #5D5D5D;
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft div form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad button.ipsButton.ipsButton_primary:hover {
+            background: #919191;
+            border: #F0B54F;
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight div form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad button.ipsButton.ipsButton_primary {
+            background: #5D5D5D;
+            border: #5D5D5D;
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight div form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad button.ipsButton.ipsButton_primary:hover {
+            background: #919191;
+            border: #F0B54F;
+        }
+        .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft span.ipsHovercard_stem {
+            border-top-color: #323232;
+            background: none;
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft span.ipsHovercard_stem {
+            border-bottom-color: #323232;
+        }
+        .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight span.ipsHovercard_stem {
+            border-top-color: #323232;
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight span.ipsHovercard_stem {
+            border-bottom-color: #323232;
+        }
+        .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight {
+            border-color: #8E8E8E;
+            border-radius: 0px 0px 0px 0px;
+            border-style: solid;
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft {
+            border-color: #8E8E8E;
+            border-radius: 0px 0px 0px 0px;
+            border-style: solid;
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemright {
+            border-color: #8E8E8E;
+            border-radius: 0px 0px 0px 0px;
+            border-style: solid;
+        }
+        .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft {
+            border-color: #8E8E8E;
+            border-radius: 0px 0px 0px 0px;
+            border-style: solid;
+        }
+        .ipsPad_half.cUserHovercard {
+            border: 0px solid;
+            border-radius: 0px 0px 0px 0px;
+            border-style: solid;
+            border-right: none;
         }
     }
 }
@@ -8040,74 +8028,74 @@ div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block {
             border: none;
         }
     }
-    @-moz-document url-prefix("https://www.insomnia.gr/articles/"),
-    url-prefix("https://www.insomnia.gr/review/") {
-        /**** Articles ****/
-        if NightMode {
-            div.grid div.comments.grid__col-auto.grid__col--bleed-y a {
-                background-color: #252525;
-                color: #e6e6e6;
-            }
-            div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide {
-                max-height: 00px;
-            }
-            div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li {
-                height: 30px;
-            }
-            div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li.ipsPos_left.ipsResponsive_noFloat.ipsComposeArea_formControl.ipsType_small {
-                position: relative;
-                top: -35px
-            }
-            div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li button.ipsButton.ipsButton_primary {
-                height: 70px;
-                position: relative;
-                top: -54px;
-                background: #5d5d5d;
-            }
-            div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li button.ipsButton.ipsButton_primary:hover {
-                background: #919191;
-            }
-            html[dir="ltr"] p {
-                color: #C8C8C9;
-            }
-            div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header {
-                height: 500px;
-            }
-            div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header img.article-featured.webfeedsFeaturedVisual {
-                min-width: 1400px;
-            }
-            div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header {
-                background: linear-gradient(#191919, #252525);
-            }
-            div#main.site-main.homepage div.container div.grid div.widget.widget-stream.grid__col-sm-6.grid__col-lg-4.grid div#elStream.tabbed-content.tabs-side.grid__col-auto.grid__col--bleed-x.grid div#elStream_content div#ipsTabs_elStream_el_streamAll_panel.ipsTabs_panel {
-                background: #f7f7f7;
-            }
-            div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap {
-                margin-top: 40px;
-            }
-            div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header {
-                background: none;
-                box-shadow: none;
-            }
-            .cPost_content.ipsComment_content.ipsType_medium.ipsFaded_withHover {
-                background: #323232
-            }
-            .cPost_content.ipsComment_content.ipsType_medium.ipsFaded_withHover div.comments__reply-meta.grid {
-                background: #252525
-            }
-            .ipsComment.ipsComment_parent.ipsClearfix.ipsClear.comment__container.dashed__bottom {
-                border-top: none;
-                border-left: 0px solid #555;
-                border-bottom: 1px solid #555;
-                box-shadow: none;
-            }
-            form .ipsComment.ipsComment_parent.ipsClearfix.ipsClear.comment__container.dashed__bottom {
-                margin-left: 0px;
-            }
-            html[dir="ltr"] .ipsComment.ipsComment_parent.ipsClearfix.ipsClear.comment__container.dashed__bottom .cPost_content.ipsComment_content.ipsType_medium.ipsFaded_withHover div.comments__reply-meta.grid {
-                border-right: none;
-                border-top: 1px solid #555;
-            }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/articles/"),
+url-prefix("https://www.insomnia.gr/review/") {
+    /**** Articles ****/
+    if NightMode {
+        div.grid div.comments.grid__col-auto.grid__col--bleed-y a {
+            background-color: #252525;
+            color: #e6e6e6;
+        }
+        div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide {
+            max-height: 00px;
+        }
+        div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li {
+            height: 30px;
+        }
+        div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li.ipsPos_left.ipsResponsive_noFloat.ipsComposeArea_formControl.ipsType_small {
+            position: relative;
+            top: -35px
+        }
+        div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li button.ipsButton.ipsButton_primary {
+            height: 70px;
+            position: relative;
+            top: -54px;
+            background: #5d5d5d;
+        }
+        div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li button.ipsButton.ipsButton_primary:hover {
+            background: #919191;
+        }
+        html[dir="ltr"] p {
+            color: #C8C8C9;
+        }
+        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header {
+            height: 500px;
+        }
+        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header img.article-featured.webfeedsFeaturedVisual {
+            min-width: 1400px;
+        }
+        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header {
+            background: linear-gradient(#191919, #252525);
+        }
+        div#main.site-main.homepage div.container div.grid div.widget.widget-stream.grid__col-sm-6.grid__col-lg-4.grid div#elStream.tabbed-content.tabs-side.grid__col-auto.grid__col--bleed-x.grid div#elStream_content div#ipsTabs_elStream_el_streamAll_panel.ipsTabs_panel {
+            background: #f7f7f7;
+        }
+        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap {
+            margin-top: 40px;
+        }
+        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header {
+            background: none;
+            box-shadow: none;
+        }
+        .cPost_content.ipsComment_content.ipsType_medium.ipsFaded_withHover {
+            background: #323232
+        }
+        .cPost_content.ipsComment_content.ipsType_medium.ipsFaded_withHover div.comments__reply-meta.grid {
+            background: #252525
+        }
+        .ipsComment.ipsComment_parent.ipsClearfix.ipsClear.comment__container.dashed__bottom {
+            border-top: none;
+            border-left: 0px solid #555;
+            border-bottom: 1px solid #555;
+            box-shadow: none;
+        }
+        form .ipsComment.ipsComment_parent.ipsClearfix.ipsClear.comment__container.dashed__bottom {
+            margin-left: 0px;
+        }
+        html[dir="ltr"] .ipsComment.ipsComment_parent.ipsClearfix.ipsClear.comment__container.dashed__bottom .cPost_content.ipsComment_content.ipsType_medium.ipsFaded_withHover div.comments__reply-meta.grid {
+            border-right: none;
+            border-top: 1px solid #555;
         }
     }
 }
@@ -8315,7 +8303,7 @@ div.breadcrumb {
             max-width: 1150px !important;
         }
         div.menu-toolbox-container div.toolbox {
-            max-width: 400px !important;
+            max-width: 440px !important;
         }
     }
 }
@@ -8379,7 +8367,7 @@ div.breadcrumb {
 }
 @-moz-document url-prefix("https://www.insomnia.gr/reviews/") {
     if not MenuOnTop {
-       div#page.site main#ipsLayout_body.ipsLayout_container-new div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_nocontainer-block {
+        div#page.site main#ipsLayout_body.ipsLayout_container-new div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_nocontainer-block {
             margin-top: 10px;
         }
     }
