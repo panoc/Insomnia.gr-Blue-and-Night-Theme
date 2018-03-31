@@ -23,7 +23,7 @@
     div#page.site footer.site-footer {
         background-image: url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-4.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/footer4.png');
         background-repeat: repeat-x, repeat-x;
-        background-position: left top, top center;
+        background-position: top center, top center;
         margin-left: -15px;
         width: 102%;
     }
