@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.2.1
+@version 2.2.2
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -16,14 +16,20 @@
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.insomnia.gr/") {
     div#page.site {
-        background-image: url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/cloud-n.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/cloud-n.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/bg_header.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/bg_footer4.png'), /*url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-1.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-2.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-3.png'),*/ url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/background-dark1.png');
-        background-position: left top, right top, top center, bottom center, /*top left, top center, top right,*/ center;
-        background-repeat: no-repeat, no-repeat, repeat-x, repeat, /*no-repeat, repeat, no-repeat,*/ repeat;
+        background-image: url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/cloud-n.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/cloud-n.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/bg_header.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/bg_footer4.png'), /*url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-1.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-2.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-3.png'),*/
+        url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/background-dark1.png');
+        background-position: left top, right top, top center, bottom center, /*top left, top center, top right,*/
+        center;
+        background-repeat: no-repeat, no-repeat, repeat-x, repeat, /*no-repeat, repeat, no-repeat,*/
+        repeat;
     }
     div#page.site footer.site-footer {
-        background-image: /*url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-4.png'),*/ url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/footer4.png');
-        background-repeat: /*repeat-x,*/ repeat-x;
-        background-position: /*top center,*/ top center;
+        background-image: /*url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-4.png'),*/
+        url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/footer4.png');
+        background-repeat: /*repeat-x,*/
+        repeat-x;
+        background-position: /*top center,*/
+        top center;
         margin-left: -15px;
         width: 102%;
     }
@@ -3386,9 +3392,21 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             opacity: 1.0;
         }
         div#ipsLayout_mainArea.ipsLayout_container-block div.classifieds__content-container.site-main.container nav.classifieds__categories ul.custom.grid li.classcat.current.grid__col-auto.active div.submenu div.grid div.categories.grid__col-sm-auto ul li.active {
-            background: #909ba6;
-            color: #fafafa;
+            background: none;
+            color: #6b92c1;
             opacity: 1.0;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block div.classifieds__content-container.site-main.container nav.classifieds__categories ul.custom.grid li.classcat.current.grid__col-auto.active div.submenu div.grid div.categories.grid__col-sm-auto ul li a:hover {
+            color: #6b92c1;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block div.classifieds__content-container.site-main.container nav.classifieds__categories ul.custom.grid li.classcat.current.grid__col-auto.active div.submenu div.grid div.categories.grid__col-sm-auto a.all:hover {
+            color: #6b92c1;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block div.classifieds__content-container.site-main.container nav.classifieds__categories ul.custom.grid li.classcat.current.grid__col-auto.active div.submenu div.grid div.items.grid__col-sm-auto div.grid div.item.grid__col-4 a:hover {
+            color: #6b92c1;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block div.classifieds__content-container.site-main.container nav.classifieds__categories ul.custom.grid li.classcat.current.grid__col-auto.active div.submenu div.grid div.items.grid__col-sm-auto div.grid div.item.grid__col-4 a p.price span {
+            color: #6b92c1;
         }
         section.classifieds__latest div.grid {
             background: none;
@@ -4124,6 +4142,9 @@ div.breadcrumb {
         }
         div.ipsDataItem_main ul.ipsTags.ipsList_inline {
             visibility: hidden;
+        }
+        div#insomnia_advertsWrapper section.classifieds__latest div.grid article.entry.grid__col-xs-6.grid__col-sm-4.grid__col-md-6.grid__col-lg-4 div.classified__content.grid.grid--bleed div.title.grid__col-auto h3 a:hover {
+            color: #F0B54F;
         }
     }
 }
@@ -7537,9 +7558,21 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             opacity: 1.0;
         }
         div#ipsLayout_mainArea.ipsLayout_container-block div.classifieds__content-container.site-main.container nav.classifieds__categories ul.custom.grid li.classcat.current.grid__col-auto.active div.submenu div.grid div.categories.grid__col-sm-auto ul li.active {
-            background: #909ba6;
-            color: #f8f8f8;
+            background: none;
+            color: #F0B54F;
             opacity: 1.0;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block div.classifieds__content-container.site-main.container nav.classifieds__categories ul.custom.grid li.classcat.current.grid__col-auto.active div.submenu div.grid div.categories.grid__col-sm-auto ul li a:hover {
+            color: #F0B54F;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block div.classifieds__content-container.site-main.container nav.classifieds__categories ul.custom.grid li.classcat.current.grid__col-auto.active div.submenu div.grid div.categories.grid__col-sm-auto a.all:hover {
+            color: #F0B54F;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block div.classifieds__content-container.site-main.container nav.classifieds__categories ul.custom.grid li.classcat.current.grid__col-auto.active div.submenu div.grid div.items.grid__col-sm-auto div.grid div.item.grid__col-4 a:hover {
+            color: #F0B54F;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block div.classifieds__content-container.site-main.container nav.classifieds__categories ul.custom.grid li.classcat.current.grid__col-auto.active div.submenu div.grid div.items.grid__col-sm-auto div.grid div.item.grid__col-4 a p.price span {
+            color: #F0B54F;
         }
         section.classifieds__latest div.grid {
             background: none;
