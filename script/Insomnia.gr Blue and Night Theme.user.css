@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.2.2
+@version 2.2.3
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -16,8 +16,8 @@
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.insomnia.gr/") {
     div#page.site {
-        background-image: url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/cloud-n.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/cloud-n.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/bg_header.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/bg_footer4.png'), /*url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-1.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-2.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-3.png'),*/
-        url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/background-dark1.png');
+        background-image: url('https://www.insomnia.gr/uploads/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://www.insomnia.gr/uploads/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://www.insomnia.gr/uploads/monthly_2018_05/bg_header.png.8a53f85be22fad7f2306d63729d4cdab.png'), url('https://www.insomnia.gr/uploads/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png'), /*url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-1.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-2.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-3.png'),*/
+        url('https://www.insomnia.gr/uploads/monthly_2018_05/background-dark1.png.e36c622d469fcbd96c12be356e278af4.png');
         background-position: left top, right top, top center, bottom center, /*top left, top center, top right,*/
         center;
         background-repeat: no-repeat, no-repeat, repeat-x, repeat, /*no-repeat, repeat, no-repeat,*/
@@ -25,13 +25,16 @@
     }
     div#page.site footer.site-footer {
         background-image: /*url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-4.png'),*/
-        url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/footer4.png');
+        url('https://www.insomnia.gr/uploads/monthly_2018_05/footer4.png.2acf51eff28f63c8c2cfd16e7e1b2df6.png');
         background-repeat: /*repeat-x,*/
         repeat-x;
         background-position: /*top center,*/
-        top center;
+        center;
         margin-left: -15px;
-        width: 102%;
+        width: 107%
+    }
+    div.copyright.box__dark-grey {
+        padding-top: 6px;
     }
     /****/
 }
@@ -2103,6 +2106,10 @@ url-prefix("https://www.insomnia.gr/") {
         header#masthead.site-header.search__open div.search-form-container div.container div#elSearch.ipsPos_rightnew form#search.search-form {
             margin-top: 25px;
         }
+        /*
+        html body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch div#page.site div#ipsLayout_header.ipsClearfix header#masthead.site-header div.search-form-container div.container div#elSearch.ipsPos_rightnew form#search.search-form button {
+            visibility:hidden;
+        }*/
         .ipsHide.ipsMenu_bottomCenter {
             margin-top: -35px;
         }
@@ -2271,6 +2278,12 @@ url-prefix("https://www.insomnia.gr/") {
             background: none;
             /* margin-top: -8px;*/
             box-shadow: none;
+        }
+        html[dir="ltr"] div.togglers {
+            margin-right: -20px;
+        }
+        div.search-form-container div.container {
+            z-index: -1
         }
         /****/
     }
@@ -6386,6 +6399,12 @@ url-prefix("https://www.insomnia.gr/") {
             /* margin-top: -8px;*/
             box-shadow: none;
         }
+        html[dir="ltr"] div.togglers {
+            margin-right: -20px;
+        }
+        div.search-form-container div.container {
+            z-index: -1
+        }
         /****/
     }
 }
@@ -8309,7 +8328,7 @@ div.breadcrumb {
 @-moz-document url-prefix("https://www.insomnia.gr") {
     if InsomniacShow {
         div.breadcrumb span span.home {
-            background-image: url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/insomniac.png');
+            background-image: url('https://www.insomnia.gr/uploads/monthly_2018_05/insomniac.png.6184f9e0155c0a3663472330afa45e8a.png');
             background-repeat: no-repeat;
             margin-left: 10px;
         }
@@ -8409,7 +8428,7 @@ div.breadcrumb {
 @-moz-document url-prefix("https://www.insomnia.gr") {
     if not OldLogo {
         h1.site-logo {
-            background-image: url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/insomnia-logo-new.png');
+            background-image: url('https://www.insomnia.gr/uploads/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
             background-repeat: no-repeat;
             background-size: contain;
         }
@@ -8418,7 +8437,7 @@ div.breadcrumb {
 @-moz-document url-prefix("https://www.insomnia.gr") {
     if OldLogo {
         h1.site-logo {
-            background-image: url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/logo-old-b.png');
+            background-image: url('https://www.insomnia.gr/uploads/monthly_2018_05/logo-old-b.png.6ae1f6482242f2b9a8691f17a5b8a09a.png');
             background-repeat: no-repeat;
             background-size: contain;
             position: relative;
