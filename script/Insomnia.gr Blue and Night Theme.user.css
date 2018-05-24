@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.2.5
+@version 2.2.6
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -1828,7 +1828,7 @@ url-prefix("https://www.insomnia.gr/") {
         div#menu.ipsLayout_container-new.container.container__big div.togglers span#search_btn.search-btn.visible__md i.fa.fa-search {
             transform: scale(1.25);
         }
-         li#elNavSecondary_39.ipsNavBar_active a {
+        li#elNavSecondary_39.ipsNavBar_active a {
             color: #6B92C1;
         }
         li#elNavSecondary_36.ipsNavBar_active a {
@@ -1841,7 +1841,7 @@ url-prefix("https://www.insomnia.gr/") {
             color: #fafafa;
             background: none;
         }
-         li#elNavSecondary_39 a {
+        li#elNavSecondary_39 a {
             color: #fafafa;
             background: none;
         }
@@ -1877,7 +1877,7 @@ url-prefix("https://www.insomnia.gr/") {
         li#elNavSecondary_10 a:hover {
             color: #6B92C1;
         }
-          li#elNavSecondary_39 a:hover {
+        li#elNavSecondary_39 a:hover {
             color: #6B92C1;
         }
         a#elNavigationMore_dropdown a:hover {
@@ -2188,7 +2188,7 @@ url-prefix("https://www.insomnia.gr/") {
             transform: scale(1, 1);
             padding-bottom: 24px;
         }
-         li#elNavSecondary_39 {
+        li#elNavSecondary_39 {
             transform: scale(1, 1);
             padding-bottom: 24px;
         }
@@ -2635,6 +2635,12 @@ url-prefix("https://www.insomnia.gr/") {
         }
         div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsPageHeader.ipsClearfix {
             margin-top: 0px;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block {
+            top: -16px;
+        }
+        div#page.site main#ipsLayout_body.container {
+            min-width: 1401px !important;
         }
         /***/
     }
@@ -5954,7 +5960,7 @@ url-prefix("https://www.insomnia.gr/") {
         div#menu.ipsLayout_container-new.container.container__big div.togglers span#search_btn.search-btn.visible__md i.fa.fa-search {
             transform: scale(1.25);
         }
-         li#elNavSecondary_39.ipsNavBar_active a {
+        li#elNavSecondary_39.ipsNavBar_active a {
             color: #F0B54F;
         }
         li#elNavSecondary_36.ipsNavBar_active a {
@@ -5967,7 +5973,7 @@ url-prefix("https://www.insomnia.gr/") {
             color: #f8f8f8;
             background: none;
         }
-         li#elNavSecondary_39 a {
+        li#elNavSecondary_39 a {
             color: #f8f8f8;
             background: none;
         }
@@ -6004,7 +6010,7 @@ url-prefix("https://www.insomnia.gr/") {
         li#elNavSecondary_10 a:hover {
             color: #F0B54F;
         }
-         li#elNavSecondary_39 a:hover {
+        li#elNavSecondary_39 a:hover {
             color: #F0B54F;
         }
         a#elNavigationMore_dropdown a:hover {
@@ -6304,7 +6310,7 @@ url-prefix("https://www.insomnia.gr/") {
             transform: scale(1, 1);
             padding-bottom: 24px;
         }
-         li#elNavSecondary_39 {
+        li#elNavSecondary_39 {
             transform: scale(1, 1);
             padding-bottom: 24px;
         }
@@ -6787,6 +6793,12 @@ url-prefix("https://www.insomnia.gr/") {
         }
         li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad {
             border-color: #555;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block {
+            top: -16px;
+        }
+        div#page.site main#ipsLayout_body.container {
+            min-width: 1401px !important;
         }
         /***/
     }
