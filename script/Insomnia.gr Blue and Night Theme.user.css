@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.2.4
+@version 2.2.5
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -1659,11 +1659,11 @@ html[dir="ltr"] span.ipsType_normal span .ipsType_break:hover {
 url-prefix("https://www.insomnia.gr/") {
     /**** Menu - Img ****/
     if not NightMode {
-        div.breadcrumb span span.home a {
+        nav.breadcrumb span span.home a {
             margin-right: -10px;
             visibility: hidden;
         }
-        div.breadcrumb span span.home {
+        nav.breadcrumb span span.home {
             background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzNSAzNSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzUgMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCg0KCS5zdDB7ZmlsbDojM0U1NjczO30NCg0KCS5zdDF7ZmlsbDojZjBmMGYwO30NCg0KPC9zdHlsZT4NCg0KPGNpcmNsZSBpZD0iWE1MSURfNl8iIGNsYXNzPSJzdDAiIGN4PSIxNy40IiBjeT0iMTcuNyIgcj0iMTYuOCIvPg0KDQo8ZyBpZD0iWE1MSURfMl8iPg0KDQoJPHBhdGggaWQ9IlhNTElEXzNfIiBjbGFzcz0ic3QxIiBkPSJNMTcuNCwxMS4xbDUuNiw1LjR2OC4zaC0yLjhWMjFjMC0wLjYtMC41LTEuMS0xLjItMS4xaC0zLjRjLTAuNiwwLTEuMiwwLjUtMS4yLDEuMXYzLjhoLTIuOCAgICB2LTguM0wxNy40LDExLjEgTTE3LjksOS4yYy0wLjMtMC4zLTAuNy0wLjMtMSwwbC02LjQsNi4zYy0wLjIsMC4yLTAuMywwLjUtMC4zLDAuOHY5YzAsMC42LDAuNSwxLjEsMS4yLDEuMWgzLjggICAgYzAuNiwwLDEuMi0wLjUsMS4yLTEuMXYtMy44aDIuMnYzLjhjMCwwLjYsMC41LDEuMSwxLjIsMS4xaDMuOGMwLjYsMCwxLjItMC41LDEuMi0xLjF2LTljMC0wLjMtMC4xLTAuNi0wLjMtMC44TDE3LjksOS4yeiIvPg0KDQo8L2c+DQoNCjwvc3ZnPg==');
             background-repeat: no-repeat;
             margin-left: 10px;
@@ -1694,11 +1694,11 @@ url-prefix("https://www.insomnia.gr/") {
         section#elError.ipsType_center div.ipsBox.ipsPad p.ipsType_reset.ipsType_light.ipsType_large {
             color: #fafafa
         }
-        div.breadcrumb ul.ipsList_inline.ipsPos_right {
+        nav.breadcrumb ul.ipsList_inline.ipsPos_right {
             margin-top: 13px;
             margin-right: 10px;
         }
-        div.breadcrumb ul.ipsList_inline.ipsPos_right a {
+        nav.breadcrumb ul.ipsList_inline.ipsPos_right a {
             color: #fafafa;
             font-size: 14px;
             /*background: #3E5673;
@@ -1706,11 +1706,11 @@ url-prefix("https://www.insomnia.gr/") {
             padding: 4px 5px;
             border-radius: 3px;
         }
-        div.breadcrumb ul.ipsList_inline.ipsPos_right a:hover {
+        nav.breadcrumb ul.ipsList_inline.ipsPos_right a:hover {
             color: #6B92C1;
             /*background: #6B92C1;*/
         }
-        div.breadcrumb {
+        nav.breadcrumb {
             position: relative;
             top: -16px;
         }
@@ -2067,12 +2067,12 @@ url-prefix("https://www.insomnia.gr/") {
         }
         /* INSOMNIAC START */
         /*
-div.breadcrumb span span.home {
+nav.breadcrumb span span.home {
     background-image: url('https://farm5.staticflickr.com/4663/39923591691_99b3af438f_o.png');
     background-repeat: no-repeat;
     margin-left: 10px;
 }
-div.breadcrumb span span.home a {
+nav.breadcrumb span span.home a {
     visibility: hidden;
 }
 
@@ -2128,7 +2128,7 @@ url-prefix("https://www.insomnia.gr/") {
         ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter {
             margin-top: -35px;
         }
-        div.breadcrumb ul.ipsList_inline.ipsPos_right {
+        nav.breadcrumb ul.ipsList_inline.ipsPos_right {
             margin-top: -40px;
         }
         body {
@@ -2139,10 +2139,10 @@ url-prefix("https://www.insomnia.gr/") {
             position: relative;
             top: -25px;
         }
-        div.breadcrumb {
+        nav.breadcrumb {
             margin-top: -45px
         }
-        div#ipsLayout_contentWrapper div.breadcrumb ul.ipsList_inline.ipsPos_right {
+        div#ipsLayout_contentWrapper nav.breadcrumb ul.ipsList_inline.ipsPos_right {
             margin-top: 10px;
         }
         header#masthead.site-header div#menu.ipsLayout_container-new.container.container__big div.logo-container {
@@ -2257,7 +2257,7 @@ url-prefix("https://www.insomnia.gr/") {
         div#menu.ipsLayout_container-new.container.container__big {
             background: #121820;
         }
-        div.breadcrumb {
+        nav.breadcrumb {
             background: linear-gradient(#121820, #1A2835);
             max-width: 1400px;
             /*padding-top: 10px;*/
@@ -4059,7 +4059,7 @@ url-prefix("https://www.insomnia.gr/index.php?app=classifieds") {
     /**** Fix for Agelies ****/
     if not NightMode {
         /*
-div.breadcrumb {
+nav.breadcrumb {
     margin-top: -35px
 }
 */
@@ -4109,7 +4109,7 @@ div.breadcrumb {
         a.ipsButton.ipsButton_medium.ipsButton_important.ipsButton_fullWidth:hover {
             color: #f0f0f0;
         }
-        div.breadcrumb {
+        nav.breadcrumb {
             margin-top: -55px;
         }
         div#ipsLayout_header.ipsClearfix div.banner-728x90-top.visible__sm {
@@ -5772,11 +5772,11 @@ span {
 url-prefix("https://www.insomnia.gr/") {
     /**** Menu - Img ****/
     if NightMode {
-        div.breadcrumb span span.home a {
+        nav.breadcrumb span span.home a {
             margin-right: -10px;
             visibility: hidden;
         }
-        div.breadcrumb span span.home {
+        nav.breadcrumb span span.home {
             background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAzNSAzNSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzUgMzU7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCg0KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4NCg0KCS5zdDB7ZmlsbDojRjBCNTRGO30NCg0KCS5zdDF7ZmlsbDojMzIzMjMyO30NCg0KPC9zdHlsZT4NCg0KPGNpcmNsZSBpZD0iWE1MSURfNl8iIGNsYXNzPSJzdDAiIGN4PSIxNy40IiBjeT0iMTcuNyIgcj0iMTYuOCIvPg0KDQo8ZyBpZD0iWE1MSURfMl8iPg0KDQoJPHBhdGggaWQ9IlhNTElEXzNfIiBjbGFzcz0ic3QxIiBkPSJNMTcuNCwxMS4xbDUuNiw1LjR2OC4zaC0yLjhWMjFjMC0wLjYtMC41LTEuMS0xLjItMS4xaC0zLjRjLTAuNiwwLTEuMiwwLjUtMS4yLDEuMXYzLjhoLTIuOCAgICB2LTguM0wxNy40LDExLjEgTTE3LjksOS4yYy0wLjMtMC4zLTAuNy0wLjMtMSwwbC02LjQsNi4zYy0wLjIsMC4yLTAuMywwLjUtMC4zLDAuOHY5YzAsMC42LDAuNSwxLjEsMS4yLDEuMWgzLjggICAgYzAuNiwwLDEuMi0wLjUsMS4yLTEuMXYtMy44aDIuMnYzLjhjMCwwLjYsMC41LDEuMSwxLjIsMS4xaDMuOGMwLjYsMCwxLjItMC41LDEuMi0xLjF2LTljMC0wLjMtMC4xLTAuNi0wLjMtMC44TDE3LjksOS4yeiIvPg0KDQo8L2c+DQoNCjwvc3ZnPg==');
             background-repeat: no-repeat;
             margin-left: 10px;
@@ -5817,11 +5817,11 @@ url-prefix("https://www.insomnia.gr/") {
         section#elError.ipsType_center div.ipsBox.ipsPad p.ipsType_reset.ipsType_light.ipsType_large {
             color: #f8f8f8
         }
-        div.breadcrumb ul.ipsList_inline.ipsPos_right {
+        nav.breadcrumb ul.ipsList_inline.ipsPos_right {
             margin-top: 13px;
             margin-right: 10px;
         }
-        div.breadcrumb ul.ipsList_inline.ipsPos_right a {
+        nav.breadcrumb ul.ipsList_inline.ipsPos_right a {
             color: #f8f8f8;
             font-size: 14px;
             /*background: #5D5D5D;
@@ -5829,11 +5829,11 @@ url-prefix("https://www.insomnia.gr/") {
             padding: 4px 5px;
             border-radius: 3px;
         }
-        div.breadcrumb ul.ipsList_inline.ipsPos_right a:hover {
+        nav.breadcrumb ul.ipsList_inline.ipsPos_right a:hover {
             color: #F0B54F
             /*background: #919191;*/
         }
-        div.breadcrumb {
+        nav.breadcrumb {
             position: relative;
             top: -16px;
         }
@@ -6244,7 +6244,7 @@ url-prefix("https://www.insomnia.gr/") {
         ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter {
             margin-top: -35px;
         }
-        div.breadcrumb ul.ipsList_inline.ipsPos_right {
+        nav.breadcrumb ul.ipsList_inline.ipsPos_right {
             margin-top: -40px;
         }
         body {
@@ -6255,10 +6255,10 @@ url-prefix("https://www.insomnia.gr/") {
             position: relative;
             top: -25px;
         }
-        div.breadcrumb {
+        nav.breadcrumb {
             margin-top: -45px
         }
-        div#ipsLayout_contentWrapper div.breadcrumb ul.ipsList_inline.ipsPos_right {
+        div#ipsLayout_contentWrapper nav.breadcrumb ul.ipsList_inline.ipsPos_right {
             margin-top: 10px;
         }
         header#masthead.site-header div#menu.ipsLayout_container-new.container.container__big div.logo-container {
@@ -6378,7 +6378,7 @@ url-prefix("https://www.insomnia.gr/") {
         div#menu.ipsLayout_container-new.container.container__big {
             background: #191919;
         }
-        div.breadcrumb {
+        nav.breadcrumb {
             background: linear-gradient(#191919, #252525);
             max-width: 1400px;
             /*padding-top: 10px;*/
@@ -8216,7 +8216,7 @@ url-prefix("https://www.insomnia.gr/index.php?app=classifieds") {
     /**** Fix for Agelies ****/
     if NightMode {
         /*
-div.breadcrumb {
+nav.breadcrumb {
     margin-top: -35px
 }
 */
@@ -8274,7 +8274,7 @@ div.breadcrumb {
         .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem {
             border-bottom: none;
         }
-        div.breadcrumb {
+        nav.breadcrumb {
             margin-top: -55px;
         }
         div#ipsLayout_header.ipsClearfix div.banner-728x90-top.visible__sm {
@@ -8328,12 +8328,12 @@ div.breadcrumb {
 }
 @-moz-document url-prefix("https://www.insomnia.gr") {
     if InsomniacShow {
-        div.breadcrumb span span.home {
+        nav.breadcrumb span span.home {
             background-image: url('https://www.insomnia.gr/uploads/monthly_2018_05/insomniac.png.6184f9e0155c0a3663472330afa45e8a.png');
             background-repeat: no-repeat;
             margin-left: 10px;
         }
-        div.breadcrumb span span.home a {
+        nav.breadcrumb span span.home a {
             visibility: hidden;
         }
     }
