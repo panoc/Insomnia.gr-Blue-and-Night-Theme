@@ -2642,6 +2642,9 @@ url-prefix("https://www.insomnia.gr/") {
         div#page.site main#ipsLayout_body.container {
             min-width: 1401px !important;
         }
+        div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div div div.ipsBox_alt ol.ipsStream.ipsList_reset {
+            border: none;
+        }
         /***/
     }
 }
@@ -6799,6 +6802,9 @@ url-prefix("https://www.insomnia.gr/") {
         }
         div#page.site main#ipsLayout_body.container {
             min-width: 1401px !important;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsSpacer_top div div div.ipsBox_alt ol.ipsStream.ipsList_reset {
+            border: none;
         }
         /***/
     }
