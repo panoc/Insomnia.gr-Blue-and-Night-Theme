@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.2.9
+@version 2.3.0
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -13,7 +13,6 @@
 @var checkbox OldWidth "Μικρότερο Πλάτος" 0
 @var checkbox OldLogo "Παλαιό Logo" 0
 @var checkbox LargeBackToTop "Μεγάλο Back to Top" 0
-@var checkbox FloatBackToTop "Flaoting Back to Top" 0
 @preprocessor stylus
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.insomnia.gr/") {
@@ -8544,6 +8543,9 @@ nav.breadcrumb {
         div#page.site main#ipsLayout_body.ipsLayout_container-new div.container__full {
             margin-top: 100px;
         }
+        div#page.site main#ipsLayout_body.container {
+            margin-bottom: 100px;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/") {
@@ -8563,7 +8565,7 @@ nav.breadcrumb {
 @-moz-document url-prefix("https://www.insomnia.gr/") {
     if LargeBackToTop {
         a#backtoTop i.fa.fa-chevron-circle-up {
-            transform: scale(2.5, 2.5);
+            transform: scale(1.5, 1.5);
             margin-left: 10px;
         }
     }
