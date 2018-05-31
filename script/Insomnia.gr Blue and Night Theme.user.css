@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.3.0
+@version 2.3.1
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -687,7 +687,7 @@ url-prefix("https://www.insomnia.gr/announcement/") {
             border-top: 1px solid #d2cfcf;
         }
         li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_icon {
-            background: #F8F8F8;
+            background: reds;
         }
         div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal {
             background: #f0b550;
@@ -3257,77 +3257,77 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
         div#ipsLayout_mainArea.ipsLayout_container-block div.product-main.site-main.container div.grid div.sidebar.grid__col-md-4.grid--align-content-start section.seller-info.contact-seller a.submit.grey.medium.round:hover {
             background: #6b92c1;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top a.ipsThumb.ipsThumb_medium.ipsThumb_bg {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top a.ipsThumb.ipsThumb_medium.ipsThumb_bg {
             transform: scale(0.7);
             margin-top: -25px;
             margin-left: -10px;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top a.ipsThumb.ipsThumb_medium.ipsThumb_bg {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top a.ipsThumb.ipsThumb_medium.ipsThumb_bg {
             transform: scale(0.7);
             margin-top: -25px;
             margin-left: -10px;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top a.ipsNoThumb.ipsThumb.ipsThumb_medium {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top a.ipsNoThumb.ipsThumb.ipsThumb_medium {
             transform: scale(0.7);
             margin-top: -25px;
             margin-left: -10px;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_main h4.ipsDataItem_title.ipsType_sectionHead.ipsContained_container {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_main h4.ipsDataItem_title.ipsType_sectionHead.ipsContained_container {
             transform: scale(0.7);
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_main p.ipsType_reset.ipsType_light.ipsType_blendLinks {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_main p.ipsType_reset.ipsType_light.ipsType_blendLinks {
             transform: scale(0.7);
             margin-top: 2px;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_main ul.ipsList_inline {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_main ul.ipsList_inline {
             transform: scale(0.7);
             margin-top: -20px;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
             transform: scale(0.7);
             margin-top: -20px;
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem {
             height: 100px;
         }
-        div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div div.ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear {
+        div#ipsLayout_contentWrapper div.ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear {
             margin-top: 20px;
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top p.ipsType_large.ipsType_center.ipsType_reset.ipsSpacer_top.ipsSpacer_half span.cFilePrice {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top p.ipsType_large.ipsType_center.ipsType_reset.ipsSpacer_top.ipsSpacer_half span.cFilePrice {
             position: absolute;
             margin-left: 50px;
             margin-top: -85px;
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top p.ipsType_large.ipsType_center.ipsType_reset.ipsSpacer_top.ipsSpacer_half span.cFilePrice {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top p.ipsType_large.ipsType_center.ipsType_reset.ipsSpacer_top.ipsSpacer_half span.cFilePrice {
             position: absolute;
             margin-left: 50px;
             margin-top: -85px;
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 ul.ipsList_inline {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 ul.ipsList_inline {
             transform: scale(0.7);
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
             transform: scale(0.7);
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 ul.ipsList_inline {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 ul.ipsList_inline {
             transform: scale(1.0);
             margin-top: -10px;
             color: #18202B;
             font-weight: 600;
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
             transform: scale(1.0);
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
             transform: scale(1.0);
             margin-top: -20px;
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_main h4.ipsDataItem_title.ipsType_sectionHead.ipsContained_container div.ipsType_break.ipsContained a.ipsTruncate.ipsTruncate_line {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_main h4.ipsDataItem_title.ipsType_sectionHead.ipsContained_container div.ipsType_break.ipsContained a.ipsTruncate.ipsTruncate_line {
             transform: scale(1.22);
             margin-left: 115px;
             /*    font-size: 20px; */
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_main h4.ipsDataItem_title.ipsType_sectionHead.ipsContained_container div.ipsType_break.ipsContained a.ipsTruncate.ipsTruncate_line {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_main h4.ipsDataItem_title.ipsType_sectionHead.ipsContained_container div.ipsType_break.ipsContained a.ipsTruncate.ipsTruncate_line {
             transform: scale(1.22);
             margin-left: 115px;
         }
@@ -3341,7 +3341,7 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             margin-left: 50px;
             margin-right: 50px;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div div.ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear div .ipsPagination {
+        div.ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear div .ipsPagination {
             margin-bottom: 0px;
         }
         div#ipsLayout_mainArea.ipsLayout_container-block div.product-main.site-main.container div.grid div.main-content.grid__col-auto article.product__info.box__white div.grid.grid--bleed div.product__content.grid__col-sm-6 div.short-description p.serial span.value span.ipsDataItem_generic.cFileInfoData span.ipsBadge.ipsBadge_negative {
@@ -4061,6 +4061,10 @@ url-prefix("http://www.insomnia.gr/classifieds/item/") {
         .ipsLayout_container-block div.product-main.site-main.container {
             background: #1A2835;
         }
+        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div.product-main.site-main.container {
+            background: #1A2835;
+            top: 18px
+        }
         /***/
     }
 }
@@ -4168,6 +4172,18 @@ nav.breadcrumb {
         }
         div#insomnia_advertsWrapper section.classifieds__latest div.grid article.entry.grid__col-xs-6.grid__col-sm-4.grid__col-md-6.grid__col-lg-4 div.classified__content.grid.grid--bleed div.title.grid__col-auto h3 a:hover {
             color: #F0B54F;
+        }
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem {
+            background: linear-gradient(#f7f7f7, #EEEEEE);
+            border-top: 1px solid #555;
+        }
+        div.container div.ipsBox.cClassifiedsTable {
+            background: #1A2835;
+            border: none;
+        }
+        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div.classifieds__content-container.site-main.container {
+            background: #1A2835;
+            top: 18px
         }
     }
 }
@@ -7439,77 +7455,77 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
         div#ipsLayout_mainArea.ipsLayout_container-block div.product-main.site-main.container div.grid div.sidebar.grid__col-md-4.grid--align-content-start section.seller-info.contact-seller a.submit.grey.medium.round:hover {
             background: #919191;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top a.ipsThumb.ipsThumb_medium.ipsThumb_bg {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top a.ipsThumb.ipsThumb_medium.ipsThumb_bg {
             transform: scale(0.7);
             margin-top: -25px;
             margin-left: -10px;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top a.ipsThumb.ipsThumb_medium.ipsThumb_bg {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top a.ipsThumb.ipsThumb_medium.ipsThumb_bg {
             transform: scale(0.7);
             margin-top: -25px;
             margin-left: -10px;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top a.ipsNoThumb.ipsThumb.ipsThumb_medium {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top a.ipsNoThumb.ipsThumb.ipsThumb_medium {
             transform: scale(0.7);
             margin-top: -25px;
             margin-left: -10px;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_main h4.ipsDataItem_title.ipsType_sectionHead.ipsContained_container {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_main h4.ipsDataItem_title.ipsType_sectionHead.ipsContained_container {
             transform: scale(0.7);
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_main p.ipsType_reset.ipsType_light.ipsType_blendLinks {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_main p.ipsType_reset.ipsType_light.ipsType_blendLinks {
             transform: scale(0.7);
             margin-top: 2px;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_main ul.ipsList_inline {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_main ul.ipsList_inline {
             transform: scale(0.7);
             margin-top: -20px;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
             transform: scale(0.7);
             margin-top: -20px;
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem {
             height: 100px;
         }
-        div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div div.ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear {
+        div#ipsLayout_contentWrapper div.ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear {
             margin-top: 20px;
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top p.ipsType_large.ipsType_center.ipsType_reset.ipsSpacer_top.ipsSpacer_half span.cFilePrice {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top p.ipsType_large.ipsType_center.ipsType_reset.ipsSpacer_top.ipsSpacer_half span.cFilePrice {
             position: absolute;
             margin-left: 50px;
             margin-top: -85px;
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top p.ipsType_large.ipsType_center.ipsType_reset.ipsSpacer_top.ipsSpacer_half span.cFilePrice {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top p.ipsType_large.ipsType_center.ipsType_reset.ipsSpacer_top.ipsSpacer_half span.cFilePrice {
             position: absolute;
             margin-left: 50px;
             margin-top: -85px;
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 ul.ipsList_inline {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 ul.ipsList_inline {
             transform: scale(0.7);
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
             transform: scale(0.7);
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 ul.ipsList_inline {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 ul.ipsList_inline {
             transform: scale(1.0);
             margin-top: -10px;
             color: #18202B;
             font-weight: 600;
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
             transform: scale(1.0);
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsPos_top.ipsDataItem_size8 p.ipsType_normal.ipsType_reset.ipsType_light {
             transform: scale(1.0);
             margin-top: -20px;
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_main h4.ipsDataItem_title.ipsType_sectionHead.ipsContained_container div.ipsType_break.ipsContained a.ipsTruncate.ipsTruncate_line {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_main h4.ipsDataItem_title.ipsType_sectionHead.ipsContained_container div.ipsType_break.ipsContained a.ipsTruncate.ipsTruncate_line {
             transform: scale(1.22);
             margin-left: 115px;
             /*    font-size: 20px; */
         }
-        div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_main h4.ipsDataItem_title.ipsType_sectionHead.ipsContained_container div.ipsType_break.ipsContained a.ipsTruncate.ipsTruncate_line {
+        div#ipsLayout_contentArea div#ipsLayout_contentWrapper .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem div.ipsDataItem_main h4.ipsDataItem_title.ipsType_sectionHead.ipsContained_container div.ipsType_break.ipsContained a.ipsTruncate.ipsTruncate_line {
             transform: scale(1.22);
             margin-left: 115px;
         }
@@ -7523,7 +7539,7 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             margin-left: 50px;
             margin-right: 50px;
         }
-        div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox.cClassifiedsTable div div.ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear div .ipsPagination {
+        div.ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear div .ipsPagination {
             margin-bottom: 0px;
         }
         div#ipsLayout_mainArea.ipsLayout_container-block div.product-main.site-main.container div.grid div.main-content.grid__col-auto article.product__info.box__white div.grid.grid--bleed div.product__content.grid__col-sm-6 div.short-description p.serial span.value span.ipsDataItem_generic.cFileInfoData span.ipsBadge.ipsBadge_negative {
@@ -8227,6 +8243,10 @@ url-prefix("http://www.insomnia.gr/classifieds/item/") {
         .ipsLayout_container-block div.product-main.site-main.container {
             background: #252525;
         }
+        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div.product-main.site-main.container {
+            background: #252525;
+            top: 18px
+        }
         /***/
     }
 }
@@ -8333,6 +8353,18 @@ nav.breadcrumb {
         }
         div.ipsDataItem_main ul.ipsTags.ipsList_inline {
             visibility: hidden;
+        }
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem {
+            background: linear-gradient(#191919, #252525);
+            border-top: 1px solid #555;
+        }
+        div.container div.ipsBox.cClassifiedsTable {
+            background: #252525;
+            border: none;
+        }
+        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div.classifieds__content-container.site-main.container {
+            background: #252525;
+            top: 18px
         }
     }
 }
@@ -8546,6 +8578,9 @@ nav.breadcrumb {
         div#page.site main#ipsLayout_body.container {
             margin-bottom: 100px;
         }
+        div#page.site div.container__full {
+            margin-top: 100px;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/") {
@@ -8567,34 +8602,6 @@ nav.breadcrumb {
         a#backtoTop i.fa.fa-chevron-circle-up {
             transform: scale(1.5, 1.5);
             margin-left: 10px;
-        }
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/") {
-    if FloatBackToTop {
-        a#backtoTop i.fa.fa-chevron-circle-up {
-            position: fixed;
-            right: 50px;
-            bottom: 50px;
-            z-index: 100;
-        }
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/") {
-    if FloatBackToTop {
-        if MenuOnTop {
-            div#page.site main#ipsLayout_body.container {
-                margin-bottom: 100px;
-            }
-        }
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/") {
-    if LargeBackToTop {
-        if OldWidth {
-            a#backtoTop i.fa.fa-chevron-circle-up {
-                margin-left: 135px;
-            }
         }
     }
 }
