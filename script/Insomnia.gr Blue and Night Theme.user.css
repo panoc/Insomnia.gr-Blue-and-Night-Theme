@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.3.5
+@version 2.3.6
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -4317,6 +4317,16 @@ url-prefix("https://www.insomnia.gr/clubs/") {
             background: #1a2835;
         }
         div.cClubCard div.ipsPad a.ipsButton.ipsButton_small.ipsButton_primary.ipsButton_fullWidth:hover {
+            color: #f8f8f8;
+        }
+        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate h2.ipsType_pageTitle.ipsType_blendLinks.ipsPageHead_barText {
+            background: none;
+        }
+        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate h2.ipsType_pageTitle.ipsType_blendLinks.ipsPageHead_barText a:hover {
+            color: #6B92C1;
+        }
+        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate p.ipsType_reset.ipsType_normal.ipsPageHead_barText_small {
+            background: none;
             color: #f8f8f8;
         }
     }
@@ -8683,6 +8693,16 @@ url-prefix("https://www.insomnia.gr/clubs/") {
         }
         ul.ipsGrid.ipsGrid_collapsePhone li.ipsBox.ipsGrid_span6 {
             background: #252525;
+        }
+        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate h2.ipsType_pageTitle.ipsType_blendLinks.ipsPageHead_barText {
+            background: none;
+        }
+        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate h2.ipsType_pageTitle.ipsType_blendLinks.ipsPageHead_barText a:hover {
+            color: #F0B54F;
+        }
+        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate p.ipsType_reset.ipsType_normal.ipsPageHead_barText_small {
+            background: none;
+            color: #f8f8f8;
         }
     }
 }
