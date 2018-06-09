@@ -4308,6 +4308,16 @@ url-prefix("https://www.insomnia.gr/clubs/") {
             color: #fafafa;
             border: none;
         }
+        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate h2.ipsType_pageTitle.ipsType_blendLinks.ipsPageHead_barText {
+            background: none;
+        }
+        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate h2.ipsType_pageTitle.ipsType_blendLinks.ipsPageHead_barText a:hover {
+            color: #6B92C1;
+        }
+        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate p.ipsType_reset.ipsType_normal.ipsPageHead_barText_small {
+            background: none;
+            color: #f8f8f8;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/clubs/") {
@@ -4317,16 +4327,6 @@ url-prefix("https://www.insomnia.gr/clubs/") {
             background: #1a2835;
         }
         div.cClubCard div.ipsPad a.ipsButton.ipsButton_small.ipsButton_primary.ipsButton_fullWidth:hover {
-            color: #f8f8f8;
-        }
-        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate h2.ipsType_pageTitle.ipsType_blendLinks.ipsPageHead_barText {
-            background: none;
-        }
-        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate h2.ipsType_pageTitle.ipsType_blendLinks.ipsPageHead_barText a:hover {
-            color: #6B92C1;
-        }
-        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate p.ipsType_reset.ipsType_normal.ipsPageHead_barText_small {
-            background: none;
             color: #f8f8f8;
         }
     }
@@ -8674,6 +8674,16 @@ url-prefix("https://www.insomnia.gr/clubs/") {
             color: #fafafa;
             border: none;
         }
+        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate h2.ipsType_pageTitle.ipsType_blendLinks.ipsPageHead_barText {
+            background: none;
+        }
+        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate h2.ipsType_pageTitle.ipsType_blendLinks.ipsPageHead_barText a:hover {
+            color: #F0B54F;
+        }
+        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate p.ipsType_reset.ipsType_normal.ipsPageHead_barText_small {
+            background: none;
+            color: #f8f8f8;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/clubs/") {
@@ -8693,16 +8703,6 @@ url-prefix("https://www.insomnia.gr/clubs/") {
         }
         ul.ipsGrid.ipsGrid_collapsePhone li.ipsBox.ipsGrid_span6 {
             background: #252525;
-        }
-        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate h2.ipsType_pageTitle.ipsType_blendLinks.ipsPageHead_barText {
-            background: none;
-        }
-        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate h2.ipsType_pageTitle.ipsType_blendLinks.ipsPageHead_barText a:hover {
-            color: #F0B54F;
-        }
-        div.ipsColumn.ipsColumn_fluid.cClubHeaderInfo.ipsTruncate p.ipsType_reset.ipsType_normal.ipsPageHead_barText_small {
-            background: none;
-            color: #f8f8f8;
         }
     }
 }
