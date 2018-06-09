@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.3.4
+@version 2.3.5
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -2749,6 +2749,13 @@ url-prefix("https://www.insomnia.gr/announcement/") {
         .cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone {
             border-radius: 0px;
         }
+        li.ipsDataItem div.ipsDataItem_icon.ipsType_center.ipsType_noBreak {
+            background: linear-gradient(#f7f7f7, #EEEEEE);
+            border-top: 1px solid #555;
+        }
+        i.fa.fa-arrow-left.ipsType_large {
+            color: #F69E05;
+        }
         /***/
     }
 }
@@ -4271,6 +4278,46 @@ nav.breadcrumb {
         div.container div.ipsBox {
             border: none;
             background: #1A2835;
+        }
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/forums/topic/"),
+url-prefix("https://www.insomnia.gr/clubs/") {
+    /**** clubs ****/
+    if not NightMode {
+        div#elClubControls.ipsClearfix div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show {
+            background: #1a2835;
+        }
+        div#elClubControls.ipsClearfix {
+            background: #1a2835;
+        }
+        div#elClubContainer div.cTopic.ipsClear.ipsSpacer_top {
+            margin-top: 0px;
+        }
+        .ipsTabs_item.ipsTabs_activeItem {
+            background: #3E5673;
+            color: #fafafa;
+        }
+        li a.ipsButton.ipsButton_verySmall.ipsButton_light {
+            background: #3E5673;
+            color: #fafafa;
+            border: none;
+        }
+        li a.ipsButton.ipsButton_verySmall.ipsButton_light:hover {
+            background: #6B92C1;
+            color: #fafafa;
+            border: none;
+        }
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/clubs/") {
+    /**** clubs ****/
+    if not NightMode {
+        .ipsLayout_clubs_container_block div.ipsBox div.ipsAreaBackground.ipsPad {
+            background: #1a2835;
+        }
+        div.cClubCard div.ipsPad a.ipsButton.ipsButton_small.ipsButton_primary.ipsButton_fullWidth:hover {
+            color: #f8f8f8;
         }
     }
 }
@@ -7016,6 +7063,13 @@ url-prefix("https://www.insomnia.gr/") {
         .cPost.ipsBox.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone {
             border-radius: 0px;
         }
+        li.ipsDataItem div.ipsDataItem_icon.ipsType_center.ipsType_noBreak {
+            background: linear-gradient(#323232, #272727);
+            border-top: 1px solid #555;
+        }
+        i.fa.fa-arrow-left.ipsType_large {
+            color: #F69E05;
+        }
         /***/
     }
 }
@@ -8580,6 +8634,55 @@ nav.breadcrumb {
         }
         .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight div form.ipsForm.ipsForm_vertical div.ipsPad h2.ipsType_sectionHead {
             color: #f8f8f8;
+        }
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/forums/topic/"),
+url-prefix("https://www.insomnia.gr/clubs/") {
+    /**** clubs ****/
+    if NightMode {
+        div#elClubControls.ipsClearfix div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show {
+            background: #252525;
+        }
+        div#elClubControls.ipsClearfix {
+            background: #252525;
+        }
+        div#elClubContainer div.cTopic.ipsClear.ipsSpacer_top {
+            margin-top: 0px;
+        }
+        .ipsTabs_item.ipsTabs_activeItem {
+            background: #5D5D5D;
+            color: #fafafa;
+        }
+        li a.ipsButton.ipsButton_verySmall.ipsButton_light {
+            background: #5d5d5d;
+            color: #fafafa;
+            border: none;
+        }
+        li a.ipsButton.ipsButton_verySmall.ipsButton_light:hover {
+            background: #a2a2a2;
+            color: #fafafa;
+            border: none;
+        }
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/clubs/") {
+    /**** clubs ****/
+    if NightMode {
+        .ipsLayout_clubs_container_block div.ipsBox div.ipsAreaBackground.ipsPad {
+            background: #252525;
+        }
+        div.cClubCard div.ipsPad a.ipsButton.ipsButton_small.ipsButton_primary.ipsButton_fullWidth:hover {
+            color: #f8f8f8;
+        }
+        ul.ipsGrid.ipsGrid_collapsePhone li.ipsBox.ipsGrid_span6 div.cClubCard {
+            background: #252525;
+        }
+        div.cClubCard div.ipsPad div.ipsType_richText.ipsType_medium {
+            color: #c5c5c5;
+        }
+        ul.ipsGrid.ipsGrid_collapsePhone li.ipsBox.ipsGrid_span6 {
+            background: #252525;
         }
     }
 }
