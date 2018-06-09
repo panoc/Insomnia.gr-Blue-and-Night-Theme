@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.3.3
+@version 2.3.4
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -4259,6 +4259,18 @@ nav.breadcrumb {
         div#classifieds_search.classifieds__search form input.search-class-custom {
             color: #f8f8f8;
             background: #3E5673;
+        }
+        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div.container div.ipsBox div.ipsBox ol.ipsDataList.ipsDataList_zebra li.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix {
+            background: linear-gradient(#f7f7f7, #EEEEEE);
+            border-top: 1px solid #555;
+        }
+        div.container {
+            border: none;
+            background: #1A2835;
+        }
+        div.container div.ipsBox {
+            border: none;
+            background: #1A2835;
         }
     }
 }
@@ -8523,6 +8535,51 @@ nav.breadcrumb {
         div#classifieds_search.classifieds__search form input.search-class-custom {
             color: #f8f8f8;
             background: #a2a2a2;
+        }
+        div#ipsLayout_mainArea.ipsLayout_nocontainer-block div.container div.ipsBox div.ipsBox ol.ipsDataList.ipsDataList_zebra li.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix {
+            background: linear-gradient(#323232, #272727);
+            border-top: 1px solid #555;
+        }
+        div.container {
+            border: none;
+            background: #252525;
+        }
+        div.container div.ipsBox {
+            border: none;
+            background: #252525;
+        }
+        div.ipsPos_right.ipsResponsive_noFloat.ipsResponsive_hidePhone div {
+            background: #5D5D5D;
+            color: #C8C8C9;
+        }
+        div.ipsFollow.ipsButton.ipsButton_link.ipsButton_verySmall:hover {
+            background: #a2a2a2;
+            color: #f8f8f8;
+        }
+        div.ipsPos_right.ipsResponsive_noFloat.ipsResponsive_hidePhone div div.ipsFollow.ipsButton.ipsButton_link.ipsButton_verySmall a:hover {
+            color: #f8f8f8
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft div form.ipsForm.ipsForm_vertical {
+            background: #323232;
+            border: none;
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft div form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad {
+            background: #323232;
+            border: none;
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft div form.ipsForm.ipsForm_vertical div.ipsPad h2.ipsType_sectionHead {
+            color: #f8f8f8;
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight div form.ipsForm.ipsForm_vertical {
+            background: #323232;
+            border: none;
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight div form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad {
+            background: #323232;
+            border: none;
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight div form.ipsForm.ipsForm_vertical div.ipsPad h2.ipsType_sectionHead {
+            color: #f8f8f8;
         }
     }
 }
