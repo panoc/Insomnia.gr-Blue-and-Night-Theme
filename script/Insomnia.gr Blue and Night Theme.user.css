@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.3.6
+@version 2.3.7
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -4329,6 +4329,22 @@ url-prefix("https://www.insomnia.gr/clubs/") {
         div.cClubCard div.ipsPad a.ipsButton.ipsButton_small.ipsButton_primary.ipsButton_fullWidth:hover {
             color: #f8f8f8;
         }
+        div#ipsLayout_mainArea.ipsLayout_container-block.ipsLayout_clubs_container_block {
+            top: -16px;
+        }
+        div.ipsFollow.ipsButton.ipsButton_link.ipsButton_verySmall {
+            background: #3E5673;
+            color: #fafafa;
+            border: none;
+        }
+        div.ipsFollow.ipsButton.ipsButton_link.ipsButton_verySmall:hover {
+            background: #6B92C1;
+            color: #fafafa;
+            border: none;
+        }
+        div.ipsFollow.ipsButton.ipsButton_link.ipsButton_verySmall a#ips_uid_4943_3.ipsType_blendLinks.ipsType_noUnderline:hover {
+            color: #fafafa;
+        }
     }
 }
 @-moz-document url-prefix("http://www.insomnia.gr/forums/"),
@@ -7201,6 +7217,21 @@ url-prefix("https://www.insomnia.gr/") {
             border-style: solid;
             border-right: none;
         }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft div form.ipsForm.ipsForm_vertical div.ipsPad h2.ipsType_sectionHead {
+            color: #C8C8C9
+        }
+        .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight div form.ipsForm.ipsForm_vertical div.ipsPad h2.ipsType_sectionHead {
+            color: #C8C8C9
+        }
+        .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft div form.ipsForm.ipsForm_vertical div.ipsPad h2.ipsType_sectionHead {
+            color: #C8C8C9
+        }
+        .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemRight div form.ipsForm.ipsForm_vertical div.ipsPad h2.ipsType_sectionHead {
+            color: #C8C8C9
+        }
+        ul#elRadio_follow_type_.ipsField_fieldList li span.ipsCustomInput span::after {
+            background: #323232;
+        }
     }
 }
 @-moz-document url("https://www.insomnia.gr/attachments/"),
@@ -8703,6 +8734,22 @@ url-prefix("https://www.insomnia.gr/clubs/") {
         }
         ul.ipsGrid.ipsGrid_collapsePhone li.ipsBox.ipsGrid_span6 {
             background: #252525;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block.ipsLayout_clubs_container_block {
+            top: -16px;
+        }
+        div.ipsFollow.ipsButton.ipsButton_link.ipsButton_verySmall {
+            background: #5d5d5d;
+            color: #fafafa;
+            border: none;
+        }
+        div.ipsFollow.ipsButton.ipsButton_link.ipsButton_verySmall:hover {
+            background: #a2a2a2;
+            color: #fafafa;
+            border: none;
+        }
+        div.ipsFollow.ipsButton.ipsButton_link.ipsButton_verySmall a#ips_uid_4943_3.ipsType_blendLinks.ipsType_noUnderline:hover {
+            color: #fafafa;
         }
     }
 }
