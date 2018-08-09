@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.4.1
+@version 2.4.2
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -1229,6 +1229,15 @@ ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half li {
 url-prefix("https://www.insomnia.gr/") {
     /*** All site ***/
     if not NightMode {
+        div.cAnnouncementsContent.ipsClearfix {
+            position: relative;
+            top: -50px;
+            max-width: 1400px;
+            margin: auto;
+        }
+        div.cAnnouncementPageTop.ipsMessage.ipsMessage_error.ipsType_center {
+            background: #121820;
+        }
         div.copyright.box__dark-grey p span {
             color: #f0f0f0
         }
@@ -5645,6 +5654,15 @@ url-prefix("https://www.insomnia.gr/clubs/") {
 url-prefix("https://www.insomnia.gr/") {
     /*** All site ***/
     if NightMode {
+        div.cAnnouncementsContent.ipsClearfix {
+            position: relative;
+            top: -50px;
+            max-width: 1400px;
+            margin: auto;
+        }
+        div.cAnnouncementPageTop.ipsMessage.ipsMessage_error.ipsType_center {
+            background: #191919;
+        }
         .ipsDialog.ipsDialog_narrow div {
             background: #252525;
         }
