@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.4.2
+@version 2.4.3
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -2465,6 +2465,19 @@ url-prefix("https://www.insomnia.gr/") {
 @-moz-document url-prefix("https://www.insomnia.gr/discover/") {
     /**** Discover Fix ****/
     if not NightMode {
+        span.ipsStreamItem_contentType i.fa.fa-newspaper-o {
+            color: #1A2835;
+            margin-top: 4px;
+        }
+        div.ipsBox_alt ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container.ipsClearfix div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
+            background: #F0B550;
+        }
+        div.ipsBox_alt ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container.ipsClearfix div.ipsStreamItem_snippet.ipsType_break div.ipsColumns.ipsColumns_collapsePhone div.ipsColumn.ipsColumn_fluid.ipsStream_snippetInfo {
+            background: linear-gradient(#f5f5f5, #EfEfEf)
+        }
+        div.ipsSpacer_top.ipsSpacer_half.ipsType_richText.ipsType_break {
+            color: #000000d4
+        }
         ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half li a.ipsButton.ipsButton_veryVerySmall.ipsButton_link {
             border: none;
         }
@@ -2827,6 +2840,9 @@ url-prefix("https://www.insomnia.gr/feedback/") {
         }
         div.cWidgetContainer ul.ipsList_reset li.ipsWidget.ipsWidget_vertical.ipsBox {
             background: none;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block section.ipsBox {
+            margin-bottom: 95px;
         }
     }
 }
@@ -6892,6 +6908,19 @@ url-prefix("https://www.insomnia.gr/") {
 @-moz-document url-prefix("https://www.insomnia.gr/discover/") {
     /**** Discover Fix ****/
     if NightMode {
+        span.ipsStreamItem_contentType i.fa.fa-newspaper-o {
+            color: #252525;
+            margin-top: 4px;
+        }
+        div.ipsBox_alt ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container.ipsClearfix div.ipsStreamItem_snippet.ipsType_break div.ipsColumns.ipsColumns_collapsePhone div.ipsColumn.ipsColumn_fluid.ipsStream_snippetInfo {
+            background: linear-gradient(#31313100, #292929)
+        }
+        div.ipsSpacer_top.ipsSpacer_half.ipsType_richText.ipsType_break {
+            color: #C8C8C9
+        }
+        div.ipsBox_alt ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad div.ipsStreamItem_container.ipsClearfix div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
+            background: #F0B550;
+        }
         ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half li a.ipsButton.ipsButton_veryVerySmall.ipsButton_link {
             border: none;
         }
@@ -7285,6 +7314,22 @@ url-prefix("https://www.insomnia.gr/announcement/") {
         }
         div.cWidgetContainer ul.ipsList_reset li.ipsWidget.ipsWidget_vertical.ipsBox {
             background: none;
+        }
+        div#ipsLayout_mainArea.ipsLayout_container-block section.ipsBox {
+            margin-bottom: 95px;
+        }
+        section.ipsBox div.ipsPad.ipsClearfix ol.ipsList_reset.cPollList li ul.ipsList_reset.cPollList_choices li.ipsGrid.ipsGrid_collapsePhone div.ipsGrid_span4.ipsType_richText.ipsType_break {
+            color: #ececec;
+        }
+        section.ipsBox div.ipsPad.ipsClearfix ol.ipsList_reset.cPollList li h3.ipsType_sectionHead span.ipsType_break.ipsContained {
+            color: #ececec;
+        }
+
+        section.ipsBox div.ipsPad.ipsClearfix ol.ipsList_reset.cPollList li ul.ipsList_reset.cPollList_choices li.ipsGrid.ipsGrid_collapsePhone div.ipsGrid_span7 span.cPollVoteBar {
+            background: #9A9A99;
+        }
+        section.ipsBox div.ipsPad.ipsClearfix ol.ipsList_reset.cPollList li ul.ipsList_reset.cPollList_choices li.ipsGrid.ipsGrid_collapsePhone div.ipsGrid_span7 span.cPollVoteBar span {
+            background: #F0B54F;
         }
     }
 }
