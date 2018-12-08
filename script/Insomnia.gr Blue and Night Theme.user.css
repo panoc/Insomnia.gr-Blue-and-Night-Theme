@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.4.3
+@version 2.4.4
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -60,7 +60,9 @@ url-prefix("http://www.insomnia.gr/messenger/"),
 url-prefix("https://www.insomnia.gr/articles/?show=categories"),
 url-prefix("https://www.insomnia.gr/attachments/"),
 url-prefix("https://www.insomnia.gr/announcement/"),
-url-prefix("https://www.insomnia.gr/clubs/") {
+url-prefix("https://www.insomnia.gr/clubs/"),
+url-prefix("https://www.insomnia.gr/gallery/category/7"),
+url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
     if not NightMode {
         div#ipsLayout_mainArea.ipsLayout_container-block article.ipsBox.ipsPad {
             background: #f0f0f0;
@@ -2844,8 +2846,21 @@ url-prefix("https://www.insomnia.gr/feedback/") {
         div#ipsLayout_mainArea.ipsLayout_container-block section.ipsBox {
             margin-bottom: 95px;
         }
+
+
+        li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_icon.ipsPos_top {
+            background: linear-gradient(#f7f7f7, #EEEEEE);
+            border-top: 1px solid #555;
+        }
+        li.ipsWidget.ipsWidget_vertical.ipsBox div.ipsPad_half.ipsWidget_inner {
+            background: none;
+        }
+        li.ipsDataItem.ipsDataItem_unread {
+            border: none
+        }
     }
 }
+
 @-moz-document url-prefix("https://www.insomnia.gr/feedback/") {
     /**** Forums Fix ****/
     if not NightMode {
@@ -4059,6 +4074,9 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
         div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox {
             border: none;
         }
+        footer.site-footer div.container.grid.grid--bleed {
+            background: none;
+        }
     }
 }
 @-moz-document url("https://www.insomnia.gr/articles/"),
@@ -4358,6 +4376,15 @@ nav.breadcrumb {
         div#ipsLayout_mainArea.ipsLayout_nocontainer-block div.classifieds__content-container.site-main.container {
             top: -0px;
         }
+        .ipsDataList.ipsClear.ipsDataList_large {
+            padding-bottom: 10px;
+        }
+
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_main {
+
+
+            padding-top: 10px;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/classifieds/item/"),
@@ -4415,6 +4442,28 @@ url-prefix("http://www.insomnia.gr/classifieds/item/") {
         }
         nav.breadcrumb.ipsClearfix {
             top: -0px;
+        }
+        footer.site-footer div.container.grid.grid--bleed {
+            background: none;
+        }
+        a.ipsButton.ipsButton_medium.ipsButton_normal.ipsButton_fullWidth:hover {
+            background: #6B92C1 !important;
+            color: #f0f0f0 !important;
+        }
+
+        a.ipsButton.ipsButton_medium.ipsButton_important.ipsButton_fullWidth:hover {
+            background: #6B92C1 !important;
+            color: #f0f0f0 !important;
+        }
+
+
+        div.btn-groupblocks div.ipsGrid.ipsGrid_collapsePhone.ClassButtons div.ipsGrid_span6.ipsPad {
+            margin-top: -2px;
+            margin-right: 150px;
+        }
+
+        li a#elAdvertActions.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_fullWidth {
+            border: none;
         }
         /***/
     }
@@ -4506,7 +4555,9 @@ url-prefix("http://www.insomnia.gr/messenger/"),
 url-prefix("https://www.insomnia.gr/articles/?show=categories"),
 url-prefix("https://www.insomnia.gr/attachments/"),
 url-prefix("https://www.insomnia.gr/announcement/"),
-url-prefix("https://www.insomnia.gr/clubs/") {
+url-prefix("https://www.insomnia.gr/clubs/"),
+url-prefix("https://www.insomnia.gr/gallery/category/7"),
+url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
     if NightMode {
         div#ipsLayout_mainArea.ipsLayout_container-block article.ipsBox.ipsPad {
             background: #3C3C3C;
@@ -7331,6 +7382,16 @@ url-prefix("https://www.insomnia.gr/announcement/") {
         section.ipsBox div.ipsPad.ipsClearfix ol.ipsList_reset.cPollList li ul.ipsList_reset.cPollList_choices li.ipsGrid.ipsGrid_collapsePhone div.ipsGrid_span7 span.cPollVoteBar span {
             background: #F0B54F;
         }
+        li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_icon.ipsPos_top {
+            background: linear-gradient(#323232, #272727);
+            border-top: 1px solid #555555
+        }
+        li.ipsWidget.ipsWidget_vertical.ipsBox div.ipsPad_half.ipsWidget_inner {
+            background: none;
+        }
+        li.ipsDataItem.ipsDataItem_unread {
+            border: none
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/feedback/") {
@@ -8648,6 +8709,9 @@ div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block {
         div#ipsLayout_mainArea.ipsLayout_container-block div.ipsBox {
             border: none;
         }
+        footer.site-footer div.container.grid.grid--bleed {
+            background: none;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/articles/"),
@@ -8937,6 +9001,15 @@ nav.breadcrumb {
         div#ipsLayout_mainArea.ipsLayout_nocontainer-block div.classifieds__content-container.site-main.container {
             top: -0px;
         }
+        .ipsDataList.ipsClear.ipsDataList_large {
+            padding-bottom: 10px;
+        }
+
+        .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_main {
+
+
+            padding-top: 10px;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/classifieds/item/"),
@@ -9010,6 +9083,28 @@ url-prefix("http://www.insomnia.gr/classifieds/item/") {
         }
         nav.breadcrumb.ipsClearfix {
             top: -0px;
+        }
+        footer.site-footer div.container.grid.grid--bleed {
+            background: none;
+        }
+        a.ipsButton.ipsButton_medium.ipsButton_normal.ipsButton_fullWidth:hover {
+            background: #a2a2a2 !important;
+            color: #f0f0f0 !important;
+        }
+
+        a.ipsButton.ipsButton_medium.ipsButton_important.ipsButton_fullWidth:hover {
+            background: #a2a2a2 !important;
+            color: #f0f0f0 !important;
+        }
+
+
+        div.btn-groupblocks div.ipsGrid.ipsGrid_collapsePhone.ClassButtons div.ipsGrid_span6.ipsPad {
+            margin-top: -2px;
+            margin-right: 150px;
+        }
+
+        li a#elAdvertActions.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_fullWidth {
+            border: none;
         }
         /***/
     }
@@ -9318,6 +9413,7 @@ url-prefix("https://www.insomnia.gr/clubs/") {
         }*/
     }
 }
+
 @-moz-document url-prefix("https://www.insomnia.gr/classifieds/item/") {
     if MenuOnTop {
         div#ipsLayout_mainArea.ipsLayout_nocontainer-block div.product-main.site-main.container {
