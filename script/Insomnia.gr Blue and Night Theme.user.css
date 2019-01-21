@@ -9195,7 +9195,7 @@ url-prefix("https://www.insomnia.gr/clubs/") {
 @-moz-document url-prefix("https://www.insomnia.gr") {
     if InsomniacShow {
         nav.breadcrumb span span.home {
-            background-image: url('https://www.insomnia.gr/uploads/monthly_2018_05/insomniac.png.6184f9e0155c0a3663472330afa45e8a.png');
+            background-image: url('https://cdn.insomnia.gr/monthly_2018_05/insomniac.png.6184f9e0155c0a3663472330afa45e8a.png');
             background-repeat: no-repeat;
             margin-left: 10px;
         }
