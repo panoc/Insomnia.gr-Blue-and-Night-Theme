@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.5.0
+@version 2.5.1
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -37,7 +37,7 @@
     div.copyright.box__dark-grey {
         padding-top: 6px;
     }
-    /****/
+    /*****/
 }
 @-moz-document url-prefix("http://www.insomnia.gr/forums/"),
 url-prefix("https://www.insomnia.gr/forums/"),
@@ -690,7 +690,7 @@ url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
             border-top: 1px solid #d2cfcf;
         }
         li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_icon {
-            background: reds;
+            background: #F8F8F8;
         }
         div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal {
             background: #f0b550;
@@ -9462,8 +9462,7 @@ url-prefix("https://www.insomnia.gr/clubs/") {
 @-moz-document url("https://www.insomnia.gr/forums/"),
 url("https://www.insomnia.gr/") {
     /*****CES 2019*****/
-    /*
-    a.ces-banner {
+    /*a.ces-banner {
         margin-top: -50px
     }*/
     nav.breadcrumb.ipsClearfix {
@@ -9471,5 +9470,10 @@ url("https://www.insomnia.gr/") {
     }
     div#page.site main#ipsLayout_body.container {
         min-width: 1420px;
+    }
+}
+@-moz-document domain("insomnia.gr") {
+    .ipsUserPhoto.ipsUserPhoto_large {
+        background: none
     }
 }
