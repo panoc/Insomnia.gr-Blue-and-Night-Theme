@@ -37,6 +37,12 @@
     div.copyright.box__dark-grey {
         padding-top: 6px;
     }
+    .ipsUserPhoto.ipsUserPhoto_large {
+        background: none
+    }
+    .ipsUserPhoto.ipsUserPhoto_tiny {
+        background: none
+    }
     /*****/
 }
 @-moz-document url-prefix("http://www.insomnia.gr/forums/"),
@@ -64,6 +70,7 @@ url-prefix("https://www.insomnia.gr/clubs/"),
 url-prefix("https://www.insomnia.gr/gallery/category/7"),
 url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
     if not NightMode {
+
         div#ipsLayout_mainArea.ipsLayout_container-block article.ipsBox.ipsPad {
             background: #f0f0f0;
         }
@@ -9470,10 +9477,5 @@ url("https://www.insomnia.gr/") {
     }
     div#page.site main#ipsLayout_body.container {
         min-width: 1420px;
-    }
-}
-@-moz-document domain("insomnia.gr") {
-    .ipsUserPhoto.ipsUserPhoto_large {
-        background: none
     }
 }
