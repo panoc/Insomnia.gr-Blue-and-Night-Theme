@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.5.3
+@version 2.5.4
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -1455,7 +1455,11 @@ url-prefix("https://www.insomnia.gr/") {
             color: #6B92C1;
         }
         a#elFullNotifications span.ipsNotificationCount {
-            background: #65788F;
+            background: #6B92C1;
+            color: #000;
+        }
+        a#elFullInbox span.ipsNotificationCount {
+            background: #6B92C1;
             color: #000;
         }
         html[dir="ltr"] button.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_narrow.cMultiQuote.ipsHide {
@@ -5948,6 +5952,10 @@ url-prefix("https://www.insomnia.gr/") {
             color: #F0B54F;
         }
         a#elFullNotifications span.ipsNotificationCount {
+            background: #F0B54F;
+            color: #000;
+        }
+           a#elFullInbox span.ipsNotificationCount {
             background: #F0B54F;
             color: #000;
         }
