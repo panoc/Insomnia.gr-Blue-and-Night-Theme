@@ -143,7 +143,7 @@ url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
             padding: 0px 10px;
             border: 0px solid #6b92c1;
             color: #f5f5f5;
-            background: #6b92c1;
+            background: #65788F;
         }
         .ipsApp .ipsButton_important {
             background: #3e5673;
@@ -152,7 +152,7 @@ url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
             font-weight: normal;
         }
         .ipsApp .ipsButton_important:hover {
-            background: #6b92c1;
+            background: #65788F;
             color: #f5f5f5;
             border: 0px solid #6b92c1;
             font-weight: normal;
@@ -166,7 +166,7 @@ url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
             border: 0px;
         }
         .ipsFollow.ipsButton.ipsButton_primary.ipsButton_verySmall:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: 0px;
         }
         a {
@@ -900,7 +900,7 @@ url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
             border: #3E5673;
         }
         div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix li button.ipsButton.ipsButton_primary:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         .ipsDialog div div.ipsDialog_content form.ipsForm.ipsForm_vertical ul.ipsPad.ipsToolList.ipsToolList_horizontal.ipsList_reset.ipsClearfix.ipsAreaBackground li button.ipsButton.ipsButton_primary {
@@ -908,7 +908,7 @@ url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
             border: 1px solid #3E5673;
         }
         .ipsDialog div div.ipsDialog_content form.ipsForm.ipsForm_vertical ul.ipsPad.ipsToolList.ipsToolList_horizontal.ipsList_reset.ipsClearfix.ipsAreaBackground li button.ipsButton.ipsButton_primary:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: 1px solid #6b92c1;
         }
         .ipsType_normal.ipsType_richText.ipsType_break div.ipsHide div.ipsAreaBackground_light.ipsPad_half ul.ipsButton_split li a.ipsButton.ipsButton_verySmall.ipsButton_primary {
@@ -920,7 +920,7 @@ url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
             border: #3E5673;
         }
         div.ipsPad.ipsAreaBackground.cMyMedia_controls ul.ipsList_inline.ipsType_right li a.ipsButton.ipsButton_verySmall.ipsButton_normal:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         .ipsDialog div div.ipsDialog_content div.ipsPad.ipsForm.ipsForm_vertical form div.ipsPad.ipsAreaBackground_light div.ipsFieldRow button.ipsButton.ipsButton_primary.cEditorURLButton.cEditorURLButtonInsert {
@@ -928,7 +928,7 @@ url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
             border: #3E5673;
         }
         .ipsDialog div div.ipsDialog_content div.ipsPad.ipsForm.ipsForm_vertical form div.ipsPad.ipsAreaBackground_light div.ipsFieldRow button.ipsButton.ipsButton_primary.cEditorURLButton.cEditorURLButtonInsert:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li button.ipsButton.ipsButton_primary {
@@ -936,7 +936,7 @@ url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
             border: #3E5673;
         }
         div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li button.ipsButton.ipsButton_primary:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         div.ipsBox div.ipsAreaBackground.ipsPad.ipsType_center button.ipsButton.ipsButton_medium.ipsButton_primary {
@@ -944,7 +944,7 @@ url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
             border: #3E5673
         }
         div.ipsBox div.ipsAreaBackground.ipsPad.ipsType_center button.ipsButton.ipsButton_medium.ipsButton_primary:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1
         }
         div.ipsBox div.ipsAreaBackground.ipsPad.ipsType_center a.ipsButton.ipsButton_link.ipsButton_medium {
@@ -973,7 +973,7 @@ url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
             border: #3E5673;
         }
         a#elMessengerPopup_compose.ipsPos_right.ipsButton.ipsButton_primary.ipsButton_verySmall:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         li button.ipsButton.ipsButton_medium.ipsButton_primary.ipsButton_fullWidth {
@@ -981,7 +981,7 @@ url-prefix("https://www.insomnia.gr/blogs/blog/1-blog/") {
             border: #3E5673;
         }
         li button.ipsButton.ipsButton_medium.ipsButton_primary.ipsButton_fullWidth:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         footer.site-footer {
@@ -1003,7 +1003,7 @@ ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half li {
             border: 1px solid #3E5673;
         }
         li button.ipsButton.ipsButton_fullWidth.ipsButton_primary:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: 1px solid #6b92c1;
         }
         div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsPageHeader.ipsClearfix ul.ipsList_inline.ipsPos_right.ipsType_blendLinks.ipsResponsive_hidePhone li a {
@@ -1141,11 +1141,11 @@ ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half li {
             border: #3E5673;
         }
         div#ipsLayout_mainArea.ipsLayout_container-block form div.ipsBox div.ipsPad.ipsType_center button.ipsButton.ipsButton_primary:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         div#ipsLayout_mainArea.ipsLayout_container-block form div.ipsAreaBackground.ipsPad div.ipsType_center button.ipsButton.ipsButton_primary:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         li a.ipsSideMenu_item.ipsSideMenu_itemActive {
@@ -1236,7 +1236,7 @@ ul.ipsButton_split.ipsPos_right.ipsClearfix.ipsSpacer_bottom.ipsSpacer_half li {
         div.ipsDataItem_generic.ipsDataItem_size6.ipsType_center.cFollowedContent_manage div div.ipsFollow .ipsButton.ipsButton_light.ipsButton_fullWidth.ipsButton_verySmall:hover {
             border: none;
             color: #f0f0f0;
-            background: #6b92c1;
+            background: #65788F;
         }
     }
 }
@@ -1282,7 +1282,7 @@ url-prefix("https://www.insomnia.gr/") {
             color: #f8f8f8;
         }
         html[dir="ltr"] button.ipsButton.ipsButton_fullWidth.ipsButton_primary:hover {
-            background: #6B92C1;
+            background: #65788F;
             border: 1px solid #6B92C1;
             color: #f8f8f8;
         }
@@ -1292,7 +1292,7 @@ url-prefix("https://www.insomnia.gr/") {
             color: #f8f8f8;
         }
         html[dir="ltr"] button.ipsButton.ipsButton_fullWidth.ipsButton_light:hover {
-            background: #6B92C1;
+            background: #65788F;
             border: 1px solid #6B92C1;
         }
         .search-form-container #elSearch input[type="search"] {
@@ -1316,12 +1316,12 @@ url-prefix("https://www.insomnia.gr/") {
             border-color: transparent transparent #6B92C1!important;
         }
         .site-header .menu-toolbox-container .main-navigation ul li::after {
-            background: #6B92C1
+            background: #65788F
         }
         .site-header .menu-toolbox-container .main-navigation ul li.ipsNavBar_active::after,
         .site-header .menu-toolbox-container .main-navigation ul li.current::after,
         .site-header .menu-toolbox-container .main-navigation ul li:hover::after {
-            background: #6B92C1
+            background: #65788F
         }
         html[dir="ltr"] .ipsPagination_last a {
             background: #d2d2d2;
@@ -1344,7 +1344,7 @@ url-prefix("https://www.insomnia.gr/") {
             color: #C8C8C9;
         }
         html[dir="ltr"] .ipsPagination_active a {
-            background: #6B92C1;
+            background: #65788F;
             color: #f0f0f0;
         }
         html[dir="ltr"] .ipsPagination li.ipsPagination_page a {
@@ -1402,7 +1402,7 @@ url-prefix("https://www.insomnia.gr/") {
             color: #6B92C1;
         }
         html[dir="ltr"] .ipsPagination li.ipsPagination_page.ipsPagination_active a {
-            background: #6B92C1;
+            background: #65788F;
             color: #f0f0f0;
         }
         html[dir="ltr"] div.ipsButtonBar .ipsPagination .ipsPagination_prev a {
@@ -1426,7 +1426,7 @@ url-prefix("https://www.insomnia.gr/") {
             color: #252525;
         }
         html[dir="ltr"] div.ipsButtonBar .ipsPagination .ipsPagination_active a {
-            background: #6B92C1;
+            background: #65788F;
             color: #f0f0f0;
         }
         html[dir="ltr"] .ipsPagination li.ipsPagination_page a:hover {
@@ -1455,21 +1455,21 @@ url-prefix("https://www.insomnia.gr/") {
             color: #6B92C1;
         }
         a#elFullNotifications span.ipsNotificationCount {
-            background: #6B92C1;
+            background: #65788F;
             color: #000;
         }
         html[dir="ltr"] button.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_narrow.cMultiQuote.ipsHide {
             background: #d2d2d2;
         }
         html[dir="ltr"] button.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_narrow.cMultiQuote.ipsHide:hover {
-            background: #6B92C1;
+            background: #65788F;
         }
         html[dir="ltr"] li.ipsJS_show button.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_narrow.cMultiQuote {
             background: #d2d2d2;
             margin-left: 15px;
         }
         html[dir="ltr"] li.ipsJS_show button.ipsButton.ipsButton_light.ipsButton_verySmall.ipsButton_narrow.cMultiQuote:hover {
-            background: #6B92C1;
+            background: #65788F;
             margin-left: 15px;
         }
         li.ipsJS_show a:hover {
@@ -1486,7 +1486,7 @@ url-prefix("https://www.insomnia.gr/") {
             border: none
         }
         html[dir="ltr"] .ipsButton_primary:hover {
-            background: #6B92C1;
+            background: #65788F;
             border: none
         }
         html[dir="ltr"] .ipsButton_fullWidth {
@@ -1494,7 +1494,7 @@ url-prefix("https://www.insomnia.gr/") {
             border: none
         }
         html[dir="ltr"] .ipsButton_fullWidth:hover {
-            background: #6B92C1;
+            background: #65788F;
             border: none
         }
         html[dir="ltr"] .ipsButton.ipsButton_important.ipsButton_medium {
@@ -1502,7 +1502,7 @@ url-prefix("https://www.insomnia.gr/") {
             border: none
         }
         html[dir="ltr"] .ipsButton.ipsButton_important.ipsButton_medium:hover {
-            background: #6B92C1;
+            background: #65788F;
             border: none
         }
         div.ipsItemControls ul.ipsComment_controls.ipsClearfix.ipsItemControls_left li a:hover {
@@ -1576,7 +1576,7 @@ html[dir="ltr"] span.ipsType_normal span .ipsType_break:hover {
             border-top: 1px solid #DCDCDC;
         }
         html[dir="ltr"] .ipsToggle.ipsToggle_on {
-            background: #6B92C1;
+            background: #65788F;
             border-color: #6B92C1;
             box-shadow: none;
         }
@@ -1653,12 +1653,12 @@ html[dir="ltr"] span.ipsType_normal span .ipsType_break:hover {
             color: #d2d7dc;
         }
         html[dir="ltr"]::-moz-selection {
-            background: #6b92c1;
+            background: #65788F;
             /* Gecko Browsers */
             color: #f5f5f5;
         }
         html[dir="ltr"]::selection {
-            background: #6b92c1;
+            background: #65788F;
             /* WebKit/Blink Browsers */
             color: #f5f5f5;
         }
@@ -1761,7 +1761,7 @@ url-prefix("https://www.insomnia.gr/") {
         }
         nav.breadcrumb ul.ipsList_inline.ipsPos_right a:hover {
             color: #6B92C1;
-            /*background: #6B92C1;*/
+            /*background: #65788F;*/
         }
         nav.breadcrumb {
             position: relative;
@@ -1830,7 +1830,7 @@ url-prefix("https://www.insomnia.gr/") {
             border: #3E5673;
         }
         ul#elAllStreams_menu.ipsMenu.ipsMenu_auto.ipsHide.ipsMenu_bottomCenter li.ipsPad_half a.ipsButton.ipsButton_primary.ipsButton_verySmall.ipsButton_fullWidth:hover {
-            background: #6B92C1;
+            background: #65788F;
             border: #6B92C1;
         }
         .ipsHide.ipsMenu_bottomRight li.ipsPad_half a.ipsButton.ipsButton_primary.ipsButton_verySmall.ipsButton_fullWidth {
@@ -1838,7 +1838,7 @@ url-prefix("https://www.insomnia.gr/") {
             border: #3E5673;
         }
         .ipsMenu_bottomRight li.ipsPad_half a.ipsButton.ipsButton_primary.ipsButton_verySmall.ipsButton_fullWidth:hover {
-            background: #6B92C1;
+            background: #65788F;
             border: #6B92C1;
         }
         div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar {
@@ -2440,7 +2440,7 @@ url-prefix("https://www.insomnia.gr/") {
             border: 1px solid #3E5673;
         }
         li button#elSaveStream.ipsButton.ipsButton_primary.ipsButton_verySmall:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
             border: 1px solid #6b92c1;
         }
@@ -2450,7 +2450,7 @@ url-prefix("https://www.insomnia.gr/") {
             margin-right: 3px;
         }
         li button#elSaveNewStream.ipsButton.ipsButton_primary.ipsButton_verySmall:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
             margin-right: 3px;
         }
@@ -2459,7 +2459,7 @@ url-prefix("https://www.insomnia.gr/") {
             border: 1px solid #3E5673;
         }
         div#elStreamFilterForm.ipsAreaBackground_reset.ipsPad.ipsSpacer_bottom ul.ipsList_inline.ipsPos_right.ipsResponsive_noFloat li a#elStreamSortEdit.ipsButton.ipsButton_light.ipsButton_verySmall:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: 1px solid #6b92c1;
         }
         div#elStreamContentTypes_menu.ipsMenu.ipsMenu_selectable.ipsMenu_wide.ipsPad.ipsHide.ipsMenu_bottomCenter h3.ipsType_reset.ipsType_large.cStreamForm_title.ipsSpacer_top {
@@ -2667,7 +2667,7 @@ url-prefix("https://www.insomnia.gr/") {
             border: #3E5673;
         }
         div a.ipsButton.ipsButton_primary.ipsButton_large.ipsPos_right.ipsResponsive_noFloat:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         a.ipsButton.ipsButton_light.ipsButton_small {
@@ -2676,7 +2676,7 @@ url-prefix("https://www.insomnia.gr/") {
             color: #fafafa;
         }
         a.ipsButton.ipsButton_light.ipsButton_small:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
             color: #fafafa;
         }
@@ -2987,7 +2987,7 @@ url-prefix("https://www.insomnia.gr/feedback/") {
             border: #3E5673;
         }
         .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemLeft div form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad button.ipsButton.ipsButton_primary:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight div form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad button.ipsButton.ipsButton_primary {
@@ -2995,7 +2995,7 @@ url-prefix("https://www.insomnia.gr/feedback/") {
             border: #3E5673;
         }
         .ipsHovercard.ipsHovercard_stemBottom.ipsHovercard_stemRight div form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad button.ipsButton.ipsButton_primary:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         .ipsHovercard.ipsHovercard_stemTop.ipsHovercard_stemLeft span.ipsHovercard_stem {
@@ -3100,6 +3100,9 @@ url-prefix("https://www.insomnia.gr/attachments/") {
         }
         ol.ipsList_inline.ipsClearfix.ipsSpacer_top.ipsSpacer_half li.ipsPhotoPanel.ipsPhotoPanel_tiny div strong {
             color: #F0f0f0
+        }
+        .cMessage_members.ipsBox.ipsPad {
+            background: #1A2835
         }
     }
 }
@@ -3441,7 +3444,7 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             background: #3E5673;
         }
         div#ipsLayout_mainArea.ipsLayout_container-block div.product-main.site-main.container div.grid div.sidebar.grid__col-md-4.grid--align-content-start section.seller-info.contact-seller a.submit.grey.medium.round:hover {
-            background: #6b92c1;
+            background: #65788F;
         }
         .ipsDataList.ipsClear.ipsDataList_large li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_generic.ipsDataItem_size3.ipsPos_top a.ipsThumb.ipsThumb_medium.ipsThumb_bg {
             transform: scale(0.7);
@@ -3548,7 +3551,7 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             border: #3E5673;
         }
         div.ipsPad.ipsAreaBackground.cMyMedia_controls ul.ipsList_inline.ipsType_right li a.ipsButton.ipsButton_verySmall.ipsButton_normal:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         .ipsType_normal.ipsType_richText.ipsType_break div.ipsHide div.ipsAreaBackground_light.ipsPad_half ul.ipsButton_split li a.ipsButton.ipsButton_verySmall.ipsButton_primary {
@@ -3560,7 +3563,7 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             border: #3E5673;
         }
         .ipsDialog div div.ipsDialog_content div.ipsPad.ipsForm.ipsForm_vertical form div.ipsPad.ipsAreaBackground_light div.ipsFieldRow button.ipsButton.ipsButton_primary.cEditorURLButton.cEditorURLButtonInsert:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         button.ipsButton.ipsButton_primary {
@@ -3568,7 +3571,7 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             border: #3E5673;
         }
         button.ipsButton.ipsButton_primary:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         div.classifieds__content-container.site-main.container div.classifieds__toolbox.grid div.grid__col-12.grid__col-sm-6.grid__col-md-12.grid__col--bleed.grid--justify-center a.submit.round.green.large.classified__submit {
@@ -3783,11 +3786,11 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             border: #3E5673;
         }
         .ipsAttachment_dropZone.ipsAttachment_dropZoneSmall.ipsClearfix.ipsDragging .ipsButton.ipsButton_small.ipsButton_primary.ipsPos_left:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         .ipsAttachment_dropZone.ipsAttachment_dropZoneSmall.ipsClearfix .ipsButton.ipsButton_small.ipsButton_primary.ipsPos_left:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch div#page.site main#ipsLayout_body.ipsLayout_container-new div#ipsLayout_contentArea div#ipsLayout_contentWrapper div#ipsLayout_mainArea.ipsLayout_container-block form.ipsForm.ipsForm_vertical div.ipsAreaBackground.ipsPad.ipsType_center {
@@ -3798,7 +3801,7 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             border: #3E5673;
         }
         a#elMessengerPopup_compose.ipsPos_right.ipsButton.ipsButton_primary.ipsButton_verySmall:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         div#elFullNotifications_menu.ipsMenu.ipsMenu_wide.ipsHide.ipsMenu_bottomCenter div.ipsMenu_headerBar a.ipsType_light.ipsPos_right {
@@ -3812,7 +3815,7 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             color: #f5f5f5;
         }
         .ipsApp .ipsButton_link:hover {
-            background: #6b92c1;
+            background: #65788F;
             padding: 0px 10px;
             border: 0px solid #1B2838;
             color: #f5f5f5;
@@ -3828,7 +3831,7 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             border: #3E5673;
         }
         .ipsButton.ipsButton_primary:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
         }
         div.ipsFollow.ipsButton.ipsButton_link.ipsButton_verySmall .ipsType_blendLinks.ipsType_noUnderline {
@@ -3873,12 +3876,12 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             margin-right: 3px;
         }
         li button#elSaveStream.ipsButton.ipsButton_primary.ipsButton_verySmall:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
             border: 1px solid #6b92c1;
         }
         li button#elSaveNewStream.ipsButton.ipsButton_primary.ipsButton_verySmall:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: #6b92c1;
             margin-right: 3px;
         }
@@ -3891,7 +3894,7 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             border: 1px solid #3E5673;
         }
         li button.ipsButton.ipsButton_fullWidth.ipsButton_primary:hover {
-            background: #6b92c1;
+            background: #65788F;
             border: 1px solid #6b92c1;
         }
         div#ipsLayout_mainArea.ipsLayout_container-block section div.ipsPageHeader.ipsClearfix ul.ipsList_inline.ipsPos_right.ipsType_blendLinks.ipsResponsive_hidePhone li a {
@@ -4168,7 +4171,7 @@ url-prefix("https://www.insomnia.gr/review/") {
             background: #3E5673
         }
         div.ipsComposeArea_editor ul.ipsToolList.ipsToolList_horizontal.ipsClear.ipsClearfix.ipsJS_hide li button.ipsButton.ipsButton_primary:hover {
-            background: #6B92C1
+            background: #65788F
         }
         div#ipsLayout_mainArea.ipsLayout_nocontainer-block div#elCmsPageWrap div.article div.entry-header {
             height: 500px;
@@ -4326,11 +4329,11 @@ nav.breadcrumb {
             color: #f5f5f5;
         }
         nav.classifieds__categories ul.custom.grid a:hover {
-            background: #6B92C1;
+            background: #65788F;
             color: #f5f5f5;
         }
         nav.classifieds__categories ul.custom.grid li.classcat.current.grid__col-auto.active a {
-            background: #6B92C1;
+            background: #65788F;
             color: #f5f5f5;
         }
         ul.custom.grid li.classcat.current.grid__col-auto.active div.submenu div.grid div.categories.grid__col-sm-auto ul li {
@@ -4364,7 +4367,7 @@ nav.breadcrumb {
             color: #f5f5f5;
         }
         li.classcat.current.grid__col-auto.active div.submenu div.grid div.categories.grid__col-sm-auto a.all:hover {
-            background: #6B92C1;
+            background: #65788F;
             color: #f5f5f5;
         }
         div#classifieds_search.classifieds__search form input.search-class-custom {
@@ -4460,12 +4463,12 @@ url-prefix("http://www.insomnia.gr/classifieds/item/") {
             background: none;
         }
         a.ipsButton.ipsButton_medium.ipsButton_normal.ipsButton_fullWidth:hover {
-            background: #6B92C1 !important;
+            background: #65788F !important;
             color: #f0f0f0 !important;
         }
 
         a.ipsButton.ipsButton_medium.ipsButton_important.ipsButton_fullWidth:hover {
-            background: #6B92C1 !important;
+            background: #65788F !important;
             color: #f0f0f0 !important;
         }
 
@@ -4504,7 +4507,7 @@ url-prefix("https://www.insomnia.gr/clubs/") {
             border: none;
         }
         li a.ipsButton.ipsButton_verySmall.ipsButton_light:hover {
-            background: #6B92C1;
+            background: #65788F;
             color: #fafafa;
             border: none;
         }
@@ -4538,7 +4541,7 @@ url-prefix("https://www.insomnia.gr/clubs/") {
             border: none;
         }
         div.ipsFollow.ipsButton.ipsButton_link.ipsButton_verySmall:hover {
-            background: #6B92C1;
+            background: #65788F;
             color: #fafafa;
             border: none;
         }
@@ -7471,7 +7474,7 @@ url-prefix("https://www.insomnia.gr/announcement/") {
         }
         .ipsComment_content.ipsType_medium.ipsFaded_withHover div.ipsTooltip.ipsTooltip_bottom.ipsComment_inlineQuoteTooltip a.ipsButton.ipsButton_veryVerySmall.ipsButton_veryLight:hover {
             color: #fafafa;
-            background: #6b92c1;
+            background: #65788F;
             margin-top: -13px;
             border: none;
             padding-bottom: 3px;
@@ -7712,6 +7715,12 @@ url-prefix("https://www.insomnia.gr/attachments/") {
         div#elMessageSidebar.ipsBox div.ipsButtonBar.ipsPad_half.ipsClearfix ul.ipsButtonRow.ipsClearfix li a {
             background: #9A9A99
         }
+        .cMessage_members.ipsBox.ipsPad {
+            background: #252525
+        }
+        div#elMessageViewer div div.ipsBox.ipsPad_half {
+            background: #252525
+        }
     }
 }
 @-moz-document url("http://www.insomnia.gr/"),
@@ -7921,6 +7930,11 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             color: #f69e05;
             font-size: 12px;
         }
+
+        ol#elInboxContent.ipsDataList li.ipsDataItem.ipsClearfix.cMessage div.ipsDataItem_main h4.ipsDataItem_title.ipsType_normal.ipsType_break a.cMessageTitle {
+            color: #F0B550;
+        }
+
         li.ipsDataItem.ipsDataItem_unread div.ipsDataItem_icon {
             background: #323232;
         }
@@ -9199,6 +9213,182 @@ url-prefix("https://www.insomnia.gr/clubs/") {
         }
         div.ipsFollow.ipsButton.ipsButton_link.ipsButton_verySmall a#ips_uid_4943_3.ipsType_blendLinks.ipsType_noUnderline:hover {
             color: #fafafa;
+        }
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/profile/") {
+    /**** profile fix ***/
+    if not NightMode {
+        .ipsColumn.ipsColumn_fixed.ipsColumn_veryWide.ipsAreaBackground {
+            background: none;
+        }
+
+
+        a#elProfileTab_node_feedback_Feedback.ipsTabs_item.ipsType_center {
+            background: #3E5673;
+            color: #fafafa;
+        }
+
+        a#elProfileTab_activity.ipsTabs_item.ipsType_center {
+            background: #3E5673;
+            color: #fafafa;
+        }
+        a#elProfileTab_clubs.ipsTabs_item.ipsType_center {
+            background: #3E5673;
+            color: #fafafa;
+        }
+        a#elProfileTab_node_feedback_Feedback.ipsTabs_item.ipsType_center:hover {
+            background: #65788F;
+            color: #fafafa;
+        }
+
+        a#elProfileTab_activity.ipsTabs_item.ipsType_center:hover {
+            background: #65788F;
+            color: #fafafa;
+        }
+        a#elProfileTab_clubs.ipsTabs_item.ipsType_center:hover {
+            background: #65788F;
+            color: #fafafa;
+        }
+
+        a#elProfileTab_activity.ipsTabs_item.ipsType_center.ipsTabs_activeItem {
+            background: #65788F;
+            color: #fafafa;
+        }
+
+        a#elProfileTab_clubs.ipsTabs_item.ipsType_center.ipsTabs_activeItem {
+            background: #65788F;
+            color: #fafafa;
+        }
+
+        a#elProfileTab_node_feedback_Feedback.ipsTabs_item.ipsType_center.ipsTabs_activeItem {
+            background: #65788F;
+            color: #fafafa;
+        }
+        div#elProfileTabs.ipsTabs.ipsTabs_stretch.ipsClearfix {
+            background: #1A2835;
+        }
+
+        .ipsTabs_panel.ipsAreaBackground_reset {
+            background: #F8F8F8;
+        }
+
+        a.ipsButton.ipsButton_light.ipsButton_medium.ipsPos_right {
+            background: #3E5673;
+            color: #fafafa;
+        }
+
+        a.ipsButton.ipsButton_light.ipsButton_medium.ipsPos_right:hover {
+            background: #65788F;
+            color: #fafafa;
+        }
+
+        ul.ipsList_inline.ipsPad.ipsResponsive_hidePhone.ipsResponsive_block.ipsPos_left li div :hover {
+            background: #65788F;
+            color: #fafafa;
+        }
+
+        ul.ipsList_inline.ipsPad.ipsResponsive_hidePhone.ipsResponsive_block.ipsPos_left li :hover {
+            background: #65788F;
+            color: #fafafa;
+        }
+
+        i.fa.fa-newspaper-o {
+            color: #fafafa;
+        }
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/profile/") {
+    /**** profile fix ***/
+    if NightMode {
+        .ipsColumn.ipsColumn_fixed.ipsColumn_veryWide.ipsAreaBackground {
+            background: none;
+        }
+
+
+        a#elProfileTab_node_feedback_Feedback.ipsTabs_item.ipsType_center {
+            background: #5D5D5D;
+            color: #fafafa;
+        }
+
+        a#elProfileTab_activity.ipsTabs_item.ipsType_center {
+            background: #5D5D5D;
+            color: #fafafa;
+        }
+        a#elProfileTab_clubs.ipsTabs_item.ipsType_center {
+            background: #5D5D5D;
+            color: #fafafa;
+        }
+        a#elProfileTab_node_feedback_Feedback.ipsTabs_item.ipsType_center:hover {
+            background: #9A9A9A;
+            color: #fafafa;
+        }
+
+        a#elProfileTab_activity.ipsTabs_item.ipsType_center:hover {
+            background: #9A9A9A;
+            color: #fafafa;
+        }
+        a#elProfileTab_clubs.ipsTabs_item.ipsType_center:hover {
+            background: #9A9A9A;
+            color: #fafafa;
+        }
+
+        a#elProfileTab_activity.ipsTabs_item.ipsType_center.ipsTabs_activeItem {
+            background: #9A9A9A;
+            color: #fafafa;
+        }
+
+        a#elProfileTab_clubs.ipsTabs_item.ipsType_center.ipsTabs_activeItem {
+            background: #9A9A9A;
+            color: #fafafa;
+        }
+
+        a#elProfileTab_node_feedback_Feedback.ipsTabs_item.ipsType_center.ipsTabs_activeItem {
+            background: #9A9A9A;
+            color: #fafafa;
+        }
+        div#elProfileTabs.ipsTabs.ipsTabs_stretch.ipsClearfix {
+            background: #323232;
+        }
+
+        .ipsTabs_panel.ipsAreaBackground_reset {
+            background: #F8F8F8;
+        }
+
+        a.ipsButton.ipsButton_light.ipsButton_medium.ipsPos_right {
+            background: #5D5D5D;
+            color: #fafafa;
+        }
+
+        a.ipsButton.ipsButton_light.ipsButton_medium.ipsPos_right:hover {
+            background: #9A9A9A;
+            color: #fafafa;
+        }
+
+        ul.ipsList_inline.ipsPad.ipsResponsive_hidePhone.ipsResponsive_block.ipsPos_left li div :hover {
+            background: #9A9A9A;
+            color: #fafafa;
+        }
+
+        ul.ipsList_inline.ipsPad.ipsResponsive_hidePhone.ipsResponsive_block.ipsPos_left li :hover {
+            background: #9A9A9A;
+            color: #fafafa;
+        }
+
+        i.fa.fa-newspaper-o {
+            color: #fafafa;
+        }
+        ul#elEditProfile.ipsButton_split {
+            background: #5D5D5D;
+        }
+        ul#elEditProfile.ipsButton_split :hover {
+            background: #9A9A9A;
+        }
+        .ipsSpacer_bottom {
+            background: #5D5D5D;
+        }
+        .ipsTabs_panel.ipsAreaBackground_reset {
+            background: #323232
         }
     }
 }
