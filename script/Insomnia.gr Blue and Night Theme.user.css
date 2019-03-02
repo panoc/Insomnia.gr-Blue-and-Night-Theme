@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.5.4
+@version 2.5.5
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -15,6 +15,11 @@
 @var checkbox LargeBackToTop "Μεγάλο Back to Top" 0
 @preprocessor stylus
 ==/UserStyle== */
+@-moz-document url-prefix("https://www.insomnia.gr/") {
+.container div#ipsLayout_contentArea div#ipsLayout_contentWrapper div.mwc-2019 {
+top:-60px;
+    }
+}
 @-moz-document url-prefix("https://www.insomnia.gr/") {
     div#page.site {
         background-image: url('https://cdn.insomnia.gr/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn.insomnia.gr/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn.insomnia.gr/monthly_2018_05/bg_header.png.8a53f85be22fad7f2306d63729d4cdab.png'), url('https://cdn.insomnia.gr/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png'), /*url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-1.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-2.png'), url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-3.png'),*/
