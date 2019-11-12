@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.5.5
+@version 2.5.6
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -16,8 +16,8 @@
 @preprocessor stylus
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.insomnia.gr/") {
-.container div#ipsLayout_contentArea div#ipsLayout_contentWrapper div.mwc-2019 {
-top:-60px;
+    .container div#ipsLayout_contentArea div#ipsLayout_contentWrapper div.mwc-2019 {
+        top: -60px;
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/") {
@@ -5960,7 +5960,7 @@ url-prefix("https://www.insomnia.gr/") {
             background: #F0B54F;
             color: #000;
         }
-           a#elFullInbox span.ipsNotificationCount {
+        a#elFullInbox span.ipsNotificationCount {
             background: #F0B54F;
             color: #000;
         }
@@ -9698,5 +9698,16 @@ url-prefix("https://www.insomnia.gr/clubs/") {
     }
     div#page.site main#ipsLayout_body.container {
         min-width: 1420px;
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/")/* 12-11-2019 fix */
+{
+    div#menu.ipsLayout_container-new.container.container__big {
+        margin-top: 40px;
+    }
+
+
+    header#masthead.site-header {
+        margin-top: -20px
     }
 }
