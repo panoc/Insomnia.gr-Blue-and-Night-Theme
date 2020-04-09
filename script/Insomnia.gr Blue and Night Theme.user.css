@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.6.0
+@version 2.6.1
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -30,13 +30,13 @@
         repeat;
     }
     div#page.site footer.site-footer {
-        background-image: /*url('https://raw.githubusercontent.com/panoc/Insomnia.gr-Blue-and-Night-Theme/master/images/upload/custom-4.png'),*/
-        url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-eu/monthly_2018_05/footer4.png.2acf51eff28f63c8c2cfd16e7e1b2df6.png');
+        background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-eu/monthly_2018_05/footer4.png.2acf51eff28f63c8c2cfd16e7e1b2df6.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-eu/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png');
         background-repeat: /*repeat-x,*/
         repeat-x;
         background-position: /*top center,*/
         center;
         /*margin-left: -15px;*/
+        background-color: #070A12;
         width: 107%
     }
     div.copyright.box__dark-grey {
@@ -3262,10 +3262,23 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
         }
         div.cool-container.box__blue {
             background: none;
+            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-eu/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png');
+            background-position: right;
+            background-repeat: repeat;
+        }
+        div#stats.stats-container.box__dark-grey {
+
+            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-eu/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png');
+            background-position: left;
+            background-repeat: repeat;
         }
         div.cool-container.box__blue div.all-news.more-reviews {
             background: none;
         }
+        html body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch div#page.site div.container__full {
+            background: #070A12;
+        }
+
         div h1.ipsType_pageTitle.ipsType_break {
             padding-bottom: 20px;
         }
@@ -7887,10 +7900,19 @@ url-prefix("https://www.insomnia.gr/?_fromLogin") {
             background: none;
         }
         div.cool-container.box__blue {
-            background: none;
+            background: #070A12;
+            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-eu/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png');
+            background-position: right;
+            background-repeat: repeat;
         }
-        div.cool-container.box__blue div.all-news.more-reviews {
-            background: none;
+        div#stats.stats-container.box__dark-grey {
+            background: #070A12;
+            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-eu/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png');
+            background-position: left;
+            background-repeat: repeat;
+        }
+        div.container__full {
+            background: #070A12;
         }
         div h1.ipsType_pageTitle.ipsType_break {
             padding-bottom: 20px;
@@ -9417,7 +9439,7 @@ url-prefix("https://www.insomnia.gr/clubs/") {
 @-moz-document url-prefix("https://www.insomnia.gr") {
     if InsomniacShow {
         nav.breadcrumb span span.home {
-            background-image: url('https://cdn.insomnia.gr/monthly_2018_05/insomniac.png.6184f9e0155c0a3663472330afa45e8a.png');
+            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-eu/monthly_2018_05/insomniac.png.6184f9e0155c0a3663472330afa45e8a.png');
             background-repeat: no-repeat;
             margin-left: 10px;
         }
