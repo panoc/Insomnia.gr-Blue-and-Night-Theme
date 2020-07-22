@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2.6.3
+@version 2.6.4
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -2127,21 +2127,21 @@ url-prefix("https://www.insomnia.gr/") {
             border-color: #385E8A;
             box-shadow: none;
         }
-        li#elNavSecondary_40.ipsNavBar_active a {
+        li#elNavSecondary_46.ipsNavBar_active a {
             color: #6B92C1;
         }
-        li#elNavSecondary_40 a {
+        li#elNavSecondary_46 a {
             color: #fafafa;
             background: none;
         }
-        li#elNavSecondary_40 a:hover {
+        li#elNavSecondary_46 a:hover {
             color: #6B92C1;
         }
-        li#elNavSecondary_40 {
+        li#elNavSecondary_46 {
             transform: scale(1, 1);
             padding-bottom: 24px;
         }
-        li#elNavSecondary_40 a {
+        li#elNavSecondary_46 a {
             transform: scale(1, 2);
             position: relative;
             height: 20px;
@@ -6658,21 +6658,21 @@ url-prefix("https://www.insomnia.gr/") {
             border-color: #F0B551;
             box-shadow: none;
         }
-        li#elNavSecondary_40.ipsNavBar_active a {
+        li#elNavSecondary_46.ipsNavBar_active a {
             color: #F0B54F;
         }
-        li#elNavSecondary_40 a {
+        li#elNavSecondary_46 a {
             color: #f8f8f8;
             background: none;
         }
-        li#elNavSecondary_40 a:hover {
+        li#elNavSecondary_46 a:hover {
             color: #F0B54F;
         }
-        li#elNavSecondary_40 {
+        li#elNavSecondary_46 {
             transform: scale(1, 1);
             padding-bottom: 24px;
         }
-        li#elNavSecondary_40 a {
+        li#elNavSecondary_46 a {
             transform: scale(1, 2);
             position: relative;
             height: 20px;
