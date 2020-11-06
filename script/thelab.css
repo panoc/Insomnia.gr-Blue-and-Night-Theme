@@ -1,12 +1,14 @@
-* ==UserStyle==
-@name           www.thelab.gr - 11/4/2020, 7:25:58 AM
-@namespace      github.com/openstyles/stylus
-@version        0.0.1
-@description    none
-@author         Me
+/* ==UserStyle==
+@name Thelab.gr panoc Theme
+@description Insomnia.gr Blue and Night Theme
+@namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
+@version 0.0.3
+@author panoc (https://gist.github.com/panoc/)
+/
+@license CC-BY-NC-SA-4.0
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.thelab.gr/") {
-  
+
     div#ipsLayout_contentArea {
 
         background: #314F73;
