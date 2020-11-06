@@ -1,0 +1,95 @@
+* ==UserStyle==
+@name           www.thelab.gr - 11/4/2020, 7:25:58 AM
+@namespace      github.com/openstyles/stylus
+@version        0.0.1
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document url-prefix("https://www.thelab.gr/") {
+  
+    div#ipsLayout_contentArea {
+
+        background: #314F73;
+    }
+
+    div#comments {
+
+        background: #314F73;
+    }
+
+    div#comments.cTopic.ipsClear.ipsSpacer_top div#elPostFeed {
+        background: #F8981D;
+    }
+    .cPost_content.ipsComment_content.ipsType_medium {
+
+        background: #F8F8F8;
+    }
+    .ipsTabs_panels.ipsTabs_contained .ipsTabs_panel {
+
+        background: #F8F8F8;
+    }
+
+    div.cPost_contentWrap {
+        background: #F8F8F8;
+    }
+
+
+    div.ipsColumn.ipsColumn_fluid {
+        background-color: #F8F8F8 !important;
+    }
+
+    div.ipsComment_meta.ipsType_light.ipsFlex.ipsFlex {
+        background-color: #F8F8F8 !important;
+    }
+    li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
+        background: #F8F8F8;
+    }
+    /*
+    div.ipsStreamItem_unread span.ipsType_break.ipsContained a {
+        color: #225985;
+    }
+    */
+    span.ipsType_break.ipsContained a {
+        color: #225985;
+    }
+
+    li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
+        margin-top: -4px;
+    }
+    ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem_time {
+        margin-top: -1px;
+        margin-bottom: 9px;
+    }
+    .cPost.ipsBox.ipsResponsive_pull.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone {
+        margin-top: -19px;
+    }
+    div.ips-breadcrumb {
+        background-color: #39577b;
+    }
+    div#comments.cTopic.ipsClear.ipsSpacer_top {
+        margin-top: -18px;
+    }
+
+    /*
+    div#ipsLayout_header.ipsClearfix .ipsResponsive_showDesktop {
+        background-color: #2f4969;
+    }
+    */
+    /*
+    html body.ipsApp.ipsApp_front.ipsJS_has.ipsClearfix.ipsApp_noTouch div#ipsLayout_header.ipsClearfix header.ipsResponsive_showDesktop {
+            background: #2f4969de; 
+        
+    }
+    */
+    /*#elNavSecondary_61.ipsNavBar_active ul.ipsNavBar_secondary {
+        background-color:#39577b;
+    }
+    h
+    li#elNavSecondary_61.ipsNavBar_active ul.ipsNavBar_secondary li#elNavSecondary_3 a {
+        color:white;
+    }
+    li#elNavSecondary_61.ipsNavBar_active ul.ipsNavBar_secondary li#elNavSecondary_4.ipsNavBar_active a#elNavigation_4 {
+        color:white;
+    }
+    */
+}
