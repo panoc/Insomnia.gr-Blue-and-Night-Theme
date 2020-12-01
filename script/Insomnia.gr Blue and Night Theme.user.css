@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2021.0.8
+@version 2021.0.9
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -388,10 +388,10 @@
             background: #515050;
         }
         .ipsClearfix.ipsClear.ipsMargin_bottom {
-            background: #ededed;
+            background: #874214;
         }
         .ipsMargin_top.ipsClearfix.ipsClear {
-            background: #ededed;
+            background: #874214;
         }
         .ipsMargin_bottom {
             background: #323232;
@@ -690,13 +690,13 @@
             color: #fafafa;
         }
         div.ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear {
-            background: #ededed;
+            background: #874214;
         }
         div.ipsPageHeader.ipsBox.ipsResponsive_pull.ipsPadding.ipsClearfix {
-            background: #fafafa;
+            background: #323232;
         }
         div.ipsPageHeader.ipsBox.ipsResponsive_pull.ipsPadding.ipsClearfix header h1.ipsType_pageTitle {
-            color: #000;
+            color: #f69e05;
         }
         li.ipsToolList_primaryAction a.ipsButton.ipsButton_medium.ipsButton_important.ipsButton_fullWidth {
             background: #5a89b5cf !important;
@@ -710,6 +710,36 @@
         }
         div#ipsLayout_sidebar.ipsLayout_sidebarright div.cWidgetContainer.insWidgetArea ul.ipsList_reset li.ipsWidget.ipsWidget_vertical.ipsBox {
             background: #424242;
+        }
+        .ipsPagination li.ipsPagination_page a {
+            color: #ebebeb;
+        }
+        .ipsPagination li.ipsPagination_prev a {
+            color: #ebebeb;
+        }
+        .ipsPagination li.ipsPagination_next a {
+            color: #ebebeb;
+        }
+        li.ipsPagination_first a i.fa.fa-angle-double-left {
+            color: #ebebeb;
+        }
+        li.ipsPagination_last a i.fa.fa-angle-double-right {
+            color: #ebebeb;
+        }
+        .ipsPagination li.ipsPagination_pageJump a {
+            color: #ebebeb;
+        }
+        div.ipsPageHeader.ipsBox.ipsResponsive_pull.ipsPadding.ipsClearfix header div.ipsType_richText.ipsType_normal {
+            color: #ebebeb
+        }
+        ul.ipsDataItem_stats li span.ipsDataItem_stats_type {
+            color: #ebebeb;
+        }
+        ul.ipsDataItem_stats li span.ipsDataItem_stats_number {
+            color: #ebebeb
+        }
+        ul.ipsDataItem_lastPoster.ipsDataItem_withPhoto.ipsType_blendLinks li a.ipsType_break {
+            color: #F0B54F
         }
     }
 }
