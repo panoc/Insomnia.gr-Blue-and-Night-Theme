@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2021.0.12
+@version 2021.0.13
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -230,6 +230,12 @@
             margin-right: -10px !important;
             padding-left: 40px;
         }
+        li#cUser:hover {
+            background: #ffffff52 !important;
+        }
+        li#cUserLink:hover {
+            background: #ffffff52 !important;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/discover/") {
@@ -283,6 +289,14 @@
         div.ipsPadding_top.ipsPadding_horizontal {
             background: #ededed;
         }
+        i.fa.fa-circle {
+            color: #f69e05;
+        }
+        div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
+            background: #f69e05;
+            color: #1A2835;
+            border: none !important;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/") {
@@ -324,8 +338,6 @@
         li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread.ipsClearfix {
             /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
             background: #fafafa;
-            border: 10px;
-            border-style: inline;
             margin-top: 1px;
         }
         ol.ipsList_reset.cForumList li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull {
@@ -364,6 +376,81 @@
         li a.ipsButton.ipsButton_veryLight.ipsButton_narrow.ipsButton_medium {
             background: #ededed;
         }
+        i.fa.fa-star {
+            color: #f69e05;
+        }
+        i.fa.fa-circle {
+            color: #f0b550;
+        }
+        div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal {
+            background: #f0b550;
+            color: #1A2835;
+            border: 2px solid #1A2835;
+        }
+        div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers {
+            background: #f0b550;
+            color: #1A2835;
+            border: 2px solid #1A2835;
+        }
+        ol.ipsDataList.ipsDataList_large.ipsDataList_zebra li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix {
+            background: #f5f5f5;
+            margin-top: 1px;
+        }
+        ol.ipsDataList.ipsDataList_large.ipsDataList_zebra li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread.ipsClearfix {
+            background: #fafafa;
+            margin-top: 1px;
+        }
+        div.ipsDataItem_icon.ipsDataItem_category span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal.ipsItemStatus_read {
+            background: #f0b550;
+            color: #1A2835;
+            border: 2px solid #1A2835;
+        }
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/clubs/") {
+    if not NightMode {
+        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a {
+            color: #fafafa !important;
+        }
+        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li .ipsTabs_item.ipsTabs_activeItem {
+            background: #ffffff24;
+        }
+        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a.ipsTabs_item.ipsTabs_activeItem {
+            color: #f69e05 !important;
+        }
+        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a:hover {
+            background: #ffffff52 !important;
+        }
+        /* Insert code here... #225985 */
+    }
+}
+@-moz-document url("https://www.insomnia.gr/") {
+    if not NightMode {
+        h3.loop_title-small a {
+            color: #f69e05;
+        }
+        div.grid.grid--bleed div.grid__col-12 h2 a {
+            color: #f69e05;
+        }
+        div.featured-entry.grid__col-7.grid__col--bleed div.grid.grid--bleed div.grid__col-12.grid__cell-footer p.author a {
+            color: #FBB62F;
+        }
+        div.grid__col-12.grid__cell-footer div.grid div.grid__col-auto.dashed__top span.timestamp {
+            color: #ebebeb;
+        }
+        div.insHomepageTrendingContainer h2 {
+            color: #f69e05;
+        }
+        div.grid__col-auto div.grid.meta div.grid__col-auto span.timestamp time {
+            color: #ebebeb;
+        }
+        div.grid__col-auto div.grid.meta div.comments.grid__col-auto a span.count {
+            color: #ebebeb;
+        }
+        article.ins100picNtext div.grid__col-auto p.author {
+            color: #ebebeb;
+        }
+        /* Insert code here... #225985 */
     }
 }
 /********************************************************************************************************************************************************/
@@ -584,7 +671,7 @@
         }
         a {
             text-decoration: none;
-            color: #f69e05;
+            color: #F0B550;
         }
         .ipsType_light {
             color: #C8C8C9;
@@ -599,6 +686,12 @@
             background: #ededed !important;
             margin-right: -10px !important;
             padding-left: 40px;
+        }
+        li#cUser:hover {
+            background: #ffffff52 !important;
+        }
+        li#cUserLink:hover {
+            background: #ffffff52 !important;
         }
     }
 }
@@ -664,6 +757,14 @@
         }
         span.ipsItemStatus i.fa.fa-circle {
             color: #f69e05;
+        }
+        i.fa.fa-circle {
+            color: #f69e05;
+        }
+        div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
+            background: #F0B550;
+            color: #323232;
+            border: none !important;
         }
     }
 }
@@ -782,5 +883,83 @@
         ul.ipsDataItem_lastPoster.ipsDataItem_withPhoto.ipsType_blendLinks li a.ipsType_break {
             color: #F0B54F
         }
+        i.fa.fa-star {
+            color: #f69e05;
+        }
+        i.fa.fa-circle {
+            color: #f69e05;
+        }
+        i.fa.fa-circle {
+            color: #f0b550;
+        }
+        div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal {
+            background: #f0b550;
+            color: #1A2835;
+            border: 2px solid #1A2835;
+        }
+        div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers {
+            background: #f0b550;
+            color: #1A2835;
+            border: 2px solid #1A2835;
+        }
+        ol.ipsDataList.ipsDataList_large.ipsDataList_zebra li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix {
+            background: #323232f5;
+            margin-top: 1px;
+        }
+        ol.ipsDataList.ipsDataList_large.ipsDataList_zebra li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread.ipsClearfix {
+            background: #323232;
+            margin-top: 1px;
+        }
+        div.ipsDataItem_icon.ipsDataItem_category span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal.ipsItemStatus_read {
+            background: #f0b550;
+            color: #1A2835;
+            border: 2px solid #1A2835;
+        }
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/clubs/") {
+    if not NightMode {
+        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a {
+            color: #fafafa !important;
+        }
+        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li .ipsTabs_item.ipsTabs_activeItem {
+            background: #ffffff24;
+        }
+        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a.ipsTabs_item.ipsTabs_activeItem {
+            color: #f69e05 !important;
+        }
+        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a:hover {
+            background: #ffffff52 !important;
+        }
+        /* Insert code here... #225985 */
+    }
+}
+@-moz-document url("https://www.insomnia.gr/") {
+    if NightMode {
+        h3.loop_title-small a {
+            color: #f69e05;
+        }
+        div.grid.grid--bleed div.grid__col-12 h2 a {
+            color: #f69e05;
+        }
+        div.featured-entry.grid__col-7.grid__col--bleed div.grid.grid--bleed div.grid__col-12.grid__cell-footer p.author a {
+            color: #FBB62F;
+        }
+        div.grid__col-12.grid__cell-footer div.grid div.grid__col-auto.dashed__top span.timestamp {
+            color: #ebebeb;
+        }
+        div.insHomepageTrendingContainer h2 {
+            color: #f69e05;
+        }
+        div.grid__col-auto div.grid.meta div.grid__col-auto span.timestamp time {
+            color: #ebebeb;
+        }
+        div.grid__col-auto div.grid.meta div.comments.grid__col-auto a span.count {
+            color: #ebebeb;
+        }
+        article.ins100picNtext div.grid__col-auto p.author {
+            color: #ebebeb;
+        }
+        /* Insert code here... #225985 */
     }
 }
