@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2021.0.6
+@version 2021.0.7
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -16,179 +16,246 @@
 @var checkbox BigFont "Μεγάλη Γραμματοσειρά" 0
 @preprocessor stylus
 ==/UserStyle== */
-@-moz-document url-prefix("https://www.insomnia.gr/") {
+@-moz-document url-prefix("https://www.insomnia.gr/forums/") {
     if BigFont {
         .ipsLayout_container.ipsPadding_bottom p {
             font-size: 16px !important;
-            color: #000;
+        }
+        h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
+            font-size: 16px !important;
         }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/forums/topic/") {
-
-    .ipsLayout_sidebarright {
-        visibility: hidden;
-        position: fixed;
-    }
-
-    div#ipsLayout_contentWrapper1 {
-        margin-right: auto;
-    }
-    .ipsComment_highlighted {
-        background: #FFFEFA !important;
+    if not NightMode {
+        .ipsLayout_sidebarright {
+            visibility: hidden;
+            position: fixed;
+        }
+        div#ipsLayout_contentWrapper1 {
+            margin-right: auto;
+        }
+        .ipsComment_highlighted {
+            background: #FFFEFA !important;
+        }
+        div.ipsUnreadBar {
+            color: #FBB62F;
+        }
+        div.ipsUnreadBar::after {
+            background: #FBB62F;
+        }
+        div.ipsUnreadBar::before {
+            background: #FBB62F;
+        }
+        .ipsLayout_container.ipsPadding_bottom p {
+            color: #000;
+        }
+        .ipsQuote {
+            background: #eeede3bd;
+        }
+        .ipsClearfix.ipsClear.ipsMargin_bottom {
+            background: #ededed;
+        }
+        .ipsMargin_top.ipsClearfix.ipsClear {
+            background: #ededed;
+        }
+        .ipsMargin_bottom {
+            background: #f8f8f8;
+        }
+        li.ipsResponsive_hidePhone a.ipsButton.ipsButton_link.ipsButton_medium.ipsButton_fullWidth {
+            background: #ededed;
+            color: #000;
+        }
+        li.ipsToolList_primaryAction span a.ipsButton.ipsButton_important.ipsButton_medium.ipsButton_fullWidth {
+            background: #5a89b5cf !important;
+            color: #fafafa;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/") {
-    div#ipsLayout_header.ipsClearfix .insFullWidthSearch.ipsNavBar_noSubBars {
-        border: none
-    }
-
-    li#elNavSecondary_10 a,
-    li#elNavSecondary_36 a,
-    li#elNavSecondary_39 a {
-        color: #fafafa;
-    }
-
-    body {
-        /*background: #1A2835*/
-        background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_header.png.8a53f85be22fad7f2306d63729d4cdab.png'), /*url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png'),*/
-        url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/background-dark1.png.e36c622d469fcbd96c12be356e278af4.png');
-        background-position: left top, right top, top center, /*bottom center, /*top left, top center, top right,*/
-        center;
-        background-repeat: no-repeat, no-repeat, repeat-x, /*repeat-x, /*no-repeat, repeat, no-repeat,*/
-        repeat;
-    }
-    footer#site-footer.ipsClearfix.site-footer.darkBg {
-        background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/footer4.png.2acf51eff28f63c8c2cfd16e7e1b2df6.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png');
-        background-repeat: /*repeat-x,*/
-        repeat-x;
-        background-position: /*top center,*/
-        center, bottom left;
-        /*margin-left: -15px;*/
-        background-color: #070A12;
-        width: 100%
-    }
-    a#elLogo.ipsResponsive_hidePhone img {
-        visibility: hidden;
-        background-image: url('https://www.w3schools.com/images/colorpicker.gif');
-    }
-    a#elLogo.ipsResponsive_hidePhone {
-
-        background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-    }
-
-    li#cUser a {
-
-        color: #fafafa;
-    }
-    li#cUserLink a {
-
-
-        color: #fafafa;
-    }
-
-    div#ipsLayout_header.ipsClearfix header {
-        background: none;
-    }
-
-    div#ipsLayout_header.ipsClearfix .insFullWidthSearch.ipsNavBar_noSubBars {
-        background: none;
-    }
-    /* gia oloklhrh th mpara
+    if not NightMode {
+        div#ipsLayout_header.ipsClearfix .insFullWidthSearch.ipsNavBar_noSubBars {
+            border: none
+        }
+        li#elNavSecondary_10 a,
+        li#elNavSecondary_36 a,
+        li#elNavSecondary_39 a {
+            color: #fafafa;
+        }
+        body {
+            /*background: #1A2835*/
+            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_header.png.8a53f85be22fad7f2306d63729d4cdab.png'), /*url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png'),*/
+            url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/background-dark1.png.e36c622d469fcbd96c12be356e278af4.png');
+            background-position: left top, right top, top center, /*bottom center, /*top left, top center, top right,*/
+            center;
+            background-repeat: no-repeat, no-repeat, repeat-x, /*repeat-x, /*no-repeat, repeat, no-repeat,*/
+            repeat;
+        }
+        footer#site-footer.ipsClearfix.site-footer.darkBg {
+            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/footer4.png.2acf51eff28f63c8c2cfd16e7e1b2df6.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png');
+            background-repeat: /*repeat-x,*/
+            repeat-x;
+            background-position: /*top center,*/
+            center, bottom left;
+            /*margin-left: -15px;*/
+            background-color: #070A12;
+            width: 100%
+        }
+        a#elLogo.ipsResponsive_hidePhone img {
+            visibility: hidden;
+            background-image: url('https://www.w3schools.com/images/colorpicker.gif');
+        }
+        a#elLogo.ipsResponsive_hidePhone {
+            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+        a#elFullNotifications {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='23px' viewBox='0 0 20 23' version='1.1'%3E%3Cg id='Asset-Artboard-Page' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Messages' transform='translate(-4.000000, -4.000000)' fill='%23f8f8f8' fill-rule='nonzero'%3E%3Cg id='Notifications' transform='translate(4.000000, 4.000000)'%3E%3Cpath d='M18.8671875,17.7890625 L17.96875,17.7890625 L17.96875,11.5 C17.96875,7.8532562 15.5419159,4.76294709 12.2183991,3.75852204 C12.390892,3.41055298 12.4882812,3.01924136 12.4882812,2.60546875 C12.4882812,1.16884612 11.3194351,0 9.8828125,0 C8.44618987,0 7.27734375,1.16884612 7.27734375,2.60546875 C7.27734375,3.01924136 7.37473298,3.41055298 7.54722593,3.75852204 C4.22370913,4.76294709 1.796875,7.8532562 1.796875,11.5 L1.796875,17.7890625 L0.8984375,17.7890625 C0.402191162,17.7890625 0,18.1912537 0,18.6875 C0,19.1837463 0.402191162,19.5859375 0.8984375,19.5859375 L5.48503111,19.5859375 C5.89950562,21.5340729 7.63320923,23 9.703125,23 L10.0625,23 C12.1324158,23 13.8661194,21.5340729 14.2805939,19.5859375 L18.8671875,19.5859375 C19.3634338,19.5859375 19.765625,19.1837463 19.765625,18.6875 C19.765625,18.1912537 19.3634338,17.7890625 18.8671875,17.7890625 Z M9.07421875,2.60546875 C9.07421875,2.15958406 9.43692781,1.796875 9.8828125,1.796875 C10.3286972,1.796875 10.6914062,2.15958406 10.6914062,2.60546875 C10.6914062,3.05135344 10.3286972,3.4140625 9.8828125,3.4140625 C9.43692781,3.4140625 9.07421875,3.05135344 9.07421875,2.60546875 Z M10.0625,21.203125 L9.703125,21.203125 C8.63236997,21.203125 7.71568296,20.5307007 7.35332488,19.5859375 L12.4123001,19.5859375 C12.049942,20.5307007 11.133255,21.203125 10.0625,21.203125 L10.0625,21.203125 Z M3.59375,17.7890625 L3.59375,11.5 C3.59375,8.03224184 6.41505434,5.2109375 9.8828125,5.2109375 C13.3505707,5.2109375 16.171875,8.03224184 16.171875,11.5 L16.171875,17.7890625 C14.951088,17.7890625 4.06858823,17.7890625 3.59375,17.7890625 Z' id='Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        a#elFullNotifications svg {
+            visibility: hidden;
+        }
+        a#elFullInbox {
+            background-image: url("data:image/svg+xml,%3Csvg width='30px' height='30px' viewBox='0 0 30 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Messages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M25.7148438,6 L4.28515625,6 C3.02669531,6 2,7.02557813 2,8.28515625 L2,23.5195312 C2,24.7748438 3.022125,25.8046875 4.28515625,25.8046875 L25.7148438,25.8046875 C26.9701563,25.8046875 28,24.7825625 28,23.5195312 L28,8.28515625 C28,7.02984375 26.977875,6 25.7148438,6 Z M25.3992891,7.5234375 L15.0484453,17.874332 L4.60807422,7.5234375 L25.3992891,7.5234375 Z M3.5234375,23.2040781 L3.5234375,8.59334766 L10.8602617,15.8672539 L3.5234375,23.2040781 Z M4.60066016,24.28125 L11.9421055,16.9398047 L14.5145313,19.4901406 C14.8123125,19.7853828 15.2928555,19.784418 15.589418,19.4878047 L18.0976562,16.9795664 L25.3993398,24.28125 L4.60066016,24.28125 Z M26.4765625,23.2040273 L19.1748789,15.9023438 L26.4765625,8.60060938 L26.4765625,23.2040273 Z' id='Shape' fill='%23fafafa' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        a#elFullInbox svg {
+            visibility: hidden;
+        }
+        li#cUser a {
+            color: #fafafa;
+        }
+        li#cUserLink a {
+            color: #fafafa;
+        }
+        div#ipsLayout_header.ipsClearfix header {
+            background: none;
+        }
+        div#ipsLayout_header.ipsClearfix .insFullWidthSearch.ipsNavBar_noSubBars {
+            background: none;
+        }
+        /* gia oloklhrh th mpara
         
            div#ipsLayout_header.ipsClearfix {
             background-color: #1A2835;
         }
         */
-    div#ipsLayout_header.ipsClearfix header div.ipsLayout_container {
-        background-color: #1A2835;
-    }
-    /*
+        div#ipsLayout_header.ipsClearfix header div.ipsLayout_container {
+            background-color: #1A2835;
+        }
+        /*
         div.ipsLayout_container {
             background-color: #1A2835;
         }
         */
-    div.ipsNavBar_primary.ipsLayout_container.ipsNavBar_noSubBars.ipsClearfix.ipsColumns.ipsFlex.ipsFlex {
-        background-color: #1A2835;
-    }
-    div#ipsLayout_contentArea {
-        background-color: #1A2835;
-    }
-
-
-    .ipsLayout_container.ipsPadding_bottom {
-
-        background: #1A2835
-    }
-
-    .ipsLayout_container.ipsPadding_bottom p {
-        font-size: 14px;
-        color: #000;
-    }
-    nav.ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover.insClassifiedsCategory ul li a {
-        color: #fafafa;
-    }
-    /*
+        div.ipsNavBar_primary.ipsLayout_container.ipsNavBar_noSubBars.ipsClearfix.ipsColumns.ipsFlex.ipsFlex {
+            background-color: #1A2835;
+        }
+        div#ipsLayout_contentArea {
+            background-color: #1A2835;
+        }
+        .ipsLayout_container.ipsPadding_bottom {
+            background: #1A2835
+        }
+        .ipsLayout_container.ipsPadding_bottom p {
+            font-size: 14px;
+            /*        color: #000; */
+        }
+        nav.ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover.insClassifiedsCategory ul li a {
+            color: #fafafa;
+        }
+        nav.ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover.insClassifiedsCategory ul li {
+            opacity: 1;
+        }
+        /*
     div.ipsColumn {
         background: #f8f8f8;
     }
 */
-    .cPost.ipsBox.ipsResponsive_pull.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone {
-        background: #f8f8f8;
-        margin-top: -16px;
-    }
-
-    .cStreamFilter {
-        background: #F8F8F8;
-        color: #000;
-    }
-    .ipsStreamItem_contentBlock {
-        margin-top: 5px;
-        margin-bottom: -15px;
-        background: linear-gradient(#f7f7f7, #EEEEEE);
-    }
-    a {
-        text-decoration: none;
-        color: #225985;
-    }
-    .ipsType_light {
-        color: #326995;
-        font-weight: normal;
-        font-size: 12px;
+        .cPost.ipsBox.ipsResponsive_pull.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone {
+            background: #f8f8f8;
+            margin-top: -16px;
+        }
+        .cStreamFilter {
+            background: #F8F8F8;
+            color: #000;
+        }
+        a {
+            text-decoration: none;
+            color: #225985;
+        }
+        .ipsType_light {
+            color: #326995;
+            font-weight: normal;
+            font-size: 12px;
+        }
+        .ipsClearfix.cSearchExpanded {
+            margin-right: 12px !important;
+            border: none !important;
+        }
+        div#elSearch {
+            background: #ededed !important;
+            margin-right: -10px !important;
+            padding-left: 40px;
+        }
     }
 }
-
 @-moz-document url-prefix("https://www.insomnia.gr/discover/") {
-    /*
+    if not NightMode {
+        /*
         div#ipsLayout_contentArea {
             min-width: 1440px;
             margin-left: -15px;
         }
 */
-    li.ipsStreamItem_time {
-        padding-top: 0px;
-    }
-    li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
-
-        margin-top: -4px;
-        /*margin-bottom: 5px;*/
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    p.ipsStreamItem_status.ipsType_reset.ipsType_blendLinks {
-        margin-top: 5px;
-    }
-    div.ipsFlex {
-        margin-top: -10px;
-    }
-    ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
-        margin-top: -17px;
-    }
-    h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
-        font-size: 16px;
+        span.ipsMargin_right {
+            color: #fafafa;
+        }
+        span.ipsType_light {
+            color: #fafafa;
+        }
+        div.ipsStreamItem_container {
+            margin-top: 5px;
+        }
+        .ipsStreamItem_contentBlock {
+            margin-top: 5px;
+            margin-bottom: -15px;
+            /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
+            background: #fafafa;
+        }
+        li.ipsStreamItem_time {
+            padding-top: 0px;
+        }
+        li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
+            margin-top: -4px;
+            /*margin-bottom: 5px;*/
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        p.ipsStreamItem_status.ipsType_reset.ipsType_blendLinks {
+            margin-top: 5px;
+        }
+        div.ipsFlex {
+            margin-top: -10px;
+        }
+        ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
+            margin-top: -17px;
+        }
+        h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
+            font-size: 16px;
+        }
+        h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
+            font-size: 15px;
+            margin-left: 8px;
+        }
+        div.ipsPadding_top.ipsPadding_horizontal {
+            background: #ededed;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/") {
@@ -199,37 +266,50 @@
         div#ipsLayout_header.ipsClearfix header div.ipsLayout_container {
             max-width: 1172px !important;
         }
-
         div.ipsNavBar_primary.ipsLayout_container.ipsNavBar_noSubBars.ipsClearfix.ipsColumns.ipsFlex.ipsFlex {
             max-width: 1172px !important;
         }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/forums/") {
-
-    span.ipsType_break.ipsContained a {
-        font-size: 15px;
-    }
-
-
-
-    .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread {
-        background: linear-gradient(#f7f7f7, #EEEEEE);
-
-        margin-bottom: 1px;
-        max-height: 70px;
-    }
-
-    .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto {
-        background: linear-gradient(#f7f7f7, #EEEEEE);
-
-        margin-bottom: 1px;
-        max-height: 70px;
-    }
-    .ipsClear.ipsDataList.cForumTopicTable.cTopicList {
-        background: #1A2835;
-    }
-    li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread.ipsClearfix {
-        background: linear-gradient(#f7f7f7, #EEEEEE);
+    if not NightMode {
+        span.ipsType_break.ipsContained a {
+            font-size: 16px;
+        }
+        li.ipsDataItem_lastPoster__title a {
+            font-size: 14px;
+        }
+        .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread {
+            /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
+            background: #fafafa;
+            margin-bottom: 1px;
+            max-height: 70px;
+        }
+        .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto {
+            /* background: linear-gradient(#f7f7f7, #EEEEEE);*/
+            background: #EEEEEE;
+            margin-bottom: 1px;
+            max-height: 70px;
+        }
+        .ipsClear.ipsDataList.cForumTopicTable.cTopicList {
+            background: #1A2835;
+        }
+        li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread.ipsClearfix {
+            /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
+            background: #fafafa;
+            border: 10px;
+            border-style: inline;
+            margin-top: 1px;
+        }
+        ol.ipsList_reset.cForumList li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull {
+            background: #8d969e;
+        }
+        li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull h2.ipsType_sectionTitle.ipsType_reset.cForumTitle {
+            margin-bottom: 1px;
+            background: #EDEDED;
+        }
+        div.cWidgetContainer.insWidgetArea ul.ipsList_reset li.ipsWidget.ipsWidget_vertical.ipsBox.ipsResponsive_block {
+            background: #fafafa;
+        }
     }
 }
