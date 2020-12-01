@@ -2,18 +2,20 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2021.0.13
+@version 2021.0.14
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
 @license CC-BY-NC-SA-4.0
-@var checkbox MenuOnTop 'Menu OnTop - NOT WORKING' 0
 @var checkbox NightMode 'Night Mode' 0
-@var checkbox InsomniacShow "Εμφάνιση Incomniac - NOT WORKING" 0
-@var checkbox OldWidth "Μικρότερο Πλάτος" 0
-@var checkbox OldLogo "Παλαιό Logo - NOT WORKING" 0
-@var checkbox LargeBackToTop "Μεγάλο Back to Top - NOT WORKING" 0
 @var checkbox BigFont "Μεγάλη Γραμματοσειρά" 0
+@var checkbox SideBar "Εμφάνιση SideBar" 0
+@var checkbox OldWidth "Μικρότερο Πλάτος" 0
+@var checkbox OldLogo "Παλαιό Logo" 0
+@var checkbox InsomniacShow "Εμφάνιση Incomniac" 0
+@var checkbox LargeBackToTop "Μεγάλο Back to Top" 0
+@var checkbox MenuOnTop 'Menu OnTop - NOT WORKING' 0
+
 @preprocessor stylus
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.insomnia.gr/forums/") {
@@ -26,11 +28,22 @@
         }
     }
 }
+@-moz-document url-prefix("https://www.insomnia.gr/") {
+    if SideBar {
+        .ipsLayout_sidebarright {
+            visibility: visible !important;
+            position: relative!important;
+        }
+    }
+}
 @-moz-document url-prefix("https://www.insomnia.gr/forums/topic/") {
     if not NightMode {
         .ipsLayout_sidebarright {
             visibility: hidden;
             position: fixed;
+        }
+        div.cTopicOverview__body.ipsPadding {
+            background: #f8f8f8;
         }
         div#ipsLayout_contentWrapper1 {
             margin-right: auto;
@@ -87,6 +100,9 @@
             background: #ebebeb;
             animation: none;
         }
+        .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone h3.ipsType_sectionHead.cAuthorPane_author.ipsType_blendLinks.ipsType_break strong a.ipsType_break {
+            color: #000;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/") {
@@ -127,6 +143,7 @@
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
+            min-width: 200px;
             /*
          background:red !important;
          */
@@ -237,6 +254,16 @@
             background: #ffffff52 !important;
         }
     }
+    a#backtoTop {
+        opacity: 0.6;
+    }
+    a#backtoTop i.fa.fa-chevron-circle-up {
+        color: #f69e05;
+        opacity: 1;
+        /*
+margin-right: 82px;
+*/
+    }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/discover/") {
     if not NightMode {
@@ -293,7 +320,7 @@
             color: #f69e05;
         }
         div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
-            background: #f69e05;
+            background: #f0b550;
             color: #1A2835;
             border: none !important;
         }
@@ -382,6 +409,11 @@
         i.fa.fa-circle {
             color: #f0b550;
         }
+        span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers.ipsItemStatus_read {
+            background: #f0b550;
+            color: #1A2835;
+            border: 2px solid #1A2835;
+        }
         div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal {
             background: #f0b550;
             color: #1A2835;
@@ -467,6 +499,9 @@
             visibility: hidden;
             position: fixed;
         }
+        div.cTopicOverview__body.ipsPadding {
+            background: #323232;
+        }
         div#ipsLayout_contentWrapper1 {
             margin-right: auto;
         }
@@ -544,6 +579,18 @@
             background: #323232;
             animation: none;
         }
+        ul.cTopicOverview__stats {
+            background: #272727;
+        }
+        li.cTopicOverview__statItem.ipsType_center {
+            color: #f69e05;
+        }
+        h4.ipsType_reset.cTopicOverview__sectionTitle.ipsType_withHr.ipsType_dark.ipsType_uppercase {
+            color: #f69e05;
+        }
+        div.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix.ipsMargin_top div h5.ipsType_reset.ipsType_bold.ipsType_normal.ipsType_blendLinks a {
+            color: #FBB62F;
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr/") {
@@ -584,6 +631,7 @@
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
+            min-width: 200px;
             /*
          background:red !important;
          */
@@ -692,6 +740,15 @@
         }
         li#cUserLink:hover {
             background: #ffffff52 !important;
+        }
+        a#backtoTop {
+            opacity: 0.6;
+        }
+        a#backtoTop i.fa.fa-chevron-circle-up {
+            color: #f69e05;
+            /*
+margin-right: 82px;
+*/
         }
     }
 }
@@ -892,6 +949,11 @@
         i.fa.fa-circle {
             color: #f0b550;
         }
+        span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers.ipsItemStatus_read {
+            background: #f0b550;
+            color: #1A2835;
+            border: 2px solid #1A2835;
+        }
         div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal {
             background: #f0b550;
             color: #1A2835;
@@ -961,5 +1023,61 @@
             color: #ebebeb;
         }
         /* Insert code here... #225985 */
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr") {
+    if OldLogo {
+        a#elLogo {
+            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/logo-old-b.png.e7421d6817d01ba4abb54936a6137b2c.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            min-width: 200px;
+            /*
+         background:red !important;
+         */
+            max-height: 60px !important;
+        }
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr") {
+    if InsomniacShow {
+        if OldLogo {
+            a#elLogo {
+                background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/insomniac.png.0128c2ae40c8a3b9dc863fb25f15d246.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/logo-old-b.png.e7421d6817d01ba4abb54936a6137b2c.png');
+                background-repeat: no-repeat, no-repeat;
+                background-size: contain, contain;
+                background-position: 145px, center;
+                min-width: 200px;
+                /*
+         background:red !important;
+         */
+                max-height: 60px !important;
+            }
+        }
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr") {
+    if not OldLogo {
+        if InsomniacShow {
+            a#elLogo {
+                background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/insomniac.png.0128c2ae40c8a3b9dc863fb25f15d246.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
+                background-repeat: no-repeat, no-repeat;
+                background-size: contain, contain;
+                background-position: 145px, center;
+                min-width: 200px;
+                /*
+         background:red !important;
+         */
+                max-height: 60px !important;
+            }
+        }
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/") {
+    if LargeBackToTop {
+        a#backtoTop i.fa.fa-chevron-circle-up {
+            transform: scale(2.2, 2.2);
+        }
     }
 }
