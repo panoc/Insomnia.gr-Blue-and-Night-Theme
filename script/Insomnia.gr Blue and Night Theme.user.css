@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2021.0.11
+@version 2021.0.12
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -72,6 +72,20 @@
         }
         h1.ipsType_pageTitle.ipsContained_container span.ipsType_break.ipsContained span {
             color: #000;
+        }
+        div.cTopicPostArea.ipsBox.ipsResponsive_pull.ipsPadding.ipsSpacer_top {
+            background: #fafafa;
+        }
+        div.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr {
+            background: #fafafa;
+        }
+        div.ipsComposeArea_editor .ipsType_normal.ipsType_richText.ipsType_break {
+            background: #ebebeb;
+            animation: none;
+        }
+        .ipsComposeArea_dropZone.ipsComposeArea_dropZoneSmall.ipsClearfix.ipsType_light {
+            background: #ebebeb;
+            animation: none;
         }
     }
 }
@@ -296,13 +310,13 @@
             /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
             background: #fafafa;
             margin-bottom: 1px;
-            max-height: 70px;
+            max-height: 90px;
         }
         .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto {
             /* background: linear-gradient(#f7f7f7, #EEEEEE);*/
             background: #EEEEEE;
             margin-bottom: 1px;
-            max-height: 70px;
+            max-height: 90px;
         }
         .ipsClear.ipsDataList.cForumTopicTable.cTopicList {
             background: #1A2835;
@@ -428,6 +442,20 @@
         }
         .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone ul.cAuthorPane_info.ipsList_reset li {
             color: #f5cd88;
+        }
+        div.cTopicPostArea.ipsBox.ipsResponsive_pull.ipsPadding.ipsSpacer_top {
+            background: #323232;
+        }
+        div.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr {
+            background: #423f3b;
+        }
+        div.ipsComposeArea_editor .ipsType_normal.ipsType_richText.ipsType_break {
+            background: #323232;
+            animation: none;
+        }
+        .ipsComposeArea_dropZone.ipsComposeArea_dropZoneSmall.ipsClearfix.ipsType_light {
+            background: #323232;
+            animation: none;
         }
     }
 }
@@ -664,13 +692,13 @@
             /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
             background: #323232;
             margin-bottom: 1px;
-            max-height: 70px;
+            max-height: 90px;
         }
         .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto {
             /* background: linear-gradient(#f7f7f7, #EEEEEE);*/
             background: #383838;
             margin-bottom: 1px;
-            max-height: 70px;
+            max-height: 90px;
         }
         .ipsClear.ipsDataList.cForumTopicTable.cTopicList {
             background: #121820;
