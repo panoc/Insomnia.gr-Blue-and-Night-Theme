@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2021.0.10
+@version 2021.0.10.1
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -108,11 +108,18 @@
             visibility: hidden;
             background-image: url('https://www.w3schools.com/images/colorpicker.gif');
         }
-        a#elLogo.ipsResponsive_hidePhone {
+        a#elLogo {
             background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
+            /*
+         background:red !important;
+         */
+            max-height: 60px !important;
+        }
+        a#elLogo img.ipsResponsive_hidePhone {
+            visibility: hidden;
         }
         a#elFullNotifications {
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='23px' viewBox='0 0 20 23' version='1.1'%3E%3Cg id='Asset-Artboard-Page' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Messages' transform='translate(-4.000000, -4.000000)' fill='%23f8f8f8' fill-rule='nonzero'%3E%3Cg id='Notifications' transform='translate(4.000000, 4.000000)'%3E%3Cpath d='M18.8671875,17.7890625 L17.96875,17.7890625 L17.96875,11.5 C17.96875,7.8532562 15.5419159,4.76294709 12.2183991,3.75852204 C12.390892,3.41055298 12.4882812,3.01924136 12.4882812,2.60546875 C12.4882812,1.16884612 11.3194351,0 9.8828125,0 C8.44618987,0 7.27734375,1.16884612 7.27734375,2.60546875 C7.27734375,3.01924136 7.37473298,3.41055298 7.54722593,3.75852204 C4.22370913,4.76294709 1.796875,7.8532562 1.796875,11.5 L1.796875,17.7890625 L0.8984375,17.7890625 C0.402191162,17.7890625 0,18.1912537 0,18.6875 C0,19.1837463 0.402191162,19.5859375 0.8984375,19.5859375 L5.48503111,19.5859375 C5.89950562,21.5340729 7.63320923,23 9.703125,23 L10.0625,23 C12.1324158,23 13.8661194,21.5340729 14.2805939,19.5859375 L18.8671875,19.5859375 C19.3634338,19.5859375 19.765625,19.1837463 19.765625,18.6875 C19.765625,18.1912537 19.3634338,17.7890625 18.8671875,17.7890625 Z M9.07421875,2.60546875 C9.07421875,2.15958406 9.43692781,1.796875 9.8828125,1.796875 C10.3286972,1.796875 10.6914062,2.15958406 10.6914062,2.60546875 C10.6914062,3.05135344 10.3286972,3.4140625 9.8828125,3.4140625 C9.43692781,3.4140625 9.07421875,3.05135344 9.07421875,2.60546875 Z M10.0625,21.203125 L9.703125,21.203125 C8.63236997,21.203125 7.71568296,20.5307007 7.35332488,19.5859375 L12.4123001,19.5859375 C12.049942,20.5307007 11.133255,21.203125 10.0625,21.203125 L10.0625,21.203125 Z M3.59375,17.7890625 L3.59375,11.5 C3.59375,8.03224184 6.41505434,5.2109375 9.8828125,5.2109375 C13.3505707,5.2109375 16.171875,8.03224184 16.171875,11.5 L16.171875,17.7890625 C14.951088,17.7890625 4.06858823,17.7890625 3.59375,17.7890625 Z' id='Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
@@ -126,6 +133,9 @@
             background-image: url("data:image/svg+xml,%3Csvg width='30px' height='30px' viewBox='0 0 30 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Messages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M25.7148438,6 L4.28515625,6 C3.02669531,6 2,7.02557813 2,8.28515625 L2,23.5195312 C2,24.7748438 3.022125,25.8046875 4.28515625,25.8046875 L25.7148438,25.8046875 C26.9701563,25.8046875 28,24.7825625 28,23.5195312 L28,8.28515625 C28,7.02984375 26.977875,6 25.7148438,6 Z M25.3992891,7.5234375 L15.0484453,17.874332 L4.60807422,7.5234375 L25.3992891,7.5234375 Z M3.5234375,23.2040781 L3.5234375,8.59334766 L10.8602617,15.8672539 L3.5234375,23.2040781 Z M4.60066016,24.28125 L11.9421055,16.9398047 L14.5145313,19.4901406 C14.8123125,19.7853828 15.2928555,19.784418 15.589418,19.4878047 L18.0976562,16.9795664 L25.3993398,24.28125 L4.60066016,24.28125 Z M26.4765625,23.2040273 L19.1748789,15.9023438 L26.4765625,8.60060938 L26.4765625,23.2040273 Z' id='Shape' fill='%23fafafa' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
             background-repeat: no-repeat;
             background-position: center;
+        }
+        a#elAllStreams i.fa.fa-newspaper-o {
+            color: #fafafa;
         }
         a#elFullInbox svg {
             visibility: hidden;
@@ -350,16 +360,6 @@
 /********************************************************************************************************************************************************/
 /********************************************************************************************************************************************************/
 /********************************************************************************************************************************************************/
-@-moz-document url-prefix("https://www.insomnia.gr/forums/") {
-    if BigFont {
-        .ipsLayout_container.ipsPadding_bottom p {
-            font-size: 16px !important;
-        }
-        h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
-            font-size: 16px !important;
-        }
-    }
-}
 @-moz-document url-prefix("https://www.insomnia.gr/forums/topic/") {
     if NightMode {
         .ipsLayout_sidebarright {
@@ -370,7 +370,7 @@
             margin-right: auto;
         }
         .ipsComment_highlighted {
-            background: #FFFEFA !important;
+            background: #4e4b3ed1 !important;
         }
         div.ipsUnreadBar {
             color: #FBB62F;
@@ -464,11 +464,18 @@
             visibility: hidden;
             background-image: url('https://www.w3schools.com/images/colorpicker.gif');
         }
-        a#elLogo.ipsResponsive_hidePhone {
+        a#elLogo {
             background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
+            /*
+         background:red !important;
+         */
+            max-height: 60px !important;
+        }
+        a#elLogo img.ipsResponsive_hidePhone {
+            visibility: hidden;
         }
         a#elFullNotifications {
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='23px' viewBox='0 0 20 23' version='1.1'%3E%3Cg id='Asset-Artboard-Page' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Messages' transform='translate(-4.000000, -4.000000)' fill='%23f8f8f8' fill-rule='nonzero'%3E%3Cg id='Notifications' transform='translate(4.000000, 4.000000)'%3E%3Cpath d='M18.8671875,17.7890625 L17.96875,17.7890625 L17.96875,11.5 C17.96875,7.8532562 15.5419159,4.76294709 12.2183991,3.75852204 C12.390892,3.41055298 12.4882812,3.01924136 12.4882812,2.60546875 C12.4882812,1.16884612 11.3194351,0 9.8828125,0 C8.44618987,0 7.27734375,1.16884612 7.27734375,2.60546875 C7.27734375,3.01924136 7.37473298,3.41055298 7.54722593,3.75852204 C4.22370913,4.76294709 1.796875,7.8532562 1.796875,11.5 L1.796875,17.7890625 L0.8984375,17.7890625 C0.402191162,17.7890625 0,18.1912537 0,18.6875 C0,19.1837463 0.402191162,19.5859375 0.8984375,19.5859375 L5.48503111,19.5859375 C5.89950562,21.5340729 7.63320923,23 9.703125,23 L10.0625,23 C12.1324158,23 13.8661194,21.5340729 14.2805939,19.5859375 L18.8671875,19.5859375 C19.3634338,19.5859375 19.765625,19.1837463 19.765625,18.6875 C19.765625,18.1912537 19.3634338,17.7890625 18.8671875,17.7890625 Z M9.07421875,2.60546875 C9.07421875,2.15958406 9.43692781,1.796875 9.8828125,1.796875 C10.3286972,1.796875 10.6914062,2.15958406 10.6914062,2.60546875 C10.6914062,3.05135344 10.3286972,3.4140625 9.8828125,3.4140625 C9.43692781,3.4140625 9.07421875,3.05135344 9.07421875,2.60546875 Z M10.0625,21.203125 L9.703125,21.203125 C8.63236997,21.203125 7.71568296,20.5307007 7.35332488,19.5859375 L12.4123001,19.5859375 C12.049942,20.5307007 11.133255,21.203125 10.0625,21.203125 L10.0625,21.203125 Z M3.59375,17.7890625 L3.59375,11.5 C3.59375,8.03224184 6.41505434,5.2109375 9.8828125,5.2109375 C13.3505707,5.2109375 16.171875,8.03224184 16.171875,11.5 L16.171875,17.7890625 C14.951088,17.7890625 4.06858823,17.7890625 3.59375,17.7890625 Z' id='Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
@@ -482,6 +489,9 @@
             background-image: url("data:image/svg+xml,%3Csvg width='30px' height='30px' viewBox='0 0 30 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Messages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M25.7148438,6 L4.28515625,6 C3.02669531,6 2,7.02557813 2,8.28515625 L2,23.5195312 C2,24.7748438 3.022125,25.8046875 4.28515625,25.8046875 L25.7148438,25.8046875 C26.9701563,25.8046875 28,24.7825625 28,23.5195312 L28,8.28515625 C28,7.02984375 26.977875,6 25.7148438,6 Z M25.3992891,7.5234375 L15.0484453,17.874332 L4.60807422,7.5234375 L25.3992891,7.5234375 Z M3.5234375,23.2040781 L3.5234375,8.59334766 L10.8602617,15.8672539 L3.5234375,23.2040781 Z M4.60066016,24.28125 L11.9421055,16.9398047 L14.5145313,19.4901406 C14.8123125,19.7853828 15.2928555,19.784418 15.589418,19.4878047 L18.0976562,16.9795664 L25.3993398,24.28125 L4.60066016,24.28125 Z M26.4765625,23.2040273 L19.1748789,15.9023438 L26.4765625,8.60060938 L26.4765625,23.2040273 Z' id='Shape' fill='%23fafafa' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
             background-repeat: no-repeat;
             background-position: center;
+        }
+        a#elAllStreams i.fa.fa-newspaper-o {
+            color: #fafafa;
         }
         a#elFullInbox svg {
             visibility: hidden;
