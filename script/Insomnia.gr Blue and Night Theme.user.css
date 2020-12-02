@@ -14,6 +14,7 @@
 @var checkbox OldLogo "Παλαιό Logo" 0
 @var checkbox InsomniacShow "Εμφάνιση Incomniac" 0
 @var checkbox LargeBackToTop "Μεγάλο Back to Top" 0
+@var checkbox AggeliesList "Αγγελίες σε λίστα" 0
 @var checkbox MenuOnTop 'Menu OnTop - NOT WORKING' 0
 
 @preprocessor stylus
@@ -485,6 +486,145 @@ margin-right: 82px;
         /* Insert code here... #225985 */
     }
 }
+@-moz-document url-prefix("https://www.insomnia.gr/classifieds/category/") {
+    if not NightMode {
+        if AggeliesList {
+            span.ipsType_break.ipsContained .ipsType_blendLinks {
+                color: #000;
+                font-weight: 800;
+                position: absolute;
+                top: -5px;
+                left: 250px;
+                font-size: 18px;
+                max-width: 705px;
+            }
+            span.ipsType_break.ipsContained .ipsType_blendLinks:hover {
+                color: #2981BF;
+                font-weight: 800;
+                position: absolute;
+                top: -5px;
+                left: 250px;
+                font-size: 18px;
+                max-width: 705px;
+            }
+            div.classifieds-data-item-main {
+                min-width: 100px;
+            }
+            div.classifieds-data-item-main {
+                position: absolute;
+                min-width: 1000px !important;
+                margin-left: 0px !important;
+            }
+            .ipsThumb_bg {
+                position: absolute;
+                max-height: 85px;
+                min-width: 200px !important;
+                margin-top: -10px;
+                background-size: contain;
+            }
+            .ipsNoThumb {
+                position: absolute;
+                max-height: 85px !important;
+                max-width: 200px !important;
+                min-width: 200px !important;
+                margin-top: -10px;
+                background-size: contain;
+            }
+            .ipsGrid_span4 {
+                min-width: 1090px;
+                /* min-width: 822px; */
+                max-height: 90px;
+                background: #ebebeb;
+                margin-top: -28px !important;
+                margin-left: -0px !important;
+                margin-right: 1000px !important
+            }
+            .ipsDataItem_unread {
+                min-width: 1090px;
+                /* min-width: 822px; */
+                max-height: 105px;
+                background: #fafafa;
+                margin-top: -28px !important;
+                margin-left: -0px !important;
+                margin-right: 1000px !important
+            }
+            div.classifieds-data-item-author {
+                margin-top: 18px;
+                margin-bottom: auto;
+                margin-left: auto;
+                margin-right: 10px;
+                color: #ff0000c9;
+            }
+            div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
+                margin-top: -30px;
+                margin-left: auto;
+                margin-right: 10px;
+                color: green !important;
+            }
+            div.classifieds-data-item-author-info div.classifieds-data-item-author-rep {
+                margin-top: 18px;
+                color: #000 !important;
+            }
+            div.classifieds-data-item-author-wrap hr.ipsHr {
+                visibility: hidden
+            }
+            div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
+                color: #000;
+                font-weight: 500;
+                position: absolute;
+                top: 80px;
+                left: 250px;
+                font-size: 14px;
+            }
+            p.cFilePrice.ipsType_bold {
+                background: #225985;
+                margin-top: 15px;
+            }
+            p.cFilePrice.ipsType_bold span.cFilePrice {
+                font-size: 20px;
+            }
+            a.ipsNoThumb.ipsThumb.ipsThumb_classified-thumb-240 {
+                background: #fafafa;
+            }
+            .ipsDataItem_unread a.ipsThumb.ipsThumb_classified-thumb-240.ipsThumb_bg {
+                background: #fafafa;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            a.ipsThumb.ipsThumb_classified-thumb-240.ipsThumb_bg {
+                background: #ebebeb;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            ul.ipsSideMenu_list li a.ipsSideMenu_item.ipsTruncate.ipsTruncate_line strong.ipsType_normal {
+                color: #EBEBEB;
+            }
+            div.classifieds-data-item-main div.classified-product-thumb.ipsMargin_bottom {
+                color: #f00;
+            }
+            div.ipsPageHeader.ipsClearfix.ipsSpacer_bottom.ipsSpacer_double h1.ipsType_pageTitle {
+                color: #fafafa;
+            }
+            li.ipsPagination_next {
+                color: #fafafa;
+            }
+            li.ipsPagination_prev {
+                color: #fafafa;
+            }
+            li.ipsPagination_page {
+                color: #fafafa;
+            }
+            a i.fa.fa-angle-double-left {
+                color: #fafafa;
+            }
+            a i.fa.fa-angle-double-right {
+                color: #fafafa;
+            }
+        }
+    }
+}
 /********************************************************************************************************************************************************/
 /********************************************************************************************************************************************************/
 /********************************************************************************************************************************************************/
@@ -520,8 +660,17 @@ margin-right: 82px;
         .ipsLayout_container.ipsPadding_bottom p {
             color: #ebebeb;
         }
+        .ipsSpoiler {
+            background: #707070;
+        }
+        .ipsSpoiler div.ipsSpoiler_header.ipsSpoiler_closed span {
+            color: #f69e05;
+        }
+        .ipsSpoiler div.ipsSpoiler_header.ipsSpoiler_open span {
+            color: #f69e05;
+        }
         .ipsQuote {
-            background: #515050;
+            background: #505050;
         }
         .ipsClearfix.ipsClear.ipsMargin_bottom {
             background: #874214;
@@ -550,6 +699,9 @@ margin-right: 82px;
             color: #f69e05;
         }
         .ipsQuote div.ipsQuote_citation.ipsQuote_open {
+            color: #f69e05;
+        }
+        .ipsSpoiler div.ipsSpoiler_header.ipsSpoiler_closed a {
             color: #f69e05;
         }
         i.fa.fa-share {
@@ -1023,6 +1175,149 @@ margin-right: 82px;
             color: #ebebeb;
         }
         /* Insert code here... #225985 */
+    }
+}
+@-moz-document url-prefix("https://www.insomnia.gr/classifieds/category/") {
+    if NightMode {
+        if AggeliesList {
+            span.ipsType_break.ipsContained .ipsType_blendLinks {
+                color: #F0B550;
+                font-weight: 800;
+                position: absolute;
+                top: -5px;
+                left: 250px;
+                font-size: 18px;
+                max-width: 705px;
+            }
+            span.ipsType_break.ipsContained .ipsType_blendLinks:hover {
+                color: #2981BF;
+                font-weight: 800;
+                position: absolute;
+                top: -5px;
+                left: 250px;
+                font-size: 18px;
+                max-width: 705px;
+            }
+            div.classifieds-data-item-main {
+                min-width: 100px;
+            }
+            div.classifieds-data-item-main {
+                position: absolute;
+                min-width: 1000px !important;
+                margin-left: 0px !important;
+            }
+            .ipsThumb_bg {
+                position: absolute;
+                max-height: 85px;
+                min-width: 200px !important;
+                margin-top: -10px;
+                background-size: contain;
+            }
+            .ipsNoThumb {
+                position: absolute;
+                max-height: 85px !important;
+                max-width: 200px !important;
+                min-width: 200px !important;
+                margin-top: -10px;
+                background-size: contain;
+            }
+            .ipsGrid_span4 {
+                min-width: 1090px;
+                /* min-width: 822px; */
+                max-height: 90px;
+                background: #222222;
+                margin-top: -28px !important;
+                margin-left: -0px !important;
+                margin-right: 1000px !important;
+                border: 10px!important;
+                border-color: Red!important;
+                border-style: outset;
+            }
+            .ipsDataItem_unread {
+                min-width: 1090px;
+                /* min-width: 822px; */
+                max-height: 105px;
+                background: #323232;
+                margin-top: -28px !important;
+                margin-left: -0px !important;
+                margin-right: 1000px !important
+            }
+            div.classifieds-data-item-author {
+                margin-top: 18px;
+                margin-bottom: auto;
+                margin-left: auto;
+                margin-right: 10px;
+                color: #ff0000c9;
+            }
+            div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
+                margin-top: -30px;
+                margin-left: auto;
+                margin-right: 10px;
+                color: #e04a4a !important;
+            }
+            div.classifieds-data-item-author-info div.classifieds-data-item-author-rep {
+                margin-top: 18px;
+                color: #F0B550 !important;
+            }
+            div.classifieds-data-item-author-wrap hr.ipsHr {
+                visibility: hidden
+            }
+            div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
+                color: #000;
+                font-weight: 500;
+                position: absolute;
+                top: 80px;
+                left: 250px;
+                font-size: 14px;
+            }
+            p.cFilePrice.ipsType_bold {
+                background: #aa6c00;
+                margin-top: 15px;
+                color: #fafafa;
+            }
+            p.cFilePrice.ipsType_bold span.cFilePrice {
+                font-size: 20px;
+            }
+            a.ipsNoThumb.ipsThumb.ipsThumb_classified-thumb-240 {
+                background: #323232;
+            }
+            .ipsDataItem_unread a.ipsThumb.ipsThumb_classified-thumb-240.ipsThumb_bg {
+                background: #323232;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            a.ipsThumb.ipsThumb_classified-thumb-240.ipsThumb_bg {
+                background: #222222;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            ul.ipsSideMenu_list li a.ipsSideMenu_item.ipsTruncate.ipsTruncate_line strong.ipsType_normal {
+                color: #EBEBEB;
+            }
+            div.classifieds-data-item-main div.classified-product-thumb.ipsMargin_bottom {
+                color: red;
+            }
+            div.ipsPageHeader.ipsClearfix.ipsSpacer_bottom.ipsSpacer_double h1.ipsType_pageTitle {
+                color: #fafafa;
+            }
+            li.ipsPagination_next {
+                color: #fafafa;
+            }
+            li.ipsPagination_prev {
+                color: #fafafa;
+            }
+            li.ipsPagination_page {
+                color: #fafafa;
+            }
+            a i.fa.fa-angle-double-left {
+                color: #fafafa;
+            }
+            a i.fa.fa-angle-double-right {
+                color: #fafafa;
+            }
+        }
     }
 }
 @-moz-document url-prefix("https://www.insomnia.gr") {
