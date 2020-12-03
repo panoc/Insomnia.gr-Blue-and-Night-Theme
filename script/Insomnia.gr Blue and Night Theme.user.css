@@ -1,1348 +1,1333 @@
-/* ==UserStyle==
+    /* ==UserStyle==
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2021.0.14
+@version 2021.0.20
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
 @license CC-BY-NC-SA-4.0
 @var checkbox NightMode 'Night Mode' 0
+@var checkbox AggeliesList "Αγγελίες σε λίστα" 0
 @var checkbox BigFont "Μεγάλη Γραμματοσειρά" 0
 @var checkbox SideBar "Εμφάνιση SideBar" 0
-@var checkbox OldWidth "Μικρότερο Πλάτος" 0
+@var checkbox MenuOnTop 'Menu OnTop' 0
+@var checkbox MedWidth "Μεσαίο Πλάτος" 0
+@var checkbox OldWidth "Μικρό Πλάτος" 0
 @var checkbox OldLogo "Παλαιό Logo" 0
 @var checkbox InsomniacShow "Εμφάνιση Incomniac" 0
 @var checkbox LargeBackToTop "Μεγάλο Back to Top" 0
-@var checkbox AggeliesList "Αγγελίες σε λίστα" 0
-@var checkbox MenuOnTop 'Menu OnTop - NOT WORKING' 0
 
 @preprocessor stylus
 ==/UserStyle== */
-@-moz-document url-prefix("https://www.insomnia.gr/forums/") {
-    if BigFont {
-        .ipsLayout_container.ipsPadding_bottom p {
-            font-size: 16px !important;
-        }
-        h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
-            font-size: 16px !important;
-        }
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/") {
-    if SideBar {
-        .ipsLayout_sidebarright {
-            visibility: visible !important;
-            position: relative!important;
+    @-moz-document url-prefix("https://www.insomnia.gr/forums/") {
+        if BigFont {
+            .ipsLayout_container.ipsPadding_bottom p {
+                font-size: 16px !important;
+            }
+            h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
+                font-size: 16px !important;
+            }
         }
     }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/forums/topic/") {
-    if not NightMode {
-        .ipsLayout_sidebarright {
-            visibility: hidden;
-            position: fixed;
-        }
-        div.cTopicOverview__body.ipsPadding {
-            background: #f8f8f8;
-        }
-        div#ipsLayout_contentWrapper1 {
-            margin-right: auto;
-        }
-        .ipsComment_highlighted {
-            background: #FFFEFA !important;
-        }
-        div.ipsUnreadBar {
-            color: #FBB62F;
-        }
-        div.ipsUnreadBar::after {
-            background: #FBB62F;
-        }
-        div.ipsUnreadBar::before {
-            background: #FBB62F;
-        }
-        .ipsLayout_container.ipsPadding_bottom p {
-            color: #000;
-        }
-        .ipsQuote {
-            background: #eeede3bd;
-        }
-        .ipsClearfix.ipsClear.ipsMargin_bottom {
-            background: #ededed;
-        }
-        .ipsMargin_top.ipsClearfix.ipsClear {
-            background: #ededed;
-        }
-        .ipsMargin_bottom {
-            background: #f8f8f8;
-        }
-        li.ipsResponsive_hidePhone a.ipsButton.ipsButton_link.ipsButton_medium.ipsButton_fullWidth {
-            background: #ededed;
-            color: #000;
-        }
-        li.ipsToolList_primaryAction span a.ipsButton.ipsButton_important.ipsButton_medium.ipsButton_fullWidth {
-            background: #5a89b5cf !important;
-            color: #fafafa;
-        }
-        h1.ipsType_pageTitle.ipsContained_container span.ipsType_break.ipsContained span {
-            color: #000;
-        }
-        div.cTopicPostArea.ipsBox.ipsResponsive_pull.ipsPadding.ipsSpacer_top {
-            background: #fafafa;
-        }
-        div.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr {
-            background: #fafafa;
-        }
-        div.ipsComposeArea_editor .ipsType_normal.ipsType_richText.ipsType_break {
-            background: #ebebeb;
-            animation: none;
-        }
-        .ipsComposeArea_dropZone.ipsComposeArea_dropZoneSmall.ipsClearfix.ipsType_light {
-            background: #ebebeb;
-            animation: none;
-        }
-        .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone h3.ipsType_sectionHead.cAuthorPane_author.ipsType_blendLinks.ipsType_break strong a.ipsType_break {
-            color: #000;
+    @-moz-document url-prefix("https://www.insomnia.gr/") {
+        if SideBar {
+            .ipsLayout_sidebarright {
+                visibility: visible !important;
+                position: relative!important;
+            }
         }
     }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/") {
-    if not NightMode {
-        div#ipsLayout_header.ipsClearfix .insFullWidthSearch.ipsNavBar_noSubBars {
-            border: none
+    @-moz-document url-prefix("https://www.insomnia.gr/forums/topic/") {
+        if not NightMode {
+            .ipsLayout_sidebarright {
+                visibility: hidden;
+                position: fixed;
+            }
+            div.cTopicOverview__body.ipsPadding {
+                background: #f8f8f8;
+            }
+            div#ipsLayout_contentWrapper1 {
+                margin-right: auto;
+            }
+            .ipsComment_highlighted {
+                background: #FFFEFA !important;
+            }
+            div.ipsUnreadBar {
+                color: #FBB62F;
+            }
+            div.ipsUnreadBar::after {
+                background: #FBB62F;
+            }
+            div.ipsUnreadBar::before {
+                background: #FBB62F;
+            }
+            .ipsLayout_container.ipsPadding_bottom p {
+                color: #000;
+            }
+            .ipsQuote {
+                background: #eeede3bd;
+            }
+            .ipsClearfix.ipsClear.ipsMargin_bottom {
+                background: #ededed;
+            }
+            .ipsMargin_top.ipsClearfix.ipsClear {
+                background: #ededed;
+            }
+            .ipsMargin_bottom {
+                background: #f8f8f8;
+            }
+            li.ipsResponsive_hidePhone a.ipsButton.ipsButton_link.ipsButton_medium.ipsButton_fullWidth {
+                background: #ededed;
+                color: #000;
+            }
+            li.ipsToolList_primaryAction span a.ipsButton.ipsButton_important.ipsButton_medium.ipsButton_fullWidth {
+                background: #5a89b5cf !important;
+                color: #fafafa;
+            }
+            h1.ipsType_pageTitle.ipsContained_container span.ipsType_break.ipsContained span {
+                color: #000;
+            }
+            div.cTopicPostArea.ipsBox.ipsResponsive_pull.ipsPadding.ipsSpacer_top {
+                background: #fafafa;
+            }
+            div.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr {
+                background: #fafafa;
+            }
+            div.ipsComposeArea_editor .ipsType_normal.ipsType_richText.ipsType_break {
+                background: #ebebeb;
+                animation: none;
+            }
+            .ipsComposeArea_dropZone.ipsComposeArea_dropZoneSmall.ipsClearfix.ipsType_light {
+                background: #ebebeb;
+                animation: none;
+            }
+            .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone h3.ipsType_sectionHead.cAuthorPane_author.ipsType_blendLinks.ipsType_break strong a.ipsType_break {
+                color: #000;
+            }
         }
-        li#elNavSecondary_10 a,
-        li#elNavSecondary_36 a,
-        li#elNavSecondary_39 a {
-            color: #fafafa;
-        }
-        body {
-            /*background: #1A2835*/
-            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_header.png.8a53f85be22fad7f2306d63729d4cdab.png'), /*url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png'),*/
-            url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/background-dark1.png.e36c622d469fcbd96c12be356e278af4.png');
-            background-position: left top, right top, top center, /*bottom center, /*top left, top center, top right,*/
-            center;
-            background-repeat: no-repeat, no-repeat, repeat-x, /*repeat-x, /*no-repeat, repeat, no-repeat,*/
-            repeat;
-        }
-        footer#site-footer.ipsClearfix.site-footer.darkBg {
-            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/footer4.png.2acf51eff28f63c8c2cfd16e7e1b2df6.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png');
-            background-repeat: /*repeat-x,*/
-            repeat-x;
-            background-position: /*top center,*/
-            center, bottom left;
-            /*margin-left: -15px;*/
-            background-color: #070A12;
-            width: 100%
-        }
-        a#elLogo.ipsResponsive_hidePhone img {
-            visibility: hidden;
-            background-image: url('https://www.w3schools.com/images/colorpicker.gif');
-        }
-        a#elLogo {
-            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center;
-            min-width: 200px;
-            /*
+    }
+    @-moz-document url-prefix("https://www.insomnia.gr/") {
+        if not NightMode {
+            div#ipsLayout_header.ipsClearfix .insFullWidthSearch.ipsNavBar_noSubBars {
+                border: none
+            }
+            li#elNavSecondary_10 a,
+            li#elNavSecondary_36 a,
+            li#elNavSecondary_39 a {
+                color: #fafafa;
+            }
+            body {
+                /*background: #1A2835*/
+                background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_header.png.8a53f85be22fad7f2306d63729d4cdab.png'), /*url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png'),*/
+                url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/background-dark1.png.e36c622d469fcbd96c12be356e278af4.png');
+                background-position: left top, right top, top center, /*bottom center, /*top left, top center, top right,*/
+                center;
+                background-repeat: no-repeat, no-repeat, repeat-x, /*repeat-x, /*no-repeat, repeat, no-repeat,*/
+                repeat;
+            }
+            footer#site-footer.ipsClearfix.site-footer.darkBg {
+                background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/footer4.png.2acf51eff28f63c8c2cfd16e7e1b2df6.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png');
+                background-repeat: /*repeat-x,*/
+                repeat-x;
+                background-position: /*top center,*/
+                center, bottom left;
+                /*margin-left: -15px;*/
+                background-color: #070A12;
+                width: 100%
+            }
+            a#elLogo.ipsResponsive_hidePhone img {
+                visibility: hidden;
+                background-image: url('https://www.w3schools.com/images/colorpicker.gif');
+            }
+            a#elLogo {
+                background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                min-width: 200px;
+                /*
          background:red !important;
          */
-            max-height: 60px !important;
-        }
-        a#elLogo img.ipsResponsive_hidePhone {
-            visibility: hidden;
-        }
-        a#elFullNotifications {
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='23px' viewBox='0 0 20 23' version='1.1'%3E%3Cg id='Asset-Artboard-Page' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Messages' transform='translate(-4.000000, -4.000000)' fill='%23f8f8f8' fill-rule='nonzero'%3E%3Cg id='Notifications' transform='translate(4.000000, 4.000000)'%3E%3Cpath d='M18.8671875,17.7890625 L17.96875,17.7890625 L17.96875,11.5 C17.96875,7.8532562 15.5419159,4.76294709 12.2183991,3.75852204 C12.390892,3.41055298 12.4882812,3.01924136 12.4882812,2.60546875 C12.4882812,1.16884612 11.3194351,0 9.8828125,0 C8.44618987,0 7.27734375,1.16884612 7.27734375,2.60546875 C7.27734375,3.01924136 7.37473298,3.41055298 7.54722593,3.75852204 C4.22370913,4.76294709 1.796875,7.8532562 1.796875,11.5 L1.796875,17.7890625 L0.8984375,17.7890625 C0.402191162,17.7890625 0,18.1912537 0,18.6875 C0,19.1837463 0.402191162,19.5859375 0.8984375,19.5859375 L5.48503111,19.5859375 C5.89950562,21.5340729 7.63320923,23 9.703125,23 L10.0625,23 C12.1324158,23 13.8661194,21.5340729 14.2805939,19.5859375 L18.8671875,19.5859375 C19.3634338,19.5859375 19.765625,19.1837463 19.765625,18.6875 C19.765625,18.1912537 19.3634338,17.7890625 18.8671875,17.7890625 Z M9.07421875,2.60546875 C9.07421875,2.15958406 9.43692781,1.796875 9.8828125,1.796875 C10.3286972,1.796875 10.6914062,2.15958406 10.6914062,2.60546875 C10.6914062,3.05135344 10.3286972,3.4140625 9.8828125,3.4140625 C9.43692781,3.4140625 9.07421875,3.05135344 9.07421875,2.60546875 Z M10.0625,21.203125 L9.703125,21.203125 C8.63236997,21.203125 7.71568296,20.5307007 7.35332488,19.5859375 L12.4123001,19.5859375 C12.049942,20.5307007 11.133255,21.203125 10.0625,21.203125 L10.0625,21.203125 Z M3.59375,17.7890625 L3.59375,11.5 C3.59375,8.03224184 6.41505434,5.2109375 9.8828125,5.2109375 C13.3505707,5.2109375 16.171875,8.03224184 16.171875,11.5 L16.171875,17.7890625 C14.951088,17.7890625 4.06858823,17.7890625 3.59375,17.7890625 Z' id='Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-        a#elFullNotifications svg {
-            visibility: hidden;
-        }
-        a#elFullInbox {
-            background-image: url("data:image/svg+xml,%3Csvg width='30px' height='30px' viewBox='0 0 30 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Messages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M25.7148438,6 L4.28515625,6 C3.02669531,6 2,7.02557813 2,8.28515625 L2,23.5195312 C2,24.7748438 3.022125,25.8046875 4.28515625,25.8046875 L25.7148438,25.8046875 C26.9701563,25.8046875 28,24.7825625 28,23.5195312 L28,8.28515625 C28,7.02984375 26.977875,6 25.7148438,6 Z M25.3992891,7.5234375 L15.0484453,17.874332 L4.60807422,7.5234375 L25.3992891,7.5234375 Z M3.5234375,23.2040781 L3.5234375,8.59334766 L10.8602617,15.8672539 L3.5234375,23.2040781 Z M4.60066016,24.28125 L11.9421055,16.9398047 L14.5145313,19.4901406 C14.8123125,19.7853828 15.2928555,19.784418 15.589418,19.4878047 L18.0976562,16.9795664 L25.3993398,24.28125 L4.60066016,24.28125 Z M26.4765625,23.2040273 L19.1748789,15.9023438 L26.4765625,8.60060938 L26.4765625,23.2040273 Z' id='Shape' fill='%23fafafa' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-        a#elAllStreams i.fa.fa-newspaper-o {
-            color: #fafafa;
-        }
-        a#elFullInbox svg {
-            visibility: hidden;
-        }
-        li#cUser a {
-            color: #fafafa;
-        }
-        li#cUserLink a {
-            color: #fafafa;
-        }
-        div#ipsLayout_header.ipsClearfix header {
-            background: none;
-        }
-        div#ipsLayout_header.ipsClearfix .insFullWidthSearch.ipsNavBar_noSubBars {
-            background: none;
-        }
-        /* gia oloklhrh th mpara
+                max-height: 60px !important;
+            }
+            a#elLogo img.ipsResponsive_hidePhone {
+                visibility: hidden;
+            }
+            a#elFullNotifications {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='23px' viewBox='0 0 20 23' version='1.1'%3E%3Cg id='Asset-Artboard-Page' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Messages' transform='translate(-4.000000, -4.000000)' fill='%23f8f8f8' fill-rule='nonzero'%3E%3Cg id='Notifications' transform='translate(4.000000, 4.000000)'%3E%3Cpath d='M18.8671875,17.7890625 L17.96875,17.7890625 L17.96875,11.5 C17.96875,7.8532562 15.5419159,4.76294709 12.2183991,3.75852204 C12.390892,3.41055298 12.4882812,3.01924136 12.4882812,2.60546875 C12.4882812,1.16884612 11.3194351,0 9.8828125,0 C8.44618987,0 7.27734375,1.16884612 7.27734375,2.60546875 C7.27734375,3.01924136 7.37473298,3.41055298 7.54722593,3.75852204 C4.22370913,4.76294709 1.796875,7.8532562 1.796875,11.5 L1.796875,17.7890625 L0.8984375,17.7890625 C0.402191162,17.7890625 0,18.1912537 0,18.6875 C0,19.1837463 0.402191162,19.5859375 0.8984375,19.5859375 L5.48503111,19.5859375 C5.89950562,21.5340729 7.63320923,23 9.703125,23 L10.0625,23 C12.1324158,23 13.8661194,21.5340729 14.2805939,19.5859375 L18.8671875,19.5859375 C19.3634338,19.5859375 19.765625,19.1837463 19.765625,18.6875 C19.765625,18.1912537 19.3634338,17.7890625 18.8671875,17.7890625 Z M9.07421875,2.60546875 C9.07421875,2.15958406 9.43692781,1.796875 9.8828125,1.796875 C10.3286972,1.796875 10.6914062,2.15958406 10.6914062,2.60546875 C10.6914062,3.05135344 10.3286972,3.4140625 9.8828125,3.4140625 C9.43692781,3.4140625 9.07421875,3.05135344 9.07421875,2.60546875 Z M10.0625,21.203125 L9.703125,21.203125 C8.63236997,21.203125 7.71568296,20.5307007 7.35332488,19.5859375 L12.4123001,19.5859375 C12.049942,20.5307007 11.133255,21.203125 10.0625,21.203125 L10.0625,21.203125 Z M3.59375,17.7890625 L3.59375,11.5 C3.59375,8.03224184 6.41505434,5.2109375 9.8828125,5.2109375 C13.3505707,5.2109375 16.171875,8.03224184 16.171875,11.5 L16.171875,17.7890625 C14.951088,17.7890625 4.06858823,17.7890625 3.59375,17.7890625 Z' id='Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            a#elFullNotifications svg {
+                visibility: hidden;
+            }
+            a#elFullInbox {
+                background-image: url("data:image/svg+xml,%3Csvg width='30px' height='30px' viewBox='0 0 30 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Messages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M25.7148438,6 L4.28515625,6 C3.02669531,6 2,7.02557813 2,8.28515625 L2,23.5195312 C2,24.7748438 3.022125,25.8046875 4.28515625,25.8046875 L25.7148438,25.8046875 C26.9701563,25.8046875 28,24.7825625 28,23.5195312 L28,8.28515625 C28,7.02984375 26.977875,6 25.7148438,6 Z M25.3992891,7.5234375 L15.0484453,17.874332 L4.60807422,7.5234375 L25.3992891,7.5234375 Z M3.5234375,23.2040781 L3.5234375,8.59334766 L10.8602617,15.8672539 L3.5234375,23.2040781 Z M4.60066016,24.28125 L11.9421055,16.9398047 L14.5145313,19.4901406 C14.8123125,19.7853828 15.2928555,19.784418 15.589418,19.4878047 L18.0976562,16.9795664 L25.3993398,24.28125 L4.60066016,24.28125 Z M26.4765625,23.2040273 L19.1748789,15.9023438 L26.4765625,8.60060938 L26.4765625,23.2040273 Z' id='Shape' fill='%23fafafa' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            a#elAllStreams i.fa.fa-newspaper-o {
+                color: #fafafa;
+            }
+            a#elFullInbox svg {
+                visibility: hidden;
+            }
+            li#cUser a {
+                color: #fafafa;
+            }
+            li#cUserLink a {
+                color: #fafafa;
+            }
+            div#ipsLayout_header.ipsClearfix header {
+                background: none;
+            }
+            div#ipsLayout_header.ipsClearfix .insFullWidthSearch.ipsNavBar_noSubBars {
+                background: none;
+            }
+            /* gia oloklhrh th mpara
         
            div#ipsLayout_header.ipsClearfix {
             background-color: #1A2835;
         }
         */
-        div#ipsLayout_header.ipsClearfix header div.ipsLayout_container {
-            background-color: #1A2835;
-        }
-        /*
+            div#ipsLayout_header.ipsClearfix header div.ipsLayout_container {
+                background-color: #1A2835;
+            }
+            /*
         div.ipsLayout_container {
             background-color: #1A2835;
         }
         */
-        div.ipsNavBar_primary.ipsLayout_container.ipsNavBar_noSubBars.ipsClearfix.ipsColumns.ipsFlex.ipsFlex {
-            background-color: #1A2835;
-        }
-        div#ipsLayout_contentArea {
-            background-color: #1A2835;
-        }
-        .ipsLayout_container.ipsPadding_bottom {
-            background: #1A2835
-        }
-        .ipsLayout_container.ipsPadding_bottom p {
-            font-size: 14px;
-            /*        color: #000; */
-        }
-        nav.ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover.insClassifiedsCategory ul li a {
-            color: #fafafa;
-        }
-        nav.ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover.insClassifiedsCategory ul li {
-            opacity: 1;
-        }
-        /*
-    div.ipsColumn {
-        background: #f8f8f8;
-    }
-*/
-        .cPost.ipsBox.ipsResponsive_pull.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone {
-            background: #f8f8f8;
-            margin-top: -16px;
-        }
-        .cStreamFilter {
-            background: #F8F8F8;
-            color: #000;
-        }
-        a {
-            text-decoration: none;
-            color: #225985;
-        }
-        .ipsType_light {
-            color: #326995;
-            font-weight: normal;
-            font-size: 12px;
-        }
-        .ipsClearfix.cSearchExpanded {
-            margin-right: 12px !important;
-            border: none !important;
-        }
-        div#elSearch {
-            background: #ededed !important;
-            margin-right: -10px !important;
-            padding-left: 40px;
-        }
-        li#cUser:hover {
-            background: #ffffff52 !important;
-        }
-        li#cUserLink:hover {
-            background: #ffffff52 !important;
-        }
-    }
-    a#backtoTop {
-        opacity: 0.6;
-    }
-    a#backtoTop i.fa.fa-chevron-circle-up {
-        color: #f69e05;
-        opacity: 1;
-        /*
-margin-right: 82px;
-*/
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/discover/") {
-    if not NightMode {
-        /*
-        div#ipsLayout_contentArea {
-            min-width: 1440px;
-            margin-left: -15px;
-        }
-*/
-        span.ipsMargin_right {
-            color: #fafafa;
-        }
-        span.ipsType_light {
-            color: #fafafa;
-        }
-        div.ipsStreamItem_container {
-            margin-top: 5px;
-        }
-        .ipsStreamItem_contentBlock {
-            margin-top: 5px;
-            margin-bottom: -15px;
-            /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
-            background: #fafafa;
-        }
-        li.ipsStreamItem_time {
-            padding-top: 0px;
-        }
-        li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
-            margin-top: -4px;
-            /*margin-bottom: 5px;*/
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-        p.ipsStreamItem_status.ipsType_reset.ipsType_blendLinks {
-            margin-top: 5px;
-        }
-        div.ipsFlex {
-            margin-top: -10px;
-        }
-        ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
-            margin-top: -17px;
-        }
-        h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
-            font-size: 16px;
-        }
-        h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
-            font-size: 15px;
-            margin-left: 8px;
-        }
-        div.ipsPadding_top.ipsPadding_horizontal {
-            background: #ededed;
-        }
-        i.fa.fa-circle {
-            color: #f69e05;
-        }
-        div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
-            background: #f0b550;
-            color: #1A2835;
-            border: none !important;
-        }
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/") {
-    if OldWidth {
-        .ipsLayout_container.ipsPadding_bottom {
-            max-width: 1172px !important;
-        }
-        div#ipsLayout_header.ipsClearfix header div.ipsLayout_container {
-            max-width: 1172px !important;
-        }
-        div.ipsNavBar_primary.ipsLayout_container.ipsNavBar_noSubBars.ipsClearfix.ipsColumns.ipsFlex.ipsFlex {
-            max-width: 1172px !important;
-        }
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/forums/") {
-    if not NightMode {
-        span.ipsType_break.ipsContained a {
-            font-size: 16px;
-        }
-        li.ipsDataItem_lastPoster__title a {
-            font-size: 14px;
-        }
-        .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread {
-            /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
-            background: #fafafa;
-            margin-bottom: 1px;
-            max-height: 90px;
-        }
-        .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto {
-            /* background: linear-gradient(#f7f7f7, #EEEEEE);*/
-            background: #EEEEEE;
-            margin-bottom: 1px;
-            max-height: 90px;
-        }
-        .ipsClear.ipsDataList.cForumTopicTable.cTopicList {
-            background: #1A2835;
-        }
-        li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread.ipsClearfix {
-            /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
-            background: #fafafa;
-            margin-top: 1px;
-        }
-        ol.ipsList_reset.cForumList li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull {
-            background: #8d969e;
-        }
-        li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull h2.ipsType_sectionTitle.ipsType_reset.cForumTitle {
-            margin-bottom: 1px;
-            background: #EDEDED;
-        }
-        div.cWidgetContainer.insWidgetArea ul.ipsList_reset li.ipsWidget.ipsWidget_vertical.ipsBox.ipsResponsive_block {
-            background: #fafafa;
-        }
-        li.ipsToolList_primaryAction.ipsResponsive_hidePhone a.ipsButton.ipsButton_medium.ipsButton_important {
-            background: #5a89b5cf !important;
-            color: #fafafa;
-        }
-        h1.ipsType_pageTitle {
-            color: #fafafa;
-        }
-        i.fa.fa-angle-right {
-            color: #fafafa;
-        }
-        div.ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear {
-            background: #ededed;
-        }
-        div.ipsPageHeader.ipsBox.ipsResponsive_pull.ipsPadding.ipsClearfix {
-            background: #fafafa;
-        }
-        div.ipsPageHeader.ipsBox.ipsResponsive_pull.ipsPadding.ipsClearfix header h1.ipsType_pageTitle {
-            color: #000;
-        }
-        li.ipsToolList_primaryAction a.ipsButton.ipsButton_medium.ipsButton_important.ipsButton_fullWidth {
-            background: #5a89b5cf !important;
-            color: #fafafa;
-        }
-        li a.ipsButton.ipsButton_veryLight.ipsButton_narrow.ipsButton_medium {
-            background: #ededed;
-        }
-        i.fa.fa-star {
-            color: #f69e05;
-        }
-        i.fa.fa-circle {
-            color: #f0b550;
-        }
-        span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers.ipsItemStatus_read {
-            background: #f0b550;
-            color: #1A2835;
-            border: 2px solid #1A2835;
-        }
-        div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal {
-            background: #f0b550;
-            color: #1A2835;
-            border: 2px solid #1A2835;
-        }
-        div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers {
-            background: #f0b550;
-            color: #1A2835;
-            border: 2px solid #1A2835;
-        }
-        ol.ipsDataList.ipsDataList_large.ipsDataList_zebra li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix {
-            background: #f5f5f5;
-            margin-top: 1px;
-        }
-        ol.ipsDataList.ipsDataList_large.ipsDataList_zebra li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread.ipsClearfix {
-            background: #fafafa;
-            margin-top: 1px;
-        }
-        div.ipsDataItem_icon.ipsDataItem_category span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal.ipsItemStatus_read {
-            background: #f0b550;
-            color: #1A2835;
-            border: 2px solid #1A2835;
-        }
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/clubs/") {
-    if not NightMode {
-        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a {
-            color: #fafafa !important;
-        }
-        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li .ipsTabs_item.ipsTabs_activeItem {
-            background: #ffffff24;
-        }
-        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a.ipsTabs_item.ipsTabs_activeItem {
-            color: #f69e05 !important;
-        }
-        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a:hover {
-            background: #ffffff52 !important;
-        }
-        /* Insert code here... #225985 */
-    }
-}
-@-moz-document url("https://www.insomnia.gr/") {
-    if not NightMode {
-        h3.loop_title-small a {
-            color: #f69e05;
-        }
-        div.grid.grid--bleed div.grid__col-12 h2 a {
-            color: #f69e05;
-        }
-        div.featured-entry.grid__col-7.grid__col--bleed div.grid.grid--bleed div.grid__col-12.grid__cell-footer p.author a {
-            color: #FBB62F;
-        }
-        div.grid__col-12.grid__cell-footer div.grid div.grid__col-auto.dashed__top span.timestamp {
-            color: #ebebeb;
-        }
-        div.insHomepageTrendingContainer h2 {
-            color: #f69e05;
-        }
-        div.grid__col-auto div.grid.meta div.grid__col-auto span.timestamp time {
-            color: #ebebeb;
-        }
-        div.grid__col-auto div.grid.meta div.comments.grid__col-auto a span.count {
-            color: #ebebeb;
-        }
-        article.ins100picNtext div.grid__col-auto p.author {
-            color: #ebebeb;
-        }
-        /* Insert code here... #225985 */
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/classifieds/category/") {
-    if not NightMode {
-        if AggeliesList {
-            span.ipsType_break.ipsContained .ipsType_blendLinks {
-                color: #000;
-                font-weight: 800;
-                position: absolute;
-                top: -5px;
-                left: 250px;
-                font-size: 18px;
-                max-width: 705px;
+            div.ipsNavBar_primary.ipsLayout_container.ipsNavBar_noSubBars.ipsClearfix.ipsColumns.ipsFlex.ipsFlex {
+                background-color: #1A2835;
             }
-            span.ipsType_break.ipsContained .ipsType_blendLinks:hover {
-                color: #2981BF;
-                font-weight: 800;
-                position: absolute;
-                top: -5px;
-                left: 250px;
-                font-size: 18px;
-                max-width: 705px;
+            div#ipsLayout_contentArea {
+                background-color: #1A2835;
             }
-            div.classifieds-data-item-main {
-                min-width: 100px;
+            .ipsLayout_container.ipsPadding_bottom {
+                background: #1A2835
             }
-            div.classifieds-data-item-main {
-                position: absolute;
-                min-width: 1000px !important;
-                margin-left: 0px !important;
-            }
-            .ipsThumb_bg {
-                position: absolute;
-                max-height: 85px;
-                min-width: 200px !important;
-                margin-top: -10px;
-                background-size: contain;
-            }
-            .ipsNoThumb {
-                position: absolute;
-                max-height: 85px !important;
-                max-width: 200px !important;
-                min-width: 200px !important;
-                margin-top: -10px;
-                background-size: contain;
-            }
-            .ipsGrid_span4 {
-                min-width: 1090px;
-                /* min-width: 822px; */
-                max-height: 90px;
-                background: #ebebeb;
-                margin-top: -28px !important;
-                margin-left: -0px !important;
-                margin-right: 1000px !important
-            }
-            .ipsDataItem_unread {
-                min-width: 1090px;
-                /* min-width: 822px; */
-                max-height: 105px;
-                background: #fafafa;
-                margin-top: -28px !important;
-                margin-left: -0px !important;
-                margin-right: 1000px !important
-            }
-            div.classifieds-data-item-author {
-                margin-top: 18px;
-                margin-bottom: auto;
-                margin-left: auto;
-                margin-right: 10px;
-                color: #ff0000c9;
-            }
-            div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
-                margin-top: -30px;
-                margin-left: auto;
-                margin-right: 10px;
-                color: green !important;
-            }
-            div.classifieds-data-item-author-info div.classifieds-data-item-author-rep {
-                margin-top: 18px;
-                color: #000 !important;
-            }
-            div.classifieds-data-item-author-wrap hr.ipsHr {
-                visibility: hidden
-            }
-            div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
-                color: #000;
-                font-weight: 500;
-                position: absolute;
-                top: 80px;
-                left: 250px;
+            .ipsLayout_container.ipsPadding_bottom p {
                 font-size: 14px;
+                /*        color: #000; */
             }
-            p.cFilePrice.ipsType_bold {
-                background: #225985;
-                margin-top: 15px;
-            }
-            p.cFilePrice.ipsType_bold span.cFilePrice {
-                font-size: 20px;
-            }
-            a.ipsNoThumb.ipsThumb.ipsThumb_classified-thumb-240 {
-                background: #fafafa;
-            }
-            .ipsDataItem_unread a.ipsThumb.ipsThumb_classified-thumb-240.ipsThumb_bg {
-                background: #fafafa;
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: center;
-            }
-            a.ipsThumb.ipsThumb_classified-thumb-240.ipsThumb_bg {
-                background: #ebebeb;
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: center;
-            }
-            ul.ipsSideMenu_list li a.ipsSideMenu_item.ipsTruncate.ipsTruncate_line strong.ipsType_normal {
-                color: #EBEBEB;
-            }
-            div.classifieds-data-item-main div.classified-product-thumb.ipsMargin_bottom {
-                color: #f00;
-            }
-            div.ipsPageHeader.ipsClearfix.ipsSpacer_bottom.ipsSpacer_double h1.ipsType_pageTitle {
+            nav.ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover.insClassifiedsCategory ul li a {
                 color: #fafafa;
             }
-            li.ipsPagination_next {
-                color: #fafafa;
+            nav.ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover.insClassifiedsCategory ul li {
+                opacity: 1;
             }
-            li.ipsPagination_prev {
-                color: #fafafa;
-            }
-            li.ipsPagination_page {
-                color: #fafafa;
-            }
-            a i.fa.fa-angle-double-left {
-                color: #fafafa;
-            }
-            a i.fa.fa-angle-double-right {
-                color: #fafafa;
-            }
-        }
-    }
-}
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-/********************************************************************************************************************************************************/
-@-moz-document url-prefix("https://www.insomnia.gr/forums/topic/") {
-    if NightMode {
-        .ipsLayout_sidebarright {
-            visibility: hidden;
-            position: fixed;
-        }
-        div.cTopicOverview__body.ipsPadding {
-            background: #323232;
-        }
-        div#ipsLayout_contentWrapper1 {
-            margin-right: auto;
-        }
-        .ipsComment_highlighted {
-            background: #4e4b3ed1 !important;
-        }
-        div.ipsUnreadBar {
-            color: #FBB62F;
-        }
-        div.ipsUnreadBar::after {
-            background: #FBB62F;
-        }
-        div.ipsUnreadBar::before {
-            background: #FBB62F;
-        }
-        .ipsLayout_container.ipsPadding_bottom p {
-            color: #ebebeb;
-        }
-        .ipsSpoiler {
-            background: #707070;
-        }
-        .ipsSpoiler div.ipsSpoiler_header.ipsSpoiler_closed span {
-            color: #f69e05;
-        }
-        .ipsSpoiler div.ipsSpoiler_header.ipsSpoiler_open span {
-            color: #f69e05;
-        }
-        .ipsQuote {
-            background: #505050;
-        }
-        .ipsClearfix.ipsClear.ipsMargin_bottom {
-            background: #874214;
-        }
-        .ipsMargin_top.ipsClearfix.ipsClear {
-            background: #874214;
-        }
-        .ipsMargin_bottom {
-            background: #323232;
-        }
-        li.ipsResponsive_hidePhone a.ipsButton.ipsButton_link.ipsButton_medium.ipsButton_fullWidth {
-            background: #525252;
-            color: #FAFAFA;
-        }
-        li.ipsToolList_primaryAction span a.ipsButton.ipsButton_important.ipsButton_medium.ipsButton_fullWidth {
-            background: #5a89b5cf !important;
-            color: #fafafa;
-        }
-        h1.ipsType_pageTitle.ipsContained_container span.ipsType_break.ipsContained span {
-            color: #f69e05;
-        }
-        .ipsQuote.open div.ipsQuote_contents.ipsClearfix p {
-            color: #ededed;
-        }
-        .ipsQuote div.ipsQuote_citation.ipsQuote_closed {
-            color: #f69e05;
-        }
-        .ipsQuote div.ipsQuote_citation.ipsQuote_open {
-            color: #f69e05;
-        }
-        .ipsSpoiler div.ipsSpoiler_header.ipsSpoiler_closed a {
-            color: #f69e05;
-        }
-        i.fa.fa-share {
-            color: #f69e05;
-            opacity: 1
-        }
-        .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone h3.ipsType_sectionHead.cAuthorPane_author.ipsType_blendLinks.ipsType_break strong a.ipsType_break {
-            color: #f0b550;
-        }
-        .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone ul.cAuthorPane_info.ipsList_reset li.ipsType_break {
-            color: #f5cd88;
-        }
-        .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone ul.cAuthorPane_info.ipsList_reset li {
-            color: #f5cd88;
-        }
-        div.cTopicPostArea.ipsBox.ipsResponsive_pull.ipsPadding.ipsSpacer_top {
-            background: #323232;
-        }
-        div.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr {
-            background: #423f3b;
-        }
-        div.ipsComposeArea_editor .ipsType_normal.ipsType_richText.ipsType_break {
-            background: #323232;
-            animation: none;
-        }
-        .ipsComposeArea_dropZone.ipsComposeArea_dropZoneSmall.ipsClearfix.ipsType_light {
-            background: #323232;
-            animation: none;
-        }
-        ul.cTopicOverview__stats {
-            background: #272727;
-        }
-        li.cTopicOverview__statItem.ipsType_center {
-            color: #f69e05;
-        }
-        h4.ipsType_reset.cTopicOverview__sectionTitle.ipsType_withHr.ipsType_dark.ipsType_uppercase {
-            color: #f69e05;
-        }
-        div.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix.ipsMargin_top div h5.ipsType_reset.ipsType_bold.ipsType_normal.ipsType_blendLinks a {
-            color: #FBB62F;
-        }
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/") {
-    if NightMode {
-        div#ipsLayout_header.ipsClearfix .insFullWidthSearch.ipsNavBar_noSubBars {
-            border: none
-        }
-        li#elNavSecondary_10 a,
-        li#elNavSecondary_36 a,
-        li#elNavSecondary_39 a {
-            color: #fafafa;
-        }
-        body {
-            /*background: #1A2835*/
-            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_header.png.8a53f85be22fad7f2306d63729d4cdab.png'), /*url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png'),*/
-            url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/background-dark1.png.e36c622d469fcbd96c12be356e278af4.png');
-            background-position: left top, right top, top center, /*bottom center, /*top left, top center, top right,*/
-            center;
-            background-repeat: no-repeat, no-repeat, repeat-x, /*repeat-x, /*no-repeat, repeat, no-repeat,*/
-            repeat;
-        }
-        footer#site-footer.ipsClearfix.site-footer.darkBg {
-            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/footer4.png.2acf51eff28f63c8c2cfd16e7e1b2df6.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png');
-            background-repeat: /*repeat-x,*/
-            repeat-x;
-            background-position: /*top center,*/
-            center, bottom left;
-            /*margin-left: -15px;*/
-            background-color: #070A12;
-            width: 100%
-        }
-        a#elLogo.ipsResponsive_hidePhone img {
-            visibility: hidden;
-            background-image: url('https://www.w3schools.com/images/colorpicker.gif');
-        }
-        a#elLogo {
-            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center;
-            min-width: 200px;
             /*
-         background:red !important;
-         */
-            max-height: 60px !important;
-        }
-        a#elLogo img.ipsResponsive_hidePhone {
-            visibility: hidden;
-        }
-        a#elFullNotifications {
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='23px' viewBox='0 0 20 23' version='1.1'%3E%3Cg id='Asset-Artboard-Page' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Messages' transform='translate(-4.000000, -4.000000)' fill='%23f8f8f8' fill-rule='nonzero'%3E%3Cg id='Notifications' transform='translate(4.000000, 4.000000)'%3E%3Cpath d='M18.8671875,17.7890625 L17.96875,17.7890625 L17.96875,11.5 C17.96875,7.8532562 15.5419159,4.76294709 12.2183991,3.75852204 C12.390892,3.41055298 12.4882812,3.01924136 12.4882812,2.60546875 C12.4882812,1.16884612 11.3194351,0 9.8828125,0 C8.44618987,0 7.27734375,1.16884612 7.27734375,2.60546875 C7.27734375,3.01924136 7.37473298,3.41055298 7.54722593,3.75852204 C4.22370913,4.76294709 1.796875,7.8532562 1.796875,11.5 L1.796875,17.7890625 L0.8984375,17.7890625 C0.402191162,17.7890625 0,18.1912537 0,18.6875 C0,19.1837463 0.402191162,19.5859375 0.8984375,19.5859375 L5.48503111,19.5859375 C5.89950562,21.5340729 7.63320923,23 9.703125,23 L10.0625,23 C12.1324158,23 13.8661194,21.5340729 14.2805939,19.5859375 L18.8671875,19.5859375 C19.3634338,19.5859375 19.765625,19.1837463 19.765625,18.6875 C19.765625,18.1912537 19.3634338,17.7890625 18.8671875,17.7890625 Z M9.07421875,2.60546875 C9.07421875,2.15958406 9.43692781,1.796875 9.8828125,1.796875 C10.3286972,1.796875 10.6914062,2.15958406 10.6914062,2.60546875 C10.6914062,3.05135344 10.3286972,3.4140625 9.8828125,3.4140625 C9.43692781,3.4140625 9.07421875,3.05135344 9.07421875,2.60546875 Z M10.0625,21.203125 L9.703125,21.203125 C8.63236997,21.203125 7.71568296,20.5307007 7.35332488,19.5859375 L12.4123001,19.5859375 C12.049942,20.5307007 11.133255,21.203125 10.0625,21.203125 L10.0625,21.203125 Z M3.59375,17.7890625 L3.59375,11.5 C3.59375,8.03224184 6.41505434,5.2109375 9.8828125,5.2109375 C13.3505707,5.2109375 16.171875,8.03224184 16.171875,11.5 L16.171875,17.7890625 C14.951088,17.7890625 4.06858823,17.7890625 3.59375,17.7890625 Z' id='Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-        a#elFullNotifications svg {
-            visibility: hidden;
-        }
-        a#elFullInbox {
-            background-image: url("data:image/svg+xml,%3Csvg width='30px' height='30px' viewBox='0 0 30 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Messages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M25.7148438,6 L4.28515625,6 C3.02669531,6 2,7.02557813 2,8.28515625 L2,23.5195312 C2,24.7748438 3.022125,25.8046875 4.28515625,25.8046875 L25.7148438,25.8046875 C26.9701563,25.8046875 28,24.7825625 28,23.5195312 L28,8.28515625 C28,7.02984375 26.977875,6 25.7148438,6 Z M25.3992891,7.5234375 L15.0484453,17.874332 L4.60807422,7.5234375 L25.3992891,7.5234375 Z M3.5234375,23.2040781 L3.5234375,8.59334766 L10.8602617,15.8672539 L3.5234375,23.2040781 Z M4.60066016,24.28125 L11.9421055,16.9398047 L14.5145313,19.4901406 C14.8123125,19.7853828 15.2928555,19.784418 15.589418,19.4878047 L18.0976562,16.9795664 L25.3993398,24.28125 L4.60066016,24.28125 Z M26.4765625,23.2040273 L19.1748789,15.9023438 L26.4765625,8.60060938 L26.4765625,23.2040273 Z' id='Shape' fill='%23fafafa' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-        a#elAllStreams i.fa.fa-newspaper-o {
-            color: #fafafa;
-        }
-        a#elFullInbox svg {
-            visibility: hidden;
-        }
-        li#cUser a {
-            color: #fafafa;
-        }
-        li#cUserLink a {
-            color: #fafafa;
-        }
-        div#ipsLayout_header.ipsClearfix header {
-            background: none;
-        }
-        div#ipsLayout_header.ipsClearfix .insFullWidthSearch.ipsNavBar_noSubBars {
-            background: none;
-        }
-        /* gia oloklhrh th mpara
-        
-           div#ipsLayout_header.ipsClearfix {
-            background-color: #1A2835;
-        }
-        */
-        div#ipsLayout_header.ipsClearfix header div.ipsLayout_container {
-            background-color: #121820;
-        }
-        /*
-        div.ipsLayout_container {
-            background-color: #1A2835;
-        }
-        */
-        div.ipsNavBar_primary.ipsLayout_container.ipsNavBar_noSubBars.ipsClearfix.ipsColumns.ipsFlex.ipsFlex {
-            background-color: #121820;
-        }
-        div#ipsLayout_contentArea {
-            background-color: #121820;
-        }
-        .ipsLayout_container.ipsPadding_bottom {
-            background: #121820;
-        }
-        .ipsLayout_container.ipsPadding_bottom p {
-            font-size: 14px;
-            /*        color: #000; */
-        }
-        nav.ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover.insClassifiedsCategory ul li a {
-            color: #fafafa;
-        }
-        nav.ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover.insClassifiedsCategory ul li {
-            opacity: 1;
-        }
-        /*
     div.ipsColumn {
         background: #f8f8f8;
     }
 */
-        .cPost.ipsBox.ipsResponsive_pull.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone {
-            background: #323232;
-            margin-top: -16px;
-        }
-        .cStreamFilter {
-            background: #ededed;
-            color: #000;
-        }
-        a {
-            text-decoration: none;
-            color: #F0B550;
-        }
-        .ipsType_light {
-            color: #C8C8C9;
-            font-weight: normal;
-            font-size: 12px;
-        }
-        .ipsClearfix.cSearchExpanded {
-            margin-right: 12px !important;
-            border: none !important;
-        }
-        div#elSearch {
-            background: #ededed !important;
-            margin-right: -10px !important;
-            padding-left: 40px;
-        }
-        li#cUser:hover {
-            background: #ffffff52 !important;
-        }
-        li#cUserLink:hover {
-            background: #ffffff52 !important;
+            .cPost.ipsBox.ipsResponsive_pull.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone {
+                background: #f8f8f8;
+                margin-top: -16px;
+            }
+            .cStreamFilter {
+                background: #F8F8F8;
+                color: #000;
+            }
+            a {
+                text-decoration: none;
+                color: #225985;
+            }
+            .ipsType_light {
+                color: #326995;
+                font-weight: normal;
+                font-size: 12px;
+            }
+            .ipsClearfix.cSearchExpanded {
+                margin-right: 12px !important;
+                border: none !important;
+            }
+            div#elSearch {
+                background: #ededed !important;
+                margin-right: -10px !important;
+                padding-left: 40px;
+            }
+            li#cUser:hover {
+                background: #ffffff52 !important;
+            }
+            li#cUserLink:hover {
+                background: #ffffff52 !important;
+            }
         }
         a#backtoTop {
             opacity: 0.6;
         }
         a#backtoTop i.fa.fa-chevron-circle-up {
             color: #f69e05;
+            opacity: 1;
             /*
 margin-right: 82px;
 */
         }
     }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/discover/") {
-    if NightMode {
-        /*
+    @-moz-document url-prefix("https://www.insomnia.gr/discover/") {
+        if not NightMode {
+            /*
         div#ipsLayout_contentArea {
             min-width: 1440px;
             margin-left: -15px;
         }
 */
-        p.ipsStreamItem_status.ipsType_reset.ipsType_blendLinks {
-            color: #ededed;
-        }
-        span.ipsMargin_right {
-            color: #fafafa;
-        }
-        span.ipsType_light {
-            color: #fafafa;
-        }
-        div.ipsStreamItem_container {
-            margin-top: 5px;
-        }
-        .ipsStreamItem_contentBlock {
-            margin-top: 5px;
-            margin-bottom: -15px;
-            /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
-            background: #323232;
-        }
-        li.ipsStreamItem_time {
-            padding-top: 0px;
-        }
-        li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
-            margin-top: -4px;
-            /*margin-bottom: 5px;*/
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-        p.ipsStreamItem_status.ipsType_reset.ipsType_blendLinks {
-            margin-top: 5px;
-        }
-        div.ipsFlex {
-            margin-top: -10px;
-        }
-        ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
-            margin-top: -17px;
-        }
-        h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
-            font-size: 16px;
-        }
-        h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
-            font-size: 15px;
-            margin-left: 8px;
-        }
-        div.ipsPadding_top.ipsPadding_horizontal {
-            background: #424242;
-        }
-        h1.ipsType_pageTitle span {
-            COLOR: #FAFAFA;
-        }
-        p.ipsType_reset.ipsType_normal span {
-            COLOR: #EDEDED;
-        }
-        span.ipsItemStatus i.fa.fa-circle {
-            color: #f69e05;
-        }
-        i.fa.fa-circle {
-            color: #f69e05;
-        }
-        div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
-            background: #F0B550;
-            color: #323232;
-            border: none !important;
-        }
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/") {
-    if OldWidth {
-        .ipsLayout_container.ipsPadding_bottom {
-            max-width: 1172px !important;
-        }
-        div#ipsLayout_header.ipsClearfix header div.ipsLayout_container {
-            max-width: 1172px !important;
-        }
-        div.ipsNavBar_primary.ipsLayout_container.ipsNavBar_noSubBars.ipsClearfix.ipsColumns.ipsFlex.ipsFlex {
-            max-width: 1172px !important;
-        }
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/forums/") {
-    if NightMode {
-        span.ipsType_break.ipsContained a {
-            font-size: 16px;
-        }
-        li.ipsDataItem_lastPoster__title a {
-            font-size: 14px;
-        }
-        .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread {
-            /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
-            background: #323232;
-            margin-bottom: 1px;
-            max-height: 90px;
-        }
-        .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto {
-            /* background: linear-gradient(#f7f7f7, #EEEEEE);*/
-            background: #383838;
-            margin-bottom: 1px;
-            max-height: 90px;
-        }
-        .ipsClear.ipsDataList.cForumTopicTable.cTopicList {
-            background: #121820;
-        }
-        li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread.ipsClearfix {
-            /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
-            background: #323232;
-            border: 10px;
-            border-style: inline;
-            margin-top: 1px;
-        }
-        ol.ipsList_reset.cForumList li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull {
-            background: #8d969e;
-        }
-        li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull h2.ipsType_sectionTitle.ipsType_reset.cForumTitle {
-            margin-bottom: 1px;
-            background: #424242;
-        }
-        div.cWidgetContainer.insWidgetArea ul.ipsList_reset li.ipsWidget.ipsWidget_vertical.ipsBox.ipsResponsive_block {
-            background: #fafafa;
-        }
-        li.ipsToolList_primaryAction.ipsResponsive_hidePhone a.ipsButton.ipsButton_medium.ipsButton_important {
-            background: #5a89b5cf !important;
-            color: #fafafa;
-        }
-        h1.ipsType_pageTitle {
-            color: #fafafa;
-        }
-        i.fa.fa-angle-right {
-            color: #fafafa;
-        }
-        div.ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear {
-            background: #874214;
-        }
-        div.ipsPageHeader.ipsBox.ipsResponsive_pull.ipsPadding.ipsClearfix {
-            background: #323232;
-        }
-        div.ipsPageHeader.ipsBox.ipsResponsive_pull.ipsPadding.ipsClearfix header h1.ipsType_pageTitle {
-            color: #f69e05;
-        }
-        li.ipsToolList_primaryAction a.ipsButton.ipsButton_medium.ipsButton_important.ipsButton_fullWidth {
-            background: #5a89b5cf !important;
-            color: #fafafa;
-        }
-        li a.ipsButton.ipsButton_veryLight.ipsButton_narrow.ipsButton_medium {
-            background: #ededed;
-        }
-        ol.ipsList_reset.cForumList li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull h2.ipsType_sectionTitle.ipsType_reset.cForumTitle a {
-            COLOR: #FAFAFA;
-        }
-        div#ipsLayout_sidebar.ipsLayout_sidebarright div.cWidgetContainer.insWidgetArea ul.ipsList_reset li.ipsWidget.ipsWidget_vertical.ipsBox {
-            background: #424242;
-        }
-        .ipsPagination li.ipsPagination_page a {
-            color: #ebebeb;
-        }
-        .ipsPagination li.ipsPagination_prev a {
-            color: #ebebeb;
-        }
-        .ipsPagination li.ipsPagination_next a {
-            color: #ebebeb;
-        }
-        li.ipsPagination_first a i.fa.fa-angle-double-left {
-            color: #ebebeb;
-        }
-        li.ipsPagination_last a i.fa.fa-angle-double-right {
-            color: #ebebeb;
-        }
-        .ipsPagination li.ipsPagination_pageJump a {
-            color: #ebebeb;
-        }
-        div.ipsPageHeader.ipsBox.ipsResponsive_pull.ipsPadding.ipsClearfix header div.ipsType_richText.ipsType_normal {
-            color: #ebebeb
-        }
-        ul.ipsDataItem_stats li span.ipsDataItem_stats_type {
-            color: #ebebeb;
-        }
-        ul.ipsDataItem_stats li span.ipsDataItem_stats_number {
-            color: #ebebeb
-        }
-        ul.ipsDataItem_lastPoster.ipsDataItem_withPhoto.ipsType_blendLinks li a.ipsType_break {
-            color: #F0B54F
-        }
-        i.fa.fa-star {
-            color: #f69e05;
-        }
-        i.fa.fa-circle {
-            color: #f69e05;
-        }
-        i.fa.fa-circle {
-            color: #f0b550;
-        }
-        span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers.ipsItemStatus_read {
-            background: #f0b550;
-            color: #1A2835;
-            border: 2px solid #1A2835;
-        }
-        div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal {
-            background: #f0b550;
-            color: #1A2835;
-            border: 2px solid #1A2835;
-        }
-        div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers {
-            background: #f0b550;
-            color: #1A2835;
-            border: 2px solid #1A2835;
-        }
-        ol.ipsDataList.ipsDataList_large.ipsDataList_zebra li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix {
-            background: #323232f5;
-            margin-top: 1px;
-        }
-        ol.ipsDataList.ipsDataList_large.ipsDataList_zebra li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread.ipsClearfix {
-            background: #323232;
-            margin-top: 1px;
-        }
-        div.ipsDataItem_icon.ipsDataItem_category span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal.ipsItemStatus_read {
-            background: #f0b550;
-            color: #1A2835;
-            border: 2px solid #1A2835;
-        }
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/clubs/") {
-    if not NightMode {
-        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a {
-            color: #fafafa !important;
-        }
-        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li .ipsTabs_item.ipsTabs_activeItem {
-            background: #ffffff24;
-        }
-        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a.ipsTabs_item.ipsTabs_activeItem {
-            color: #f69e05 !important;
-        }
-        div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a:hover {
-            background: #ffffff52 !important;
-        }
-        /* Insert code here... #225985 */
-    }
-}
-@-moz-document url("https://www.insomnia.gr/") {
-    if NightMode {
-        h3.loop_title-small a {
-            color: #f69e05;
-        }
-        div.grid.grid--bleed div.grid__col-12 h2 a {
-            color: #f69e05;
-        }
-        div.featured-entry.grid__col-7.grid__col--bleed div.grid.grid--bleed div.grid__col-12.grid__cell-footer p.author a {
-            color: #FBB62F;
-        }
-        div.grid__col-12.grid__cell-footer div.grid div.grid__col-auto.dashed__top span.timestamp {
-            color: #ebebeb;
-        }
-        div.insHomepageTrendingContainer h2 {
-            color: #f69e05;
-        }
-        div.grid__col-auto div.grid.meta div.grid__col-auto span.timestamp time {
-            color: #ebebeb;
-        }
-        div.grid__col-auto div.grid.meta div.comments.grid__col-auto a span.count {
-            color: #ebebeb;
-        }
-        article.ins100picNtext div.grid__col-auto p.author {
-            color: #ebebeb;
-        }
-        /* Insert code here... #225985 */
-    }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/classifieds/category/") {
-    if NightMode {
-        if AggeliesList {
-            span.ipsType_break.ipsContained .ipsType_blendLinks {
-                color: #F0B550;
-                font-weight: 800;
-                position: absolute;
-                top: -5px;
-                left: 250px;
-                font-size: 18px;
-                max-width: 705px;
+            span.ipsMargin_right {
+                color: #fafafa;
             }
-            span.ipsType_break.ipsContained .ipsType_blendLinks:hover {
-                color: #2981BF;
-                font-weight: 800;
-                position: absolute;
-                top: -5px;
-                left: 250px;
-                font-size: 18px;
-                max-width: 705px;
+            span.ipsType_light {
+                color: #fafafa;
             }
-            div.classifieds-data-item-main {
-                min-width: 100px;
+            div.ipsStreamItem_container {
+                margin-top: 5px;
             }
-            div.classifieds-data-item-main {
-                position: absolute;
-                min-width: 1000px !important;
-                margin-left: 0px !important;
+            .ipsStreamItem_contentBlock {
+                margin-top: 5px;
+                margin-bottom: -15px;
+                /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
+                background: #fafafa;
             }
-            .ipsThumb_bg {
-                position: absolute;
-                max-height: 85px;
-                min-width: 200px !important;
+            li.ipsStreamItem_time {
+                padding-top: 0px;
+            }
+            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
+                margin-top: -4px;
+                /*margin-bottom: 5px;*/
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            p.ipsStreamItem_status.ipsType_reset.ipsType_blendLinks {
+                margin-top: 5px;
+            }
+            div.ipsFlex {
                 margin-top: -10px;
-                background-size: contain;
             }
-            .ipsNoThumb {
-                position: absolute;
-                max-height: 85px !important;
-                max-width: 200px !important;
-                min-width: 200px !important;
-                margin-top: -10px;
-                background-size: contain;
+            ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
+                margin-top: -17px;
             }
-            .ipsGrid_span4 {
-                min-width: 1090px;
-                /* min-width: 822px; */
-                max-height: 90px;
-                background: #222222;
-                margin-top: -28px !important;
-                margin-left: -0px !important;
-                margin-right: 1000px !important;
-                border: 10px!important;
-                border-color: Red!important;
-                border-style: outset;
+            h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
+                font-size: 16px;
             }
-            .ipsDataItem_unread {
-                min-width: 1090px;
-                /* min-width: 822px; */
-                max-height: 105px;
-                background: #323232;
-                margin-top: -28px !important;
-                margin-left: -0px !important;
-                margin-right: 1000px !important
+            h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
+                font-size: 15px;
+                margin-left: 8px;
             }
-            div.classifieds-data-item-author {
-                margin-top: 18px;
-                margin-bottom: auto;
-                margin-left: auto;
-                margin-right: 10px;
-                color: #ff0000c9;
+            div.ipsPadding_top.ipsPadding_horizontal {
+                background: #ededed;
             }
-            div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
-                margin-top: -30px;
-                margin-left: auto;
-                margin-right: 10px;
-                color: #e04a4a !important;
+            i.fa.fa-circle {
+                color: #f69e05;
             }
-            div.classifieds-data-item-author-info div.classifieds-data-item-author-rep {
-                margin-top: 18px;
-                color: #F0B550 !important;
+            div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
+                background: #f0b550;
+                color: #1A2835;
+                border: none !important;
             }
-            div.classifieds-data-item-author-wrap hr.ipsHr {
-                visibility: hidden
+        }
+    }
+    @-moz-document url-prefix("https://www.insomnia.gr/") {
+        if OldWidth {
+            .ipsLayout_container.ipsPadding_bottom {
+                max-width: 1172px !important;
             }
-            div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
-                color: #000;
-                font-weight: 500;
-                position: absolute;
-                top: 80px;
-                left: 250px;
+            div#ipsLayout_header.ipsClearfix header div.ipsLayout_container {
+                max-width: 1172px !important;
+            }
+            div.ipsNavBar_primary.ipsLayout_container.ipsNavBar_noSubBars.ipsClearfix.ipsColumns.ipsFlex.ipsFlex {
+                max-width: 1172px !important;
+            }
+        }
+    }
+    @-moz-document url-prefix("https://www.insomnia.gr/forums/") {
+        if not NightMode {
+            span.ipsType_break.ipsContained a {
+                font-size: 16px;
+            }
+            li.ipsDataItem_lastPoster__title a {
                 font-size: 14px;
             }
-            p.cFilePrice.ipsType_bold {
-                background: #aa6c00;
-                margin-top: 15px;
+            .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread {
+                /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
+                background: #fafafa;
+                margin-bottom: 1px;
+                max-height: 90px;
+            }
+            .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto {
+                /* background: linear-gradient(#f7f7f7, #EEEEEE);*/
+                background: #EEEEEE;
+                margin-bottom: 1px;
+                max-height: 90px;
+            }
+            .ipsClear.ipsDataList.cForumTopicTable.cTopicList {
+                background: #1A2835;
+            }
+            li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread.ipsClearfix {
+                /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
+                background: #fafafa;
+                margin-top: 1px;
+            }
+            ol.ipsList_reset.cForumList li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull {
+                background: #8d969e;
+            }
+            li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull h2.ipsType_sectionTitle.ipsType_reset.cForumTitle {
+                margin-bottom: 1px;
+                background: #EDEDED;
+            }
+            div.cWidgetContainer.insWidgetArea ul.ipsList_reset li.ipsWidget.ipsWidget_vertical.ipsBox.ipsResponsive_block {
+                background: #fafafa;
+            }
+            li.ipsToolList_primaryAction.ipsResponsive_hidePhone a.ipsButton.ipsButton_medium.ipsButton_important {
+                background: #5a89b5cf !important;
                 color: #fafafa;
             }
-            p.cFilePrice.ipsType_bold span.cFilePrice {
-                font-size: 20px;
-            }
-            a.ipsNoThumb.ipsThumb.ipsThumb_classified-thumb-240 {
-                background: #323232;
-            }
-            .ipsDataItem_unread a.ipsThumb.ipsThumb_classified-thumb-240.ipsThumb_bg {
-                background: #323232;
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: center;
-            }
-            a.ipsThumb.ipsThumb_classified-thumb-240.ipsThumb_bg {
-                background: #222222;
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-position: center;
-            }
-            ul.ipsSideMenu_list li a.ipsSideMenu_item.ipsTruncate.ipsTruncate_line strong.ipsType_normal {
-                color: #EBEBEB;
-            }
-            div.classifieds-data-item-main div.classified-product-thumb.ipsMargin_bottom {
-                color: red;
-            }
-            div.ipsPageHeader.ipsClearfix.ipsSpacer_bottom.ipsSpacer_double h1.ipsType_pageTitle {
+            h1.ipsType_pageTitle {
                 color: #fafafa;
             }
-            li.ipsPagination_next {
+            i.fa.fa-angle-right {
                 color: #fafafa;
             }
-            li.ipsPagination_prev {
+            div.ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear {
+                background: #ededed;
+            }
+            div.ipsPageHeader.ipsBox.ipsResponsive_pull.ipsPadding.ipsClearfix {
+                background: #fafafa;
+            }
+            div.ipsPageHeader.ipsBox.ipsResponsive_pull.ipsPadding.ipsClearfix header h1.ipsType_pageTitle {
+                color: #000;
+            }
+            li.ipsToolList_primaryAction a.ipsButton.ipsButton_medium.ipsButton_important.ipsButton_fullWidth {
+                background: #5a89b5cf !important;
                 color: #fafafa;
             }
-            li.ipsPagination_page {
-                color: #fafafa;
+            li a.ipsButton.ipsButton_veryLight.ipsButton_narrow.ipsButton_medium {
+                background: #ededed;
             }
-            a i.fa.fa-angle-double-left {
-                color: #fafafa;
+            i.fa.fa-star {
+                color: #f69e05;
             }
-            a i.fa.fa-angle-double-right {
-                color: #fafafa;
+            i.fa.fa-circle {
+                color: #f0b550;
+            }
+            span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers.ipsItemStatus_read {
+                background: #f0b550;
+                color: #1A2835;
+                border: 2px solid #1A2835;
+            }
+            div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal {
+                background: #f0b550;
+                color: #1A2835;
+                border: 2px solid #1A2835;
+            }
+            div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers {
+                background: #f0b550;
+                color: #1A2835;
+                border: 2px solid #1A2835;
+            }
+            ol.ipsDataList.ipsDataList_large.ipsDataList_zebra li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix {
+                background: #f5f5f5;
+                margin-top: 1px;
+            }
+            ol.ipsDataList.ipsDataList_large.ipsDataList_zebra li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread.ipsClearfix {
+                background: #fafafa;
+                margin-top: 1px;
+            }
+            div.ipsDataItem_icon.ipsDataItem_category span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal.ipsItemStatus_read {
+                background: #f0b550;
+                color: #1A2835;
+                border: 2px solid #1A2835;
             }
         }
     }
-}
-@-moz-document url-prefix("https://www.insomnia.gr") {
-    if OldLogo {
-        a#elLogo {
-            background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/logo-old-b.png.e7421d6817d01ba4abb54936a6137b2c.png');
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: center;
-            min-width: 200px;
-            /*
+    @-moz-document url-prefix("https://www.insomnia.gr/clubs/") {
+        if not NightMode {
+            div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a {
+                color: #fafafa !important;
+            }
+            div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li .ipsTabs_item.ipsTabs_activeItem {
+                background: #ffffff24;
+            }
+            div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a.ipsTabs_item.ipsTabs_activeItem {
+                color: #f69e05 !important;
+            }
+            div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a:hover {
+                background: #ffffff52 !important;
+            }
+            /* Insert code here... #225985 */
+        }
+    }
+    @-moz-document url("https://www.insomnia.gr/") {
+        if not NightMode {
+            h3.loop_title-small a {
+                color: #f69e05;
+            }
+            div.grid.grid--bleed div.grid__col-12 h2 a {
+                color: #f69e05;
+            }
+            div.featured-entry.grid__col-7.grid__col--bleed div.grid.grid--bleed div.grid__col-12.grid__cell-footer p.author a {
+                color: #FBB62F;
+            }
+            div.grid__col-12.grid__cell-footer div.grid div.grid__col-auto.dashed__top span.timestamp {
+                color: #ebebeb;
+            }
+            div.insHomepageTrendingContainer h2 {
+                color: #f69e05;
+            }
+            div.grid__col-auto div.grid.meta div.grid__col-auto span.timestamp time {
+                color: #ebebeb;
+            }
+            div.grid__col-auto div.grid.meta div.comments.grid__col-auto a span.count {
+                color: #ebebeb;
+            }
+            article.ins100picNtext div.grid__col-auto p.author {
+                color: #ebebeb;
+            }
+            /* Insert code here... #225985 */
+        }
+    }
+    @-moz-document url-prefix("https://www.insomnia.gr/classifieds/category/") {
+        if not NightMode {
+            if AggeliesList {
+                .classifieds-data-list {
+                    width: auto;
+                }
+                .ipsGrid_span4 {
+                    width: 4000px !important;
+                    /*min-width: 823px;*/
+                    max-height: 95px;
+                    background: #ebebeb;
+                    margin-top: -28px !important;
+                    margin-left: -0px !important;
+                }
+                .ipsDataItem_unread {
+                    width: 4000px !important;
+                    background: #fafafa;
+                    margin-top: -28px !important;
+                    margin-left: -0px !important;
+                }
+                span.ipsType_break.ipsContained .ipsType_blendLinks {
+                    color: #000;
+                    font-weight: 800;
+                    position: absolute;
+                    top: 5px;
+                    left: 220px;
+                    font-size: 18px;
+                    width: auto;
+                    height: auto;
+                }
+                span.ipsType_break.ipsContained .ipsType_blendLinks:hover {
+                    color: #2981BF;
+                }
+                div.classifieds-data-item-main {
+                    min-width: 100px;
+                }
+                div.classifieds-data-item-main {
+                    min-width: 1000px !important;
+                    margin-left: 0px !important;
+                }
+                .ipsThumb_bg {
+                    position: absolute;
+                    max-height: 85px;
+                    min-width: 200px !important;
+                    margin-top: -8px;
+                    background-size: contain;
+                }
+                .ipsNoThumb {
+                    position: absolute;
+                    max-height: 85px !important;
+                    max-width: 200px !important;
+                    min-width: 200px !important;
+                    margin-top: -8px;
+                    background-size: contain;
+                }
+                div.classifieds-data-item-author {
+                    margin-top: -32px;
+                    margin-bottom: auto;
+                    margin-left: auto;
+                    margin-right: 10px;
+                    color: #ff0000d9;
+                }
+                div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
+                    margin-top: -15px;
+                    margin-left: -30px;
+                    margin-right: 10px;
+                    color: #e04a4a !important;
+                }
+                div.classifieds-data-item-author-info div.classifieds-data-item-author-rep {
+                    margin-top: -38px;
+                    color: #000 !important;
+                }
+                div.classifieds-data-item-author-wrap hr.ipsHr {
+                    visibility: hidden
+                }
+                div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
+                    color: #000;
+                    font-weight: 500;
+                    position: absolute;
+                    top: 80px;
+                    left: 250px;
+                    font-size: 14px;
+                }
+                p.cFilePrice.ipsType_bold {
+                    position: absolute;
+                    left: -0px;
+                    right: auto;
+                    max-height: 30px !important;
+                    width: auto !important;
+                    background: #cf0000;
+                    color: #fafafa;
+                    z-index: 1;
+                }
+                span.cFilePrice {
+                    position: relative;
+                    top: -10px;
+                    width: auto !important;
+                    font-size: 20px;
+                }
+                a.ipsNoThumb.ipsThumb.ipsThumb_classified-thumb-240 {
+                    background: #fafafa;
+                }
+                .ipsDataItem_unread a.ipsThumb.ipsThumb_classified-thumb-240.ipsThumb_bg {
+                    background: #fafafa;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                a.ipsThumb.ipsThumb_classified-thumb-240.ipsThumb_bg {
+                    background: #ebebeb;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                ul.ipsSideMenu_list li a.ipsSideMenu_item.ipsTruncate.ipsTruncate_line strong.ipsType_normal {
+                    color: #EBEBEB;
+                }
+                div.classifieds-data-item-main div.classified-product-thumb.ipsMargin_bottom {
+                    color: red;
+                }
+                div.ipsPageHeader.ipsClearfix.ipsSpacer_bottom.ipsSpacer_double h1.ipsType_pageTitle {
+                    color: #fafafa;
+                }
+                li.ipsPagination_next {
+                    color: #fafafa;
+                }
+                li.ipsPagination_prev {
+                    color: #fafafa;
+                }
+                li.ipsPagination_page {
+                    color: #fafafa;
+                }
+                a i.fa.fa-angle-double-left {
+                    color: #fafafa;
+                }
+                a i.fa.fa-angle-double-right {
+                    color: #fafafa;
+                }
+            }
+        }
+    }
+    /********************************************************************************************************************************************************/
+    /********************************************************************************************************************************************************/
+    /********************************************************************************************************************************************************/
+    /********************************************************************************************************************************************************/
+    /********************************************************************************************************************************************************/
+    /********************************************************************************************************************************************************/
+    /********************************************************************************************************************************************************/
+    /********************************************************************************************************************************************************/
+    @-moz-document url-prefix("https://www.insomnia.gr/forums/topic/") {
+        if NightMode {
+            .ipsLayout_sidebarright {
+                visibility: hidden;
+                position: fixed;
+            }
+            div.cTopicOverview__body.ipsPadding {
+                background: #323232;
+            }
+            div#ipsLayout_contentWrapper1 {
+                margin-right: auto;
+            }
+            .ipsComment_highlighted {
+                background: #4e4b3ed1 !important;
+            }
+            div.ipsUnreadBar {
+                color: #FBB62F;
+            }
+            div.ipsUnreadBar::after {
+                background: #FBB62F;
+            }
+            div.ipsUnreadBar::before {
+                background: #FBB62F;
+            }
+            .ipsLayout_container.ipsPadding_bottom p {
+                color: #ebebeb;
+            }
+            .ipsSpoiler {
+                background: #707070;
+            }
+            .ipsSpoiler div.ipsSpoiler_header.ipsSpoiler_closed span {
+                color: #f69e05;
+            }
+            .ipsSpoiler div.ipsSpoiler_header.ipsSpoiler_open span {
+                color: #f69e05;
+            }
+            .ipsQuote {
+                background: #505050;
+            }
+            .ipsClearfix.ipsClear.ipsMargin_bottom {
+                background: #874214;
+            }
+            .ipsMargin_top.ipsClearfix.ipsClear {
+                background: #874214;
+            }
+            .ipsMargin_bottom {
+                background: #323232;
+            }
+            li.ipsResponsive_hidePhone a.ipsButton.ipsButton_link.ipsButton_medium.ipsButton_fullWidth {
+                background: #525252;
+                color: #FAFAFA;
+            }
+            li.ipsToolList_primaryAction span a.ipsButton.ipsButton_important.ipsButton_medium.ipsButton_fullWidth {
+                background: #5a89b5cf !important;
+                color: #fafafa;
+            }
+            h1.ipsType_pageTitle.ipsContained_container span.ipsType_break.ipsContained span {
+                color: #f69e05;
+            }
+            .ipsQuote.open div.ipsQuote_contents.ipsClearfix p {
+                color: #ededed;
+            }
+            .ipsQuote div.ipsQuote_citation.ipsQuote_closed {
+                color: #f69e05;
+            }
+            .ipsQuote div.ipsQuote_citation.ipsQuote_open {
+                color: #f69e05;
+            }
+            .ipsSpoiler div.ipsSpoiler_header.ipsSpoiler_closed a {
+                color: #f69e05;
+            }
+            i.fa.fa-share {
+                color: #f69e05;
+                opacity: 1
+            }
+            .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone h3.ipsType_sectionHead.cAuthorPane_author.ipsType_blendLinks.ipsType_break strong a.ipsType_break {
+                color: #f0b550;
+            }
+            .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone ul.cAuthorPane_info.ipsList_reset li.ipsType_break {
+                color: #f5cd88;
+            }
+            .ipsComment_author.cAuthorPane.ipsColumn.ipsColumn_medium.ipsResponsive_hidePhone ul.cAuthorPane_info.ipsList_reset li {
+                color: #f5cd88;
+            }
+            div.cTopicPostArea.ipsBox.ipsResponsive_pull.ipsPadding.ipsSpacer_top {
+                background: #323232;
+            }
+            div.cke_wysiwyg_div.cke_reset.cke_enable_context_menu.cke_editable.cke_editable_themed.cke_contents_ltr {
+                background: #423f3b;
+            }
+            div.ipsComposeArea_editor .ipsType_normal.ipsType_richText.ipsType_break {
+                background: #323232;
+                animation: none;
+            }
+            .ipsComposeArea_dropZone.ipsComposeArea_dropZoneSmall.ipsClearfix.ipsType_light {
+                background: #323232;
+                animation: none;
+            }
+            ul.cTopicOverview__stats {
+                background: #272727;
+            }
+            li.cTopicOverview__statItem.ipsType_center {
+                color: #f69e05;
+            }
+            h4.ipsType_reset.cTopicOverview__sectionTitle.ipsType_withHr.ipsType_dark.ipsType_uppercase {
+                color: #f69e05;
+            }
+            div.ipsPhotoPanel.ipsPhotoPanel_tiny.ipsClearfix.ipsMargin_top div h5.ipsType_reset.ipsType_bold.ipsType_normal.ipsType_blendLinks a {
+                color: #FBB62F;
+            }
+        }
+    }
+    @-moz-document url-prefix("https://www.insomnia.gr/") {
+        if NightMode {
+            div#ipsLayout_header.ipsClearfix .insFullWidthSearch.ipsNavBar_noSubBars {
+                border: none
+            }
+            li#elNavSecondary_10 a,
+            li#elNavSecondary_36 a,
+            li#elNavSecondary_39 a {
+                color: #fafafa;
+            }
+            body {
+                /*background: #1A2835*/
+                background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/cloud-n.png.e1b03d9c6ad4ac54209f8526c506b60a.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_header.png.8a53f85be22fad7f2306d63729d4cdab.png'), /*url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png'),*/
+                url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/background-dark1.png.e36c622d469fcbd96c12be356e278af4.png');
+                background-position: left top, right top, top center, /*bottom center, /*top left, top center, top right,*/
+                center;
+                background-repeat: no-repeat, no-repeat, repeat-x, /*repeat-x, /*no-repeat, repeat, no-repeat,*/
+                repeat;
+            }
+            footer#site-footer.ipsClearfix.site-footer.darkBg {
+                background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/footer4.png.2acf51eff28f63c8c2cfd16e7e1b2df6.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/bg_footer4.png.e86dd9e01b9af79d97e8d2930f008255.png');
+                background-repeat: /*repeat-x,*/
+                repeat-x;
+                background-position: /*top center,*/
+                center, bottom left;
+                /*margin-left: -15px;*/
+                background-color: #070A12;
+                width: 100%
+            }
+            a#elLogo.ipsResponsive_hidePhone img {
+                visibility: hidden;
+                background-image: url('https://www.w3schools.com/images/colorpicker.gif');
+            }
+            a#elLogo {
+                background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                min-width: 200px;
+                /*
          background:red !important;
          */
-            max-height: 60px !important;
+                max-height: 60px !important;
+            }
+            a#elLogo img.ipsResponsive_hidePhone {
+                visibility: hidden;
+            }
+            a#elFullNotifications {
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='23px' viewBox='0 0 20 23' version='1.1'%3E%3Cg id='Asset-Artboard-Page' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Messages' transform='translate(-4.000000, -4.000000)' fill='%23f8f8f8' fill-rule='nonzero'%3E%3Cg id='Notifications' transform='translate(4.000000, 4.000000)'%3E%3Cpath d='M18.8671875,17.7890625 L17.96875,17.7890625 L17.96875,11.5 C17.96875,7.8532562 15.5419159,4.76294709 12.2183991,3.75852204 C12.390892,3.41055298 12.4882812,3.01924136 12.4882812,2.60546875 C12.4882812,1.16884612 11.3194351,0 9.8828125,0 C8.44618987,0 7.27734375,1.16884612 7.27734375,2.60546875 C7.27734375,3.01924136 7.37473298,3.41055298 7.54722593,3.75852204 C4.22370913,4.76294709 1.796875,7.8532562 1.796875,11.5 L1.796875,17.7890625 L0.8984375,17.7890625 C0.402191162,17.7890625 0,18.1912537 0,18.6875 C0,19.1837463 0.402191162,19.5859375 0.8984375,19.5859375 L5.48503111,19.5859375 C5.89950562,21.5340729 7.63320923,23 9.703125,23 L10.0625,23 C12.1324158,23 13.8661194,21.5340729 14.2805939,19.5859375 L18.8671875,19.5859375 C19.3634338,19.5859375 19.765625,19.1837463 19.765625,18.6875 C19.765625,18.1912537 19.3634338,17.7890625 18.8671875,17.7890625 Z M9.07421875,2.60546875 C9.07421875,2.15958406 9.43692781,1.796875 9.8828125,1.796875 C10.3286972,1.796875 10.6914062,2.15958406 10.6914062,2.60546875 C10.6914062,3.05135344 10.3286972,3.4140625 9.8828125,3.4140625 C9.43692781,3.4140625 9.07421875,3.05135344 9.07421875,2.60546875 Z M10.0625,21.203125 L9.703125,21.203125 C8.63236997,21.203125 7.71568296,20.5307007 7.35332488,19.5859375 L12.4123001,19.5859375 C12.049942,20.5307007 11.133255,21.203125 10.0625,21.203125 L10.0625,21.203125 Z M3.59375,17.7890625 L3.59375,11.5 C3.59375,8.03224184 6.41505434,5.2109375 9.8828125,5.2109375 C13.3505707,5.2109375 16.171875,8.03224184 16.171875,11.5 L16.171875,17.7890625 C14.951088,17.7890625 4.06858823,17.7890625 3.59375,17.7890625 Z' id='Shape'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            a#elFullNotifications svg {
+                visibility: hidden;
+            }
+            a#elFullInbox {
+                background-image: url("data:image/svg+xml,%3Csvg width='30px' height='30px' viewBox='0 0 30 30' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Messages' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M25.7148438,6 L4.28515625,6 C3.02669531,6 2,7.02557813 2,8.28515625 L2,23.5195312 C2,24.7748438 3.022125,25.8046875 4.28515625,25.8046875 L25.7148438,25.8046875 C26.9701563,25.8046875 28,24.7825625 28,23.5195312 L28,8.28515625 C28,7.02984375 26.977875,6 25.7148438,6 Z M25.3992891,7.5234375 L15.0484453,17.874332 L4.60807422,7.5234375 L25.3992891,7.5234375 Z M3.5234375,23.2040781 L3.5234375,8.59334766 L10.8602617,15.8672539 L3.5234375,23.2040781 Z M4.60066016,24.28125 L11.9421055,16.9398047 L14.5145313,19.4901406 C14.8123125,19.7853828 15.2928555,19.784418 15.589418,19.4878047 L18.0976562,16.9795664 L25.3993398,24.28125 L4.60066016,24.28125 Z M26.4765625,23.2040273 L19.1748789,15.9023438 L26.4765625,8.60060938 L26.4765625,23.2040273 Z' id='Shape' fill='%23fafafa' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            a#elAllStreams i.fa.fa-newspaper-o {
+                color: #fafafa;
+            }
+            a#elFullInbox svg {
+                visibility: hidden;
+            }
+            li#cUser a {
+                color: #fafafa;
+            }
+            li#cUserLink a {
+                color: #fafafa;
+            }
+            div#ipsLayout_header.ipsClearfix header {
+                background: none;
+            }
+            div#ipsLayout_header.ipsClearfix .insFullWidthSearch.ipsNavBar_noSubBars {
+                background: none;
+            }
+            /* gia oloklhrh th mpara
+        
+           div#ipsLayout_header.ipsClearfix {
+            background-color: #1A2835;
+        }
+        */
+            div#ipsLayout_header.ipsClearfix header div.ipsLayout_container {
+                background-color: #121820;
+            }
+            /*
+        div.ipsLayout_container {
+            background-color: #1A2835;
+        }
+        */
+            div.ipsNavBar_primary.ipsLayout_container.ipsNavBar_noSubBars.ipsClearfix.ipsColumns.ipsFlex.ipsFlex {
+                background-color: #121820;
+            }
+            div#ipsLayout_contentArea {
+                background-color: #121820;
+            }
+            .ipsLayout_container.ipsPadding_bottom {
+                background: #121820;
+            }
+            .ipsLayout_container.ipsPadding_bottom p {
+                font-size: 14px;
+                /*        color: #000; */
+            }
+            nav.ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover.insClassifiedsCategory ul li a {
+                color: #fafafa;
+            }
+            nav.ipsBreadcrumb.ipsBreadcrumb_top.ipsFaded_withHover.insClassifiedsCategory ul li {
+                opacity: 1;
+            }
+            /*
+    div.ipsColumn {
+        background: #f8f8f8;
+    }
+*/
+            .cPost.ipsBox.ipsResponsive_pull.ipsComment.ipsComment_parent.ipsClearfix.ipsClear.ipsColumns.ipsColumns_noSpacing.ipsColumns_collapsePhone {
+                background: #323232;
+                margin-top: -16px;
+            }
+            .cStreamFilter {
+                background: #ededed;
+                color: #000;
+            }
+            a {
+                text-decoration: none;
+                color: #F0B550;
+            }
+            .ipsType_light {
+                color: #C8C8C9;
+                font-weight: normal;
+                font-size: 12px;
+            }
+            .ipsClearfix.cSearchExpanded {
+                margin-right: 12px !important;
+                border: none !important;
+            }
+            div#elSearch {
+                background: #ededed !important;
+                margin-right: -10px !important;
+                padding-left: 40px;
+            }
+            li#cUser:hover {
+                background: #ffffff52 !important;
+            }
+            li#cUserLink:hover {
+                background: #ffffff52 !important;
+            }
+            a#backtoTop {
+                opacity: 0.6;
+            }
+            a#backtoTop i.fa.fa-chevron-circle-up {
+                color: #f69e05;
+                /*
+margin-right: 82px;
+*/
+            }
         }
     }
-}
-@-moz-document url-prefix("https://www.insomnia.gr") {
-    if InsomniacShow {
+    @-moz-document url-prefix("https://www.insomnia.gr/discover/") {
+        if NightMode {
+            /*
+        div#ipsLayout_contentArea {
+            min-width: 1440px;
+            margin-left: -15px;
+        }
+*/
+            p.ipsStreamItem_status.ipsType_reset.ipsType_blendLinks {
+                color: #ededed;
+            }
+            span.ipsMargin_right {
+                color: #fafafa;
+            }
+            span.ipsType_light {
+                color: #fafafa;
+            }
+            div.ipsStreamItem_container {
+                margin-top: 5px;
+            }
+            .ipsStreamItem_contentBlock {
+                margin-top: 5px;
+                margin-bottom: -15px;
+                /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
+                background: #323232;
+            }
+            li.ipsStreamItem_time {
+                padding-top: 0px;
+            }
+            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
+                margin-top: -4px;
+                /*margin-bottom: 5px;*/
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            p.ipsStreamItem_status.ipsType_reset.ipsType_blendLinks {
+                margin-top: 5px;
+            }
+            div.ipsFlex {
+                margin-top: -10px;
+            }
+            ol.ipsStream.ipsStream_withTimeline.ipsList_reset {
+                margin-top: -17px;
+            }
+            h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
+                font-size: 16px;
+            }
+            h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
+                font-size: 15px;
+                margin-left: 8px;
+            }
+            div.ipsPadding_top.ipsPadding_horizontal {
+                background: #424242;
+            }
+            h1.ipsType_pageTitle span {
+                COLOR: #FAFAFA;
+            }
+            p.ipsType_reset.ipsType_normal span {
+                COLOR: #EDEDED;
+            }
+            span.ipsItemStatus i.fa.fa-circle {
+                color: #f69e05;
+            }
+            i.fa.fa-circle {
+                color: #f69e05;
+            }
+            div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
+                background: #F0B550;
+                color: #323232;
+                border: none !important;
+            }
+        }
+    }
+    @-moz-document url-prefix("https://www.insomnia.gr/") {
+        if OldWidth {
+            .ipsLayout_container.ipsPadding_bottom {
+                max-width: 1172px !important;
+            }
+            div#ipsLayout_header.ipsClearfix header div.ipsLayout_container {
+                max-width: 1172px !important;
+            }
+            div.ipsNavBar_primary.ipsLayout_container.ipsNavBar_noSubBars.ipsClearfix.ipsColumns.ipsFlex.ipsFlex {
+                max-width: 1172px !important;
+            }
+        }
+    }
+    @-moz-document url-prefix("https://www.insomnia.gr/forums/") {
+        if NightMode {
+            span.ipsType_break.ipsContained a {
+                font-size: 16px;
+            }
+            li.ipsDataItem_lastPoster__title a {
+                font-size: 14px;
+            }
+            .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread {
+                /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
+                background: #323232;
+                margin-bottom: 1px;
+                max-height: 90px;
+            }
+            .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem.ipsDataItem_responsivePhoto {
+                /* background: linear-gradient(#f7f7f7, #EEEEEE);*/
+                background: #383838;
+                margin-bottom: 1px;
+                max-height: 90px;
+            }
+            .ipsClear.ipsDataList.cForumTopicTable.cTopicList {
+                background: #121820;
+            }
+            li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread.ipsClearfix {
+                /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
+                background: #323232;
+                border: 10px;
+                border-style: inline;
+                margin-top: 1px;
+            }
+            ol.ipsList_reset.cForumList li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull {
+                background: #8d969e;
+            }
+            li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull h2.ipsType_sectionTitle.ipsType_reset.cForumTitle {
+                margin-bottom: 1px;
+                background: #424242;
+            }
+            div.cWidgetContainer.insWidgetArea ul.ipsList_reset li.ipsWidget.ipsWidget_vertical.ipsBox.ipsResponsive_block {
+                background: #fafafa;
+            }
+            li.ipsToolList_primaryAction.ipsResponsive_hidePhone a.ipsButton.ipsButton_medium.ipsButton_important {
+                background: #5a89b5cf !important;
+                color: #fafafa;
+            }
+            h1.ipsType_pageTitle {
+                color: #fafafa;
+            }
+            i.fa.fa-angle-right {
+                color: #fafafa;
+            }
+            div.ipsButtonBar.ipsPad_half.ipsClearfix.ipsClear {
+                background: #874214;
+            }
+            div.ipsPageHeader.ipsBox.ipsResponsive_pull.ipsPadding.ipsClearfix {
+                background: #323232;
+            }
+            div.ipsPageHeader.ipsBox.ipsResponsive_pull.ipsPadding.ipsClearfix header h1.ipsType_pageTitle {
+                color: #f69e05;
+            }
+            li.ipsToolList_primaryAction a.ipsButton.ipsButton_medium.ipsButton_important.ipsButton_fullWidth {
+                background: #5a89b5cf !important;
+                color: #fafafa;
+            }
+            li a.ipsButton.ipsButton_veryLight.ipsButton_narrow.ipsButton_medium {
+                background: #ededed;
+            }
+            ol.ipsList_reset.cForumList li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull h2.ipsType_sectionTitle.ipsType_reset.cForumTitle a {
+                COLOR: #FAFAFA;
+            }
+            div#ipsLayout_sidebar.ipsLayout_sidebarright div.cWidgetContainer.insWidgetArea ul.ipsList_reset li.ipsWidget.ipsWidget_vertical.ipsBox {
+                background: #424242;
+            }
+            .ipsPagination li.ipsPagination_page a {
+                color: #ebebeb;
+            }
+            .ipsPagination li.ipsPagination_prev a {
+                color: #ebebeb;
+            }
+            .ipsPagination li.ipsPagination_next a {
+                color: #ebebeb;
+            }
+            li.ipsPagination_first a i.fa.fa-angle-double-left {
+                color: #ebebeb;
+            }
+            li.ipsPagination_last a i.fa.fa-angle-double-right {
+                color: #ebebeb;
+            }
+            .ipsPagination li.ipsPagination_pageJump a {
+                color: #ebebeb;
+            }
+            div.ipsPageHeader.ipsBox.ipsResponsive_pull.ipsPadding.ipsClearfix header div.ipsType_richText.ipsType_normal {
+                color: #ebebeb
+            }
+            ul.ipsDataItem_stats li span.ipsDataItem_stats_type {
+                color: #ebebeb;
+            }
+            ul.ipsDataItem_stats li span.ipsDataItem_stats_number {
+                color: #ebebeb
+            }
+            ul.ipsDataItem_lastPoster.ipsDataItem_withPhoto.ipsType_blendLinks li a.ipsType_break {
+                color: #F0B54F
+            }
+            i.fa.fa-star {
+                color: #f69e05;
+            }
+            i.fa.fa-circle {
+                color: #f69e05;
+            }
+            i.fa.fa-circle {
+                color: #f0b550;
+            }
+            span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers.ipsItemStatus_read {
+                background: #f0b550;
+                color: #1A2835;
+                border: 2px solid #1A2835;
+            }
+            div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal {
+                background: #f0b550;
+                color: #1A2835;
+                border: 2px solid #1A2835;
+            }
+            div.ipsDataItem_icon.ipsDataItem_category a span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers {
+                background: #f0b550;
+                color: #1A2835;
+                border: 2px solid #1A2835;
+            }
+            ol.ipsDataList.ipsDataList_large.ipsDataList_zebra li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsClearfix {
+                background: #323232f5;
+                margin-top: 1px;
+            }
+            ol.ipsDataList.ipsDataList_large.ipsDataList_zebra li.cForumRow.ipsDataItem.ipsDataItem_responsivePhoto.ipsDataItem_unread.ipsClearfix {
+                background: #323232;
+                margin-top: 1px;
+            }
+            div.ipsDataItem_icon.ipsDataItem_category span.ipsItemStatus.ipsItemStatus_large.cForumIcon_normal.ipsItemStatus_read {
+                background: #f0b550;
+                color: #1A2835;
+                border: 2px solid #1A2835;
+            }
+        }
+    }
+    @-moz-document url-prefix("https://www.insomnia.gr/clubs/") {
+        if not NightMode {
+            div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a {
+                color: #fafafa !important;
+            }
+            div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li .ipsTabs_item.ipsTabs_activeItem {
+                background: #ffffff24;
+            }
+            div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a.ipsTabs_item.ipsTabs_activeItem {
+                color: #f69e05 !important;
+            }
+            div#tabs_club.ipsTabs.ipsClearfix.ipsJS_show ul li a:hover {
+                background: #ffffff52 !important;
+            }
+            /* Insert code here... #225985 */
+        }
+    }
+    @-moz-document url("https://www.insomnia.gr/") {
+        if NightMode {
+            h3.loop_title-small a {
+                color: #f69e05;
+            }
+            div.grid.grid--bleed div.grid__col-12 h2 a {
+                color: #f69e05;
+            }
+            div.featured-entry.grid__col-7.grid__col--bleed div.grid.grid--bleed div.grid__col-12.grid__cell-footer p.author a {
+                color: #FBB62F;
+            }
+            div.grid__col-12.grid__cell-footer div.grid div.grid__col-auto.dashed__top span.timestamp {
+                color: #ebebeb;
+            }
+            div.insHomepageTrendingContainer h2 {
+                color: #f69e05;
+            }
+            div.grid__col-auto div.grid.meta div.grid__col-auto span.timestamp time {
+                color: #ebebeb;
+            }
+            div.grid__col-auto div.grid.meta div.comments.grid__col-auto a span.count {
+                color: #ebebeb;
+            }
+            article.ins100picNtext div.grid__col-auto p.author {
+                color: #ebebeb;
+            }
+            /* Insert code here... #225985 */
+        }
+    }
+    @-moz-document url-prefix("https://www.insomnia.gr/classifieds/category/") {
+        if NightMode {
+            if AggeliesList {
+                s.classifieds-data-list {
+                    width: auto;
+                }
+                .ipsGrid_span4 {
+                    width: 4000px !important;
+                    /*min-width: 823px;*/
+                    max-height: 95px;
+                    background: #222222;
+                    margin-top: -28px !important;
+                    margin-left: -0px !important;
+                }
+                .ipsDataItem_unread {
+                    width: 4000px !important;
+                    background: #323232;
+                    margin-top: -28px !important;
+                    margin-left: -0px !important;
+                }
+                span.ipsType_break.ipsContained .ipsType_blendLinks {
+                    color: #F0B550;
+                    font-weight: 800;
+                    position: absolute;
+                    top: 5px;
+                    left: 250px;
+                    font-size: 18px;
+                    width: auto;
+                    height: auto;
+                }
+                span.ipsType_break.ipsContained .ipsType_blendLinks:hover {
+                    color: #2981BF;
+                }
+                div.classifieds-data-item-main {
+                    min-width: 100px;
+                }
+                div.classifieds-data-item-main {
+                    min-width: 1000px !important;
+                    margin-left: 0px !important;
+                }
+                .ipsThumb_bg {
+                    position: absolute;
+                    max-height: 85px;
+                    min-width: 200px !important;
+                    margin-top: -8px;
+                    background-size: contain;
+                }
+                .ipsNoThumb {
+                    position: absolute;
+                    max-height: 85px !important;
+                    max-width: 200px !important;
+                    min-width: 200px !important;
+                    margin-top: -8px;
+                    background-size: contain;
+                }
+                div.classifieds-data-item-author {
+                    margin-top: -32px;
+                    margin-bottom: auto;
+                    margin-left: auto;
+                    margin-right: 10px;
+                    color: #ff0000d9;
+                }
+                div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
+                    margin-top: -15px;
+                    margin-left: auto;
+                    margin-right: 10px;
+                    color: #e04a4a !important;
+                }
+                div.classifieds-data-item-author-info div.classifieds-data-item-author-rep {
+                    margin-top: -38px;
+                    color: #F0B550 !important;
+                }
+                div.classifieds-data-item-author-wrap hr.ipsHr {
+                    visibility: hidden
+                }
+                div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
+                    color: #000;
+                    font-weight: 500;
+                    position: absolute;
+                    top: 80px;
+                    left: 250px;
+                    font-size: 14px;
+                }
+                p.cFilePrice.ipsType_bold {
+                    position: absolute;
+                    left: -0px;
+                    right: auto;
+                    max-height: 30px !important;
+                    width: auto !important;
+                    background: #cf0000;
+                    color: #fafafa;
+                    z-index: 1;
+                }
+                span.cFilePrice {
+                    position: relative;
+                    top: -10px;
+                    width: auto !important;
+                    font-size: 20px;
+                }
+                a.ipsNoThumb.ipsThumb.ipsThumb_classified-thumb-240 {
+                    background: #323232;
+                }
+                .ipsDataItem_unread a.ipsThumb.ipsThumb_classified-thumb-240.ipsThumb_bg {
+                    background: #323232;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                a.ipsThumb.ipsThumb_classified-thumb-240.ipsThumb_bg {
+                    background: #222222;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                ul.ipsSideMenu_list li a.ipsSideMenu_item.ipsTruncate.ipsTruncate_line strong.ipsType_normal {
+                    color: #EBEBEB;
+                }
+                div.classifieds-data-item-main div.classified-product-thumb.ipsMargin_bottom {
+                    color: red;
+                }
+                div.ipsPageHeader.ipsClearfix.ipsSpacer_bottom.ipsSpacer_double h1.ipsType_pageTitle {
+                    color: #fafafa;
+                }
+                li.ipsPagination_next {
+                    color: #fafafa;
+                }
+                li.ipsPagination_prev {
+                    color: #fafafa;
+                }
+                li.ipsPagination_page {
+                    color: #fafafa;
+                }
+                a i.fa.fa-angle-double-left {
+                    color: #fafafa;
+                }
+                a i.fa.fa-angle-double-right {
+                    color: #fafafa;
+                }
+            }
+        }
+    }
+    @-moz-document url-prefix("https://www.insomnia.gr") {
         if OldLogo {
             a#elLogo {
-                background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/insomniac.png.0128c2ae40c8a3b9dc863fb25f15d246.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/logo-old-b.png.e7421d6817d01ba4abb54936a6137b2c.png');
-                background-repeat: no-repeat, no-repeat;
-                background-size: contain, contain;
-                background-position: 145px, center;
+                background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/logo-old-b.png.e7421d6817d01ba4abb54936a6137b2c.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
                 min-width: 200px;
                 /*
          background:red !important;
@@ -1351,28 +1336,111 @@ margin-right: 82px;
             }
         }
     }
-}
-@-moz-document url-prefix("https://www.insomnia.gr") {
-    if not OldLogo {
+    @-moz-document url-prefix("https://www.insomnia.gr") {
         if InsomniacShow {
-            a#elLogo {
-                background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/insomniac.png.0128c2ae40c8a3b9dc863fb25f15d246.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
-                background-repeat: no-repeat, no-repeat;
-                background-size: contain, contain;
-                background-position: 145px, center;
-                min-width: 200px;
-                /*
+            if OldLogo {
+                a#elLogo {
+                    background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/insomniac.png.0128c2ae40c8a3b9dc863fb25f15d246.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/logo-old-b.png.e7421d6817d01ba4abb54936a6137b2c.png');
+                    background-repeat: no-repeat, no-repeat;
+                    background-size: contain, contain;
+                    background-position: 145px, center;
+                    min-width: 200px;
+                    /*
          background:red !important;
          */
-                max-height: 60px !important;
+                    max-height: 60px !important;
+                }
             }
         }
     }
-}
-@-moz-document url-prefix("https://www.insomnia.gr/") {
-    if LargeBackToTop {
-        a#backtoTop i.fa.fa-chevron-circle-up {
-            transform: scale(2.2, 2.2);
+    @-moz-document url-prefix("https://www.insomnia.gr") {
+        if not OldLogo {
+            if InsomniacShow {
+                a#elLogo {
+                    background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/insomniac.png.0128c2ae40c8a3b9dc863fb25f15d246.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
+                    background-repeat: no-repeat, no-repeat;
+                    background-size: contain, contain;
+                    background-position: 145px, center;
+                    min-width: 200px;
+                    /*
+         background:red !important;
+         */
+                    max-height: 60px !important;
+                }
+            }
         }
     }
-}
+    @-moz-document url-prefix("https://www.insomnia.gr/") {
+        if LargeBackToTop {
+            a#backtoTop i.fa.fa-chevron-circle-up {
+                transform: scale(2.2, 2.2);
+            }
+        }
+    }
+    @-moz-document url-prefix("https://www.insomnia.gr/") {
+        if MenuOnTop {
+            /* Insert code here... */
+            div#ipsLayout_header.ipsClearfix {
+                position: fixed;
+                right: 0px;
+                left: 0px;
+                z-index: 99;
+                top: 00px;
+            }
+            main#ipsLayout_body.ipsLayout_container.ipsPadding_bottom {
+                position: relative;
+                top: 155px;
+            }
+            footer#site-footer.ipsClearfix.site-footer.darkBg {
+                margin-top: 130px;
+            }
+            div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
+                z-index: 1;
+            }
+            div.ipsItemControls_right.ipsClearfix {
+                z-index: 1 !important;
+            }
+            body {
+                position: absolute;
+                right: 0px;
+                left: 0px;
+                top: -43px;
+            }
+            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
+                z-index: 1;
+            }
+        }
+    }
+    @-moz-document url-prefix("https://www.insomnia.gr/") {
+        if MedWidth {
+            .ipsLayout_container.ipsPadding_bottom {
+                max-width: 1320px
+            }
+            div#ipsLayout_header.ipsClearfix header div.ipsLayout_container {
+                max-width: 1320px
+            }
+            div.ipsNavBar_primary.ipsLayout_container.ipsNavBar_noSubBars.ipsClearfix.ipsColumns.ipsFlex.ipsFlex {
+                max-width: 1320px
+            }
+        }
+    }
+    @-moz-document url("https://www.insomnia.gr/classifieds/") {
+        nav.classifieds-index-categories.ipsSpacer_bottom.secondary_NavBar.removeUnderWhiteSpace.insHeaderFullWidth:before {
+            opacity: 0;
+        }
+        ul.classifieds-index-category-items.ipsList_inline li.dropHead {
+            color: #f8f8f8;
+        }
+        svg.ipsResponsive_hidePhone {
+            background-image: url("data:image/svg+xml,%3Csvg class='ipsResponsive_hidePhone' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='10px' height='5px' viewBox='0 0 10 5' version='1.1'%3E%3Cg id='Asset-Artboard-Page' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' stroke-linecap='round' stroke-linejoin='round'%3E%3Cg id='Chevron/Small' stroke='%23fff' stroke-width='1.5'%3E%3Cpolyline id='Path-2' points='2 1 5 4 8 1'%3E%3C/polyline%3E%3C/g%3E%3C/g%3E%3C/svg%3E ");
+            background-repeat: no-repeat;
+            background-position: center;
+            opacity: 1;
+        }
+        h3.ipsType_sectionHead.ipsType_reset.ipsType_bold.ipsSpacer_bottom.ipsSpacer_double {
+            color: #f8f8f8;
+        }
+        h3.ipsType_sectionHead.mediumSectionHead.ipsType_reset.ipsType_bold {
+            color: #f8f8f8;
+        }
+    }
