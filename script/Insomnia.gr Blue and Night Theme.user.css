@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2021.0.23
+@version 2021.0.24
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -522,7 +522,7 @@ margin-right: 82px;
                     font-weight: 800;
                     position: absolute;
                     top: 5px;
-                    left: 220px;
+                    left: 230px;
                     font-size: 18px;
                     width: auto;
                     height: auto;
@@ -561,13 +561,13 @@ margin-right: 82px;
                 }
                 div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
                     margin-top: -10px;
-                    margin-left: -30px;
+                    margin-left: -20px;
                     margin-right: 10px;
                     color: #e04a4a !important;
                 }
                 div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li.ipsType_uppercase span.ipsType_bold {
                     margin-top: -33px;
-                    margin-left: -30px;
+                    margin-left: -20px;
                     margin-right: 10px;
                     color: green !important;
                     font-weight: 800;
@@ -628,7 +628,9 @@ margin-right: 82px;
                 span.ipsBadge.ipsBadge_icon.ipsBadge_warning {
                     position: absolute;
                     top: 5px;
-                    left: 190px;
+                    left: 198px;
+                    color: #fafafa;
+                    background: #cf0000;
                 }
                 div.ipsPageHeader.ipsClearfix.ipsSpacer_bottom.ipsSpacer_double h1.ipsType_pageTitle {
                     color: #fafafa;
@@ -1237,7 +1239,7 @@ margin-right: 82px;
                     font-weight: 800;
                     position: absolute;
                     top: 5px;
-                    left: 250px;
+                    left: 230px;
                     font-size: 18px;
                     width: auto;
                     height: auto;
@@ -1276,13 +1278,13 @@ margin-right: 82px;
                 }
                 div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li span.ipsType_bold {
                     margin-top: -10px;
-                    margin-left: auto;
+                    margin-left: -20px;
                     margin-right: 10px;
                     color: #e04a4a !important;
                 }
                 div.classifieds-data-item-main div.classified-product-status-wrap.ipsSpacer_bottom ul.classifieds-product-status-items.ipsList_inline li.ipsType_uppercase span.ipsType_bold {
                     margin-top: -33px;
-                    margin-left: auto;
+                    margin-left: -20px;
                     margin-right: 10px;
                     color: green !important;
                     font-weight: 800;
@@ -1343,7 +1345,9 @@ margin-right: 82px;
                 span.ipsBadge.ipsBadge_icon.ipsBadge_warning {
                     position: absolute;
                     top: 5px;
-                    left: 190px;
+                    left: 198px;
+                    color: #fafafa;
+                    background: #cf0000;
                 }
                 div.ipsPageHeader.ipsClearfix.ipsSpacer_bottom.ipsSpacer_double h1.ipsType_pageTitle {
                     color: #fafafa;
