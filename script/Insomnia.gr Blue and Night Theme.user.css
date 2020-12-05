@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2021.0.25
+@version 2021.0.26
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -376,6 +376,11 @@ margin-right: 82px;
                 background: #fafafa;
                 margin-top: 1px;
             }
+            li.ipsDataItem.cForumQuestion {
+                /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
+                background: #fafafa;
+                margin-top: 1px;
+            }
             ol.ipsList_reset.cForumList li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull {
                 background: #8d969e;
             }
@@ -412,11 +417,19 @@ margin-right: 82px;
             li a.ipsButton.ipsButton_veryLight.ipsButton_narrow.ipsButton_medium {
                 background: #ededed;
             }
-            i.fa.fa-star {
+            i.fa.fa-question {
+                color: #1A2835;
+            }
+            span.cBestAnswerIndicator.cBestAnswerIndicator_off i.fa.fa-star {
                 color: #f69e05;
             }
             i.fa.fa-circle {
                 color: #f0b550;
+            }
+            span.cBestAnswerIndicator.cBestAnswerIndicator_off {
+                background: #f0b550;
+                color: #1A2835;
+                border: 2px solid #1A2835;
             }
             span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers.ipsItemStatus_read {
                 background: #f0b550;
@@ -1050,6 +1063,22 @@ margin-right: 82px;
                 border: 10px;
                 border-style: inline;
                 margin-top: 1px;
+            }
+            li.ipsDataItem.cForumQuestion {
+                /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
+                background: #323232;
+                margin-top: 1px;
+            }
+            i.fa.fa-question {
+                color: #1A2835;
+            }
+            span.cBestAnswerIndicator.cBestAnswerIndicator_off {
+                background: #f0b550;
+                color: #1A2835;
+                border: 2px solid #1A2835;
+            }
+            div#elQuestionsTabs.ipsTabs.ipsClearfix {
+                background: rgb(200, 200, 200);
             }
             ol.ipsList_reset.cForumList li.cForumRow.ipsBox.ipsSpacer_bottom.ipsResponsive_pull {
                 background: #8d969e;
