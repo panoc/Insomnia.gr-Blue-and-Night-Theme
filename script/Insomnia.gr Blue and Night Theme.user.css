@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2021.0.26
+@version 2021.0.27
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -316,7 +316,7 @@ margin-right: 82px;
                 margin-top: -17px;
             }
             h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
-                font-size: 16px;
+                font-size: 15px;
                 margin-left: 8px;
             }
             div.ipsPadding_top.ipsPadding_horizontal {
@@ -332,6 +332,9 @@ margin-right: 82px;
             }
             i.fa.fa-star {
                 color: #f69e05;
+            }
+            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad::after {
+                border-color: transparent #fafafa transparent transparent!important;
             }
         }
     }
@@ -366,7 +369,10 @@ margin-right: 82px;
                 /* background: linear-gradient(#f7f7f7, #EEEEEE);*/
                 background: #EEEEEE;
                 margin-bottom: 1px;
-                max-height: 90px;
+                /*                max-height: 90px; */
+            }
+            div.ipsDataItem_icon.ipsPos_top {
+                background: #fafafa;
             }
             .ipsClear.ipsDataList.cForumTopicTable.cTopicList {
                 background: #1A2835;
@@ -426,6 +432,12 @@ margin-right: 82px;
             i.fa.fa-circle {
                 color: #f0b550;
             }
+            i.fa.fa-star {
+                color: #f69e05;
+            }
+            i.fa.fa-arrow-left.ipsType_large {
+                color: #f69e05;
+            }
             span.cBestAnswerIndicator.cBestAnswerIndicator_off {
                 background: #f0b550;
                 color: #1A2835;
@@ -458,6 +470,14 @@ margin-right: 82px;
                 background: #f0b550;
                 color: #1A2835;
                 border: 2px solid #1A2835;
+            }
+            .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem div.ipsDataItem_main {
+                background: #fafafa;
+                border: 10px !important;
+            }
+            .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem div.ipsDataItem_icon.ipsType_center.ipsType_noBreak {
+                background: #fafafa;
+                max-height: 90px;
             }
         }
     }
@@ -993,7 +1013,7 @@ margin-right: 82px;
                 margin-top: -17px;
             }
             h2.ipsType_reset.ipsStreamItem_title.ipsContained_container.ipsStreamItem_titleSmall span.ipsType_break.ipsContained a {
-                font-size: 16px;
+                font-size: 15px;
                 margin-left: 8px;
             }
             div.ipsPadding_top.ipsPadding_horizontal {
@@ -1006,18 +1026,21 @@ margin-right: 82px;
                 COLOR: #EDEDED;
             }
             span.ipsItemStatus i.fa.fa-circle {
-                color: #f69e05;
+                color: #f0b550;
             }
             i.fa.fa-circle {
-                color: #f69e05;
+                color: #f0b550;
             }
             div.ipsStreamItem_header.ipsPhotoPanel.ipsPhotoPanel_mini span.ipsStreamItem_contentType {
-                background: #F0B550;
+                background: #f0b550;
                 color: #323232;
                 border: none !important;
             }
             i.fa.fa-star {
-                color: #f69e05;
+                color: #f0b550;
+            }
+            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad::after {
+                border-color: transparent #323232 transparent transparent!important;
             }
         }
     }
@@ -1052,7 +1075,7 @@ margin-right: 82px;
                 /* background: linear-gradient(#f7f7f7, #EEEEEE);*/
                 background: #383838;
                 margin-bottom: 1px;
-                max-height: 90px;
+                /*max-height: 90px;*/
             }
             .ipsClear.ipsDataList.cForumTopicTable.cTopicList {
                 background: #121820;
@@ -1068,6 +1091,9 @@ margin-right: 82px;
                 /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
                 background: #323232;
                 margin-top: 1px;
+            }
+            .ipsDataItem_main {
+                background: #323232;
             }
             i.fa.fa-question {
                 color: #1A2835;
@@ -1153,12 +1179,12 @@ margin-right: 82px;
                 color: #F0B54F
             }
             i.fa.fa-star {
-                color: #f69e05;
+                color: #f0b550;
             }
             i.fa.fa-circle {
-                color: #f69e05;
+                color: #f0b550;
             }
-            i.fa.fa-circle {
+            i.fa.fa-arrow-left.ipsType_large {
                 color: #f0b550;
             }
             span.ipsItemStatus.ipsItemStatus_large.cForumIcon_answers.ipsItemStatus_read {
@@ -1188,6 +1214,17 @@ margin-right: 82px;
                 background: #f0b550;
                 color: #1A2835;
                 border: 2px solid #1A2835;
+            }
+            div.ipsDataItem_icon.ipsPos_top {
+                background: #323232;
+                border: 10px !important;
+            }
+            .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem div.ipsDataItem_icon.ipsType_center.ipsType_noBreak {
+                background: #323232;
+                max-height: 90px;
+            }
+            i.ipsType_medium.fa.fa-lock {
+                color: #f0b550c2
             }
         }
     }
