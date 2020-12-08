@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2021.0.29
+@version 2021.0.30
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -288,17 +288,19 @@ margin-right: 82px;
             span.ipsType_light {
                 color: #fafafa;
             }
-            div.ipsStreamItem_container {
+            /*          
+ div.ipsStreamItem_container {
                 margin-top: 5px;
-            }
+            }*/
             .ipsStreamItem_contentBlock {
-                margin-top: 5px;
-                margin-bottom: -15px;
+                margin-top: 4px;
+                margin-bottom: 4px;
                 /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
                 background: #fafafa;
             }
-            li.ipsStreamItem_time {
-                padding-top: 0px;
+            ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem_time {
+                margin-top: 1px;
+                margin-bottom: 10px;
             }
             li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
                 margin-top: -4px;
@@ -306,9 +308,10 @@ margin-right: 82px;
                 padding-top: 10px;
                 padding-bottom: 10px;
             }
-            p.ipsStreamItem_status.ipsType_reset.ipsType_blendLinks {
+            /*          
+ p.ipsStreamItem_status.ipsType_reset.ipsType_blendLinks {
                 margin-top: 5px;
-            }
+            }*/
             div.ipsFlex {
                 margin-top: -10px;
             }
@@ -334,6 +337,9 @@ margin-right: 82px;
                 color: #f69e05;
             }
             li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad::after {
+                border-color: transparent #fafafa transparent transparent!important;
+            }
+            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad :after {
                 border-color: transparent #fafafa transparent transparent!important;
             }
         }
@@ -983,17 +989,19 @@ margin-right: 82px;
             span.ipsType_light {
                 color: #fafafa;
             }
+            /*
             div.ipsStreamItem_container {
                 margin-top: 5px;
-            }
+            }*/
             .ipsStreamItem_contentBlock {
-                margin-top: 5px;
-                margin-bottom: -15px;
+                margin-top: 4px;
+                margin-bottom: 4px;
                 /*background: linear-gradient(#f7f7f7, #EEEEEE);*/
                 background: #323232;
             }
-            li.ipsStreamItem_time {
-                padding-top: 0px;
+            ol.ipsStream.ipsStream_withTimeline.ipsList_reset li.ipsStreamItem_time {
+                margin-top: 1px;
+                margin-bottom: 10px;
             }
             li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad {
                 margin-top: -4px;
@@ -1001,9 +1009,10 @@ margin-right: 82px;
                 padding-top: 10px;
                 padding-bottom: 10px;
             }
+            /*
             p.ipsStreamItem_status.ipsType_reset.ipsType_blendLinks {
                 margin-top: 5px;
-            }
+            }*/
             div.ipsFlex {
                 margin-top: -10px;
             }
@@ -1039,6 +1048,12 @@ margin-right: 82px;
             }
             li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_condensed.ipsAreaBackground_reset.ipsPad::after {
                 border-color: transparent #323232 transparent transparent!important;
+            }
+            li.ipsStreamItem.ipsStreamItem_contentBlock.ipsStreamItem_expanded.ipsAreaBackground_reset.ipsPad::after {
+                border-color: transparent #323232 transparent transparent!important;
+            }
+            div.ipsStreamItem_snippet.ipsType_break div.ipsType_richText.ipsContained.ipsType_medium div {
+                color: #ebebeb;
             }
         }
     }
