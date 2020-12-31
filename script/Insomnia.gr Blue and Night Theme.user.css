@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2021.0.34
+@version 2021.0.35
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -1460,7 +1460,7 @@ margin-right: 82px;
     @-moz-document url-prefix("https://www.insomnia.gr") {
         if OldLogo {
             a#elLogo {
-                background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/logo-old-b.png.e7421d6817d01ba4abb54936a6137b2c.png');
+                background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/logo-old-b.png.4f86d38fcf85be2471974f0e7f2c30cd.png');
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: center;
@@ -1476,7 +1476,7 @@ margin-right: 82px;
         if InsomniacShow {
             if OldLogo {
                 a#elLogo {
-                    background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/insomniac.png.0128c2ae40c8a3b9dc863fb25f15d246.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/logo-old-b.png.e7421d6817d01ba4abb54936a6137b2c.png');
+                    background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/insomniac.png.ab031d570f1974cc78523a34c99bdc95.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/logo-old-b.png.4f86d38fcf85be2471974f0e7f2c30cd.png');
                     background-repeat: no-repeat, no-repeat;
                     background-size: contain, contain;
                     background-position: 145px, center;
@@ -1493,7 +1493,7 @@ margin-right: 82px;
         if not OldLogo {
             if InsomniacShow {
                 a#elLogo {
-                    background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/insomniac.png.0128c2ae40c8a3b9dc863fb25f15d246.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
+                    background-image: url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2020_12/insomniac.png.ab031d570f1974cc78523a34c99bdc95.png'), url('https://cdn-bb-eu1.insomnia.gr/file/insomnia-s3/monthly_2018_05/insomnia-logo-new.png.95645a0b747864108f7b131d126d86d9.png');
                     background-repeat: no-repeat, no-repeat;
                     background-size: contain, contain;
                     background-position: 145px, center;
