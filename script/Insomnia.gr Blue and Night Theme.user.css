@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2021.0.35
+@version 2021.0.36
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -486,6 +486,13 @@ margin-right: 82px;
             .ipsClear.ipsDataList.cForumTopicTable.cTopicList li.ipsDataItem div.ipsDataItem_icon.ipsType_center.ipsType_noBreak {
                 background: #fafafa;
                 max-height: 90px;
+            }
+            p a {
+                text-decoration: underline !important;
+                color: #225985 !important;
+            }
+            p a:hover {
+                color: #597AC7 !important;
             }
         }
     }
@@ -1252,6 +1259,13 @@ margin-right: 82px;
             }
             i.ipsType_medium.fa.fa-lock {
                 color: #f0b550c2
+            }
+            p a {
+                text-decoration: underline !important;
+                color: #f0b550 !important;
+            }
+            p a:hover {
+                color: #f69e05 !important;
             }
         }
     }
