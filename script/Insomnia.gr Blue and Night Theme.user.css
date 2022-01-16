@@ -2,7 +2,7 @@
 @name Insomnia.gr Blue and Night Theme
 @description Insomnia.gr Blue and Night Theme
 @namespace panoc https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
-@version 2022.1.17
+@version 2022.1.18
 @author panoc (https://gist.github.com/panoc/)
 @homepageURL https://github.com/panoc/Insomnia.gr-Blue-and-Night-Theme
 @supportURL https://www.insomnia.gr/forums/topic/665601-insomnia-navy-theme-night-theme/
@@ -1590,7 +1590,7 @@ margin-right: 82px;
         color: #f8f8f8;
     }
 }
-@-moz-document url-prefix("https://www.insomnia.gr/classifieds/item/") {
+@-moz-document url-prefix("https://www.insomnia.gr/classifieds/item/"), url-prefix("https://www.insomnia.gr/messenger/") {
     div#ipsLayout_contentArea {
         margin-top: -40px;
     }
